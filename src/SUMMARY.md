@@ -1,5 +1,6 @@
 # Summary
 
+[令和2年度のまとめ](./index.md)
 - [5月臨時会 (R2/5/19)](./20200519_rinjikai/index.md)
     - [諸報告](./20200519_rinjikai/syohokoku.md)
     - [議案第15号 専決 国保改正](./20200519_rinjikai/gian-15.md)
@@ -9,4 +10,4 @@
     - [議案第19号 国保改正](./20200519_rinjikai/gian-19.md)
 - [幹事長会議（R2/5/14）](./20200514_kanjicho_kaigi/index.md)
 - [幹事長会議 (R2/5/8)](./20200508_kanjicho_kaigi/index.md)
-    - [参考：小平町親善訪問](./20200508_kanjicho_kaigi/obira-cho.md)
+    - [小平町親善訪問は見直しを](./20200508_kanjicho_kaigi/obira-cho.md)

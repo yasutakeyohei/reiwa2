@@ -37,11 +37,8 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
 .hide-boring .boring { display: none; }
 .hidden { display: none; }
 
-.note {
-    border: 1px dashed #555;
-    color: #555;
-    line-height:1.5em;
-    padding: 0 20px;
+p.note {
+    color: blue;
 }
 
 h2, h3 { margin-top: 2.5em; }
@@ -177,13 +174,13 @@ blockquote {
 
 /* custom */
 h1 { 
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 h2 {
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 h3 {
-    font-size: 1em;
+    font-size: 1.2em;
     text-decoration: underline;
 }
 div.back-to-main-site {
@@ -231,16 +228,24 @@ table td {
 }
 
 fieldset.point,
-fieldset.nittei {
+fieldset.nittei,
+fieldset.sanpi {
     margin-top:40px;
 }
-.point h2 {
+fieldset.sanpi {
+    border-color: blue;
+    box-shadow: 4px 4px 4px 0 rgba(1, 1, 1, 0.4);
+}
+.point h2,
+.sanpi h2 {
     color: blue;
     margin: 0;
     padding: 0;
 }
-.point p {
+.point p,
+.sanpi p {
     color: blue;
+    padding: 0 20px;
 }
 
 .nittei h2 {
