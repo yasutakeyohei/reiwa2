@@ -7,6 +7,7 @@ title = "Reiwa2"
 
 [output.html]
 theme = "src/theme"
+
 [output.html.fold]
 enable = true
 level = 0
