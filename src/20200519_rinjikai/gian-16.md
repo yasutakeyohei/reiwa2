@@ -1,6 +1,6 @@
 # 議案第 16 号 専決処分（令和 2 年度小平市一般会計補正予算（第 1 号））の承認を求めることについて
 
-＊即決
+<i class="fa fa-gavel" aria-hidden="true"></i> 即決
 
 <fieldset class="point">
   <legend>
@@ -31,7 +31,6 @@
 ### 主な内訳
 
 #### 歳入（全額国庫補助金）
-
 <table>
     <thead>
         <tr>

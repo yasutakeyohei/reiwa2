@@ -1,4 +1,6 @@
-# 議案第17号 令和2年度小平市一般会計補正予算（第2号）（総務委員会付託）
+# 議案第17号 令和2年度小平市一般会計補正予算（第2号）
+
+<i class="fa fa-gavel" aria-hidden="true"></i> 総務委員会付託
 
 <fieldset class="point">
   <legend>
@@ -19,15 +21,13 @@
 </fieldset>
 
 ## 概要
-新型コロナウイルス感染症が拡大する中、市内の事業活動や市民生活を守るために、国や東京都の補正予算等を最大限
-活用し、市としての緊急対策に取り組むとともに、小・中学校におけるGIGAスクール構想の実施や、当初予算編成後に新たに実施することとなった事業に関する経費等を計上するもの。
+新型コロナウイルス感染症が拡大する中、市内の事業活動や市民生活を守るために、国や東京都の補正予算等を最大限活用し、市としての緊急対策に取り組むとともに、小・中学校におけるGIGAスクール構想の実施や、当初予算編成後に新たに実施することとなった事業に関する経費等を計上するもの。
 
-歳出歳入それぞれ17億870万9千円を増額。財源は国と都、財政調整基金からの繰入金で対応。
+歳出歳入それぞれ17億870万9千円を増額。財源は国と都、財政調整基金からの繰入金で対応。[詳細は配布資料を参照。](20200519_令和2年5月小平市議会臨時会資料.pdf)
 
 ## 主な内訳
 
-<div id="myChart" style="width:100%;height: 350px;"></div>
-
+<div id="sainyu" style="width:100%;height: 350px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
   google.charts.setOnLoadCallback(drawChart);
@@ -44,37 +44,89 @@
       fontName: "UD デジタル 教科書体 N-R",
       legend: {
         position: 'in',
+        alignment: 'end',
         maxLines: 3,
         textStyle: {
           fontSize: 16
         }
       },
-      title: '歳入補正額',
+      title: '歳入予算補正額',
       titleTextStyle: {
           fontSize: 18
       },
       pieSliceText: "value",
-      chartArea:{top:30,height:'85%'}
+      chartArea:{top:30,height:'75%'}
     };
-    var chart = new google.visualization.ColumnChart(document.getElementById('myChart'));
+    var chart = new google.visualization.ColumnChart(document.getElementById('sainyu'));
     chart.draw(data, options);
   }
 </script>
 
+
+<div id="saisyutu1" style="width:100%;height: 600px;"></div>
 <script type="text/javascript">
-var ctx = document.getElementById('myChart').getContext('2d');
-var chart = new Chart(ctx, {
-  type: 'pie',
-  data: {
-    labels: ['国庫負担金', '国庫補助金', '都補助金', '基金繰入金', '雑入'],
-    datasets: [{
-      data: [39784, 1025547, 507098, 90000, 46280]
-    }]
-  },
-  // Configuration options go here
-  options: {}
-});
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['項目', '国庫支出金', '都支出金', 'その他', '一般財源', 'total', { role: 'annotation' }],
+      ['小平市中小企業等支援給付金', 306177, 157571, 0, 36252, 0, 500000],
+      ['小学生用タブレット', 300000, 200000, 0, 0, 0, 500000],
+      ['子育て世帯への臨時特別給付金', 227459, 0, 0, -2899, 0, 224560],
+      ['中学生用タブレット', 120000, 80000, 0, 0, 0, 200000],
+      ['住居確保給付金等', 39784, 0, 0, 13262, 0, 53046],
+      ['小学校給食費補償金', 0, 0, 35795,　9836, 0, 45631],
+      ['介護事業所業務継続支援', 40000, 0, 0, 0, 0, 40000],
+      ['育児パッケージ', 0, 23030, 0, 0, 0, 23030],
+      ['家庭学習用モバイルルーター等', 0, 19000, 0, 500, 0, 19500],
+      ['ルネ小平運営事業', 0, 0, 0, 19385, 0, 19385],
+      ['情報システム管理・運営', 19328, 0, 0, 0, 0, 19328],
+      ['都市農地保全支援', 0, 16060, 0, 3212, 0, 19272],
+      ['中学校給食費補償金', 0, 0, 10185, 678, 0, 10863],
+    ]);
+    var options = {
+      fontName: "UD デジタル 教科書体 N-R",
+      legend: {
+        position: 'in',
+        alignment: 'end',
+        textStyle: {
+          fontSize: 13
+        }
+      },
+      title: '歳出予算補正額（金額順・千円）',
+      titleTextStyle: {
+          fontSize: 18
+      },
+      pieSliceText: "value",
+      chartArea:{top:30,height:'75%'},
+      isStacked: true,
+      hAxis: {
+        slantedTextAngle: 60,
+        maxTextLines: 3,
+        textStyle: {
+          fontSize: 11
+        }
+      },
+      annotations: {
+        textStyle: {fontSize: 10 },
+      },
+      series: {
+        4: {
+            annotations: {
+              textStyle: {color: 'black' },
+            },
+            color: "white",
+            visibleInLegend: false
+        }
+      },
+      vAxis: {
+        viewWindow: {
+          min: -3000,
+          max: 550000
+        }
+      }
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById('saisyutu1'));
+    chart.draw(data, options);
+  }
 </script>
-
-### 歳入
-

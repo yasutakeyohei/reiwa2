@@ -1,6 +1,6 @@
 # 議案第 15 号 専決処分（小平市国民健康保険条例の一部を改正する条例）の承認を求めることについて
 
-＊即決
+<i class="fa fa-gavel" aria-hidden="true"></i> 即決
 
 <fieldset class="point">
   <legend>
