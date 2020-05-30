@@ -113,8 +113,3 @@
 
 質疑ではなく平場で理由を聞いたところ、例年のことで、国保運営協議会へかけるため後回しにしているなどの理由でした。この対象者は所得で言うと 1 千万円ほどになるということですから、対象者の負担は軽く、また国保の財政上も良い方向に向かうものです。これを後回しにしている理由については明確な回答が得られなかったので、今後また質問していきたいと思います。
 
-## 詳しい会議録は[こちら](https://ssp.kaigiroku.net/tenant/kodaira/SpTop.html)から（掲載までに 2 週間程度かかります）
-
-[小平市議会会議録検索](https://ssp.kaigiroku.net/tenant/kodaira/SpTop.html)
-
-<p> そのままだと読みにくい会議録は、<a href="https://chrome.google.com/webstore/detail/%E5%9C%B0%E6%96%B9%E8%AD%B0%E4%BC%9A%E4%BC%9A%E8%AD%B0%E9%8C%B2%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%EF%BC%88discuss2fi/aooaeblcjhpdpcfaadmdglclkffefoom?authuser=0&hl=ja"><img	 src="../icons/icon_19.png" />ダウンローダー</a>で快適にご覧になれます。</p>

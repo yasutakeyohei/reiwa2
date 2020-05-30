@@ -38,7 +38,7 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
 .hidden { display: none; }
 
 p.note {
-    color: blue;
+    color: #000094;
 }
 
 h2, h3 { margin-top: 2.5em; }
@@ -233,18 +233,18 @@ fieldset.sanpi {
     margin-top:40px;
 }
 fieldset.sanpi {
-    border-color: blue;
+    border-color: #000094;
     box-shadow: 4px 4px 4px 0 rgba(1, 1, 1, 0.4);
 }
 .point h2,
 .sanpi h2 {
-    color: blue;
+    color: #000094;
     margin: 0;
     padding: 0;
 }
 .point p,
 .sanpi p {
-    color: blue;
+    color: #000094;
     padding: 0 20px;
 }
 

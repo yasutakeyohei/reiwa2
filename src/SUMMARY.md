@@ -6,6 +6,8 @@
     - [議案第15号 専決 国保改正](./20200519_rinjikai/gian-15.md)
     - [議案第16号 専決 一般補正](./20200519_rinjikai/gian-16.md)
     - [議案第17号 一般補正](./20200519_rinjikai/gian-17.md)
+        - [議案第17号 主な質疑](./20200519_rinjikai/gian-17-situgi.md)
+        - [附帯決議（案）](./20200519_rinjikai/gian-17-futai-ketugi.md)
     - [議案第18号 国保補正](./20200519_rinjikai/gian-18.md)
     - [議案第19号 国保改正](./20200519_rinjikai/gian-19.md)
 - [幹事長会議（R2/5/14）](./20200514_kanjicho_kaigi/index.md)

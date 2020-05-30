@@ -6,24 +6,40 @@
   <legend>
     <h2 class="point"> ポイント </h2>
   </legend>
-  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> 特別定額給付金と給付にかかる事務費用のみに関する補正予算</p>
-  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> （給付金10万円ｘ19万6000人）＋（事務費用2億円）＝約198億円、すべて国庫から</p>
-  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> 事務処理等委託 約1.5億円、情シス改修 約3,700万円、コールセンター委託 約1,800万円</p>
+  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> 新型コロナ感染症対策関連と、その他に関する補正予算</p>
+  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> 総額約18億円のうち、小平市の負担分は財政調整基金から9,000万円</p>
+  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> GIGAスクール構想で、小中学校の児童・生徒へタブレット一人一台配布、総額約7億円</p>
+  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> 中小企業支援給付金、子育て世帯への臨時特別給付金、住居確保給付金等</p>
 </fieldset>
 
 <fieldset class="sanpi">
   <legend>
     <h2 class="sanpi"> <i class="fa fa-circle-o" aria-hidden="true"></i> 私（安竹洋平）の判断：賛成 </h2>
   </legend>
-  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 以下の問題はあるものの、急を要することでもあり、反対するほどではなく賛成</p>
-  <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 緊急事態宣言が再実施されるケースも想定した内容になっているか不明</p>
-  <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 専決処分にしたことで給付が早まったのかが不明瞭</p>
+  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 以下の懸念・問題点はあるものの、急を要することでもあり、賛成</p>
+  <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 支援が必要な人たちの実態を把握する姿勢が不足しているのでは</p>
+  <p class="sanpi"><i class="fa fa-times" aria-hidden="true"></i> GIGAスクール構想は短期間で集中的にエネルギーを注ぐべきだがリソース不足感あり</p>
+  <p class="sanpi"><i class="fa fa-times" aria-hidden="true"></i> 追加で必要になる補正予算を迅速に決定できる仕組みがない</p>
+</fieldset>
+
+<fieldset class="point">
+  <legend>
+    <h2 class="point"> 早急な支援策を講じるための附帯決議案は、否決されました </h2>
+  </legend>
+  <p>この委員会において、当一人会派の会から（中江美和議員と伊藤央議員がとりまとめて）、委員の橋本久雄議員により附帯決議案を提出しましたが、残念なことに賛成少数で否決されてしまいました。附帯内容は、市民生活や事業活動、教育等に必要な支援策を講じ、必要に応じて臨時議会を招集し議会に諮る、というものです。<span class="highlight">つまり、臨時会議を必要であればいつでも開けるようにして、迅速な意思決定がなされることを目的とするものです。</span>
+  
+  6月定例会には新たな補正予算案を上程しないという執行部からの説明があったため、それではあまりにも動きが遅すぎるという理由から提出したものでした。時期に即した非常に良い提案でした。反対した議員は意見表明もなかったため、何を考えているのか全く分かりません。小平市議会では良くこういうことが起きます。市民のためといつも言っているのですから、反対であれば少なくともその趣旨を説明すべきです。残念でなりません。</p>
 </fieldset>
 
 ## 概要
 新型コロナウイルス感染症が拡大する中、市内の事業活動や市民生活を守るために、国や東京都の補正予算等を最大限活用し、市としての緊急対策に取り組むとともに、小・中学校におけるGIGAスクール構想の実施や、当初予算編成後に新たに実施することとなった事業に関する経費等を計上するもの。
 
-歳出歳入それぞれ17億870万9千円を増額。財源は国と都、財政調整基金からの繰入金で対応。[詳細は配布資料を参照。](20200519_令和2年5月小平市議会臨時会資料.pdf)
+歳出歳入それぞれ17億870万9千円を増額。財源は国と都、財政調整基金からの繰入金で対応。
+
+- 家庭学習用モバイルルーターは、通信環境が整っていない家庭にタブレットPCとモバイルルーターを貸与するための経費
+- 新設の都市農地保全支援プロジェクト事業は、農地の防災機能強化を図るため、東京むさし農協が実施する防災兼用井戸設置の支援に係る経費
+
+内容の詳細は[配布資料](20200519_令和2年5月小平市議会臨時会資料.pdf)や、[会議録](http://localhost:3000/20200519_rinjikai/index.html#%E8%A9%B3%E3%81%97%E3%81%84%E4%BC%9A%E8%AD%B0%E9%8C%B2%E3%81%AFa-hrefhttpssspkaigirokunettenantkodairasptophtml%E3%81%93%E3%81%A1%E3%82%89a%E3%81%8B%E3%82%89%E6%8E%B2%E8%BC%89%E3%81%BE%E3%81%A7%E3%81%AB2%E9%80%B1%E9%96%93%E7%A8%8B%E5%BA%A6%E3%81%8B%E3%81%8B%E3%82%8A%E3%81%BE%E3%81%99)を参照してください。
 
 ## 主な内訳
 
@@ -130,3 +146,4 @@
     chart.draw(data, options);
   }
 </script>
+
