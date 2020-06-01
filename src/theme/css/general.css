@@ -264,4 +264,21 @@ fieldset.sanpi {
     content: "(" counter(list) ") ";
     counter-increment: list;
 }
-.nittei li 
+.warn {
+    color:red;
+    line-height: 1.8em;
+    border: 3px solid red;
+    text-align: center;
+    padding: 0.5em;
+}
+
+li.chapter-item strong {
+    display: none;
+}
+ol.section li.chapter-item {
+    list-style: none;
+}
+ol.section li.chapter-item:before {
+    content:"-";
+    padding-right:5px;
+}
