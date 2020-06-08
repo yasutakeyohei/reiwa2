@@ -39,7 +39,7 @@
 - 家庭学習用モバイルルーターは、通信環境が整っていない家庭にタブレットPCとモバイルルーターを貸与するための経費
 - 新設の都市農地保全支援プロジェクト事業は、農地の防災機能強化を図るため、東京むさし農協が実施する防災兼用井戸設置の支援に係る経費
 
-内容の詳細は[配布資料](20200519_令和2年5月小平市議会臨時会資料.pdf)や、[会議録](http://localhost:3000/20200519_rinjikai/index.html#%E8%A9%B3%E3%81%97%E3%81%84%E4%BC%9A%E8%AD%B0%E9%8C%B2%E3%81%AFa-hrefhttpssspkaigirokunettenantkodairasptophtml%E3%81%93%E3%81%A1%E3%82%89a%E3%81%8B%E3%82%89%E6%8E%B2%E8%BC%89%E3%81%BE%E3%81%A7%E3%81%AB2%E9%80%B1%E9%96%93%E7%A8%8B%E5%BA%A6%E3%81%8B%E3%81%8B%E3%82%8A%E3%81%BE%E3%81%99)を参照してください。
+内容の詳細は[会議録](http://localhost:3000/20200519_rinjikai/index.html#%E8%A9%B3%E3%81%97%E3%81%84%E4%BC%9A%E8%AD%B0%E9%8C%B2%E3%81%AFa-hrefhttpssspkaigirokunettenantkodairasptophtml%E3%81%93%E3%81%A1%E3%82%89a%E3%81%8B%E3%82%89%E6%8E%B2%E8%BC%89%E3%81%BE%E3%81%A7%E3%81%AB2%E9%80%B1%E9%96%93%E7%A8%8B%E5%BA%A6%E3%81%8B%E3%81%8B%E3%82%8A%E3%81%BE%E3%81%99)を参照してください。
 
 ## 主な内訳
 

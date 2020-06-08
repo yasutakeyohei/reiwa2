@@ -4,11 +4,12 @@
 
 私（安竹洋平）の、採決での賛否理由と、さまざまなコメントも記載しています。
 
-それ以外の年度に関するまとめは、[こちらからリンクを辿ってください。](https://yasutakeyohei.com/books/)
+それ以外の年度に関するまとめは、[こちらからどうぞ。](https://yasutakeyohei.com/books/)
 
-目次
-- [5月臨時会 (R2/5/19)](./20200519_rinjikai/index.md)
+[令和2年06月02日～26日 6月定例会](./20200602_teireikai/index.md)
 
-- [幹事長会議（R2/5/14）](./20200514_kanjicho_kaigi/index.md)
+[令和2年05月19日 5月臨時会](./20200519_rinjikai/index.md)
 
-- [幹事長会議 (R2/5/8)](./20200508_kanjicho_kaigi/index.md)
+[令和2年05月14日 幹事長会議](./20200514_kanjicho_kaigi/index.md)
+
+[令和2年05月08日 幹事長会議](./20200508_kanjicho_kaigi/index.md)

@@ -1,10 +1,8 @@
 # Summary
 
-[令和2年度 小平市議会 まとめ](./index.md)
+[◎ 令和2年度 小平市議会 まとめ](./index.md)
 
-[幹事長会議の問題点](./kanjicho_mondai.md)
-
-- [6月定例会](./20200602_teireikai/index.md)
+- [6月2-26日：6月定例会](./20200602_teireikai/index.md)
     - [諸報告](./20200602_teireikai/syohokoku.md)
     - [第20号 監査委員 選任](./20200602_teireikai/gian-20.md)
     - [第21-36号 農業委員 任命](./20200602_teireikai/gian-21_36.md)
@@ -16,9 +14,8 @@
     - [第42号 八小学童クラブ第二・第三新築工事請負契約の締結](./20200602_teireikai/gian-42.md)
     - [員20号 特別定額給付金は今回だけにとどまらず、今後も必要に応じて実施することを求める意見書提出について](./20200602_teireikai/giin-gian-20.md)
 
-
-- [幹事長会議（R2/5/25）](./20200525_kanjicho_kaigi/index.md)
-- [5月臨時会 (R2/5/19)](./20200519_rinjikai/index.md)
+- [5月25日：幹事長会議](./20200525_kanjicho_kaigi/index.md)
+- [5月19日：5月臨時会](./20200519_rinjikai/index.md)
     - [諸報告](./20200519_rinjikai/syohokoku.md)
     - [第15号 専決 国保改正](./20200519_rinjikai/gian-15.md)
     - [第16号 専決 一般補正](./20200519_rinjikai/gian-16.md)
@@ -27,6 +24,11 @@
         - [附帯決議（案）](./20200519_rinjikai/gian-17-futai-ketugi.md)
     - [第18号 国保補正](./20200519_rinjikai/gian-18.md)
     - [第19号 国保改正](./20200519_rinjikai/gian-19.md)
-- [幹事長会議（R2/5/14）](./20200514_kanjicho_kaigi/index.md)
-- [幹事長会議 (R2/5/8)](./20200508_kanjicho_kaigi/index.md)
+- [5月14日：幹事長会議](./20200514_kanjicho_kaigi/index.md)
+- [5月08日：幹事長会議](./20200508_kanjicho_kaigi/index.md)
     - [小平町親善訪問は見直しを](./20200508_kanjicho_kaigi/obira-cho.md)
+
+
+[■ 幹事長会議の問題点](./kanjicho_mondai.md)
+
+[■ 議会に関する著作権について](./gikai-chosaku-ken.md)

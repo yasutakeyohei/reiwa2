@@ -22,9 +22,6 @@
 1. [議案第19号 小平市国民健康保険条例の一部を改正する条例（厚生委員会付託）](./gian-19.md)
 </fieldset>
 
-## 配布資料
-<p><i class="fa fa-file-pdf-o" aria-hidden="true" style="color:red;"></i> <a href="20200519_令和2年5月小平市議会臨時会資料.pdf">令和2年5月小平市議会臨時会資料</a></p>
-
 
 ## 賛否
 私（安竹洋平）の賛否理由は各議案のページをご参照ください。
@@ -296,8 +293,5 @@
     </tbody>
 </table>
 
-## 詳しい会議録は[こちら](https://ssp.kaigiroku.net/tenant/kodaira/SpTop.html)から（掲載までに2週間程度かかります）
 
-[小平市議会会議録検索](https://ssp.kaigiroku.net/tenant/kodaira/SpTop.html)
-
-<p> そのままだと読みにくい会議録は、<a href="https://chrome.google.com/webstore/detail/%E5%9C%B0%E6%96%B9%E8%AD%B0%E4%BC%9A%E4%BC%9A%E8%AD%B0%E9%8C%B2%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%80%E3%83%BC%EF%BC%88discuss2fi/aooaeblcjhpdpcfaadmdglclkffefoom?authuser=0&hl=ja"><img	 src="../icons/icon_19.png" />ダウンローダー</a>で快適にご覧になれます。</p>
+{{#include ../kaigiroku.md}}
