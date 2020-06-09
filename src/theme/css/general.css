@@ -293,3 +293,33 @@ img {
     border: 1px solid #333;
     box-shadow: 4px 4px 4px 0 rgba(1, 1, 1, 0.4);
 }
+
+.qanda i {
+    font-size:2.5em;
+}
+.qanda i.hitori {
+    font-size:2.5em;
+    color: #3f51b5;
+}
+i.hitori {
+    color: #3f51b5;
+}
+i.hitori.yasutake {
+    color: #ff9800;
+}
+
+table.qanda {
+    margin: unset;
+}
+
+table.qanda td {
+    border: none;
+}
+
+table.qanda td:nth-child(1) {
+    padding: 0 10px 0 5px;
+}
+
+div.q-mark-notes p {
+    text-align: right;
+}
