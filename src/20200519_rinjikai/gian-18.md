@@ -20,19 +20,34 @@
 </fieldset>
 
 ## 議案第18号 主な質疑
-＊要約ですので、正確な質疑内容は会議録をご参照ください。
+{{#include ../situgi_hanrei.md}}
 
-<span class="highlight">Q: 対象人数は何人いるか。（安竹）</span>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="一人会派の会 安竹洋平による質問"></i></td><td>
+小平市内で対象者は何人いるか。（安竹 洋平）
+</td></tr></table>
+
 > 国民健康保険に加入しているか、その方たちが給与収入等の被用者であるかという情報は市として持っておらず、把握ができない。申請してもらった際に初めて分かる形になっている。
 
-<span class="highlight">Q: 対象者が分からない状況で、周知はどう行うか。（安竹）</span>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="一人会派の会 安竹洋平による質問"></i></td><td>
+対象者が分からない状況で、周知はどう行うか。（安竹 洋平）
+</td></tr></table>
+
 > ホームページ、市報、市報の個々の特集号、医師回答に情報提供をしてもらい周知に努めていきたい。
 
-<span class="highlight">Q: 500万円は何人を想定したものか。（安竹）</span>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="一人会派の会 安竹洋平による質問"></i></td><td>
+500万円は何人を想定したものか。（安竹 洋平）
+</td></tr></table>
+
 > 予算上は25人を想定。
 
-Q: 傷病手当金として（給与収入の）3分の2に相当する額が保障されるということだが、例えば千葉県の市川氏では残り3分の1も市独自の予算を組んで上乗せ給付されると聞いている。小平市でもそのような検討をしたか。
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
+傷病手当金として（給与収入の）3分の2に相当する額が保障されるということだが、例えば千葉県の市川氏では残り3分の1も市独自の予算を組んで上乗せ給付されると聞いている。小平市でもそのような検討をしたか。
+</td></tr></table>
+
 > 特段考慮していない。
 
-Q: （この状況下で国保財政はどうなっているか）。
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
+この状況下で国保財政はどうなっているか。
+</td></tr></table>
+
 > 外出抑制等もあり、保険給付費については全体で下がっている。

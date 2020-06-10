@@ -108,16 +108,8 @@
 </table>
 
 ## 質疑（全部）
-＊要約ですので、正確な質疑内容は会議録をご参照ください。
 
-
-<div class="q-mark-notes">
-<p>一人会派の会 議員の質問：<i class="fa fa-question-circle hitori" aria-hidden="true"></i><br>
-一人会派の会 安竹の質問：<i class="fa fa-question-circle hitori yasutake" aria-hidden="true"></i><br>
-その他 議員の質問：<i class="fa fa-question-circle-o" aria-hidden="true"></i><br>
-<span class="highlight">一人会派の会議員の質問件数：全 19 件中 17 件（89 %）</span></p>
-</div>
-
+{{#include ../situgi_hanrei.md}}
 
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派の会 議員による質問"></i></td><td>
 特別定額給付金事業に係る事務処理等委託で、コールセンターも入れると1億7千万円を超える。契約までの流れ、契約方法は。（伊藤 央）

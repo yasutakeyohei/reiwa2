@@ -737,7 +737,7 @@
 
 [監査基準・監査の基本方針](https://www.city.kodaira.tokyo.jp/kurashi/043/043427.html)
 
-<p class="note"><i class="fa fa-comment" aria-hidden="true"></i> 監査の目的が明文化された良いことです。いままで基準がなかった理由を聞きそびれました。</p>
+<p class="note"><i class="fa fa-comment" aria-hidden="true"></i> 監査の目的が明文化された良いことです。いままで基準がなかった理由をここで聞きそびれたため、6月定例会の監査委員再選任に関する質疑で質問しました。</p>
 
 >第3条 監査、検査、審査その他の行為のうち、この基準における監査等は次に掲げるものとし、それぞれ当該各号に定めることを目的とする。
 >
