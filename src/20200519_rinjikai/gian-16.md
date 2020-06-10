@@ -108,6 +108,9 @@
 </table>
 
 ## 質疑（全部）
+＊要約ですので、正確な質疑内容は会議録をご参照ください。
+
+
 <div class="q-mark-notes">
 <p>一人会派の会 議員の質問：<i class="fa fa-question-circle hitori" aria-hidden="true"></i><br>
 一人会派の会 安竹の質問：<i class="fa fa-question-circle hitori yasutake" aria-hidden="true"></i><br>
