@@ -294,4 +294,4 @@
 </table>
 
 
-{{#include ../kaigiroku.md}}
+{{#include ../partials/kaigiroku.md}}

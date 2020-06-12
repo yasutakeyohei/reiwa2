@@ -294,6 +294,11 @@ img {
     box-shadow: 4px 4px 4px 0 rgba(1, 1, 1, 0.4);
 }
 
+img.noshadow {
+    border: unset;
+    box-shadow: unset;
+}
+
 .qanda i {
     font-size:2.5em;
 }
@@ -322,4 +327,12 @@ table.qanda td:nth-child(1) {
 
 div.q-mark-notes p {
     text-align: right;
+}
+
+.yasutake-note {
+    color: #ff9800;
+}
+
+img.yasutake-face {
+    width: 38px;
 }

@@ -32,4 +32,4 @@
 </fieldset>
 
 
-{{#include ../kaigiroku.md}}
+{{#include ../partials/kaigiroku.md}}

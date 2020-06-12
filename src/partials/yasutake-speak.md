@@ -1,0 +1,1 @@
+<img src="../icons/yasutake-speak.png" class="noshadow yasutake-face">

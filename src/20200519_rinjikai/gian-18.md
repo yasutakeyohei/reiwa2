@@ -20,7 +20,7 @@
 </fieldset>
 
 ## 議案第18号 主な質疑
-{{#include ../situgi_hanrei.md}}
+{{#include ../partials/situgi_hanrei.md}}
 
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="一人会派の会 安竹洋平による質問"></i></td><td>
 小平市内で対象者は何人いるか。（安竹 洋平）

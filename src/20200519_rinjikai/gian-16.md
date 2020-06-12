@@ -109,7 +109,7 @@
 
 ## 質疑（全部）
 
-{{#include ../situgi_hanrei.md}}
+{{#include ../partials/situgi_hanrei.md}}
 
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派の会 議員による質問"></i></td><td>
 特別定額給付金事業に係る事務処理等委託で、コールセンターも入れると1億7千万円を超える。契約までの流れ、契約方法は。（伊藤 央）
