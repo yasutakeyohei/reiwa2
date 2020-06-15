@@ -19,6 +19,33 @@
   <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> </p>
 </fieldset>
 
+## 概要
+
+
+<table class="additional">
+    <thead>
+      <tr>
+        <td colspan=2>影響額・施行期日等</td>
+      </tr>
+    </thead>
+    <tr>
+        <td>適用</td>
+        <td>マイナンバー通知カード</td>
+    </tr>
+    <tr>
+        <td>影響額</td>
+        <td>不明</td>
+    </tr>
+    <tr>
+        <td>該当条項</td>
+        <td><a href="https://www.city.kodaira.tokyo.jp/reiki/reiki_honbun/g135RG00000206.html#e000000194">小平市介護保険条例 第4条（保険料率）</a></td>
+    </tr>
+    <tr>
+        <td>施行期日</td>
+        <td>公布の日<br>改正後の第4条第2項から第4項まで及び次項の規定は、令和2年4月1日から適用する。<br>第4条第2項から第4項までの規定は、令和2年度以後の年度分の保険料について適用し、<br>令和元年度分までの保険料については、なお従前の例による。</td>
+    </tr>
+</table>
+
 ## 主な質疑
 {{#include ../partials/situgi_hanrei.md}}
 
