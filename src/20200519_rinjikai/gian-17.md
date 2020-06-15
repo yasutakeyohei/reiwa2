@@ -70,7 +70,6 @@
       titleTextStyle: {
           fontSize: 18
       },
-      pieSliceText: "value",
       chartArea:{top:30,height:'75%'}
     };
     var chart = new google.visualization.ColumnChart(document.getElementById('sainyu'));

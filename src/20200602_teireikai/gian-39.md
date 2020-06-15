@@ -7,8 +7,8 @@
     <h2 class="point"> ポイント </h2>
   </legend>
   <p class="point"><i class="fa fa-check" aria-hidden="true"></i> 第一号被保険者に対して、低所得者の介護保険料軽減を強化</p>
-  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> 昨年度の消費税増税に対応したセーフティネットの措置</p>
-  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> </p>
+  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> 介護保険法施行令の改正を受けて、小平市介護保険条例も改正するもの</p>
+  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> 第3段階までの低所得者に対し、消費増税の影響を軽減するための措置</p>
 </fieldset>
 
 <fieldset class="sanpi">
@@ -21,9 +21,7 @@
 
 ## 概要
 
-消費税率が引き上げられたため、低所得者の介護保険料負担を減らすための条例改正です。昨年10月1日から消費税引き上げだったため、今年3月末までの6か月分の軽減だったのが、今年は1年分軽減になります。
-
-より具体的には、介護保険法施行令が改正されたことに伴い、小平市介護保険条例の一部を改正するものです。内容は、昨年10月の消費税率の引上げに伴い、介護保険法施行令について、低所得者に対し、さらなる介護保険料の軽減を強化する改正が行われたことを受け、小平市介護保険条例についても、保険料額を減額するものです。
+{{#include ../partials/yasutake-speak.md}} 介護保険法施行令が改正されたことに伴い、小平市介護保険条例の一部を改正するものです。介護保険法施行令において、低所得者に対して消費税率の引上げの影響を軽減するため、介護保険料の軽減措置を強化する改正が行われました。それに対応して小平市介護保険条例についても保険料額を減額するものです。昨年度の軽減分は、昨年10月1日から今年3月末までの6か月分でした。今年度はそれが1年分の軽減になります。
 
 根拠：[「介護保険法施行令及び介護保険の国庫負担金の算定等に関する政令の一部を改正する政令（令和2年政令第 98 号）」](https://www.wam.go.jp/gyoseiShiryou-files/documents/2020/0401092137925/ksvol800.pdf)
 
@@ -62,9 +60,9 @@
 
 <p style="text-align:right"><a href="https://www.city.kodaira.tokyo.jp/kurashi/000/000197.html">小平市サイト：介護保険料</a>より。</p>
 
-これを、次のように改正するものです。
+上記を、次のように改正するものです。
 
-<table>
+<table style="margin:0">
     <thead>
         <tr>
             <td style="white-space: nowrap">所得段階</td>
@@ -95,3 +93,39 @@
     </tbody>
 </table>
 
+第4段階以降については変更はありません。
+
+<table class="additional">
+    <thead>
+      <tr>
+        <td colspan=2>影響額・施行期日等</td>
+      </tr>
+    </thead>
+    <tr>
+        <td>適用</td>
+        <td>マイナンバー通知カード</td>
+    </tr>
+    <tr>
+        <td>影響額</td>
+        <td>不明</td>
+    </tr>
+    <tr>
+        <td>該当条項</td>
+        <td><a href="https://www.city.kodaira.tokyo.jp/reiki/reiki_honbun/g135RG00000206.html#e000000194">小平市介護保険条例 第4条（保険料率）</a></td>
+    </tr>
+    <tr>
+        <td>施行期日</td>
+        <td>公布の日<br>改正後の第4条第2項から第4項まで及び次項の規定は、令和2年4月1日から適用する。<br>第4条第2項から第4項までの規定は、令和2年度以後の年度分の保険料について適用し、<br>令和元年度分までの保険料については、なお従前の例による。</td>
+    </tr>
+</table>
+
+
+## 主な質疑
+{{#include ../partials/situgi_hanrei.md}}
+
+### ＠ 6月11日 厚生委員会
+{{#include ../partials/yasutake-speak.md}} 厚生委員会には、一人会派の会からは、私（安竹洋平）が委員として参加しています。
+
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
+
+</td></tr></table>

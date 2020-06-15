@@ -19,3 +19,11 @@
   <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> </p>
 </fieldset>
 
+## 主な質疑
+{{#include ../partials/situgi_hanrei.md}}
+
+### ＠ 6月2日 本会議
+
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
+
+</td></tr></table>

@@ -189,6 +189,9 @@ h4 {
 h5 {
     font-size: 1em;
 }
+h6 {
+    font-size: 0.9em;
+}
 div.back-to-main-site {
     background-color: #fff;
     border: 1px solid gray;
@@ -335,4 +338,9 @@ div.q-mark-notes p {
 
 img.yasutake-face {
     width: 38px;
+}
+
+table.additional {
+    margin:0;
+    font-size:0.8em;
 }
