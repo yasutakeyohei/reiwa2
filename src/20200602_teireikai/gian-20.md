@@ -16,8 +16,8 @@
     <h2 class="sanpi"> <i class="fa fa-circle-o" aria-hidden="true"></i> 私（安竹）の判断：賛成 </h2>
   </legend>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 特に問題となるようなことがない</p>
-  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 回田町の公園設置をめぐる住民監査請求で、市民の側に立った意見を行った</p>
-  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 任期中に監査基準が策定された</p>
+  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 岡村氏は、回田町の公園設置をめぐる住民監査請求で、市民の側に立った意見を行った</p>
+  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 岡村氏の任期中に監査基準が策定された</p>
 </fieldset>
 
 ## 概要

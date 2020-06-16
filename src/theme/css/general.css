@@ -344,3 +344,8 @@ table.additional {
     margin:0;
     font-size:0.8em;
 }
+
+table.additional thead {
+    color: white;
+    background-color: #9cbaff;
+}

@@ -13,15 +13,19 @@
 
 <fieldset class="sanpi">
   <legend>
-    <h2 class="sanpi"> <!--<i class="fa fa-circle-o" aria-hidden="true"></i>--><i class="fa fa-question-circle-o" aria-hidden="true"></i> 私（安竹洋平）の判断：賛成 </h2>
+    <h2 class="sanpi"> <i class="fa fa-circle-o" aria-hidden="true"></i> 私（安竹洋平）の判断：賛成 </h2>
   </legend>
-  <p class="sanpi"><i class="fa fa-question-circle-o" aria-hidden="true"></i> 以下の観点から賛成</p>
-  <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> </p>
+  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 以下の懸念はあるものの、国の指針に応じたセーフティネット増強のため賛成</p>
+  <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 他の低所得の段階（第4～第6段階程度まで）についても軽減措置が必要ではないか</p>
 </fieldset>
 
 ## 概要
+介護保険法施行令が改正されたことに伴い、小平市介護保険条例の一部を改正するものです。昨年10月の消費税率の引上げに伴い、介護保険法施行令について、低所得者に対し、さらなる介護保険料の軽減を強化する改正が行われたことを受け、小平市介護保険条例についても、保険料額を減額するものです。
 
-{{#include ../partials/yasutake-speak.md}} 介護保険法施行令が改正されたことに伴い、小平市介護保険条例の一部を改正するものです。介護保険法施行令において、低所得者に対して消費税率の引上げの影響を軽減するため、介護保険料の軽減措置を強化する改正が行われました。それに対応して小平市介護保険条例についても保険料額を減額するものです。昨年度の軽減分は、昨年10月1日から今年3月末までの6か月分でした。今年度はそれが1年分の軽減になります。
+## 解説
+{{#include ../partials/yasutake-speak.md}} 消費税率の引上げの影響を軽減するため、低所得者に対して、介護保険料の軽減措置を強化する改正が行われました。それに対応して、小平市でも介護保険料額を減額するものです。昨年度も軽減が行われ、その際は昨年10月1日から今年3月末までの6か月分だったものが、今年度は1年分の軽減になります。
+
+介護保険料は所得に応じて決まります。[所得は15段階に区分されており](https://www.city.kodaira.tokyo.jp/kurashi/000/000197.html)、今回はそのうち低所得から数えて第三段階までの方が対象となります。だからといって第四段階以降が高所得かというとそうではなく、
 
 根拠：[「介護保険法施行令及び介護保険の国庫負担金の算定等に関する政令の一部を改正する政令（令和2年政令第 98 号）」](https://www.wam.go.jp/gyoseiShiryou-files/documents/2020/0401092137925/ksvol800.pdf)
 
@@ -98,17 +102,9 @@
 <table class="additional">
     <thead>
       <tr>
-        <td colspan=2>影響額・施行期日等</td>
+        <td colspan=2>該当条項・施行期日</td>
       </tr>
     </thead>
-    <tr>
-        <td>適用</td>
-        <td>マイナンバー通知カード</td>
-    </tr>
-    <tr>
-        <td>影響額</td>
-        <td>不明</td>
-    </tr>
     <tr>
         <td>該当条項</td>
         <td><a href="https://www.city.kodaira.tokyo.jp/reiki/reiki_honbun/g135RG00000206.html#e000000194">小平市介護保険条例 第4条（保険料率）</a></td>
@@ -125,6 +121,8 @@
 
 ### ＠ 6月11日 厚生委員会
 {{#include ../partials/yasutake-speak.md}} 厚生委員会には、一人会派の会からは、私（安竹洋平）が委員として参加しています。
+
+＊作成中
 
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 
