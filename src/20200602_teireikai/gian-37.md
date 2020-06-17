@@ -63,7 +63,7 @@
 ---
 
 ## 解説
-{{#include ../partials/yasutake-speak.md}} 今回最も分かりにくいのが、ひとり親に対する税制上の措置に関してです。簡単に羅列すると以下のようになります。
+{{#include ../partials/yasutake-speak.md:1}} 今回最も分かりにくいのが、ひとり親に対する税制上の措置に関してです。簡単に羅列すると以下のようになります。
 - ひとり親は生活が大変なので、市税（住民税）を控除する仕組みがある。国の方では所得税を控除する仕組みがある
 - これまでも「寡婦控除」「寡夫控除」として、ひとり親に対する控除はあった。しかし男女で控除額が異なるなど不公平であった
 - 未婚のひとり親は「寡婦控除」の対象外であった
@@ -543,6 +543,7 @@
 > 対象となるイベントは決め打ち。イベント主催者が証明書を発行し、控除を受ける人はその証明書をつけて確定申告する。
 
 ### ＠ 6月2日 本会議
+<a href="http://localhost:3000/20200602_teireikai/gian-37.html"><i class="fa fa-exclamation-triangle" aria-hidden="true" style="color:red;"></i> 委員会付託議案についての、本会議における質問ルールと問題点</a> 
 
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹洋平による質問"></i></td><td>
@@ -574,9 +575,9 @@
 
 
 ### ＠ 6月9日 総務委員会
-{{#include ../partials/yasutake-speak.md}} 総務委員会には、一人会派の会から橋本久雄議員が委員として参加しています。
+{{#include ../partials/yasutake-speak.md:1}} 総務委員会には、一人会派の会から橋本久雄議員が委員として参加しています。
 
-＊作成中
+
 
 ### ＠ 6月x日 平場にて
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="一人会派の会 他の議員による質問"></i></td><td>

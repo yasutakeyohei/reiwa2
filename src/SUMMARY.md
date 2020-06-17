@@ -14,8 +14,8 @@
     - [第42号 八小学童クラブ第二・第三新築工事請負契約の締結](./20200602_teireikai/gian-42.md)
     - [員20号 特別定額給付金は今回だけにとどまらず、今後も必要に応じて実施することを求める意見書提出について](./20200602_teireikai/giin-gian-20.md)
     - [一般質問](./20200602_teireikai/ippan-situmon/index.md)
-        - [安竹洋平の一般質問](./20200602_teireikai/ippan-situmon/yasutake-yohei.md)
-        - [その他議員の一般質問](./20200602_teireikai/ippan-situmon/sonota.md)
+        - [安竹洋平](./20200602_teireikai/ippan-situmon/yasutake-yohei.md)
+        - [その他議員](./20200602_teireikai/ippan-situmon/sonota.md)
 - [5月28日：議会運営委員会](./20200528_gikai_unei_iinkai/index.md)
 - [5月25日：幹事長会議](./20200525_kanjicho_kaigi/index.md)
 - [5月19日：5月臨時会](./20200519_rinjikai/index.md)
@@ -30,6 +30,8 @@
 - [5月08日：幹事長会議](./20200508_kanjicho_kaigi/index.md)
     - [小平町親善訪問は見直しを](./20200508_kanjicho_kaigi/obira-cho.md)
 
+
+[■ 本会議における質問ルールと問題点](./honkaigi_situmon_mondai.md)
 
 [■ 幹事長会議の問題点](./kanjicho_mondai.md)
 
