@@ -543,7 +543,7 @@
 > 対象となるイベントは決め打ち。イベント主催者が証明書を発行し、控除を受ける人はその証明書をつけて確定申告する。
 
 ### ＠ 6月2日 本会議
-<a href="http://localhost:3000/20200602_teireikai/gian-37.html"><i class="fa fa-exclamation-triangle" aria-hidden="true" style="color:red;"></i> 委員会付託議案についての、本会議における質問ルールと問題点</a> 
+<a href="../honkaigi-situmon-mondai.md"><i class="fa fa-exclamation-triangle" aria-hidden="true" style="color:red;"></i> 本会議における質問ルールと問題点</a> 
 
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹洋平による質問"></i></td><td>
@@ -554,33 +554,115 @@
 
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹洋平による質問"></i></td><td>
-影響額として、市の財政にはプラス、マイナスになるか（といった概算）も分からないか。（安竹 洋平）
+ひとり親控除について、影響額として、市の財政にはプラス・マイナスどちらになるか（といった概算）も分からないか。（安竹 洋平）
 </td></tr></table>
 
 > 市の財政には、寡夫に関しては約30万円程度の減収、500万円を超える部分の撤廃に関しては、約190万円ほどの歳入の増を見込んでいる。全体としては、婚姻歴のないひとり親の人数把握が困難なため不明。（柳瀨）
 
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹洋平による質問"></i></td><td>
-本人所得が500万円を超える場合控除が撤廃される。市民税26万円プラス所得税27万円、合計53万円の控除が撤廃になる、人によっては影響が大きいのでは。市としてはどう考えているか。（安竹 洋平）
+ひとり親控除について、これまであった本人所得が500万円を超える場合の控除が撤廃される。市民税26万円プラス所得税27万円、合計53万円の控除が撤廃になる。人によっては影響が大きいのでは。市としてはどう考えているか。（安竹 洋平）
 </td></tr></table>
 
 > 500万円を超える人にとっては増税、寡夫については今回ひとり親控除に組み込まれるため控除額が増えるため減税となる。全体としての改正内容の結果であり、多いか少ないかについては答えが難しい。（柳瀨）
 
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹洋平による質問"></i></td><td>
-寡婦に対する控除が、ひとり親に対する者だけではない部分でなくなる、人によっては影響が大きいのではないか。把握していないということでいいか。（安竹 洋平）
+ひとり親控除について、これまであった、寡婦に対する控除（ひとり親とは関係ない部分）もなくなってしまう。人によっては影響が大きいのではないか。（市は該当する人たちの状況を）把握していないということで良いか。（安竹 洋平）
 </td></tr></table>
 
-> 給与収入だと６７８万円、ほとんどの方がその範囲内、該当者には影響がないと考える。
+> 給与収入だと６７８万円、ほとんどの方がその範囲内、該当者には影響がないと考える。（柳瀨）
 
+{{#include ../partials/yasutake-speak.md:1}} これは委員会に付託する議案ですので、残念ながら本会議においてはこれ以上踏み込んだ質問ができません。あとの細かいことに関する質問は橋本久雄委員に託しました。
 
 ### ＠ 6月9日 総務委員会
 {{#include ../partials/yasutake-speak.md:1}} 総務委員会には、一人会派の会から橋本久雄議員が委員として参加しています。
 
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+ひとり親控除について、本会議の再確認として、市が増収になる税額はどれくらいか。
+</td></tr></table>
+
+> 合計所得が500万円超の寡婦については、今後控除がなくなり、一人当たり15,600円の負担増（増税）になる。対象者は約120人おり、市税への影響額は合計約190万円の増収。一方、寡夫については、今後ひとり親控除になって控除額が増加し、一人当たり2,400円の負担減（減税）となる。対象者は約130人おり、市税への影響額は合計30万円の減収。ここの部分までで合計160万円の増収。婚姻歴のないひとり親に関しては、新たに一人当たり市税1万8千円の減税となる。この対象数が不明のため、影響額の試算は困難。（尾崎 税務課長補佐）
+
+<table>
+  <thead>
+    <tr>
+      <td></td>
+      <td>一人当たり税負担の変化</td>
+      <td>対象者数</td>
+      <td>市税への影響額小計</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>所得500万円以上の寡婦</td>
+      <td>+ 15,600円 </td>
+      <td>120人 </td>
+      <td>+ 190万円</td>
+    </tr>
+    <tr>
+      <td>寡夫</td>
+      <td>- 2,400円</td>
+      <td>130人 </td>
+      <td>- 30万円</td>
+    </tr>
+    <tr>
+      <td>婚姻歴のないひとり親</td>
+      <td>- 18,000円</td>
+      <td>不明</td>
+      <td>不明</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+ひとり親控除について、周知はどうするか。
+</td></tr></table>
+
+> 税制改正が終わった後に、ホームページ、市報、市民税申告書の書き方の手引き、お知らせ文書に記載して周知。（尾崎）
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+ひとり親控除について、（寡婦控除はひとり親以外の部分について残るが、寡夫控除はひとり親控除の部分しかなかったため全てなくなる、その男女差はなぜあるのか）、理由は。
+</td></tr></table>
+
+> 寡婦控除の制度創設時の趣旨が、戦争未亡人が家に残された老人などを介護しながら働く場合には、選択できる職業や働き方に制約があるなど、所得を得る上で特別な事情に配慮するということにあった。そういう制度趣旨を踏まえて、所得制限を設けた上で、制度自体存続させることにしたと、国からは説明を受けている。
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+小平市全体でのひとり親の人数は把握しているか。
+</td></tr></table>
+
+> 把握していない。（尾崎）
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+ひとり親の人数はなぜ把握していないのか。
+</td></tr></table>
+
+
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+使用者を所有者とみなす制度の拡大について、小平市内でどの程度の土地建物が該当するか。
+</td></tr></table>
+
+> 小平市内で所有者不明の土地は6件。ただし、使用者がいる土地はない。（諸岡 税務課長補佐）
+
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+使用者を所有者とみなす制度の拡大について、（どういう趣旨の改正か）。
+</td></tr></table>
+
+> 今回の所有者課税を実施する実例として、国などから説明を受けている内容は、例えば土地を賃貸借している人がいて、その借りていた所有者が亡くなり、所有者の相続人が全員相続放棄をしたような場合に、借りていた人を使用者として課税する、というもの。
+
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+元に所有している者の申告の制度化について、（申告しなかった場合の罰則は小平市で設けているか）。
+</td></tr></table>
+
+> 
 
 
 ### ＠ 6月x日 平場にて
-<table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="一人会派の会 他の議員による質問"></i></td><td>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹洋平による質問"></i></td><td>
 納税環境整備に関する部分で、特例基準割合に加算する1%が0.5%になることは分かったが、納期限の翌日から1か月を経過した日以降に関わる7.3%の加算割合はどうなるか。
 </td></tr></table>
 

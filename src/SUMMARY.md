@@ -31,8 +31,8 @@
     - [小平町親善訪問は見直しを](./20200508_kanjicho_kaigi/obira-cho.md)
 
 
-[■ 本会議における質問ルールと問題点](./honkaigi_situmon_mondai.md)
+[■ 本会議における質問ルールと問題点](./honkaigi-situmon-mondai.md)
 
-[■ 幹事長会議の問題点](./kanjicho_mondai.md)
+[■ 幹事長会議の問題点](./kanjicho-kaigi-mondai.md)
 
 [■ 議会に関する著作権について](./gikai-chosaku-ken.md)
