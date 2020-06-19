@@ -1,5 +1,5 @@
-＊要約ですので、正確な質疑内容は[会議録](./index.md#会議録配布資料)をご参照ください。  
-括弧書きは、実際の質問内容にかなり修正を加えた部分もあります（分かりやすくするため）。
+**【注】** 以下は要約ですので、正確な質疑内容は[会議録](./index.md#会議録配布資料)をご参照ください。分かりやすくするため、括弧書きの部分は、実際の質問内容にかなり修正を加えたところもあります。また、簡略化のため、理事者側（市役所側）の答弁から敬語表現を省いている場合があります。実際はすべての答弁において、市民に対する敬語表現で回答しています。
+
 
 <div class="q-mark-notes">
 <p>私（安竹）の質問＝<i class="fa fa-question-circle hitori yasutake" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori yasutake" aria-hidden="true"></i><br>
