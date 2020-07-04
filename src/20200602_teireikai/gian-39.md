@@ -15,7 +15,7 @@
   <legend>
     <h2 class="sanpi"> <i class="fa fa-circle-o" aria-hidden="true"></i> 私（安竹洋平）の判断：賛成 </h2>
   </legend>
-  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 以下の懸念はあるものの、国の指針に応じたセーフティネット増強のため賛成</p>
+  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 以下の懸念はあるものの、国の指針に応じたセーフティネット拡充のため賛成</p>
   <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 他の低所得の段階（第4～第6段階程度まで）についても軽減措置が必要ではないか</p>
 </fieldset>
 

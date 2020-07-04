@@ -26,12 +26,15 @@
 
 <fieldset class="sanpi">
   <legend>
-    <h2 class="sanpi"> <!--<i class="fa fa-circle-o" aria-hidden="true"></i>--><i class="fa fa-question-circle-o" aria-hidden="true"></i> 私（安竹洋平）の判断：保留中 </h2>
+    <h2 class="sanpi"> <!--<i class="fa fa-circle-o" aria-hidden="true"></i>--><i class="fa fa-question-circle-o" aria-hidden="true"></i> 私（安竹洋平）の判断：賛成 </h2>
   </legend>
-  <p class="sanpi"><i class="fa fa-question-circle-o" aria-hidden="true"></i> 以下の観点から判断保留中（総務委員会質疑後決定）</p>
-  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 未婚のひとり親も対処とすることには賛成</p>
-  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 寡夫の控除額が上がり、男女の不公平が是正されることには賛成</p>
-  <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 所得500万円以上の寡婦はどれくらいの人数がいて、どれくらい影響を受けるか</p>
+  <p><u>ひとり親控除に関して</u></p>
+  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 未婚のひとり親が新たに税控除対処となる</p>
+  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 寡夫の控除額が上がり、男女の不公平が是正される</p>
+  <p class="sanpi"><i class="fa fa-times" aria-hidden="true"></i> 所得500万円以上の寡婦は一人当たり税負担が年15,600円増える（120人）</p>
+  <p>最初の2点は明らかな改良、最後の点は明らかな改悪なため非常に悩みました。しかし以下の理由から、苦渋の選択で賛成しました。<br>・所得500万円は単純計算で給与収入678万円該当と低所得ではないこと<br>・寡夫には同様な控除が存在しなかった（ため不公平だった）<br>本来は、市役所が該当する120人全員の状況を把握していることが理想と思います。該当の方で生活が苦しくなる場合は、ぜひ相談にいらしてください。</p>
+  <p><u>その他に関して</u></p>
+  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 特に問題となるようなことがない</p>
 </fieldset>
 
 ## 概要

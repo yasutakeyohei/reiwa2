@@ -1,4 +1,4 @@
-# 5月28日：議会運営委員会
+# 6月17日：都市基盤整備調査～（作成中）
 
 <fieldset class="summary">
   <legend>
@@ -8,5 +8,3 @@
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> </p>
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> </p>
 </fieldset>
-
-＊作成中

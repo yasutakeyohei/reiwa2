@@ -2,7 +2,7 @@
 
 [◎ 令和2年度 小平市議会 まとめ](./index.md)
 
-- [6月2-26日：6月定例会](./20200602_teireikai/index.md)
+- [6月2-26日：6月定例会（一部作成中）](./20200602_teireikai/index.md)
     - [諸報告](./20200602_teireikai/syohokoku.md)
     - [第20号 監査委員 選任](./20200602_teireikai/gian-20.md)
     - [第21-36号 農業委員 任命](./20200602_teireikai/gian-21_36.md)
@@ -16,7 +16,9 @@
     - [一般質問](./20200602_teireikai/ippan-situmon/index.md)
         - [安竹洋平](./20200602_teireikai/ippan-situmon/yasutake-yohei.md)
         - [その他議員](./20200602_teireikai/ippan-situmon/sonota.md)
-- [5月28日：議会運営委員会](./20200528_gikai_unei_iinkai/index.md)
+- [6月22日：幹事長会議](./20200622_kanjicho_kaigi/index.md)
+<!-- - [6月17日：都市基盤整備調査～（作成中）](./20200617_toshi_chou_toku/index.md)-->
+- [5月28日：議会運営委員会（作成中）](./20200528_gikai_unei_iinkai/index.md)
 - [5月25日：幹事長会議](./20200525_kanjicho_kaigi/index.md)
 - [5月19日：5月臨時会](./20200519_rinjikai/index.md)
     - [諸報告](./20200519_rinjikai/syohokoku.md)
@@ -28,7 +30,6 @@
     - [第19号 国保改正](./20200519_rinjikai/gian-19.md)
 - [5月14日：幹事長会議](./20200514_kanjicho_kaigi/index.md)
 - [5月08日：幹事長会議](./20200508_kanjicho_kaigi/index.md)
-    - [小平町親善訪問は見直しを](./20200508_kanjicho_kaigi/obira-cho.md)
 
 
 [■ 本会議における質問ルールと問題点](./honkaigi-situmon-mondai.md)
@@ -36,3 +37,5 @@
 [■ 幹事長会議の問題点](./kanjicho-kaigi-mondai.md)
 
 [■ 議会に関する著作権について](./gikai-chosaku-ken.md)
+
+[■ 小平町親善訪問は見直しを](./obira-cho.md)

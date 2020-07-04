@@ -246,21 +246,29 @@ table td {
 
 fieldset.point,
 fieldset.nittei,
-fieldset.sanpi {
+fieldset.sanpi,
+fieldset.summary {
     margin-top:40px;
 }
 fieldset.sanpi {
     border-color: #000094;
     box-shadow: 4px 4px 4px 0 rgba(1, 1, 1, 0.4);
 }
+fieldset.summary {
+    border-color: #27407a;
+    box-shadow: 4px 4px 4px 0 rgba(1, 1, 1, 0.4);
+}
+
 .point h2,
-.sanpi h2 {
+.sanpi h2,
+.summary h2{
     color: #000094;
     margin: 0;
     padding: 0;
 }
 .point p,
-.sanpi p {
+.sanpi p,
+.summary p {
     color: #000094;
     padding: 0 20px;
 }
