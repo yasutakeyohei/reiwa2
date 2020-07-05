@@ -31,11 +31,15 @@ h1 code, h2 code, h3 code, h4 code, h5 code, h6 code {
 }
 
 .highlight { background-color: #ffffc5; }
+.highlight.alert { background-color: #f9dede;}
+i.alert { color: red; }
+.good {color:  #4169e1;}
 .left { float: left; }
 .right { float: right; }
 .boring { opacity: 0.6; }
 .hide-boring .boring { display: none; }
 .hidden { display: none; }
+
 
 p.note {
     color: #000094;

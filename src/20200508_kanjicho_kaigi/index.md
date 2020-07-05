@@ -11,7 +11,7 @@
   </legend>
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 新型コロナウイルス感染症対策として、5月閉会中の常任委員会及び特別委員会は中止</p>
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 新型コロナウイルス感染症対策として、8月の小平町親善訪問は中止の方向へ</p>
-  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 一人会派の会による「議員報酬削減提案」は、他すべての会派が反対のため取り下げ</p>
+  <p class="summary"><i class="fa fa-play alert" aria-hidden="true"></i> <span class="highlight alert">一人会派の会による「議員報酬削減提案」は、他すべての会派が反対のため取り下げ</span></p>
 </fieldset>
 
 以下、一人会派の幹事長・伊藤央議員からの報告内容を基にしています。

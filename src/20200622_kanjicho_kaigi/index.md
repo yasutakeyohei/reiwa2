@@ -8,9 +8,9 @@
   <legend>
     <h2 class="summary">主な内容</h2>
   </legend>
-  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> </p>
-  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> </p>
-  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> </p>
+  <p class="summary"><i class="fa fa-play good" aria-hidden="true"></i> <span class="highlight">一人会派の会の主張が通り、非公式扱いだった幹事長会議が公開されることになりました！</span></p>
+  <p class="summary"><i class="fa fa-play alert" aria-hidden="true"></i> <span class="highlight alert">市議会公明党の幹事長が副議長に就いている問題は継続協議</span></p>
+  <p class="summary"><i class="fa fa-play alert" aria-hidden="true"></i> <span class="highlight alert">上記問題に起因して、災害対策幹事長会議が滞っており連絡会議が開けない状況です</span<</p>
 </fieldset>
 
 以下、一人会派の幹事長・伊藤央議員からの報告内容を基にしています。
@@ -60,7 +60,7 @@
 
 ## 1. 市長報告事項
 ### (1) 6月定例会提出議案等について
-提出予定議案1件（補正予算1件）
+最終日提出予定議案1件（補正予算1件）
 
 ＊詳細は6月定例会まとめ参照。
 ### (2) 本日の報告事項

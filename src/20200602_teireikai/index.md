@@ -1,5 +1,16 @@
 # 6月定例会
 
+<fieldset class="summary">
+  <legend>
+    <h2 class="summary">主な内容</h2>
+  </legend>
+  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 議案24件（人事17、条例5、契約1、補正予算1）の審議</p>
+  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 人事は、監査委員1名の選任と、農業委員16名の任命について</p>
+  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 条例改正は、主に国の法令等改正があったことから改正するもの（下記以外）</p>
+  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 八小学童クラブ第二・第三の新設に関わる工事請負契約と、関連の条例改正</p>
+  <p class="summary"><i class="fa fa-play alert" aria-hidden="true"></i> <span class="highlight alert">上記問題に起因して、災害対策幹事長会議が滞っており連絡会議が開けない状況です</span<</p>
+</fieldset>
+
 <fieldset class="nittei">
   <legend>
     <h2> 議事日程 </h2>

@@ -13,7 +13,7 @@
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 新型コロナ対策として、5月臨時会の理事者側は極力関係者のみ出席</p>
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 新型コロナ対策として、8月の小平町親善訪問は中止</p>
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 新型コロナ対策として、10月の4常任委員会の行政視察は中止</p>  
-  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> <span class="highlight">一人会派の会による「市議会としての対策会議を」提案は、他会派反対のため取り下げ</span></p>
+  <p class="summary"><i class="fa fa-play alert" aria-hidden="true"></i> <span class="highlight alert">一人会派の会による「市議会としての対策会議を」提案は、他会派反対のため取り下げ</span></p>
 </fieldset>
 
 以下、一人会派の幹事長・伊藤央議員からの報告内容を基にしています。

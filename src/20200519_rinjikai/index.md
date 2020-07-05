@@ -8,7 +8,7 @@
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 例年の国保税負担軽減のための条例改正（専決）</p>
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 特別定額給付金支給のための補正予算（専決）</p>
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 一般会計および国保特別会計の補正予算案と、関連した国保条例の改正</p>
-  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> <span class="highlight">一人会派の会による「必要に応じて臨時議会を招集し議会に諮る」附帯決議案は否決</span></p>
+  <p class="summary"><i class="fa fa-play alert" aria-hidden="true"></i> <span class="highlight alert">一人会派の会による「必要に応じて臨時議会を招集し議会に諮る」附帯決議案は否決</span></p>
 </fieldset>
 
 <fieldset class="nittei">

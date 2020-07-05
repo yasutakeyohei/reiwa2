@@ -10,9 +10,9 @@
     <h2 class="summary">主な内容</h2>
   </legend>
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 新型コロナ対策で6月定例会は議員と理事者側の出席を制限、常任・特別委員会は通常通り</p>
-  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 市議会公明党の幹事長が副議長に就いている問題は継続協議</p>
+  <p class="summary"><i class="fa fa fa-play alert" aria-hidden="true"></i> <span class="highlight alert">市議会公明党の幹事長が副議長に就いている問題は継続協議</span></p>
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 不要なFAXの送信と、不要な印刷物の配布をやめる</p>
-  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> <span class="highlight">前回、他会派の反対で取り下げた「対策会議」は、実は規定に明記されていた → 設置へ</span></p>
+  <p class="summary"><i class="fa fa-play alert" aria-hidden="true"></i> <span class="highlight">前回、他会派の反対で取り下げた「対策会議」は、実は規定に明記されていた → 設置へ</span></p>
 </fieldset>
 
 
