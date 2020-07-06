@@ -13,7 +13,7 @@
 
 <fieldset class="sanpi">
   <legend>
-    <h2 class="sanpi"> <i class="fa fa-circle-o" aria-hidden="true"></i> 私（安竹）の判断：賛成 </h2>
+    <h2 class="sanpi"> <i class="fa fa-circle-o" aria-hidden="true"></i> 私（安竹洋平）の判断：賛成 </h2>
   </legend>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 特に問題となるようなことがない</p>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 岡村氏は、回田町の公園設置をめぐる住民監査請求で、市民の側に立った意見を行った</p>
@@ -51,7 +51,7 @@
 
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="一人会派の会 安竹洋平による質問"></i></td><td>
-監査基準策定の際は岡村氏の貢献があったと考えてよいか。（安竹）
+監査基準策定の際は岡村氏の貢献があったと考えてよいか。（安竹 洋平）
 </td></tr></table>
 
 > 代表監査委員の岡村氏にも内容の確認をしてもらいアドバイスを得ている。（津嶋）

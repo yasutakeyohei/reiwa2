@@ -4,6 +4,7 @@
 
 - [6月2-26日：6月定例会（一部作成中）](./20200602_teireikai/index.md)
     - [諸報告](./20200602_teireikai/syohokoku.md)
+        - [例月現金出納検査（令和2年3月）](./20200602_teireikai/reigetu-03.md)
     - [第20号 監査委員 選任](./20200602_teireikai/gian-20.md)
     - [第21-36号 農業委員 任命](./20200602_teireikai/gian-21_36.md)
     - [第37号 市税条例等 一部改正](./20200602_teireikai/gian-37.md)
@@ -12,6 +13,8 @@
     - [第40号 市放課後児童健全育成事業の設備及び運営の基準に関する条例 一部改正](./20200602_teireikai/gian-40.md)
     - [第41号 市立学童クラブ条例 一部改正](./20200602_teireikai/gian-41.md)
     - [第42号 八小学童クラブ第二・第三新築工事請負契約の締結](./20200602_teireikai/gian-42.md)
+    - [第43号 令和2年度小平市一般会計補正予算（第3号）](./20200602_teireikai/gian-43.md)
+    - [員21号 小平市議会会議規則の一部を改正する規則制定について](./20200602_teireikai/giin-gian-21.md)
     - [員20号 特別定額給付金は今回だけにとどまらず、今後も必要に応じて実施することを求める意見書提出について](./20200602_teireikai/giin-gian-20.md)
     - [一般質問](./20200602_teireikai/ippan-situmon/index.md)
         - [安竹洋平](./20200602_teireikai/ippan-situmon/yasutake-yohei.md)
