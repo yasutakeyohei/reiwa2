@@ -8,7 +8,7 @@
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 人事は、監査委員1名の選任と、農業委員16名の任命について</p>
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 条例改正は、主に国の法令等改正があったことから改正するもの（下記以外）</p>
   <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 八小学童クラブ第二・第三の新設に関わる工事請負契約と、関連の条例改正</p>
-  <p class="summary"><i class="fa fa-play alert" aria-hidden="true"></i> <span class="highlight alert">一般会計補正予算</span<</p>
+  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 一般会計補正予算についてはまとめ中</p>
 </fieldset>
 
 <fieldset class="nittei">

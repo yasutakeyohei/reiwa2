@@ -101,6 +101,6 @@
 > 4　協議等の場の運営その他必要な事項は、議長が別に定める
 
 別表：
-<table style="margin:0"><thead><tr><td>名称</td><td>目的</td><td>構成員</td><td>招集権者</td></tr></thead><tbody><tr><td>全員協議会</td><td>市政全般に関わる事項や議会の運営に<br>関する事項などを協議すること。</td><td>全議員</td><td>議長</td></tr><tr><td><span class="highlight">幹事長会議</td><td><span class="highlight">会派間の調整、連絡及び協議を行うこと。</span></td><td><span class="highlight">議長及び<br>会派の幹事長</span></td><td><span class="highlight">議長</span></td></tr></tbody></table>
+<table style="margin:0"><thead><tr><td>名称</td><td>目的</td><td>構成員</td><td>招集権者</td></tr></thead><tbody><tr><td>全員協議会</td><td>市政全般に<span class="highlight">関わる</span>事項や議会の運営に<br>関する事項などを協議すること。</td><td>全議員</td><td>議長</td></tr><tr><td class="highlight">幹事長会議</td><td class="highlight">会派間の調整、連絡及び協議を行うこと。</td><td class="highlight">議長及び<br>会派の幹事長</td><td class="highlight">議長</td></tr></tbody></table>
 
-＊2行目が今回追加されました。その他漢字の修正（かかわる→関わる）でした。
+＊2行目が今回追加されました。その他、字句の修正（かかわる→関する）がありました。
