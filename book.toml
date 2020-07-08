@@ -7,10 +7,15 @@ title = "Reiwa2"
 
 [output.html]
 theme = "src/theme"
+git-repository-url="https://github.com/yasutakeyohei/reiwa2"
+google-analytics="UA-144705402-1"
 
 [output.html.fold]
 enable = true
 level = 0
+
+[output.html.search]
+enable = false
 
 [preprocessor.toc]
 command = "mdbook-toc"
