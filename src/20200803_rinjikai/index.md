@@ -28,6 +28,8 @@
 
 ## 賛否
 私（安竹洋平）の賛否理由は各議案のページをご参照ください。
+
+<!--
 <table>
     <thead>
         <tr>
@@ -40,22 +42,22 @@
         <tr style="background-color:#ffffc5;">
             <td><strong>安竹　洋平</strong></td>
             <td>一人会派の会</td>
-            <td><strong><a href="./gian-44.md">〇</a></strong></td>
+            <td><strong><a href="./gian-44.md">?</a></strong></td>
         </tr>
         <tr>
             <td>伊藤　央</td>
             <td>一人会派の会</td>
-            <td>〇</td>
+            <td>?</td>
         </tr>
         <tr>
             <td>中江　美和</td>
             <td>一人会派の会</td>
-            <td>〇</td>
+            <td>?</td>
         </tr>
         <tr>
             <td>橋本　久雄</td>
             <td>一人会派の会</td>
-            <td>〇</td>
+            <td></td>
         </tr>
         <tr>
             <td>磯山　亮</td>
@@ -179,6 +181,6 @@
         </tr>
     </tbody>
 </table>
-
+-->
 
 {{#include ../partials/kaigiroku.md}}
