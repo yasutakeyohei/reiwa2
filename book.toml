@@ -1,9 +1,10 @@
 [book]
-authors = ["yasutake"]
+authors = ["安竹 洋平"]
 language = "ja"
 multilingual = false
 src = "src"
 title = "Reiwa2"
+description = "令和2年度の小平市議会で起きていることを情報公開と私自身の勉強を兼ねてまとめています。議案の内容、主な質疑、一般質問、私（安竹）のコメント等です。"
 
 [output.html]
 theme = "src/theme"
