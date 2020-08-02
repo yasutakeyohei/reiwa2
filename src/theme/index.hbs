@@ -25,9 +25,14 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
 
         <!-- Highlight.js Stylesheets -->
+        <!--
         <link rel="stylesheet" href="{{ path_to_root }}highlight.css">
         <link rel="stylesheet" href="{{ path_to_root }}tomorrow-night.css">
         <link rel="stylesheet" href="{{ path_to_root }}ayu-highlight.css">
+        -->
+
+        <script src="https://unpkg.com/gridjs/dist/gridjs.production.min.js"></script>
+        <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
 
         <!-- Custom theme stylesheets -->
         {{#each additional_css}}
@@ -267,13 +272,14 @@
         {{/if}}
 
         <script src="{{ path_to_root }}clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <script src="{{ path_to_root }}highlight.js" type="text/javascript" charset="utf-8"></script>
+        <!--<script src="{{ path_to_root }}highlight.js" type="text/javascript" charset="utf-8"></script>-->
         <script src="{{ path_to_root }}book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
         {{#each additional_js}}
         <script type="text/javascript" src="{{ ../path_to_root }}{{this}}"></script>
         {{/each}}
+
 
         {{#if is_print}}
         {{#if mathjax_support}}
