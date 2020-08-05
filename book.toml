@@ -18,7 +18,4 @@ level = 0
 [output.html.search]
 enable = false
 
-[preprocessor.toc]
-command = "mdbook-toc"
-renderer = ["html"]
-
+[preprocessor.nop-preprocessor]
