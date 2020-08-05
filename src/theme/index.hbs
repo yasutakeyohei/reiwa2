@@ -13,6 +13,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
+        <script src="https://unpkg.com/gridjs/dist/gridjs.production.min.js"></script>
+        <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+        
         <link rel="shortcut icon" href="{{ path_to_root }}{{ favicon }}">
         <link rel="stylesheet" href="{{ path_to_root }}css/variables.css">
         <link rel="stylesheet" href="{{ path_to_root }}css/general.css?v202005131519">
@@ -25,14 +28,9 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
 
         <!-- Highlight.js Stylesheets -->
-        <!--
         <link rel="stylesheet" href="{{ path_to_root }}highlight.css">
         <link rel="stylesheet" href="{{ path_to_root }}tomorrow-night.css">
         <link rel="stylesheet" href="{{ path_to_root }}ayu-highlight.css">
-        -->
-
-        <script src="https://unpkg.com/gridjs/dist/gridjs.production.min.js"></script>
-        <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
 
         <!-- Custom theme stylesheets -->
         {{#each additional_css}}

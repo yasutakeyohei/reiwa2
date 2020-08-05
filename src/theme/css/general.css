@@ -375,3 +375,64 @@ table.additional thead {
     background-color: #9cbaff;
 }
 
+table.gridjs-table {
+    border: '3px solid #ccc';
+    table-layout: auto;
+}
+
+table.gridjs-table th,
+table.gridjs-table td
+{
+    color: #333;
+    padding:2px;
+    line-height:inherit;
+}
+
+table.gridjs-table th {
+    background-color: #f1f6f9;
+    text-align: center;
+}
+table.gridjs-table th:hover {
+    background-color: #c8e4f5;
+
+}
+
+table.gridjs-table tr:nth-child(odd) td {
+	background: #f3f3f3;
+}
+
+table.gridjs-table td:nth-of-type(1),
+table.gridjs-table td:nth-of-type(2),
+table.gridjs-table td:nth-of-type(3),
+table.gridjs-table td:nth-of-type(4),
+table.gridjs-table th:nth-of-type(1),
+table.gridjs-table th:nth-of-type(2),
+table.gridjs-table th:nth-of-type(3),
+table.gridjs-table th:nth-of-type(4)
+{
+    font-size: 1.2rem;
+}
+
+.gridjs-wrapper,
+.gridjs-footer {
+    border-radius:0;
+}
+
+button.gridjs-sort {
+    background-color: #0000;
+    border-width:0;
+}
+
+#saisyutu-detail table.gridjs-table td:nth-of-type(7) {
+    text-align: right;
+}
+
+input.gridjs-input {
+    border-radius: 0;
+}
+
+#gridjs-kan-select {
+    padding: 10px 14px;
+    font-size:1.4rem;
+    font-family: inherit;
+}
