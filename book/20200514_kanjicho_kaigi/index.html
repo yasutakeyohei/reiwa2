@@ -5,32 +5,37 @@
         <meta charset="UTF-8">
         <title>5月14日：幹事長会議 - Reiwa2</title>
         
+        
+
+        <!-- Custom HTML head -->
+        
+
 
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="令和2年度の小平市議会で起きていることを情報公開と私自身の勉強を兼ねてまとめています。議案の内容、主な質疑、一般質問、私（安竹）のコメント等です。">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff" />
 
+        <script src="https://unpkg.com/gridjs/dist/gridjs.production.min.js"></script>
+        <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
+
+        <link rel="icon" href="../favicon.svg">
         <link rel="shortcut icon" href="../favicon.png">
         <link rel="stylesheet" href="../css/variables.css">
-        <link rel="stylesheet" href="../css/general.css?v202005131519">
+        <link rel="stylesheet" href="../css/general.css">
         <link rel="stylesheet" href="../css/chrome.css">
         <link rel="stylesheet" href="../css/print.css" media="print">
 
         <!-- Fonts -->
         <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="../fonts/fonts.css">
+        
 
         <!-- Highlight.js Stylesheets -->
-        <!--
         <link rel="stylesheet" href="../highlight.css">
         <link rel="stylesheet" href="../tomorrow-night.css">
         <link rel="stylesheet" href="../ayu-highlight.css">
-        -->
-
-        <script src="https://unpkg.com/gridjs/dist/gridjs.production.min.js"></script>
-        <link href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" rel="stylesheet" />
 
         <!-- Custom theme stylesheets -->
         
@@ -39,13 +44,13 @@
 
         <!-- Chart.js -->
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        
-        </head>
+
+    </head>
     <body>
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "../";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "light" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -92,7 +97,7 @@
             <div class="sidebar-scrollbox">
                 <div class="back-to-main-site"><a href="https://yasutakeyohei.com/books/"><i class="fa fa-chevron-left" aria-hidden="true"></i> 小平市議 安竹洋平 Official Site</a></div>
                 <p style="text-align:right;">最終更新日：R2(2020)/7/9</p>
-                <ol class="chapter"><li class="chapter-item affix "><a href="../index.html">◎ 令和2年度 小平市議会 まとめ</a></li><li class="chapter-item "><a href="../20200803_rinjikai/index.html"><strong aria-hidden="true">1.</strong> 8月3日：8月臨時会</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200803_rinjikai/syohokoku.html"><strong aria-hidden="true">1.1.</strong> 諸報告</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200803_rinjikai/reigetu-04.html"><strong aria-hidden="true">1.1.1.</strong> 例月現金出納検査（令和2年4月）</a></li></ol></li><li class="chapter-item "><a href="../20200803_rinjikai/gian-44.html"><strong aria-hidden="true">1.2.</strong> 第44号 一般補正</a></li></ol></li><li class="chapter-item "><a href="../20200602_teireikai/index.html"><strong aria-hidden="true">2.</strong> 6月2-26日：6月定例会（一部作成中）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200602_teireikai/syohokoku.html"><strong aria-hidden="true">2.1.</strong> 諸報告</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200602_teireikai/reigetu-03.html"><strong aria-hidden="true">2.1.1.</strong> 例月現金出納検査（令和2年3月）</a></li></ol></li><li class="chapter-item "><a href="../20200602_teireikai/gian-20.html"><strong aria-hidden="true">2.2.</strong> 第20号 監査委員 選任</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-21_36.html"><strong aria-hidden="true">2.3.</strong> 第21-36号 農業委員 任命</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-37.html"><strong aria-hidden="true">2.4.</strong> 第37号 市税条例等 一部改正</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-38.html"><strong aria-hidden="true">2.5.</strong> 第38号 市手数料条例 一部改正</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-39.html"><strong aria-hidden="true">2.6.</strong> 第39号 市介護保険条例 一部改正</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-40.html"><strong aria-hidden="true">2.7.</strong> 第40号 市放課後児～条例 一部改正</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-41.html"><strong aria-hidden="true">2.8.</strong> 第41号 市学童クラブ条例 一部改正</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-42.html"><strong aria-hidden="true">2.9.</strong> 第42号 八小学童クラブ第二・第三～</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-43.html"><strong aria-hidden="true">2.10.</strong> 第43号 一般会計 補正予算（第3号）</a></li><li class="chapter-item "><a href="../20200602_teireikai/giin-gian-21.html"><strong aria-hidden="true">2.11.</strong> 員21号 小平市議会会議規則の一部～</a></li><li class="chapter-item "><a href="../20200602_teireikai/giin-gian-20.html"><strong aria-hidden="true">2.12.</strong> 員20号 特別定額給付金は今回だけ～</a></li><li class="chapter-item "><a href="../20200602_teireikai/ippan-situmon/index.html"><strong aria-hidden="true">2.13.</strong> 一般質問</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200602_teireikai/ippan-situmon/yasutake-yohei.html"><strong aria-hidden="true">2.13.1.</strong> 安竹洋平</a></li><li class="chapter-item "><a href="../20200602_teireikai/ippan-situmon/sonota.html"><strong aria-hidden="true">2.13.2.</strong> その他議員</a></li></ol></li></ol></li><li class="chapter-item "><a href="../20200622_kanjicho_kaigi/index.html"><strong aria-hidden="true">3.</strong> 6月22日：幹事長会議</a></li><li class="chapter-item "><a href="../20200528_gikai_unei_iinkai/index.html"><strong aria-hidden="true">4.</strong> 5月28日：議会運営委員会（作成中）</a></li><li class="chapter-item "><a href="../20200525_kanjicho_kaigi/index.html"><strong aria-hidden="true">5.</strong> 5月25日：幹事長会議</a></li><li class="chapter-item "><a href="../20200519_rinjikai/index.html"><strong aria-hidden="true">6.</strong> 5月19日：5月臨時会</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200519_rinjikai/syohokoku.html"><strong aria-hidden="true">6.1.</strong> 諸報告</a></li><li class="chapter-item "><a href="../20200519_rinjikai/gian-15.html"><strong aria-hidden="true">6.2.</strong> 第15号 専決 国保改正</a></li><li class="chapter-item "><a href="../20200519_rinjikai/gian-16.html"><strong aria-hidden="true">6.3.</strong> 第16号 専決 一般補正</a></li><li class="chapter-item "><a href="../20200519_rinjikai/gian-17.html"><strong aria-hidden="true">6.4.</strong> 第17号 一般補正</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200519_rinjikai/gian-17-futai-ketugi.html"><strong aria-hidden="true">6.4.1.</strong> 附帯決議（案）</a></li></ol></li><li class="chapter-item "><a href="../20200519_rinjikai/gian-18.html"><strong aria-hidden="true">6.5.</strong> 第18号 国保補正</a></li><li class="chapter-item "><a href="../20200519_rinjikai/gian-19.html"><strong aria-hidden="true">6.6.</strong> 第19号 国保改正</a></li></ol></li><li class="chapter-item expanded "><a href="../20200514_kanjicho_kaigi/index.html" class="active"><strong aria-hidden="true">7.</strong> 5月14日：幹事長会議</a></li><li class="chapter-item "><a href="../20200508_kanjicho_kaigi/index.html"><strong aria-hidden="true">8.</strong> 5月08日：幹事長会議</a></li><li class="chapter-item affix "><a href="../honkaigi-situmon-mondai.html">■ 本会議における質問ルールと問題点</a></li><li class="chapter-item affix "><a href="../kanjicho-kaigi-mondai.html">■ 幹事長会議の問題点</a></li><li class="chapter-item affix "><a href="../gikai-chosaku-ken.html">■ 議会に関する著作権について</a></li><li class="chapter-item affix "><a href="../obira-cho.html">■ 小平町親善訪問は見直しを</a></li></ol>
+                <ol class="chapter"><li class="chapter-item affix "><a href="../book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\">◎ 令和2年度 小平市議会 まとめ</a></li><li class="chapter-item "><a href="../20200803_rinjikai/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\"><strong aria-hidden="true">1.</strong> 8月3日：8月臨時会</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200803_rinjikai/syohokoku.html"><strong aria-hidden="true">1.1.</strong> 諸報告</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200803_rinjikai/reigetu-04.html"><strong aria-hidden="true">1.1.1.</strong> 例月現金出納検査（令和2年4月）</a></li></ol></li><li class="chapter-item "><a href="../20200803_rinjikai/gian-44.html"><strong aria-hidden="true">1.2.</strong> 第44号 一般補正</a></li></ol></li><li class="chapter-item "><a href="../20200602_teireikai/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\"><strong aria-hidden="true">2.</strong> 6月2-26日：6月定例会（一部作成中）</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200602_teireikai/syohokoku.html"><strong aria-hidden="true">2.1.</strong> 諸報告</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200602_teireikai/reigetu-03.html"><strong aria-hidden="true">2.1.1.</strong> 例月現金出納検査（令和2年3月）</a></li></ol></li><li class="chapter-item "><a href="../20200602_teireikai/gian-20.html"><strong aria-hidden="true">2.2.</strong> 第20号 監査委員 選任</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-21_36.html"><strong aria-hidden="true">2.3.</strong> 第21-36号 農業委員 任命</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-37.html"><strong aria-hidden="true">2.4.</strong> 第37号 市税条例等 一部改正</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-38.html"><strong aria-hidden="true">2.5.</strong> 第38号 市手数料条例 一部改正</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-39.html"><strong aria-hidden="true">2.6.</strong> 第39号 市介護保険条例 一部改正</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-40.html"><strong aria-hidden="true">2.7.</strong> 第40号 市放課後児～条例 一部改正</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-41.html"><strong aria-hidden="true">2.8.</strong> 第41号 市学童クラブ条例 一部改正</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-42.html"><strong aria-hidden="true">2.9.</strong> 第42号 八小学童クラブ第二・第三～</a></li><li class="chapter-item "><a href="../20200602_teireikai/gian-43.html"><strong aria-hidden="true">2.10.</strong> 第43号 一般会計 補正予算（第3号）</a></li><li class="chapter-item "><a href="../20200602_teireikai/giin-gian-21.html"><strong aria-hidden="true">2.11.</strong> 員21号 小平市議会会議規則の一部～</a></li><li class="chapter-item "><a href="../20200602_teireikai/giin-gian-20.html"><strong aria-hidden="true">2.12.</strong> 員20号 特別定額給付金は今回だけ～</a></li><li class="chapter-item "><a href="../20200602_teireikai/ippan-situmon/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\"><strong aria-hidden="true">2.13.</strong> 一般質問</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200602_teireikai/ippan-situmon/yasutake-yohei.html"><strong aria-hidden="true">2.13.1.</strong> 安竹洋平</a></li><li class="chapter-item "><a href="../20200602_teireikai/ippan-situmon/sonota.html"><strong aria-hidden="true">2.13.2.</strong> その他議員</a></li></ol></li></ol></li><li class="chapter-item "><a href="../20200622_kanjicho_kaigi/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\"><strong aria-hidden="true">3.</strong> 6月22日：幹事長会議</a></li><li class="chapter-item "><a href="../20200528_gikai_unei_iinkai/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\"><strong aria-hidden="true">4.</strong> 5月28日：議会運営委員会（作成中）</a></li><li class="chapter-item "><a href="../20200525_kanjicho_kaigi/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\"><strong aria-hidden="true">5.</strong> 5月25日：幹事長会議</a></li><li class="chapter-item "><a href="../20200519_rinjikai/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\"><strong aria-hidden="true">6.</strong> 5月19日：5月臨時会</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200519_rinjikai/syohokoku.html"><strong aria-hidden="true">6.1.</strong> 諸報告</a></li><li class="chapter-item "><a href="../20200519_rinjikai/gian-15.html"><strong aria-hidden="true">6.2.</strong> 第15号 専決 国保改正</a></li><li class="chapter-item "><a href="../20200519_rinjikai/gian-16.html"><strong aria-hidden="true">6.3.</strong> 第16号 専決 一般補正</a></li><li class="chapter-item "><a href="../20200519_rinjikai/gian-17.html"><strong aria-hidden="true">6.4.</strong> 第17号 一般補正</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../20200519_rinjikai/gian-17-futai-ketugi.html"><strong aria-hidden="true">6.4.1.</strong> 附帯決議（案）</a></li></ol></li><li class="chapter-item "><a href="../20200519_rinjikai/gian-18.html"><strong aria-hidden="true">6.5.</strong> 第18号 国保補正</a></li><li class="chapter-item "><a href="../20200519_rinjikai/gian-19.html"><strong aria-hidden="true">6.6.</strong> 第19号 国保改正</a></li></ol></li><li class="chapter-item expanded "><a href="../20200514_kanjicho_kaigi/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\" class="active"><strong aria-hidden="true">7.</strong> 5月14日：幹事長会議</a></li><li class="chapter-item "><a href="../20200508_kanjicho_kaigi/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\"><strong aria-hidden="true">8.</strong> 5月08日：幹事長会議</a></li><li class="chapter-item affix "><a href="../honkaigi-situmon-mondai.html">■ 本会議における質問ルールと問題点</a></li><li class="chapter-item affix "><a href="../kanjicho-kaigi-mondai.html">■ 幹事長会議の問題点</a></li><li class="chapter-item affix "><a href="../gikai-chosaku-ken.html">■ 議会に関する著作権について</a></li><li class="chapter-item affix "><a href="../obira-cho.html">■ 小平町親善訪問は見直しを</a></li></ol>
                 <p><a href="https://github.com/yasutakeyohei" style="text-decoration: none;"><i class="fa fa-github-alt" aria-hidden="true"></i> GitHub</a></p>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
@@ -201,7 +206,7 @@
 <li>国民健康保険事業特別会計の補正予算</li>
 <li>小平市国民健康保険条例の一部改正</li>
 </ol>
-<p><a href="../20200519_rinjikai/index.html">＊詳細は5月臨時会を参照してください。</a></p>
+<p><a href="../20200519_rinjikai/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\">＊詳細は5月臨時会を参照してください。</a></p>
 <h3><a class="header" href="#2-本日の報告事項" id="2-本日の報告事項">(2) 本日の報告事項</a></h3>
 <p>例月現金 出納検査の結果について</p>
 <p>令和元年度1月分の、一般会計、3つの特別会計下水道事業会計、基金、歳入歳出外現金の｢現金収支､及び現金保管の状況」はいずれも誤りのないことが認められた。</p>
@@ -211,7 +216,7 @@
 <li>ほぼ通常通りの開催</li>
 <li>理事者側は極力関係者のみ出席</li>
 </ul>
-<p><a href="../20200519_rinjikai/index.html">＊詳細は5月臨時会を参照してください。</a></p>
+<p><a href="../20200519_rinjikai/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\">＊詳細は5月臨時会を参照してください。</a></p>
 <h3><a class="header" href="#2-6月定例会について" id="2-6月定例会について">(2) 6月定例会について</a></h3>
 <ul>
 <li>一般質問は通常通り一人60分</li>
@@ -225,7 +230,7 @@
 <p>コロナ禍において、<a href="https://www.city.kodaira.tokyo.jp/kurashi/079/079987.html">小平市は新型コロナウイルス感染症対策本部を今年の2月27日に設置しています</a>。しかし、市議会はそれに対応した会を開いていません。</p>
 <p>そこで、市議会としても、対策本部との情報共有や市政の確認を行うための、対策会議を開く必要があります。これは、当一人会派の会より伊藤央幹事長が中心に提案したものです。</p>
 <p><img src="../icons/yasutake-anger.png" class="noshadow yasutake-face"> 結果として他会派が反対したため開催しないこととなりました。非常に残念なことです。</p>
-<p><span class="highlight">しかしこれには後日談があり、市議会として連絡会議を設置することが<strong>小平市議会災害時対応ハンドブックに規定で定められていました。</strong></span>反対した会派、非常に恥ずかしいことと思います。<a href="../20200525_kanjicho_kaigi/index.html#%E8%BF%BD%E5%8A%A0%E7%81%BD%E5%AE%B3%E5%AF%BE%E7%AD%96%E9%80%A3%E7%B5%A1%E4%BC%9A%E8%AD%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">詳しくは5月25日幹事長会議まとめをご参照ください。</a></p>
+<p><span class="highlight">しかしこれには後日談があり、市議会として連絡会議を設置することが<strong>小平市議会災害時対応ハンドブックに規定で定められていました。</strong></span>反対した会派、非常に恥ずかしいことと思います。<a href="../20200525_kanjicho_kaigi/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\#%E8%BF%BD%E5%8A%A0%E7%81%BD%E5%AE%B3%E5%AF%BE%E7%AD%96%E9%80%A3%E7%B5%A1%E4%BC%9A%E8%AD%B0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">詳しくは5月25日幹事長会議まとめをご参照ください。</a></p>
 <h3><a class="header" href="#3-10月の常任委員会の行政視察について" id="3-10月の常任委員会の行政視察について">(3) 10月の常任委員会の行政視察について</a></h3>
 <p>行わないこととなりました。</p>
 
@@ -240,7 +245,7 @@
                         
 
                         
-                            <a rel="next" href="../20200508_kanjicho_kaigi/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                            <a rel="next" href="../20200508_kanjicho_kaigi/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                                 <i class="fa fa-angle-right"></i>
                             </a>
                         
@@ -258,7 +263,7 @@
                 
 
                 
-                    <a rel="next" href="../20200508_kanjicho_kaigi/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                    <a rel="next" href="../20200508_kanjicho_kaigi/book\20200508_kanjicho_kaigi\book\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\20200508_kanjicho_kaigi\" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
                         <i class="fa fa-angle-right"></i>
                     </a>
                 
@@ -266,6 +271,21 @@
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         
@@ -288,10 +308,10 @@
         
 
         
-        
+
         
         <script type="text/javascript">
-            window.playpen_copyable = true;
+            window.playground_copyable = true;
         </script>
         
 
@@ -300,12 +320,11 @@
         
 
         <script src="../clipboard.min.js" type="text/javascript" charset="utf-8"></script>
-        <!--<script src="../highlight.js" type="text/javascript" charset="utf-8"></script>-->
+        <script src="../highlight.js" type="text/javascript" charset="utf-8"></script>
         <script src="../book.js" type="text/javascript" charset="utf-8"></script>
 
         <!-- Custom JS scripts -->
         
-
 
         
 
