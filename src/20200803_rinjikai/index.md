@@ -29,7 +29,6 @@
 ## 賛否
 私（安竹洋平）の賛否理由は各議案のページをご参照ください。
 
-<!--
 <table>
     <thead>
         <tr>
@@ -42,57 +41,57 @@
         <tr style="background-color:#ffffc5;">
             <td><strong>安竹　洋平</strong></td>
             <td>一人会派の会</td>
-            <td><strong><a href="./gian-44.md">?</a></strong></td>
+            <td><strong><a href="./gian-44.md">×</a></strong></td>
         </tr>
         <tr>
             <td>伊藤　央</td>
             <td>一人会派の会</td>
-            <td>?</td>
+            <td>×</td>
         </tr>
         <tr>
             <td>中江　美和</td>
             <td>一人会派の会</td>
-            <td>?</td>
+            <td>×</td>
         </tr>
         <tr>
             <td>橋本　久雄</td>
             <td>一人会派の会</td>
-            <td></td>
+            <td>×</td>
         </tr>
         <tr>
             <td>磯山　亮</td>
             <td>政和会</td>
-            <td>〇</td>
+            <td>×</td>
         </tr>
         <tr>
             <td>小野　高一</td>
             <td>政和会</td>
-            <td>〇</td>
+            <td>（欠席）</td>
         </tr>
         <tr>
             <td>鈴木　洋一</td>
             <td>政和会</td>
-            <td>〇</td>
+            <td>×</td>
         </tr>
         <tr>
             <td>比留間　洋一</td>
             <td>政和会</td>
-            <td>〇</td>
+            <td>×</td>
         </tr>
         <tr>
             <td>福室　英俊</td>
             <td>政和会</td>
-            <td>〇</td>
+            <td>×</td>
         </tr>
         <tr>
             <td>松岡　あつし</td>
             <td>政和会</td>
-            <td>〇</td>
+            <td>×</td>
         </tr>
         <tr>
             <td>山田　大輔</td>
             <td>政和会</td>
-            <td>〇</td>
+            <td>×</td>
         </tr>
         <tr>
             <td>虻川　浩</td>
@@ -181,6 +180,5 @@
         </tr>
     </tbody>
 </table>
--->
 
 {{#include ../partials/kaigiroku.md}}
