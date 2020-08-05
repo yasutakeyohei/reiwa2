@@ -184,6 +184,12 @@ blockquote {
     visibility: visible;
 }
 
+.chapter li.part-title {
+    color: var(--sidebar-fg);
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
 /* custom */
 h1 { 
     font-size: 1.8em;
