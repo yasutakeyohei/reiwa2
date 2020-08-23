@@ -6,6 +6,7 @@
     - [諸報告](./20200803_rinjikai/syohokoku.md)
         - [例月現金出納検査（令和2年4月）](./20200803_rinjikai/reigetu-04.md)
     - [第44号 一般補正](./20200803_rinjikai/gian-44.md)
+- [7月27日：幹事長会議（臨時）](./20200727_kanjicho_kaigi/index.md)
 - [6月2-26日：6月定例会（一部作成中）](./20200602_teireikai/index.md)
     - [諸報告](./20200602_teireikai/syohokoku.md)
         - [例月現金出納検査（令和2年3月）](./20200602_teireikai/reigetu-03.md)
@@ -25,7 +26,7 @@
         - [その他議員](./20200602_teireikai/ippan-situmon/sonota.md)
 - [6月22日：幹事長会議](./20200622_kanjicho_kaigi/index.md)
 <!-- - [6月17日：都市基盤整備調査～（作成中）](./20200617_toshi_chou_toku/index.md)-->
-- [5月28日：議会運営委員会（作成中）](./20200528_gikai_unei_iinkai/index.md)
+<!-- - [5月28日：議会運営委員会（作成中）]() -->
 - [5月25日：幹事長会議](./20200525_kanjicho_kaigi/index.md)
 - [5月19日：5月臨時会](./20200519_rinjikai/index.md)
     - [諸報告](./20200519_rinjikai/syohokoku.md)
