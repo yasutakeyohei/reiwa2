@@ -10,6 +10,7 @@ description = "令和2年度の小平市議会で起きていることを情報�
 theme = "src/theme"
 git-repository-url="https://github.com/yasutakeyohei/reiwa2"
 google-analytics="UA-144705402-1"
+additional-js=["medium-zoom.js"]
 
 [output.html.fold]
 enable = true
@@ -18,4 +19,6 @@ level = 0
 [output.html.search]
 enable = false
 
-[preprocessor.nop-preprocessor]
+[output.z]
+command = "python ../../postprocess.py"
+optional = true
