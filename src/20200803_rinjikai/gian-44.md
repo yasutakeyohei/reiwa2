@@ -1,4 +1,5 @@
 # 議案第44号 令和2年度小平市一般会計補正予算（第4号）
+（作成中です）
 
 <i class="fa fa-gavel" aria-hidden="true"></i> 総務委員会付託
 
@@ -8,31 +9,78 @@
   </legend>
   <p class="point"><i class="fa fa-check" aria-hidden="true"></i> 総額約16億円＝国から12億＋都から2億＋小平市（市債1億5千万＋一般財源5千万円）</p>
   <p class="point"><i class="fa fa-check" aria-hidden="true"></i> GIGAスクール構想実現のために約5億1千万円</p>
-  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> エレベーター改修に約1.8億円、自動ドア設置に5.8千万円と、不要不急の費用が大きい</p>
+  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> エレベーター改修に約1.8億円、自動ドア設置に約6千万円等、不要不急費用が大きい</p>
+  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> （作成中）</p>
 </fieldset>
 
 <fieldset class="sanpi">
   <legend>
-    <h2 class="sanpi"> <i class="fa fa-circle-o" aria-hidden="true"></i> 私（安竹洋平）の判断：反対 </h2>
+    <h2 class="sanpi"> <i class="fa fa-times" aria-hidden="true"></i> 私（安竹洋平）の判断：大反対 </h2>
   </legend>
-  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 不要な事業に巨額を投じており、機会を無駄にしている</p>
-  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 職員に責任を押し付ける、市長の不作為によるものと判断</p>
+  <p class="sanpi NG"><i class="fa fa-times" aria-hidden="true"></i> 評価できる部分はあるものの、それ以外であまりにも問題が大きいため反対</p>
+  <p class="sanpi OK"><i class="fa fa-circle-o" aria-hidden="true"></i> セーフティネットとしての住居確保給付金増額分に、一般財源も投じている</p>
+  <p class="sanpi OK"><i class="fa fa-circle-o" aria-hidden="true"></i> GIGAスクール構想の実現に向けて市債を投じており、積極的な投資姿勢が見られる</p>
+  <p class="sanpi NG"><i class="fa fa-times" aria-hidden="true"></i> 不要不急事業に巨費を投じており、臨時交付金という稀有の機会を無駄にしている</p>
+  <p class="sanpi NG"><i class="fa fa-times" aria-hidden="true"></i> オンライン化の推進など、将来に向けた一貫性のある投資が行われていない</p>
+  <p class="sanpi NG"><i class="fa fa-times" aria-hidden="true"></i> 市長が船頭役を果たしておらず、職員が予算決定の全責任を負わされている</p>
+  <p class="sanpi NG"><i class="fa fa-times" aria-hidden="true"></i> そのため各部署からの要望をそのまま取り入れる無難な予算案にならざるを得ない</p>
+  <p class="sanpi NG"><i class="fa fa-times" aria-hidden="true"></i> 次回臨時交付金に向けても、市のビジョンを示す必要があるが、片鱗すら見えない</p>
 </fieldset>
 
 ## 概要
+コロナ禍に対応するため国から支給される「地方創生臨時交付金」を受けた補正予算です。小平市への交付金は約12億円で、全額を活用します。それ以外に都から2億円。小平市からは、GIGAスクール構想の実現に向けて教員のタブレットやネット環境を設備を整備する目的で市債を約1億5千万円計上しています。一般財源はぴったり5千万円で、セーフティネットとして住居確保給付金の増額と、小中学校の感染症対策等に使用されます。総額16億円という、自由度の高い補正予算としてかなり巨額の内容になっています。
+
+市長報告は以下の通り。
+
+> 今回の補正予算は、本年6月12日に成立した国の令和2年度補正予算第2号における新型コロナウイルス感染症対応地方創生臨時交付金など、国や東京都の補正予算等を最大限活用し、事業継続支援や生活支援に取り組むとともに、新しい生活様式への対応を図るための経費等を計上するものです。なお、年度内の完了が見込めない事業につきましては、繰越明許費を設定いたします｡
+>
+> 歳出の主な内容ですが、事業継続支援では、地域消費活性化事業として、キャッシュレス購入へのポイント付与を実施するとともに、こだいら観光まちづくり協会による市内消費促進事業を補助いたします。
+>
+>また、国の慰労金の対象とならない障がい事業所等の従事者や、臨時休園により利用者負担額を軽減した認証保育所等を支援するとともに、多摩六都科学館､公立昭和病院、コミュニティバス、コミュニテイタクシー、市民総合体育館指定管理者に対する事業継続支援を実施いたします｡
+>
+>生活支援では､利用月数が伸びている住居確保給付金を増額し、児童養護施設等退所者支援給付金を計上するほか、育児パッケージの追加配付や、小･中学校において夏季休業を短縮する期間に学習指導サポーターを追加配置いたします。
+>
+>新しい生活様式への対応では、3密対策として､公共施設予約システムの利用対象施設の拡大、証明書のコンビニ交付サービス導入に向けたシステム構築､都市計画、建築行政、道路管理にかかる地図情報のインターネット公開に取り､組むとともに、小・中学校移動教室で使用するバスの増配や、4月から6月までの乳幼児健康診査の集団検診が実施できなかった方について個別検診へ切り替えて実施してまいります。
+>
+>そのほか、非接触を図るため、ルネこだいらの入口の自動ドア化や、地域センター等のトイレ手洗い自動水栓化の改修を行います。
+>
+>また、GIGAスクール構想の実現に向けて、ネットワークの構築や、電源キャビネット、児童・生徒の自然増や教員分のタブレットPCの整備等にかかる経費を計上いたします。
+>
+>新型コロナウイルス感染拡大の防止として、私立幼稚園や保育園等のほか、小・中学校、学童クラブ､障害者福祉施設、図書館、公民館などの施設における衛生用品や、感染防止のための備品にかかる経費等を計上いたします｡
+>
+>また、換気設備の改善として、本庁舎、及び健康センターエレベーターを改修するとともに、本庁舎、地域センター、元気村おがわ東、市民総合体育館、ルネこだいらの空調設備や網戸改修などの換気対策を実施いたします。
+>
+>補正予算の規模といたしましては、歳入歳出それぞれ16億1千194万8千円を増額し、歳入歳出予算の総額をそれぞれ924億7千637万9千円とするものです。
+>
+>財源構成といたしましては、事業の実施に伴い、国、都支出金を増額するとともに、寄附金、地方債、及び財政調整基金からの繰入金で対応いたします｡
+
+## 解説　{{#include ../partials/yasutake-speak.md:1}}
+
+#### 今まででもっともひどい予算！
+小平市議会議員になって1年4か月。私が見た中でいちばんひどい予算でした。自由度の高い巨額の予算が使える、めったにない機会です。それなのに、コロナ禍に対応して市をグレードアップするような施策ではなく、今でも十分使えているエレベーターの改修や、ルネ小平に自動ドアを設置するなど、不要不急の事業に「巨費」が投じられることになります。
+
+#### 使用頻度の低いエレベーターや自動ドアになぜ巨費を？
+
+「地方創生臨時交付金」も原資は私たちの税金です。コロナ禍で苦しい中、利用頻度の低いエレベーターやルネこだいらの自動ドアに税金の多くを投じてほしいと、いったい誰が願うでしょうか？
+
+#### 原因は市長。職員に責任を取らせるようではダメ
+
+根本的原因を考えた結果、私は、市長の不作為（やる気なし）であると判断しています。市長は多くの人から好かれる人柄のようですが、いかんせん、やる気がない。市長がやるべき仕事を職員が担っています。職員は市民に選ばれた存在ではないため、重大な決断はできません。そのため、各部署に要望を聞き、それをそのまま束ねて予算を立てるというような無難な対応しかできません。<strong>自由になる金額が大きくなるほど、市長の責任で決断しなければならないのです。</strong>今がその時です。しかし明らかに失敗しています。市長は役割を全うしていません。
+
+<div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;zoom&quot;:1.2,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;2a10f42a-a574-4a8e-a281-bb6f86ff300f\&quot; modified=\&quot;2020-08-23T16:12:12.421Z\&quot; agent=\&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36\&quot; etag=\&quot;TDQClBC77wRxENRbrCl4\&quot; version=\&quot;13.1.3\&quot;&gt;&lt;diagram id=\&quot;6hGFLwfOUW9BJ-s0fimq\&quot; name=\&quot;Page-1\&quot;&gt;&lt;mxGraphModel dx=\&quot;762\&quot; dy=\&quot;446\&quot; grid=\&quot;1\&quot; gridSize=\&quot;10\&quot; guides=\&quot;1\&quot; tooltips=\&quot;1\&quot; connect=\&quot;1\&quot; arrows=\&quot;1\&quot; fold=\&quot;1\&quot; page=\&quot;1\&quot; pageScale=\&quot;1\&quot; pageWidth=\&quot;827\&quot; pageHeight=\&quot;1169\&quot; math=\&quot;0\&quot; shadow=\&quot;0\&quot;&gt;&lt;root&gt;&lt;mxCell id=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;1\&quot; parent=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;9\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;2\&quot; target=\&quot;3\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;2\&quot; value=\&quot;市長にやる気がない&amp;lt;br&amp;gt;責任をとる気がない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;fontStyle=1\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;40\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;25\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;3\&quot; target=\&quot;4\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;3\&quot; value=\&quot;まちをどうするか&amp;lt;br&amp;gt;プランできない&amp;lt;br&amp;gt;ビジョンがない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;130\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;19\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;4\&quot; target=\&quot;5\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;4\&quot; value=\&quot;市の職員が&amp;lt;br&amp;gt;プランをつくり&amp;lt;br&amp;gt;予算を立てなければ&amp;lt;br&amp;gt;ならない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;190\&quot; y=\&quot;130\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;20\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;5\&quot; target=\&quot;13\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;5\&quot; value=\&quot;職員は市民に選ばれたわけではないので&amp;lt;br&amp;gt;責任を伴うプランは作成できない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;190\&quot; y=\&quot;220\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;21\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;13\&quot; target=\&quot;17\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;330\&quot; y=\&quot;340\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;13\&quot; value=\&quot;各部署の要望を&amp;lt;br&amp;gt;まとめて予算をつけるといった無難な選択しかできない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;190\&quot; y=\&quot;310\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;16\&quot; value=\&quot;愛嬌があるため問題視されにくい。&amp;lt;br&amp;gt;人柄がよくても、職責をまっとう&amp;lt;br&amp;gt;できなければ意味がない。\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;170\&quot; y=\&quot;35\&quot; width=\&quot;200\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;28\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;17\&quot; target=\&quot;26\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;17\&quot; value=\&quot;将来につながるオンライン化の推進など大胆な施策に有効な投資がなされない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;340\&quot; y=\&quot;310\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;26\&quot; value=\&quot;市民生活が&amp;lt;br&amp;gt;グレードアップ&amp;lt;br&amp;gt;していかない&amp;lt;br&amp;gt;閉塞感・停滞感\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=1;strokeWidth=2;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;fontColor=#000000;fontStyle=1\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;330\&quot; y=\&quot;410\&quot; width=\&quot;140\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;29\&quot; value=\&quot;やる気のある職員が提案しても&amp;lt;br&amp;gt;責任が生じるものは通りにくい。&amp;lt;br&amp;gt;働き甲斐がなくなり、つらい立場に。\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;320\&quot; y=\&quot;235\&quot; width=\&quot;210\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;47\&quot; style=\&quot;edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;34\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;400\&quot; y=\&quot;220\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;34\&quot; value=\&quot;&amp;lt;font color=&amp;quot;#000000&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;amp;#34;helvetica&amp;amp;#34; ; float: none ; display: inline&amp;quot;&amp;gt;責任を取る必要があると&amp;lt;br&amp;gt;キャリアに影響して損をする。&amp;lt;/span&amp;gt;&amp;lt;br style=&amp;quot;font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;amp;#34;helvetica&amp;amp;#34;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;amp;#34;helvetica&amp;amp;#34; ; float: none ; display: inline&amp;quot;&amp;gt;　なるべくあたりさわりの&amp;lt;/span&amp;gt;&amp;lt;br style=&amp;quot;font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;amp;#34;helvetica&amp;amp;#34;&amp;quot;&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;span style=&amp;quot;font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;amp;#34;helvetica&amp;amp;#34; ; float: none ; display: inline&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;#000000&amp;quot;&amp;gt;ないプランを作ろう！&amp;lt;/font&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/span&amp;gt;\&quot; style=\&quot;ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;align=center;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;340\&quot; y=\&quot;90\&quot; width=\&quot;220\&quot; height=\&quot;120\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;38\&quot; value=\&quot;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontColor=#000000;align=center;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;330\&quot; y=\&quot;140\&quot; width=\&quot;20\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;39\&quot; value=\&quot;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontColor=#000000;align=center;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;320\&quot; y=\&quot;160\&quot; width=\&quot;10\&quot; height=\&quot;10\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;40\&quot; value=\&quot;士気低下のバイアス\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;450\&quot; y=\&quot;80\&quot; width=\&quot;130\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;42\&quot; value=\&quot;START\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;20\&quot; width=\&quot;130\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;43\&quot; value=\&quot;GOAL\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;330\&quot; y=\&quot;390\&quot; width=\&quot;130\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://app.diagrams.net/js/viewer.min.js"></script>
 
 
-## 解説
-
-
-### ふらっとビュー ver 0.1
-会計書類を見やすくするため、ふらっとビューをつくりました！
+### ふらっとビューア（予算決算） ver 0.1
+会計書類を見やすくするため、ふらっとビューア（予算決算）をつくりました！
 
 歳出の詳細が確認できます。
 
 『款・項・目でまとめない』ボタンを押すと、費目一覧を表示できます。
 
-金額の単位は、市の報告資料と同じ「千円」です。
+並べ替え・フィルターもあります。
+
+金額の単位は「千円」です。
 
 <div id="grid-container">
   <div class="grid-header" id="grid-header-div" style="width:100%">
