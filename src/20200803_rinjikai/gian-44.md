@@ -6,37 +6,82 @@
   <legend>
     <h2 class="point"> ポイント </h2>
   </legend>
-  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> マイナンバー通知カード廃止に伴い、再交付時に500円を徴収する条例別表上の記述削除</p>
+  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> 総額約16億円＝国から12億＋都から2億＋小平市（市債1億5千万＋一般財源5千万円）</p>
+  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> GIGAスクール構想実現のために約5億1千万円</p>
+  <p class="point"><i class="fa fa-check" aria-hidden="true"></i> エレベーター改修に約1.8億円、自動ドア設置に5.8千万円と、不要不急の費用が大きい</p>
 </fieldset>
 
 <fieldset class="sanpi">
   <legend>
-    <h2 class="sanpi"> <i class="fa fa-circle-o" aria-hidden="true"></i> 私（安竹洋平）の判断：賛成 </h2>
+    <h2 class="sanpi"> <i class="fa fa-circle-o" aria-hidden="true"></i> 私（安竹洋平）の判断：反対 </h2>
   </legend>
-  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 通知カード廃止には懸念があるが、今回はそのこととは直接関係がなく、特に問題がない</p>
+  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 不要な事業に巨額を投じており、機会を無駄にしている</p>
+  <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 職員に責任を押し付ける、市長の不作為によるものと判断</p>
 </fieldset>
 
 ## 概要
 
 
 ## 解説
-{{#include ../partials/yasutake-speak.md:1}} 
 
-### 歳入と歳出について
 
-<div id="sainyu-hosei-summary" style="width:100%;height: 350px;"></div>
+### ふらっとビュー ver 0.1
+会計書類を見やすくするため、ふらっとビューをつくりました！
+
+歳出の詳細が確認できます。
+
+『款・項・目でまとめない』ボタンを押すと、費目一覧を表示できます。
+
+金額の単位は、市の報告資料と同じ「千円」です。
+
+<div id="grid-container">
+  <div class="grid-header" id="grid-header-div" style="width:100%">
+    <label>令和2年8月補正予算詳細</label>
+    <button id="grouping">款・項・目でまとめない</button>
+    <button id="fullscreen">フルスクリーンで表示する</button>
+  </div>
+  <div id="saisyutu-detail"></div>
+</div>
+
+<!-- slickgridはレガシーなのでwebpackなど使えず。 -->
+<link rel="stylesheet" href="../css-each/slick.grid.css" type="text/css"/>
+<link rel="stylesheet" href="../css-each/jquery-ui.css" type="text/css"/>
+<link rel="stylesheet" href="../css-each/slick.pager.css" type="text/css"/>
+<link rel="stylesheet" href="../css-each/examples.css" type="text/css"/>
+<script src="../js-each/lib/jquery-1.12.4.min.js"></script>
+<script src="../js-each/lib/jquery-ui.min.js"></script>
+
+<script src="../js-each/lib/jquery.event.drag-2.3.0.js"></script>
+<script src="../js-each/lib/slick.core.js"></script>
+<script src="../js-each/lib/slick.formatters.js"></script>
+<script src="../js-each/lib/slick.grid.js"></script>
+<script src="../js-each/lib/slick.dataview.js"></script>
+<script src="../js-each/lib/slick.pager.js"></script>
+<script src="../js-each/lib/slick.resizer.js"></script>
+<script src="../js-each/lib/slick.groupitemmetadataprovider.js"></script>
+<script src="../js-each/lib/slick.autotooltips.js"></script>
+<script src="../js-each/lib/slick.cellrangedecorator.js"></script>
+<script src="../js-each/lib/slick.cellrangeselector.js"></script>
+<script src="../js-each/lib/slick.cellselectionmodel.js"></script>
+<script src="../js-each/lib/slick.cellexternalcopymanager.js"></script>
+<script src="../js-each/lib/jquery.ui.touch-punch.min.js"></script>
+<script src="../js-each/slickgrid-src.js"></script>
+
+### 細かく見る
+
+<div id="sainyu-hosei-summary" style="width:100%;height: 350px; margin-top:50px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
   google.charts.setOnLoadCallback(drawChart);
   function drawChart() {
     var data = google.visualization.arrayToDataTable([
       ['項目', '億円', { role: 'annotation' }],
-      ['国庫支出金\n国庫負担金',    0.508,   0.508],
       ['国庫支出金\n国庫補助金',    12.1,   12.1],
       ['都支出金\n都補助金', 1.69,   1.69],
-      ['寄附金', 0.016, 0.016],
-      ['基金繰入金', 0.500,   0.500],
       ['市債',   1.33,   1.33],
+      ['国庫支出金\n国庫負担金',    0.508,   0.508],
+      ['基金繰入金', 0.500,   0.500],
+      ['寄附金', 0.016, 0.016],
     ]);
     var options = {
       fontName: "UD デジタル 教科書体 N-R",
@@ -81,9 +126,11 @@
   }
 </script>
 
-市債（1億3,310万円）の内訳：  
+今回は市債を1億3,310万円計上しています。全額GIGAスクールの環境整備に使われます。  
 ［小学校債］：GIGAスクール環境整備（小学校）：9,320万円  
 ［中学校債］：GIGAスクール環境整備（中学校）：3,990万円  
+
+<img src="./sisai-detail.png" alt="GIGAスクール構想整備費用詳細" data-zoomable="">
 
 <div id="saisyutu-zaigen-summary" style="width:100%;height: 600px;margin-top:100px;"></div>
 <script type="text/javascript">
@@ -92,13 +139,13 @@
   function drawChart() {
     var data = google.visualization.arrayToDataTable([
       ['項目', '国庫支出金', '都支出金', '地方債', 'その他', '一般財源', 'total', { role: 'annotation' }],
-      ['総務費', 3.73,  0.0858,  0,    0,       0.00190, 0,   3.82],
-      ['民生費', 0.813, 1.10,    0,    0,       0.174,   0,   2.09],
-      ['衛生費', 2.51,  0.00486, 0,    0,       0.0118,  0,   2.53],
-      ['商工費', 0.189, 0,       0,    0.0108,  0,       0,  0.200],
-      ['土木費', 0.894, 0,       0,    0,       0,       0,  0.894],
       ['教育費', 4.44,  0.494,   1.33, 0.00520, 0.247,   0,   6.52],
+      ['総務費', 3.73,  0.0858,  0,    0,       0.00190, 0,   3.82],
+      ['衛生費', 2.51,  0.00486, 0,    0,       0.0118,  0,   2.53],
+      ['民生費', 0.813, 1.10,    0,    0,       0.174,   0,   2.09],
       ['予備費', 0,     2.00,    0,    0,       0.0647,  0, 0.0647],
+      ['土木費', 0.894, 0,       0,    0,       0,       0,  0.894],
+      ['商工費', 0.189, 0,       0,    0.0108,  0,       0,  0.200],
     ]);
     var options = {
       fontName: "UD デジタル 教科書体 N-R",
@@ -150,6 +197,7 @@
   }
 </script>
 
+今回最も高額なのは教育費の約6億5千万円で、そのうち約5億円が、上記したようにGIGAスクール構想実現のための経費です。市の一般財源から
 
 <div id="kurikosi-meikyo-summary" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
@@ -159,8 +207,8 @@
     var data = google.visualization.arrayToDataTable([
       ['項目', '億円', { role: 'annotation' }],
       ['総務費', 1.88,   1.88],
-      ['民生費', 0,      0],
       ['衛生費', 0.342,  0.342],
+      ['民生費', 0,      0],
       ['商工費', 0,      0],
       ['土木費', 0,      0],
       ['教育費', 0,      0],
@@ -209,11 +257,61 @@
   }
 </script>
 
-### 総務費内訳
+### それぞれの費用内訳
 
-総務費は全額が「総務管理費」でした。
+<div id="kyouiku-hi-uchiwake" style="width:100%;height: 350px;"></div>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+      ['費目', '億円', { role: 'annotation' }],
+      ['小学校費：学校管理費',     4.18,   4.18],
+      ['中学校費：学校管理費',     1.84,   1.84],
+      ['教育指導費',              0.0840, 0.0840],
+      ['小学校費：学校保険体育費', 0.0780, 0.0780],
+      ['中学校費：学校保険体育費', 0.056,  0.056],
+    ]);
+    var options = {
+      fontName: "UD デジタル 教科書体 N-R",
+      legend: {
+        position: 'in',
+        alignment: 'end',
+        maxLines: 3,
+        textStyle: {
+          fontSize: 16
+        },
+      },
+      title: '教育費内訳',
+      titleTextStyle: {
+          fontSize: 18
+      },
+      series: {
+        0: {
+            annotations: {
+              textStyle: {
+                color: 'black',
+                fontName: 'UD デジタル 教科書体 N-R',
+                fontSize: 18,
+              },
+            },
+        }
+      },
+      vAxis: {
+        format: '#.##千万円',
+        textStyle: {
+          fontName: 'UD デジタル 教科書体 N-R',
+          fontSize: 18,
+        },
+      },
+      chartArea:{top:30,height:'75%'}
+    };
+    var chart = new google.visualization.ColumnChart(document.getElementById('kyouiku-hi-uchiwake'));
+    chart.draw(data, options);
+  }
+</script>
 
-<div id="soumu-hi-uchiwake" style="width:100%;height: 350px;"></div>
+<div id="soumu-hi-uchiwake" style="width:100%;height: 350px;margin-top:30px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
   google.charts.setOnLoadCallback(drawChart);
@@ -222,9 +320,9 @@
       ['費目', '億円', { role: 'annotation' }],
       ['一般管理費',         1.24,   1.24],
       ['情報システム運営費',   0.967, 0.967],
+      ['市民文化会館費',      0.626,  0.626],
       ['安全安心まちづくり費', 0.554, 0.554],
       ['地域振興費',          0.236, 0.236],
-      ['市民文化会館費',      0.626,  0.626],
       ['諸費',               0.0198, 0.0198],
     ]);
     var options = {
@@ -275,14 +373,14 @@
     var data = google.visualization.arrayToDataTable([
       ['費目', '億円', { role: 'annotation' }],
       ['社会福祉総務費',      0.677,   0.677],
-      ['障害者福祉施設管理費', 0.0915, 0.0915],
-      ['障害者自立支援給付費', 0.0110, 0.0110],
-      ['児童福祉総務費',      0.311, 0.311],
       ['保育所運営費',      0.405,  0.405],
-      ['児童福祉施設管理費', 0.0644, 0.0644],
-      ['児童助成費', 0.2160, 0.2160],
+      ['児童福祉総務費',      0.311, 0.311],
       ['学童クラブ費', 0.300, 0.300],
+      ['児童助成費', 0.2160, 0.2160],
+      ['障害者福祉施設管理費', 0.0915, 0.0915],
+      ['児童福祉施設管理費', 0.0644, 0.0644],
       ['児童館運営費', 0.0150, 0.0150],
+      ['障害者自立支援給付費', 0.0110, 0.0110],
     ]);
     var options = {
       fontName: "UD デジタル 教科書体 N-R",
@@ -477,170 +575,16 @@
 </script>
 
 
-<div id="kyouiku-hi-uchiwake" style="width:100%;height: 350px;margin-top:100px;"></div>
-<script type="text/javascript">
-  google.charts.load('current', {'packages':['corechart']});
-  google.charts.setOnLoadCallback(drawChart);
-  function drawChart() {
-    var data = google.visualization.arrayToDataTable([
-      ['費目', '億円', { role: 'annotation' }],
-      ['教育指導費',      0.0840,   0.0840],
-      ['小学校費：学校管理費',      4.18,   4.18],
-      ['小学校費：学校保険体育費',      0.0780,   0.0780],
-      ['中学校費：学校管理費',      1.84,   1.84],
-      ['中学校費：学校保険体育費',      0.056,   0.056],
-    ]);
-    var options = {
-      fontName: "UD デジタル 教科書体 N-R",
-      legend: {
-        position: 'in',
-        alignment: 'end',
-        maxLines: 3,
-        textStyle: {
-          fontSize: 16
-        },
-      },
-      title: '教育費内訳',
-      titleTextStyle: {
-          fontSize: 18
-      },
-      series: {
-        0: {
-            annotations: {
-              textStyle: {
-                color: 'black',
-                fontName: 'UD デジタル 教科書体 N-R',
-                fontSize: 18,
-              },
-            },
-        }
-      },
-      vAxis: {
-        format: '#.##千万円',
-        textStyle: {
-          fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 18,
-        },
-      },
-      chartArea:{top:30,height:'75%'}
-    };
-    var chart = new google.visualization.ColumnChart(document.getElementById('kyouiku-hi-uchiwake'));
-    chart.draw(data, options);
-  }
-</script>
 
-<!--
-<select id="gridjs-kan-select">
-  <option value="default">費目を選択</option>
-  <option>総務費</option>
-  <option>民生費</option>
-</select>
-<script type="text/javascript">
-  document.querySelector("#gridjs-kan-select").addEventListener("change", (e) => {
-    const elm = e.target;
-    const searchInput = document.querySelector(".gridjs-input");
-    let t = elm.options[elm.selectedIndex].text;
-    if(elm.value === "default") t = "";
-    searchInput.value = t;
-    searchInput.dispatchEvent(new Event('input'));
-  });
-</script>
--->
 
-<div id="saisyutu-detail"></div>
-<script type="text/javascript">
-const grid = new gridjs.Grid({
-  columns: [
-      {
-        name: '款',
-        width: 'auto'
-      },
-      {
-        name: '項',
-        width: 'auto'
-      },
-      {
-        name: '目',
-        width: 'auto'
-      },
-      {
-        name: '事業',
-        width: 'auto'
-      },
-      {
-        name: '費目',
-        width: 'auto'
-      },
-      {
-        name: '内容',
-        formatter: (cell, row) => cell === "" ? row.cells[3].data : gridjs.html(cell),
-        width:'auto'
-      },
-      {
-        name: gridjs.html('金額<br>千円'),
-        formatter: (cell) => cell.toLocaleString(),
-        width:'auto'
-      }
-   ],
-   data: [
-    ["総務費", "総務管理費", "一般管理費", "庁舎管理事業", "修繕料", "", 2420],
-    ["総務費", "総務管理費", "一般管理費", "庁舎管理事業", "改良・改修工事", "庁舎エレベーター改修工事", 121522],
-    ["総務費", "総務管理費", "一般管理費", "庁舎管理事業", "機械器具費", "非接触型温度計", 55],
-    ["総務費", "総務管理費", "情シス運営費", "情シス管理・運営事業", "通信運搬費", "", 399],
-    ["総務費", "総務管理費", "情シス運営費", "情シス管理・運営事業", "電算関係業務委託", "新住民情報システム・コンビニ交付構築分<br>公共施設予約システム再構築<br>都市計画・建築行政・道路管理情報提供システム構築", 93359],
-    ["総務費", "総務管理費", "情シス運営費", "情シス管理・運営事業", "使用料", "Web会議システムサービス使用料", 144],
-    ["総務費", "総務管理費", "情シス運営費", "情シス管理・運営事業", "庁用器具費", "公共施設予約システム用端末・プリンタ", 2843],
-    ["総務費", "総務管理費", "安全安心まちづくり費", "防災施設の維持管理事業", "防災用器具費", "非常用可搬型親局装置", 7590],
-    ["総務費", "総務管理費", "安全安心まちづくり費", "防災施設及び備蓄品の整備事業", "消耗品費", "", 30441],
-    ["総務費", "総務管理費", "安全安心まちづくり費", "防災施設及び備蓄品の整備事業", "防災用器具費", "災害時テント<br>応急給水等資機材倉庫<br>災害時用ベッド<br>避難所用発電機", 16222],
-    ["総務費", "総務管理費", "地域振興費", "防犯対策事業", "消耗品費", "自動通話録音機", 1166],
-    ["総務費", "総務管理費", "地域振興費", "地域センター維持管理事業", "修繕料", "修繕料", 8616],
-    ["総務費", "総務管理費", "地域振興費", "地域センター維持管理事業", "庁用器具費", "空調設備", 10107],
-    ["総務費", "総務管理費", "地域振興費", "小平元気村おがわ東維持管理事業", "修繕料", "修繕料", 1960],
-    ["総務費", "総務管理費", "地域振興費", "小平元気村おがわ東維持管理事業", "庁用器具費", "空調設備", 2374],
-    ["総務費", "総務管理費", "地域振興費", "平櫛田中彫刻美術館管理運営事業", "庁用器具費", "平櫛田中館 除菌消臭器", 515],
-    ["総務費", "総務管理費", "市民文化会館費", "市民文化会館管理運営事業", "施設等維持管理委託", "ルネ小平 維持管理委託", 4798],
-    ["総務費", "総務管理費", "市民文化会館費", "市民文化会館管理運営事業", "設計等委託", "ルネ小平 自動ドア設計業務委託", 1452],
-    ["総務費", "総務管理費", "市民文化会館費", "市民文化会館管理運営事業", "改良・改修工事", "ルネ小平 空調設備改良改修工事<br>ルネ小平 自動ドア設置工事", 56356],
-    ["総務費", "総務管理費", "諸費", "多摩六都科学館組合事業", "負担金", "多摩六都科学館 事業継続支援", 11819],
-    ["総務費", "総務管理費", "諸費", "私立幼稚園教育充実振興事業", "補助金（福祉団体等）", "コロナ対策事業費補助<br>認定こども園、幼稚園<br>コロナ緊急包括支援事業<br>幼稚園型一時預かり事業", 8000],
-    ["民生費", "社会福祉費", "生活困窮自立支援事業", "社会福祉総務費", "住居確保給付金", 67702],
-    ["民生費", "社会福祉費", "障害者福祉施設管理事業", "サービス業務委託", "たいよう福祉センター指定管理料<br>あおぞら福祉センター指定管理料", 386],
-    ["民生費", "社会福祉費", "障害者福祉施設管理事業",　"庁用器具費", "たいよう福祉センター感染症対策庁用器具<br>あおぞら福祉センター感染症対策庁用器具", 8763],
-    ["民生費", "社会福祉費", "障害者事業所等業務継続支援事業","補助金（福祉団体等）", "障がい事業所等職員特別支援金", 1100],
-    ["民生費", "児童福祉費", "保育課の運営事業", "消耗品費", "保育課の運営事業：消耗品費", 500],
-    ["民生費", "児童福祉費", "保育課の運営事業", "補助金（福祉団体等）", "保育課の運営事業：消耗品費", 500]
-  ],
-  search: true,
-  sort: {
-    enabled: true,
-    multiColumn: true
-  },
-  pagination: {
-    enabled: true,
-    limit: 10
-  },
-  fixedHeader: true,
-  language: {
-    'search': {
-      'placeholder': '🔍 検索...'
-    },
-    'pagination': {
-      'previous': '←',
-      'next': '→',
-      'showing': '　',
-      'to': '～',
-      'of': '（全',
-      'results': () => '件）'
-    }
-  }
-}).render(document.getElementById("saisyutu-detail"));
-</script>
 
 ## 主な質疑
 {{#include ../partials/situgi_hanrei.md}}
 
-### ＠ 6月9日 総務委員会
+### ＠ 本会議
+
+
+### ＠ 総務委員会
 {{#include ../partials/yasutake-speak.md:1}} 総務委員会には、一人会派の会から橋本久雄議員が委員として参加しています。
 
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>

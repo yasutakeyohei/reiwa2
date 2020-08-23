@@ -47,4 +47,190 @@
 </fieldset>
 
 
+## 賛否
+
+私（安竹洋平）の賛否理由は各議案のページをご参照ください。
+
+<table>
+  <caption style="text-align:right;">〇：賛成、×：反対</caption>
+  <thead>
+    <tr>
+      <td>氏名</td>
+      <td>会派</td>
+      <td>20号</td>
+      <td>21<br>～<br>36号</td>
+      <td>37号</td>
+      <td>38号</td>
+      <td>39号</td>
+      <td>40号</td>
+      <td>41号</td>
+      <td>42号</td>
+      <td>43号</td>
+      <td>議員<br>提出<br>20号</td>
+      <td>議員<br>提出<br>21号</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="background-color:#ffffc5;">
+      <td><strong>安竹　洋平</strong></td>
+      <td>一人会派の会</td>
+      <td><strong><a href="./gian-20.md">〇</a></strong></td>
+      <td><strong><a href="./gian-21_36.md">〇</a></strong></td>
+      <td><strong><a href="./gian-37.md">〇</a></strong></td>
+      <td><strong><a href="./gian-38.md">〇</a></strong></td>
+      <td><strong><a href="./gian-39.md">〇</a></strong></td>
+      <td><strong><a href="./gian-40.md">〇</a></strong></td>
+      <td><strong><a href="./gian-41.md">〇</a></strong></td>
+      <td><strong><a href="./gian-42.md">〇</a></strong></td>
+      <td><strong><a href="./gian-43.md">×</a></strong></td>
+      <td><strong><a href="./giin-gian-20.md">〇</a></strong></td>
+      <td><strong><a href="./giin-gian-21.md">〇</a></strong></td>
+    </tr>
+    <tr>
+      <td>伊藤　央</td>
+      <td>一人会派の会</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>×</td>
+      <td>〇</td>
+      <td>〇</td>
+    </tr>
+    <tr>
+      <td>中江　美和</td>
+      <td>一人会派の会</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+    </tr>
+    <tr>
+      <td>橋本　久雄</td>
+      <td>一人会派の会</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+      <td>〇</td>
+    </tr>
+    <tr>
+      <td>磯山　亮</td>
+      <td>政和会</td>
+      <td colspan="11">議長のため採決には不参加</td>
+    </tr>
+    <tr>
+      <td>小野　高一</td>
+      <td>政和会</td>
+      <td colspan="11">欠席</td>
+    </tr>
+    <tr>
+      <td>鈴木　洋一</td>
+      <td>政和会</td>
+      <td colspan="11" rowspan="22" style="text-align:left;vertical-align:top;">以下全員、全議案に〇</td>
+    </tr>
+    <tr>
+      <td>比留間　洋一</td>
+      <td>政和会</td>
+    </tr>
+    <tr>
+      <td>福室　英俊</td>
+      <td>政和会</td>
+    </tr>
+    <tr>
+      <td>松岡　あつし</td>
+      <td>政和会</td>
+    </tr>
+    <tr>
+      <td>山田　大輔</td>
+      <td>政和会</td>
+    </tr>
+    <tr>
+      <td>虻川　浩</td>
+      <td>市議会公明党</td>
+    </tr>
+    <tr>
+      <td>佐藤　徹</td>
+      <td>市議会公明党</td>
+    </tr>
+    <tr>
+      <td>津本　裕子</td>
+      <td>市議会公明党</td>
+    </tr>
+    <tr>
+      <td>橋本　孝二</td>
+      <td>市議会公明党</td>
+    </tr>
+    <tr>
+      <td>山岸　真知子</td>
+      <td>市議会公明党</td>
+    </tr>
+    <tr>
+      <td>幸田　昌之</td>
+      <td>市議会公明党</td>
+    </tr>
+    <tr>
+      <td>川里　富美</td>
+      <td>フォーラム小平</td>
+    </tr>
+    <tr>
+      <td>小林　洋子</td>
+      <td>フォーラム小平</td>
+    </tr>
+    <tr>
+      <td>竹井　ようこ</td>
+      <td>フォーラム小平</td>
+    </tr>
+    <tr>
+      <td>吉本　ゆうすけ</td>
+      <td>フォーラム小平</td>
+    </tr>
+    <tr>
+      <td>きせ　恵美子</td>
+      <td>日本共産党小平市議団</td>
+    </tr>
+    <tr>
+      <td>鈴木　だいち</td>
+      <td>日本共産党小平市議団</td>
+    </tr>
+    <tr>
+      <td>細谷　正</td>
+      <td>日本共産党小平市議団</td>
+    </tr>
+    <tr>
+      <td>さとう　悦子</td>
+      <td>生活者ネットワーク</td>
+    </tr>
+    <tr>
+      <td>山浦　まゆみ</td>
+      <td>生活者ネットワーク</td>
+    </tr>
+    <tr>
+      <td>山﨑　とも子</td>
+      <td>生活者ネットワーク</td>
+    </tr>
+    <tr>
+      <td>水口　かずえ</td>
+      <td>まちづくり市民こだいら</td>
+    </tr>
+  </tbody>
+</table>
+
 {{#include ../partials/kaigiroku.md}}

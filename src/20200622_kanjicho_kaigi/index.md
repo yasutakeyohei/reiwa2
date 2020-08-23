@@ -17,7 +17,7 @@
 
 <fieldset class="nittei">
   <legend>
-    <h2> 日程 </h2>
+    <h2> <i class="fa fa-list-alt" aria-hidden="true"></i>日程 </h2>
   </legend>
 
 1. [市長報告事項](#1-市長報告事項)
