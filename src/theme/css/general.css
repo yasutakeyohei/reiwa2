@@ -8,7 +8,7 @@
 }
 
 html {
-    font-family: "UD デジタル 教科書体 N-R", "Open Sans", sans-serif;
+    font-family: "UD デジタル 教科書体 N-R", "BIZ UDゴシック Regular", "Hiragino Kaku Gothic ProN", "ascii";
     color: var(--fg);
     background-color: var(--bg);
     text-size-adjust: none;
