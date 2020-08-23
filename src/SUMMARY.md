@@ -5,7 +5,7 @@
 - [8月3日：8月臨時会](./20200803_rinjikai/index.md)
     - [諸報告](./20200803_rinjikai/syohokoku.md)
         - [例月現金出納検査（令和2年4月）](./20200803_rinjikai/reigetu-04.md)
-    - [第44号 一般補正](./20200803_rinjikai/gian-44.md)
+    - [第44号 一般補正（作成中）](./20200803_rinjikai/gian-44.md)
 - [7月27日：幹事長会議（臨時）](./20200727_kanjicho_kaigi/index.md)
 - [6月2-26日：6月定例会（一部作成中）](./20200602_teireikai/index.md)
     - [諸報告](./20200602_teireikai/syohokoku.md)
@@ -39,7 +39,6 @@
 - [5月14日：幹事長会議](./20200514_kanjicho_kaigi/index.md)
 - [5月08日：幹事長会議](./20200508_kanjicho_kaigi/index.md)
 
-
 [■ 本会議における質問ルールと問題点](./honkaigi-situmon-mondai.md)
 
 [■ 幹事長会議の問題点](./kanjicho-kaigi-mondai.md)
@@ -47,3 +46,5 @@
 [■ 議会に関する著作権について](./gikai-chosaku-ken.md)
 
 [■ 小平町親善訪問は見直しを](./obira-cho.md)
+
+[ふらっとビューア（予算決算）](./flat-viewer.md)
