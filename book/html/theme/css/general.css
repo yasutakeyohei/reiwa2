@@ -276,6 +276,11 @@ fieldset.summary {
     margin: 0;
     padding: 0;
 }
+.sanpi.NG {
+}
+.sanpi.OK {
+
+}
 .point p,
 .sanpi p,
 .summary p {

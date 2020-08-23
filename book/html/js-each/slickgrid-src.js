@@ -509,12 +509,11 @@ const setAutosizeOptions = () => {
 }
 
 const filter = item => {
-  console.log(item);
   for (const [key, value] of columnFiltersMap) {
     if (value !== "") {
       const column = grid.getColumns()[grid.getColumnIndex(key)];
 
-      // 検索語にマッチしない行はfalseで返す
+      // 検索語にマッチしない行はfalseで返す（表示しない）
       if (column.cssClass === "cell-id" || column.cssClass === "cell-amount") {
         //if (item[column.field] === undefined) return false;
         let f = (/([=><]{1,2})?\s?(\d*)/gm).exec(value);
@@ -525,7 +524,15 @@ const filter = item => {
           if (String(item[column.field]).replace(/,/g, '') !== f[2]) return false;
         }
       } else {
-        if (item[column.field].indexOf(value) === -1) return false;
+        let f = (/([!=]{1})?\s?(.*)/gm).exec(value);
+        if(f[2] === undefined) f[2] = "";
+        if(f[1] === "!") {
+          if (item[column.field].indexOf(f[2]) !== -1) return false; // 文字列がマッチしたらFalse（表示しない）
+        } else if(f[1] === "=") {
+          if (item[column.field] !== f[2]) return false; // 完全一致
+        } else {
+          if (item[column.field].indexOf(f[2]) === -1) return false; // 文字列がマッチしなかったらFalse
+        }
       }
     }
   }
