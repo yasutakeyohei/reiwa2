@@ -429,9 +429,9 @@ let columnFiltersMap = new Map();
 
 const columns = [
   {id: "id", name: "ID", field: "id", width: 120, cssClass: "cell-id", sortable: true},
-  {id: "kan", name: "款", field: "kan", width: 120, cssClass: "cell-kan", sortable: true},
-  {id: "kou", name: "項", field: "kou", width: 120, cssClass: "cell-kou", sortable: true},
-  {id: "moku", name: "目", field: "moku", width: 120, cssClass: "cell-moku", sortable: true},
+  {id: "kan", name: "款", field: "kan", width: 120, cssClass: "cell-kan-kou-moku", sortable: true},
+  {id: "kou", name: "項", field: "kou", width: 120, cssClass: "cell-kan-kou-moku", sortable: true},
+  {id: "moku", name: "目", field: "moku", width: 120, cssClass: "cell-kan-kou-moku", sortable: true},
   {id: "tantouka", name: "担当課", field: "tantouka", width: 120, cssClass: "cell-tantouka", sortable: true},
   {id: "jigyou", name: "事業", field: "jigyou", width: 120, cssClass: "cell-jigyou", sortable: true},
   {id: "kokko_kin", name: "国庫支出金", field: "kokko_kin", width: 120, cssClass: "cell-amount", sortable: true, groupTotalsFormatter: sumTotalsFormatter},
@@ -515,7 +515,7 @@ const filter = item => {
 
       // 検索語にマッチしない行はfalseで返す（表示しない）
       if (column.cssClass === "cell-id" || column.cssClass === "cell-amount") {
-        //if (item[column.field] === undefined) return false;
+        if (item[column.field] === undefined) return false; //undefの行はスキップ
         let f = (/([=><]{1,2})?\s?(\d*)/gm).exec(value);
         if(f[2] === undefined || f[2] === "") f[2] = 0;
         if (f[1]) {
@@ -526,12 +526,14 @@ const filter = item => {
       } else {
         let f = (/([!=]{1})?\s?(.*)/gm).exec(value);
         if(f[2] === undefined) f[2] = "";
+        let cellVal   = item[column.field].toLowerCase(); //case insensitiveに
+        let filterVal = f[2].toLowerCase(); //case insensitiveに
         if(f[1] === "!") {
-          if (item[column.field].indexOf(f[2]) !== -1) return false; // 文字列がマッチしたらFalse（表示しない）
+          if (cellVal.indexOf(filterVal) !== -1) return false; // 文字列がマッチしたらFalse（表示しない）
         } else if(f[1] === "=") {
-          if (item[column.field] !== f[2]) return false; // 完全一致
+          if (cellVal !== filterVal) return false; // 完全一致
         } else {
-          if (item[column.field].indexOf(f[2]) === -1) return false; // 文字列がマッチしなかったらFalse
+          if (cellVal.indexOf(filterVal) === -1) return false; // 文字列がマッチしなかったらFalse
         }
       }
     }
@@ -565,11 +567,11 @@ ippanSaisyutuArray.forEach((arr) => {
 
   d["id"] = index + 1;
   d["kan_id"] = kan_id;
-  d["kan"] = kanMap.get(kan_id);
+  d["kan"] = kan_id + "." + kanMap.get(kan_id);
   d["kou_id"] = kou_id;
-  d["kou"] = kouMap.get([kan_id, kou_id].join("-"));
+  d["kou"] = kou_id + "." + kouMap.get([kan_id, kou_id].join("-"));
   d["moku_id"] = moku_id;
-  d["moku"] = mokuMap.get([kan_id, kou_id, moku_id].join("-"));
+  d["moku"] = moku_id + "." + mokuMap.get([kan_id, kou_id, moku_id].join("-"));
   d["tantouka"] = tantoukaMap.get(tantouka_id);
   d["jigyou"] = jigyouMap.get(jigyou_id);
   d["kokko_kin"] = kokko_kin.toLocaleString();
@@ -590,11 +592,11 @@ ippanSaisyutuArray.forEach((arr) => {
       const amount = (darr[4] === undefined) ? "0" : darr[4].toLocaleString();
       d["id"] = index + 1;
       d["kan_id"] = kan_id;
-      d["kan"] = kanMap.get(kan_id);
+      d["kan"] = kan_id + "." + kanMap.get(kan_id);
       d["kou_id"] = kou_id;
-      d["kou"] = kouMap.get([kan_id, kou_id].join("-"));
+      d["kou"] = kou_id + "." + kouMap.get([kan_id, kou_id].join("-"));
       d["moku_id"] = moku_id;
-      d["moku"] = mokuMap.get([kan_id, kou_id, moku_id].join("-"));
+      d["moku"] = moku_id + "." + mokuMap.get([kan_id, kou_id, moku_id].join("-"));
       d["tantouka"] = tantoukaMap.get(tantouka_id);
       d["jigyou"] = jigyouMap.get(jigyou_id);
       d["himoku"] = himokuMap.get(darr[1]);
@@ -664,7 +666,11 @@ grid.onSort.subscribe((e, args) => {
         let v1 = value1.replace( /(<([^>]+)>)/ig, '');
         let v2 = value2.replace( /(<([^>]+)>)/ig, '');
         result = (v1 == v2 ? 0 : (v1 > v2 ? 1 : -1)) * sign;
-      }else {
+      } else if(cols[i].sortCol.cssClass === "cell-kan-kou-moku") {
+        let v1 = Number(value1.substring(0, value1.indexOf(".")));
+        let v2 = Number(value2.substring(0, value2.indexOf(".")));
+        result = (v1 == v2 ? 0 : (v1 > v2 ? 1 : -1)) * sign;
+      } else {
         result = (value1 == value2 ? 0 : (value1 > value2 ? 1 : -1)) * sign;
       }
       if (result != 0) {
