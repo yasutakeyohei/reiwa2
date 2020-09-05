@@ -460,3 +460,19 @@ table.simple td {
     padding: 0.8rem;
     line-height: 2rem;
 }
+
+div.redbox {
+    border: 1px dashed red;
+    border-radius: 1rem;
+    margin: 0;
+}
+
+div.redbox:before {
+    content: "🤔気になるコト（要確認事項）";
+    display: block;
+    text-align: right;
+}
+
+div.redbox ul {
+    margin: 0.2em 0;
+}
