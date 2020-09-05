@@ -29,6 +29,37 @@
   <p class="sanpi NG">❌ 次回臨時交付金に向けても、市のビジョンを示す必要があるが、片鱗すら見えない</p>
 </fieldset>
 
+## 目次
+- [概要](#概要)
+- [解説](#解説)
+  - [今まででもっともひどい予算！💢](#今まででもっともひどい予算)
+    - [今まで対応してこなかったツケ払いと不急事業に約3億5千万円💸](#今まで対応してこなかったツケ払いと不急事業に約3億5千万円-)
+    - [この時期に使用頻度の低いエレベーターや自動ドアに巨費を投じるのは驚き😨](#この時期に使用頻度の低いエレベーターや自動ドアに巨費を投じるのは驚き)
+  - [原因は市長。職員に責任を取らせるようではダメ](#原因は市長職員に責任を取らせるようではダメ)
+  - [もう一つの原因は議会の機能不全 💤🏛️💤](#もう一つの原因は議会の機能不全-)
+    - [反対意見を出しながら決議では賛成に回る与党議員たち → 市民を舐めている](#反対意見を出しながら決議では賛成に回る与党議員たち--市民を舐めている)
+    - [時間がもったいないので、ムダに長い反対意見表明はやめてほしい⏱](#時間がもったいないのでムダに長い反対意見表明はやめてほしい)
+    - [反対するのは、行政側との緊張感を保ち、議案をブラッシュアップするため](#反対するのは行政側との緊張感を保ち議案をブラッシュアップするため)
+  - [小平市の現状をイラストにしてみました](#小平市の現状をイラストにしてみました)
+  - [小平市の理想像をイラストにしてみました](#小平市の理想像をイラストにしてみました)
+  - [補正予算を分析する](#補正予算を分析する)
+    - [ふらっとビューア予算決算 ver 1.0](#ふらっとビューア予算決算-ver-10)
+    - [ふらっとビューアで予算詳細を見る](#ふらっとビューアで予算詳細を見る)
+    - [それぞれの費用内訳](#それぞれの費用内訳)
+      - [教育費](#教育費)、[総務費](#総務費)、[民生費](#民生費)、[衛生費](#衛生費)、[商工費](#商工費)、[土木費](#土木費)
+- [主な質疑（発言順）](#主な質疑発言順)
+  - [＠ 本会議](#-本会議)
+  - [＠ 総務委員会](#-総務委員会)
+    - [総務委員会での賛否](#総務委員会での賛否)
+- [本会議でのやり取り](#本会議でのやり取り)
+  - [組み替え動議](#組み替え動議)
+    - [組み替え動議に対する質疑](#組み替え動議に対する質疑)
+    - [組み替え動議に対する討論](#組み替え動議に対する討論)
+  - [原案に対する討論](#原案に対する討論)
+  - [原案に対する賛否](#原案に対する賛否)
+
+
+
 ## 概要
 コロナ禍に対応するため国から支給される「新型コロナ感染症対応地方創生臨時交付金」を受けた補正予算です。小平市への交付金は約12億円あり、その全額を活用します。それ以外に都から2億円。小平市自身の支出は、まず、GIGAスクール構想の実現に向けて教員用タブレットやネット環境を設備を整備する目的で、市債を約1億5千万円計上しています。さらに一般財源からはきっかり5千万円を支出し、これはセーフティネットとしての住居確保給付金の増額と、小中学校の新型コロナウイルス感染症対策等に使用されます。総額16億円という、自由度の高い予算として巨額の内容になっています。
 
@@ -60,9 +91,9 @@
 
 </details>
 
-## 解説　{{#include ../partials/yasutake-speak.md:1}}
+## 解説
 
-#### 今まででもっともひどい予算！💢
+### 今まででもっともひどい予算！💢
 私が小平市議会議員になって1年4か月。今まで最もひどい予算です。今回は臨時交付金が約12億円と、自由に巨額の予算が使えるめったにない機会でした。「コロナ禍に対応する」という名目で市をアップグレードするまたとないチャンスでした。しかし市はこの千載一遇のチャンスを無駄にしました。故障が頻発する空調設備の改修、エンジンが止まることもあるコミュニティバス・タクシーの更新、公園遊具の修繕など、これまで予算がつかなかったために放置されていた、いわゆる「ツケ」の分を払うため（もしくは「つじつま合わせのため」と言った方がいいかもしれません）に使われます。また、自動ドア設置、公共施設予約システム、トイレの手洗い自動水洗化、ホームページリニューアルなど、不急の事業にも巨費が投じられることになります。
 
 この時期に不急の事業に投資することはもちろんのこと、まずそもそもツケ払いをしなければならないこと自体がおかしいです。ツケ払いをしなくてはならないような状況というのは「当初計画の想定不足」もしくは「想定外の事態が起きた」ということであり、その時点ですぐに見直しが必要なはずだからです。また、国から目的が定められて交付されている資金を関係のないところに流用することは、市としての誠実性の問題でもあると思います。
@@ -71,7 +102,7 @@
 
 残念ながら、小平市ではすべての議案が可決されます。
 
-##### 今まで対応してこなかったツケ払いと不急事業に約3億5千万円 💸
+#### 今まで対応してこなかったツケ払いと不急事業に約3億5千万円 💸
 
 補正予算のうち、ツケ払いに該当、もしくは不急、アイデア次第で費用削減が可能と思われる事業をざっと金額順に並べました。総額は約3億5千万円です。すべて臨時交付金を100%充当しており、市からの支出はないものの、せっかく他の事業に使える分がそれだけ減っていることになります。
 
@@ -198,7 +229,7 @@
 
 「地方創生臨時交付金」も天から降ってくるわけではなく、原資は私たちの税金です。コロナ禍で苦しい中、利用頻度の低いエレベーターや自動ドアに税金の多くを投じてほしいなどと、いったい誰が願うでしょうか？空調設備に関しても、感染者数や重症者数がほとんど増えていない状況でそこまでお金をかけるべきこととは思えません。さらに、それら不要/不急と思える事業のうち多くが、設備の老朽化を。やるべきことをその時点でやってこなかったためにツケがたまり、自由度の高い資金が使える稀有のチャンスが、それらツケの支払いに使われてしまうという事態が起きているのです。
 
-#### 原因は市長。職員に責任を取らせるようではダメ
+### 原因は市長。職員に責任を取らせるようではダメ
 
 なぜこのようなひどい予算案になってしまうのか。一番大きな原因は、市長の不作為（やる気なし）であると私は判断しています。市長は人柄が気さくで、正直なところ私も嫌いにはなれません。しかし、いかんせん、やる気がない。やる気がないために、市長がやるべき仕事を職員が担っています。職員がどんなに優秀であっても、彼らは市民に選ばれた存在ではないため、重大な決断ができません。4年間の任期もなく、定年まで働き続けることもあり、大きな責任を取る前提で働いていないのです。無難な案を採用するバイアスがあります。つまり、すべての責任を職員に背負わせると、各部署の要望を束ねただけだったり、これまでのツケ払いをするような予算編成になり、抜本的な改革は行われないまま先細りになるばかりなのです。
 
@@ -209,13 +240,13 @@
 <div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;zoom&quot;:1.2,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile host=\&quot;2a10f42a-a574-4a8e-a281-bb6f86ff300f\&quot; modified=\&quot;2020-08-23T16:12:12.421Z\&quot; agent=\&quot;5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36\&quot; etag=\&quot;TDQClBC77wRxENRbrCl4\&quot; version=\&quot;13.1.3\&quot;&gt;&lt;diagram id=\&quot;6hGFLwfOUW9BJ-s0fimq\&quot; name=\&quot;Page-1\&quot;&gt;&lt;mxGraphModel dx=\&quot;762\&quot; dy=\&quot;446\&quot; grid=\&quot;1\&quot; gridSize=\&quot;10\&quot; guides=\&quot;1\&quot; tooltips=\&quot;1\&quot; connect=\&quot;1\&quot; arrows=\&quot;1\&quot; fold=\&quot;1\&quot; page=\&quot;1\&quot; pageScale=\&quot;1\&quot; pageWidth=\&quot;827\&quot; pageHeight=\&quot;1169\&quot; math=\&quot;0\&quot; shadow=\&quot;0\&quot;&gt;&lt;root&gt;&lt;mxCell id=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;1\&quot; parent=\&quot;0\&quot;/&gt;&lt;mxCell id=\&quot;9\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;2\&quot; target=\&quot;3\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;2\&quot; value=\&quot;市長にやる気がない&amp;lt;br&amp;gt;責任をとる気がない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;gradientColor=#7ea6e0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#000000;fontStyle=1\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;40\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;25\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;3\&quot; target=\&quot;4\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;3\&quot; value=\&quot;まちをどうするか&amp;lt;br&amp;gt;プランできない&amp;lt;br&amp;gt;ビジョンがない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;130\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;19\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;4\&quot; target=\&quot;5\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;4\&quot; value=\&quot;市の職員が&amp;lt;br&amp;gt;プランをつくり&amp;lt;br&amp;gt;予算を立てなければ&amp;lt;br&amp;gt;ならない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;190\&quot; y=\&quot;130\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;20\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;5\&quot; target=\&quot;13\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;5\&quot; value=\&quot;職員は市民に選ばれたわけではないので&amp;lt;br&amp;gt;責任を伴うプランは作成できない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;190\&quot; y=\&quot;220\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;21\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;13\&quot; target=\&quot;17\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;330\&quot; y=\&quot;340\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;13\&quot; value=\&quot;各部署の要望を&amp;lt;br&amp;gt;まとめて予算をつけるといった無難な選択しかできない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;190\&quot; y=\&quot;310\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;16\&quot; value=\&quot;愛嬌があるため問題視されにくい。&amp;lt;br&amp;gt;人柄がよくても、職責をまっとう&amp;lt;br&amp;gt;できなければ意味がない。\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;170\&quot; y=\&quot;35\&quot; width=\&quot;200\&quot; height=\&quot;70\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;28\&quot; style=\&quot;edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;17\&quot; target=\&quot;26\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;17\&quot; value=\&quot;将来につながるオンライン化の推進など大胆な施策に有効な投資がなされない\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;340\&quot; y=\&quot;310\&quot; width=\&quot;120\&quot; height=\&quot;60\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;26\&quot; value=\&quot;市民生活が&amp;lt;br&amp;gt;グレードアップ&amp;lt;br&amp;gt;していかない&amp;lt;br&amp;gt;閉塞感・停滞感\&quot; style=\&quot;rounded=0;whiteSpace=wrap;html=1;perimeterSpacing=1;strokeWidth=2;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;fontColor=#000000;fontStyle=1\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;330\&quot; y=\&quot;410\&quot; width=\&quot;140\&quot; height=\&quot;80\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;29\&quot; value=\&quot;やる気のある職員が提案しても&amp;lt;br&amp;gt;責任が生じるものは通りにくい。&amp;lt;br&amp;gt;働き甲斐がなくなり、つらい立場に。\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;320\&quot; y=\&quot;235\&quot; width=\&quot;210\&quot; height=\&quot;30\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;47\&quot; style=\&quot;edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;\&quot; edge=\&quot;1\&quot; parent=\&quot;1\&quot; source=\&quot;34\&quot;&gt;&lt;mxGeometry relative=\&quot;1\&quot; as=\&quot;geometry\&quot;&gt;&lt;mxPoint x=\&quot;400\&quot; y=\&quot;220\&quot; as=\&quot;targetPoint\&quot;/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;34\&quot; value=\&quot;&amp;lt;font color=&amp;quot;#000000&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;amp;#34;helvetica&amp;amp;#34; ; float: none ; display: inline&amp;quot;&amp;gt;責任を取る必要があると&amp;lt;br&amp;gt;キャリアに影響して損をする。&amp;lt;/span&amp;gt;&amp;lt;br style=&amp;quot;font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;amp;#34;helvetica&amp;amp;#34;&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;amp;#34;helvetica&amp;amp;#34; ; float: none ; display: inline&amp;quot;&amp;gt;　なるべくあたりさわりの&amp;lt;/span&amp;gt;&amp;lt;br style=&amp;quot;font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;amp;#34;helvetica&amp;amp;#34;&amp;quot;&amp;gt;&amp;lt;/font&amp;gt;&amp;lt;span style=&amp;quot;font-size: 12px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; font-family: &amp;amp;#34;helvetica&amp;amp;#34; ; float: none ; display: inline&amp;quot;&amp;gt;&amp;lt;font color=&amp;quot;#000000&amp;quot;&amp;gt;ないプランを作ろう！&amp;lt;/font&amp;gt;&amp;lt;br&amp;gt;&amp;lt;/span&amp;gt;\&quot; style=\&quot;ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;align=center;fillColor=none;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;340\&quot; y=\&quot;90\&quot; width=\&quot;220\&quot; height=\&quot;120\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;38\&quot; value=\&quot;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontColor=#000000;align=center;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;330\&quot; y=\&quot;140\&quot; width=\&quot;20\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;39\&quot; value=\&quot;\&quot; style=\&quot;ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;fontColor=#000000;align=center;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;320\&quot; y=\&quot;160\&quot; width=\&quot;10\&quot; height=\&quot;10\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;40\&quot; value=\&quot;士気低下のバイアス\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;450\&quot; y=\&quot;80\&quot; width=\&quot;130\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;42\&quot; value=\&quot;START\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;40\&quot; y=\&quot;20\&quot; width=\&quot;130\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;mxCell id=\&quot;43\&quot; value=\&quot;GOAL\&quot; style=\&quot;text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;\&quot; vertex=\&quot;1\&quot; parent=\&quot;1\&quot;&gt;&lt;mxGeometry x=\&quot;330\&quot; y=\&quot;390\&quot; width=\&quot;130\&quot; height=\&quot;20\&quot; as=\&quot;geometry\&quot;/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
 <script type="text/javascript" src="https://app.diagrams.net/js/viewer.min.js"></script>
 
-#### もう一つの原因は、議会の機能不全 💤🏛️💤
+### もう一つの原因は、議会の機能不全 💤🏛️💤
 
 さらなる問題が、市の行政チェックを行う私たち議員の方にあります。一人会派の会は当然ながら全員が今回の予算に反対しました。しかし私たちだけでは人数が足りず可決される可能性が高かったため、今回は自民党から提案された組み替え動議にも乗りました。それでも、他の会派が全て賛成したため、この予算は通ってしまいました。
 
 最近の小平市議会は、どんなに問題がある内容であっても、すべての案が可決されてしまいます。チェック機能が一切働いていません。各議員は選挙で選ばれていますから議決結果は受け入れますが、私から見ると<strong>小平市議会は完全に機能不全を起こしています。</strong>
 
-##### 反対意見を出しながら決議では賛成に回る与党議員たち → 市民を舐めている
+#### 反対意見を出しながら決議では賛成に回る与党議員たち → 市民を舐めている
 
 特におかしなことがあります。いわゆる与党と言われている、フォーラム小平、共産党、生活者ネットワーク、そして与党とは見なされていない公明党も、意見表明の場では、議案に反対するかのようなコメントをすることが良くあります。私も当初そうしたコメントを聞いて「おや、与党会派でも議案に反対することがあるのかな？🤔」と少しだけ思うことがありました。しかし、なんのことはない。結局、議決では賛成に回るのです。毎度のことです。
 
@@ -229,25 +260,25 @@
 
 一人会派の会議員は、みんな毎日イキイキしていますよ👍
 
-##### 時間の無駄なので、ムダに長い反対意見表明はやめてほしい⏱
+#### 時間がもったいないので、ムダに長い反対意見表明はやめてほしい⏱
 
 さて意見表明は自由ですけれども、どうせ最後には賛成に回ることが決まっているなら、少なくともコメントだけは短くしてもらいたいです。長々と反対のコメントをするのは、はっきりいって言い訳がましいですし、その場に出席している多くの人、特に職員の貴重な時間を奪い、市民のために仕事をする時間を奪っていることに気づいて欲しいところです。
 
-##### 反対するのは、行政側との緊張感を保ち、議案をブラッシュアップするため
+#### 反対するのは、行政側との緊張感を保ち、議案をブラッシュアップするため
 
-今回、水口議員が「動議が可決された場合、補正予算の執行が遅くなることを懸念している」との趣旨で組み替え動議に反対し、原案に賛成しました。しかしその理由は間違えています。今回はそこまで緊急性のあるものもありませんし（専決処分にもなっていませんし）、組み替え動議が通ったり否決されたりしても、執行部はすぐに対案を出してきます。彼らも否決される可能性を想定しています。そういう仕組みだからです。
+今回、「動議が可決された場合、補正予算の執行が遅くなることを懸念している」との趣旨で組み替え動議に反対した議員もいました。しかしその理由は間違えています。今回はそこまで緊急性のあるものもありませんし（専決処分にもなっていませんし）、組み替え動議が通ったり否決されたりしても、執行部はすぐに対案を出してきます。彼らも否決される可能性を想定しています。そういう仕組みだからです。
 
 先ほども書きましたが、我々議員は良くない議案については反対し、より良い内容にブラッシュアップするよう働きかけていく必要があります。議会は行政の暴走や怠慢を防ぐフィードバック装置としての、<strong>とてもとても重要な役割</strong>があります。正当な理由なくその筋を曲げるのであれば、議員として市民から信託を受けた大切な役割を放棄するということになります。水口議員は改正案が出るまでに数か月かかると他の議員から聞いたから、ということだそうですが、もし仮にそのようなことが起こるとしたら、それこそ執行部の大問題です。「まさか否決されることは一切想定してなかった！」などあり得ないからです。この件についてはすぐに考えを改めて欲しいと感じました。
 
 また、議員は単に反対ばかりしていれば良いわけではなく、対案も出していく必要があると思います。私は一般質問等で反対の際は同時に具体的な案も提示するよう心掛けています。今回の件に関しては、9月の一般質問で次回臨時交付金に向けた提案も行います。
 
-#### 小平市の現状
+### 小平市の現状をイラストにしてみました
 
 以上のことをまとめて、私が考えている小平市の現状を、一枚の絵に描いてみました↓  
 ちょっと文字が多いのですが・・・（クリック/タップで拡大します）  
 <img src="./ng-kodaira.jpg" alt="小平市現状はひどい" data-zoomable="">
 
-#### 小平市の理想像
+### 小平市の理想像をイラストにしてみました
 
 理想はこちらのような状況です↓
 <img src="./nice-kodaira.jpg" alt="小平市の理想像" data-zoomable="">
@@ -563,7 +594,9 @@
 
 🐶 それ以外にも、以下に説明があるけれど、ツケ払い、不急のものへの支出が多いワン。もっとICT環境整備など将来のことに投資して欲しかったわん。このままだと、市税も減るわけだし、すごいスピードで先細りになると思うワン。
 
-### それぞれの費用内訳
+#### それぞれの費用内訳
+
+##### 教育費
 
 <div id="kyouiku-hi-uchiwake" style="width:100%;height: 350px;"></div>
 <script type="text/javascript">
@@ -625,6 +658,8 @@
 
 保健体育費は、市民総合体育館の事業継続支援に約1,600万円と、給食の器具費です。
 <img src="./hoken-taiiku.png" alt="ふらっとビューア・保健体育費詳細" data-zoomable="">
+
+##### 総務費
 
 <div id="soumu-hi-uchiwake" style="width:100%;height: 350px;margin-top:30px;"></div>
 <script type="text/javascript">
@@ -722,6 +757,8 @@
 
 <strong>地域振興費</strong>は、地域センターと元気村おがわ東の空調設備及び修繕費に合計約2,300万円かかっています。また平櫛田中彫刻美術館の除菌消臭器に約52万円予算計上していますが、これについてはなぜか一般財源から19万円の支出となっているところも気になります。なぜ他と同様に、全額国庫で賄われなかったのでしょうか・・・。こちらはツケ払いもしくは不要不急の事業だと思います。
 
+##### 民生費
+
 <div id="minsei-hi-uchiwake" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -786,6 +823,9 @@
 
 <strong>民生費の子育て支援課以外の分について</strong>は、住居確保給付金に約6,800万円、市立及び民間の保育施設等臨時休園等に対する支援事業、包括支援事業に合計で約7,100万円、たいよう福祉センターとあおぞら福祉センターの庁用器具費に880万円というのは内容が気になるところですが、特に問題はなさそうです。
 
+
+##### 衛生費
+
 <div id="eisei-hi-uchiwake" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -849,6 +889,8 @@
 - 全体的に病院の外来・入院者数減による国保費用の減と比較してどうか
 
 </div>
+
+##### 商工費
 
 <div id="syoukou-hi-uchiwake" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
@@ -919,6 +961,8 @@
 - 効果検証
 
 </div>
+
+##### 土木費
 
 <div id="doboku-hi-uchiwake" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
@@ -991,7 +1035,7 @@
 
 以上が今回補正予算の概要です。さらに細かい部分については、次の質疑をご参照ください。この補正予算は総務委員会に付託されており、総務委員でない私は詳しい質問ができません。本会議である程度質問し、あとは総務委員の橋本久雄議員に託しました。回答の詳細が不明だったり、質問が抜けていた部分については、今後確認していきたいと思います。
 
-## 主な質疑（質疑順）
+## 主な質疑（発言順）
 {{#include ../partials/situgi_hanrei.md}}
 
 ### ＠ 本会議
@@ -1445,7 +1489,7 @@ GIGAスクール構想の段取りは。
 
 > 7月1日から始まって約800店舗参加で応募が現在80件。これから1万円分たまり8月中はかなりの数に上ると予想。（齋藤）
 
-総務委員会での賛否：
+#### 総務委員会での賛否
 
 <table class="simple">
 <tr><th>会派</th><th>賛否</th></tr>
@@ -1514,7 +1558,7 @@ Q: 中小企業への支援のみと見えるが、どう考えるか。
 A: 市内で企業が困っていればそこに使ってもらえれば。
 
 
-#### 組み替え動議に対する討論（発言順）
+#### 組み替え動議に対する討論
 ＊概要ですので、実際の討論は[会議録等](index.md/#会議録配布資料)をご参照ください。
 
 <h5 style="margin-bottom:0">反対（公明党）</h5>
@@ -1623,5 +1667,5 @@ A: 市内で企業が困っていればそこに使ってもらえれば。
 
 張ります💪
 
-### 賛否一覧
+### 原案に対する賛否
 [賛否についてはこちらをご覧ください。](./index.md#賛否)
