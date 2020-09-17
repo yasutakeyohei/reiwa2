@@ -1,6 +1,7 @@
 # 議案第47号 令和2年度小平市一般会計補正予算（第5号）
 （作成中）
 
+<!--
 <i class="fa fa-gavel" aria-hidden="true"></i> 総務委員会付託
 
 <fieldset class="point">
@@ -258,10 +259,6 @@
 歳出予算をいろいろな側面から分析することができます。（＊金額の単位は「千円」です）。
 
 続いて、このビューアの使い方とともに、補正予算（歳出）の詳細を見ていきたいと思います。
-
-<!--
-- 『款・項・目でまとめない』ボタンを押すと、費目一覧を表示できます。
-並べ替え・フィルターもあります。
 -->
 
 <div id="grid-container">
@@ -273,7 +270,6 @@
   <div id="saisyutu-detail"></div>
 </div>
 
-<!-- slickgridはレガシーなのでwebpackなど使えず。 -->
 <link rel="stylesheet" href="../css-each/slick.grid.css" type="text/css"/>
 <link rel="stylesheet" href="../css-each/jquery-ui.css" type="text/css"/>
 <link rel="stylesheet" href="../css-each/slick.pager.css" type="text/css"/>
@@ -295,8 +291,10 @@
 <script src="../js-each/lib/slick.cellselectionmodel.js"></script>
 <script src="../js-each/lib/slick.cellexternalcopymanager.js"></script>
 <script src="../js-each/lib/jquery.ui.touch-punch.min.js"></script>
+<script src="../js-each/20200908.js"></script>
 <script src="../js-each/slickgrid-src.js"></script>
 
+<!--
 
 [4号補正予算補足.xls](4号補正予算補足.xlsx)
 
@@ -832,7 +830,6 @@
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 （安竹 洋平）
 </td></tr></table>
--->
 
 - [中江 美和 議員の質疑](#nakae-miwa)
 - [伊藤 央 議員の質疑](#itou-hisasi)
@@ -1451,5 +1448,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。
 
 張ります💪
 
+
 ### 原案に対する賛否
 [賛否についてはこちらをご覧ください。](./index.md#賛否)
+-->
