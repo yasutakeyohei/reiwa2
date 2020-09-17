@@ -522,6 +522,7 @@
 <script src="../js-each/lib/slick.cellselectionmodel.js"></script>
 <script src="../js-each/lib/slick.cellexternalcopymanager.js"></script>
 <script src="../js-each/lib/jquery.ui.touch-punch.min.js"></script>
+<script src="../js-each/20200803.js"></script>
 <script src="../js-each/slickgrid-src.js"></script>
 
 
