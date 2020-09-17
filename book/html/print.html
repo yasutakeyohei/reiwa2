@@ -488,26 +488,41 @@
 </ol>
 </fieldset>
 <h1><a class="header" href="#例月現金出納検査令和2年5月" id="例月現金出納検査令和2年5月">例月現金出納検査（令和2年5月）</a></h1>
-<p>（＊数値はまだ4月分のまま）</p>
 <p><img src="20200908_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 令和2年5月分の現金収支、現金保管の状況についての検査結果報告。いずれも誤りがないとの結論でした。5月末時点の検査結果をグラフにしてみました。保管金と基金については金額順に並べました。</p>
-<div id="syushi" style="width:100%;height: 350px;"></div>
+<h2><a class="header" href="#予算現額推移" id="予算現額推移">予算現額推移</a></h2>
+<p>一般会計は約700億円で推移していましたが、5月に定額給付金の補正予算が入り900億円規模になりました。その他は変化がありません。</p>
+<div id="yosan-gengaku" style="width:100%;height: 450px;"></div>
 <script type="text/javascript">
-  google.charts.load('current', {'packages':['bar']});
+  google.charts.load('current', {'packages':['corechart', 'line']});
   google.charts.setOnLoadCallback(drawChart);
   function drawChart() {
-    var data = google.visualization.arrayToDataTable([
-      ['', '予算', '収入累計', '支出累計'],
-      ['一般会計', 690.9, 17.96, 35.08],
-      ['国保特会', 170.0, 1.605, 1.258],
-      ['後期特会',  44.70,  3.408,  2.954],
-      ['介護特会', 141.7, 0.028, 1.010],
-      ['下水道', 0, 64.51, 31.74],
+    const data = new google.visualization.DataTable();
+    data.addColumn('string', '年月');
+    data.addColumn('number', '一般会計');
+    data.addColumn('number', '国保特会');
+    data.addColumn('number', '後期高医特会');
+    data.addColumn('number', '介護保険特会');
+    data.addRows([
+      ["H31\n4月",  663.5, 168.7, 43.49, 135.5],
+      ["R1\n5月",  663.5, 168.7, 43.49, 135.5],
+      ["R1\n6月",  665.8, 168.7, 43.49, 135.5],
+      ["R1\n7月",  665.8, 168.7, 43.49, 135.5],
+      ["R1\n8月",  665.8, 168.7, 43.49, 135.5],
+      ["R1\n9月",  685.4, 170.2, 43.76, 138.1],
+      ["R1\n10月", 685.4, 170.2, 43.76, 138.1],
+      ["R1\n11月", 685.4, 170.2, 43.76, 138.1],
+      ["R1\n12月", 688.9, 170.2, 43.76, 138.1],
+      ["R2\n1月",  688.7, 170.2, 43.76, 138.1],
+      ["R2\n2月",  688.7, 170.2, 43.76, 138.1],
+      ["R2\n3月",  677.8, 172.2, 43.4,  138.1],
+      ["R2\n4月",  690.9, 170,	 44.7,  141.7],
+      ["R2\n5月",  906.2, 170,	 44.7,  141.7]
     ]);
     var options = {
       fontName: "UD デジタル 教科書体 N-R",
       fontSize: 18,
       chart: {
-        title: '令和2年度4月分収支累計（令和2年5月末時点）',
+        title: '予算現額推移',
         titleTextStyle: {
             fontName: "UD デジタル 教科書体 N-R",
             fontSize: 18
@@ -517,274 +532,388 @@
         format: '#.##億円',
         textStyle: {
           fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 18,
-        },
+          fontSize: 16,
+        }
       },
       hAxis: {
         textStyle: {
           fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 18,
-        },
+          fontSize: 14,
+        }
       },
       annotations: {
         textStyle: {
           fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 18,
+          fontSize: 14,
         },
       },
-      chartArea:{top:30, height:'75%'}
-    };
-    var chart = new google.charts.Bar(document.getElementById('syushi'));
-    chart.draw(data, google.charts.Bar.convertOptions(options));
-  }
-</script>
-<p>＊このうち下水道事業は公営企業会計です。</p>
-<div id="hokankin" style="width:100%;height: 350px;margin-top:100px;"></div>
-<script type="text/javascript">
-  google.charts.load('current', {'packages':['corechart']});
-  google.charts.setOnLoadCallback(drawChart);
-  function drawChart() {
-    var data = google.visualization.arrayToDataTable([
-      ['項目', '億円', { role: 'annotation' }],
-      ['一般会計',    28.9,   28.9],
-      ['下水道\n会計',   3.28,   3.28],
-      ['歳入歳出外現金',   2.02,   2.02],
-      ['国保特別会計', 1.35,   1.35],
-      ['後期特別会計', 0.953, 0.953],
-      ['土地開発基金',   0.700,   0.700],
-      ['介護特別会計', 0.518,   0.518],
-    ]);
-    var options = {
-      fontName: "UD デジタル 教科書体 N-R",
+      chartArea:{top:30, left:80, height:'75%', width: '85%'},
       legend: {
-        position: 'in',
-        alignment: 'end',
-        maxLines: 3,
-        textStyle: {
-          fontSize: 16
-        },
-      },
-      title: '保管金（すべて普通預金・令和2年5月末時点）',
-      titleTextStyle: {
-          fontSize: 18
-      },
-      series: {
-        0: {
-            annotations: {
-              textStyle: {
-                color: 'black',
-                fontName: 'UD デジタル 教科書体 N-R',
-                fontSize: 18,
-              },
-            },
-        }
-      },
-      vAxis: {
-        format: '#.##億円',
+        position: 'top',
         textStyle: {
           fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 18,
+          fontSize: 14,
         },
       },
-      chartArea:{top:30,height:'75%'}
+      width: '100%',
     };
-    var chart = new google.visualization.ColumnChart(document.getElementById('hokankin'));
+    var chart = new google.visualization.LineChart(document.getElementById('yosan-gengaku'));
     chart.draw(data, options);
   }
 </script>
-<div id="kikin" style="width:100%;height: 600px;margin-top:100px;"></div>
+<h2><a class="header" href="#収入と支出の累計差" id="収入と支出の累計差">収入と支出の累計差</a></h2>
+<p>各会計について、月末残高の、収入累計から支出累計を引いた値をグラフにしました。この額がマイナスの場合、（月末時点で）他の会計や基金から資金融通が必要になっていることを示します。また逆に大きくプラスが続いているようだと、予定していた市民サービスが消化できていない、という可能性もあります。</p>
+<h3><a class="header" href="#一般会計" id="一般会計">一般会計</a></h3>
+<p>昨年度の2月に約27億円のマイナスになっています。運転資金としてこのくらいの余裕は持っておく必要がある、ということと思います。かなりの額ですが、後述するように、資金融通できる基金残高が約130億円あるので今のところ問題ありません。</p>
+<p>5月に一般会計の収入が増えています。詳細がないため不明ですが、国から事前に交付された定額給付金の分かと思われます。</p>
+<div id="ippan-ruikei-sa" style="width:100%;height: 450px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
   google.charts.setOnLoadCallback(drawChart);
   function drawChart() {
-    var data = google.visualization.arrayToDataTable([
-      ['項目', '普通預金', '自由金利型（大口）定期', '地方債・社債', 'total', { role: 'annotation' }],
-      ['都市計画事業基金',            40.9,  5.00, 0.500,    0.150, 47.4],
-      ['財政調整基金',               29.0,    0,      0,   0, 29.0],
-      ['公共施設整備基金',            17.2, 3.00,  0.400,   0, 20.6],
-      ['下水道事業基金',               11.1,   5.00,   0,    0, 16.07],
-      ['介護給付費等準備基金',         8.37,  3.00,    0,     0, 11.4],
-      ['職員退職手当基金',            3.40, 3.00,  0.100,   0, 6.50],
-      ['国民健康保険事業運営基金',     2.32,  1.70, 0,        0, 4.02],
-      ['ごみ減量・リサイクル推進基金',  1.47,  2.00, 0,       0, 3.47],
+    const data = new google.visualization.DataTable();
+    data.addColumn('string', '年月');
+    data.addColumn('number', '一般会計');
+    data.addRows([
+      ["H31\n4月", -14.46],
+      ["R1\n5月", 0.2748],
+      ["R1\n6月", 52.73],
+      ["R1\n7月", 39.15],
+      ["R1\n8月", 38.6],
+      ["R1\n9月", 47.24],
+      ["R1\n10月", 10.94],
+      ["R1\n11月", 15.03],
+      ["R1\n12月", -13.59],
+      ["R2\n1月", -5.57],
+      ["R2\n2月", -27.45],
+      ["R2\n3月", 49.47],
+      ["R2\n4月", -17.12],
+      ["R2\n5月", 89.97]
     ]);
     var options = {
       fontName: "UD デジタル 教科書体 N-R",
-      legend: {
-        position: 'in',
-        alignment: 'end',
-        textStyle: {
-          fontSize: 13
-        }
-      },
-      title: '基金残高・金額順（億円）[続きあり]',
-      titleTextStyle: {
-          fontSize: 18
-      },
-      pieSliceText: "value",
-      chartArea:{top:30,height:'75%'},
-      isStacked: true,
-      hAxis: {
-        slantedTextAngle: 60,
-        maxTextLines: 3,
-        textStyle: {
-          fontSize: 11
-        }
-      },
-      annotations: {
-        textStyle: {fontSize: 10 },
-      },
-      series: {
-        3: {
-            annotations: {
-              format: '#.##億円',
-              textStyle: {
-                color: 'black',
-                fontName: 'UD デジタル 教科書体 N-R',
-                fontSize: 14,
-              },
-            },
-            color: "white",
-            visibleInLegend: false
-        }
-      },
+      fontSize: 14,
       vAxis: {
-        viewWindow: {
-          min: 0,
-          max: 55
-        },
         format: '#.##億円',
         textStyle: {
-          fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 18,
-        },
+          fontSize: 16,
+        }
       },
-      hAxis: {
+      chartArea:{top:30, left:80, height:'75%', width: '85%'},
+      legend: {
+        position: 'top',
+      },
+      width: '100%',
+      seriesType: 'bars'
+    };
+    var chart = new google.visualization.ComboChart(document.getElementById('ippan-ruikei-sa'));
+    chart.draw(data, options);
+  }
+</script>
+<h3><a class="header" href="#その他会計" id="その他会計">その他会計</a></h3>
+<p>特に目立った動きはありません。介護保険特別会計は、月末残高がマイナスになることがあるようです。</p>
+<div id="ruikei-sa" style="width:100%;height: 450px;"></div>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    const data = new google.visualization.DataTable();
+    data.addColumn('string', '年月');
+    data.addColumn('number', '国保特会');
+    data.addColumn('number', '後期高医特会');
+    data.addColumn('number', '介護保険特会');
+    data.addColumn('number', '下水道事業会計');
+    data.addRows([
+      ["H31\n4月", 0.3907, 0.4886, -0.9602, 2.656],
+      ["R1\n5月", 0.5097, 0.4794, 0.9055, 3.813],
+      ["R1\n6月", 1.864, 1.134, -0.7962, 5.41],
+      ["R1\n7月", 5.066, 1.423, 7.523, 1.051],
+      ["R1\n8月", 2.96, 1.275, 3.836, 8.852],
+      ["R1\n9月", 10.61, 2.051, 4.053, 5.871],
+      ["R1\n10月", 7.329, 1.456, 6.222, 4.946],
+      ["R1\n11月", 3.947, 1.472, 6.414, 5.855],
+      ["R1\n12月", 3.818, 0.9787, 1.778, 7.018],
+      ["R2\n1月", 7.485, 1.373, 6.916, 4.902],
+      ["R2\n2月", 3.488, 0.9937, 2.564, 5.513],
+      ["R2\n3月", 2.656, 0.2429, 4.693, 4.611],
+      ["R2\n4月", 0.347, 0.4533, -0.9819, 3.277],
+      ["R2\n5月", 0.4706, 0.3564, 0.5851, 7.531]
+    ]);
+    var options = {
+      fontName: "UD デジタル 教科書体 N-R",
+      fontSize: 14,
+      vAxis: {
+        format: '#.##億円',
         textStyle: {
-          color: 'black',
-          fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 11,
-        },
+          fontSize: 16,
+        }
       },
+      chartArea:{top:30, left:80, height:'75%', width: '85%'},
+      legend: {
+        position: 'top',
+      },
+      width: '100%',
+      seriesType: 'bars'
+    };
+    var chart = new google.visualization.ComboChart(document.getElementById('ruikei-sa'));
+    chart.draw(data, options);
+  }
+</script>
+<p>＊このうち下水道事業は公営企業会計です。</p>
+<h2><a class="header" href="#基金残高" id="基金残高">基金残高</a></h2>
+<h3><a class="header" href="#全体" id="全体">全体</a></h3>
+<div id="kikin" style="width:100%;height: 450px;"></div>
+<script type="text/javascript">
+  google.charts.load('current', {'packages':['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart() {
+    const data = new google.visualization.DataTable();
+    data.addColumn('string', '年月');
+    data.addColumn('number', '都市計画事業基金');
+    data.addColumn('number', '財政調整基金');
+    data.addColumn('number', '公共施設基金');
+    data.addColumn('number', '下水道基金');
+    data.addColumn('number', '介護給付費等準備基金');
+    data.addColumn('number', '職員退職手当基金');
+    data.addColumn('number', 'ごみ減量・リサイクル推進基金');
+    data.addColumn('number', '国民健康保険事業運営基金');
+    data.addColumn('number', '国際平和友好交流基金');
+    data.addColumn('number', '緑化基金');
+    data.addColumn('number', '健康福祉基金');
+    data.addColumn('number', '土地開発基金');
+    data.addColumn('number', '東京オリパラ子ども夢・未来基金');
+    data.addColumn('number', '育英基金');
+    data.addColumn('number', '職員研修基金');
+    data.addColumn('number', '文化振興基金');
+    data.addColumn('number', '減債基金');
+    data.addColumn('number', '森林環境譲与税基金');
+    data.addRows([
+      ["H31\n4月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n5月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n6月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n7月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n8月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n9月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n10月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n11月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n12月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R2\n1月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R2\n2月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.6996, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R2\n3月", 47.44, 29.01, 20.59, 16.07, 11.37, 6.502, 3.469, 4.016, 1.043, 0.8845, 0.6044, 0.6996, 0.5281, 0.3724, 0.3279, 0.2235, 0.04801, 0],
+      ["R2\n4月", 47.44, 29.01, 20.59, 16.07, 11.37, 6.502, 3.469, 4.016, 1.043, 0.8845, 0.6044, 0.6996, 0.5281, 0.3724, 0.3279, 0.2235, 0.04801, 0],
+      ["R2\n5月", 47.44, 29.01, 20.59, 16.07, 11.37, 6.502, 3.469, 4.016, 1.043, 0.8845, 0.6044, 0.6996, 0.5281, 0.3724, 0.3279, 0.2235, 0.04801, 0]
+    ]);
+    var options = {
+      fontName: "UD デジタル 教科書体 N-R",
+      fontSize: 14,
+      vAxis: {
+        format: '#.##億円',
+        textStyle: {
+          fontSize: 16,
+        }
+      },
+      chartArea:{top:30, left:80, height:'75%', width: '85%'},
+      legend: {
+        position: 'top',
+      },
+      width: '100%',
+      isStacked: true
     };
     var chart = new google.visualization.ColumnChart(document.getElementById('kikin'));
     chart.draw(data, options);
   }
 </script>
-<div id="kikin2" style="width:100%;height: 600px;margin-top:100px;"></div>
+<h3><a class="header" href="#上部拡大" id="上部拡大">上部拡大</a></h3>
+<div id="kikin2" style="width:100%;height: 450px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
   google.charts.setOnLoadCallback(drawChart);
   function drawChart() {
-    var data = google.visualization.arrayToDataTable([
-      ['項目', '普通預金', '自由金利型（大口）定期', '地方債', 'total', { role: 'annotation' }],
-      ['国際平和友好交流基金',        0.443, 0.600, 0,       0, 1.04],
-      ['緑化基金',                   0.185, 0.700, 0,       0, 0.885],
-      ['健康福祉基金',                 0.204,   0.400, 0,    0, 0.604],
-      ['東京オリパラ子ども夢・未来基金', 0.528,   0,   0,    0,  0.528],
-      ['育英基金',                    0.0724, 0.300, 0,      0, 0.372],
-      ['職員研修基金',                0.128,  0.200, 0,      0, 0.328],
-      ['文化振興基金',               0.124, 0.100, 0,       0, 0.224],
-      ['減債基金',                    0.0480,   0,    0,     0, 0.0480],
-      ['森林環境譲与税基金',            0,   0,   0,    0,  0],
+    const data = new google.visualization.DataTable();
+    data.addColumn('string', '年月');
+    data.addColumn('number', '都市計画事業基金');
+    data.addColumn('number', '財政調整基金');
+    data.addColumn('number', '公共施設基金');
+    data.addColumn('number', '下水道基金');
+    data.addColumn('number', '介護給付費等準備基金');
+    data.addColumn('number', '職員退職手当基金');
+    data.addColumn('number', 'ごみ減量・リサイクル推進基金');
+    data.addColumn('number', '国民健康保険事業運営基金');
+    data.addColumn('number', '国際平和友好交流基金');
+    data.addColumn('number', '緑化基金');
+    data.addColumn('number', '健康福祉基金');
+    data.addColumn('number', '土地開発基金');
+    data.addColumn('number', '東京オリパラ子ども夢・未来基金');
+    data.addColumn('number', '育英基金');
+    data.addColumn('number', '職員研修基金');
+    data.addColumn('number', '文化振興基金');
+    data.addColumn('number', '減債基金');
+    data.addColumn('number', '森林環境譲与税基金');
+    data.addRows([
+      ["H314\n月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n5月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n6月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n7月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n8月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n9月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n10月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n11月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R1\n12月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R2\n1月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.2196, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R2\n2月", 39.21, 30.17, 22.19, 13.57, 11.88, 7.667, 3.931, 3.516, 1.072, 0.946, 0.674, 0.6996, 0.5, 0.3665, 0.3305, 0.2542, 0.048, 0],
+      ["R2\n3月", 47.44, 29.01, 20.59, 16.07, 11.37, 6.502, 3.469, 4.016, 1.043, 0.8845, 0.6044, 0.6996, 0.5281, 0.3724, 0.3279, 0.2235, 0.04801, 0],
+      ["R2\n4月", 47.44, 29.01, 20.59, 16.07, 11.37, 6.502, 3.469, 4.016, 1.043, 0.8845, 0.6044, 0.6996, 0.5281, 0.3724, 0.3279, 0.2235, 0.04801, 0],
+      ["R2\n5月", 47.44, 29.01, 20.59, 16.07, 11.37, 6.502, 3.469, 4.016, 1.043, 0.8845, 0.6044, 0.6996, 0.5281, 0.3724, 0.3279, 0.2235, 0.04801, 0]
     ]);
     var options = {
       fontName: "UD デジタル 教科書体 N-R",
-      legend: {
-        position: 'in',
-        alignment: 'end',
-        textStyle: {
-          fontSize: 13
-        }
-      },
-      title: '基金残高・金額順（億円）[続き]',
-      titleTextStyle: {
-          fontSize: 18
-      },
-      pieSliceText: "value",
-      chartArea:{top:30,height:'75%'},
-      isStacked: true,
-      hAxis: {
-        slantedTextAngle: 60,
-        maxTextLines: 3,
-        textStyle: {
-          fontSize: 11
-        }
-      },
-      annotations: {
-        textStyle: {fontSize: 10 },
-      },
-      series: {
-        3: {
-            annotations: {
-              format: '#.##億円',
-              textStyle: {
-                color: 'black',
-                fontName: 'UD デジタル 教科書体 N-R',
-                fontSize: 14,
-              },
-            },
-            color: "white",
-            visibleInLegend: false
-        }
-      },
+      fontSize: 14,
       vAxis: {
-        viewWindow: {
-          min: 0,
-          max: 1.2
-        },
         format: '#.##億円',
         textStyle: {
-          fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 18,
+          fontSize: 16,
+        },
+        viewWindow: {
+          min: 125,
+          max: 145
         },
       },
-      hAxis: {
-        textStyle: {
-          color: 'black',
-          fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 11,
-        },
+      chartArea:{top:30, left:80, height:'75%', width: '85%'},
+      legend: {
+        position: 'top',
       },
+      width: '100%',
+      isStacked: true
     };
     var chart = new google.visualization.ColumnChart(document.getElementById('kikin2'));
     chart.draw(data, options);
   }
 </script>
-<p><img src="20200908_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 特に目立った動きはありません。</p>
+<p>特に大きな動きはありません。</p>
 <h1><a class="header" href="#議案第45号-小平市教育委員会委員の任命につき同意を求めることについて" id="議案第45号-小平市教育委員会委員の任命につき同意を求めることについて">議案第45号 小平市教育委員会委員の任命につき同意を求めることについて</a></h1>
-<p>（作成中）</p>
 <p><i class="fa fa-gavel" aria-hidden="true"></i> 即決</p>
 <fieldset class="point">
   <legend>
     <h2 class="point"> ポイント </h2>
   </legend>
-  <p class="point">✔ </p>
+  <p class="point">✔ 森井良子氏の任期満了をもって、新たに教育委員として青木雅代氏にお願いする</p>
 </fieldset>
 <fieldset class="sanpi">
   <legend>
-    <h2 class="sanpi">⭕️ 私（安竹洋平）の判断：賛成 </h2>
+    <h2 class="sanpi">⭕️ 私（安竹洋平）の判断：同意 </h2>
   </legend>
-  <p class="sanpi NG">❌ </p>
-  <p class="sanpi OK">⭕️ </p>
-</fieldset><h1><a class="header" href="#議案第46号-小平市固定資産評価審査委員会委員の選任につき同意を求めることについて" id="議案第46号-小平市固定資産評価審査委員会委員の選任につき同意を求めることについて">議案第46号 小平市固定資産評価審査委員会委員の選任につき同意を求めることについて</a></h1>
-<p>（作成中）</p>
+  <p class="sanpi OK">⭕️ 小平市の教育に熱心に関わってこられた方であり、感謝の気持ちをもって同意</p>
+  <p class="sanpi OK"> 退任する青少年問題協議会の最後1回分が出席できないことは懸念なものの、その回は計画決定がなく、理事者側が氏の想いを事前に伺って会の中で報告するとのこと</p>
+</fieldset>
+<h2><a class="header" href="#概要" id="概要">概要</a></h2>
+<details>
+<summary>市長報告（クリックで開きます）</summary>
+<blockquote>
+<p>現教育委員会委員であります森井良子氏が、来る9月30日をもちまして任期満了となりますことから、後任といたしまして、青木雅代氏を任命いたしたいと考えております。</p>
+</blockquote>
+</details>
+<h2><a class="header" href="#解説" id="解説">解説</a></h2>
+<p>教育委員会で4年間務められてきた森井良子氏が任期満了のため、後任として青木雅代氏が任命されます。青木氏は筑波大学を出られてから、ドイツの国際日本学園や日本の会社で勤務された後、小平市子ども・子育て審議会委員、小平市立第一小学校PTA会長、小平市立小学校PTA連合会理事長、小平市男女共同参画推進審議会委員、小平市立第五中学校PTA会長、小平市立中学校PTA連合会会長を務められ、現在小平市青少年問題協議会の委員を務められています。小平市で熱心に教育活動をしてくださり、大変ありがたいことと思います。</p>
+<p>なお、教育委員の任期は4年、教育長の任期は3年です。</p>
+<h2><a class="header" href="#主な質疑発言順" id="主な質疑発言順">主な質疑（発言順）</a></h2>
+<p><strong>【注】</strong> 以下は要約ですので、正確な質疑内容は<a href="20200908_teireikai/./#%E4%BC%9A%E8%AD%B0%E9%8C%B2%E9%85%8D%E5%B8%83%E8%B3%87%E6%96%99">会議録</a>をご参照ください。分かりやすくするため、括弧書きの部分は、実際の質問内容にかなり修正を加えたところもあります。また、簡略化のため、理事者側（市役所側）の答弁から敬語表現を省いている場合があります。実際は理事者側のすべての答弁において、市民に対する敬語表現で回答がなされています。</p>
+<div class="q-mark-notes">
+<p>私（安竹）の質問＝<i class="fa fa-question-circle hitori yasutake" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori yasutake" aria-hidden="true"></i><br>
+一人会派の会 その他議員の質問＝<i class="fa fa-question-circle hitori" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori" aria-hidden="true"></i><br>
+その他 議員の質問＝：<i class="fa fa-question-circle-o" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+</div>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
+勇退される森井良子氏に、もう1期継続のお願いをしたか。しなかったとしたら理由は。（伊藤 央）
+</td></tr></table>
+<blockquote>
+<p>概ね2～3期を目安として出来るだけ色々な人に教育委員として関わりを持って頂きたい。3期でとお願いしたら快諾して頂いた。私も3期やったので。次、若い方にお願いをして欲しいと、本人からのお願いもあり、こういう結果に。（市長）</p>
+</blockquote>
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
+青木氏が現在青少年問題協議会員を務められているのは、辞めることになるのか。もし辞める場合、欠員の分は補充するか。任期途中で辞めることについては問題ないのか。特別な必要性があるのか。（安竹 洋平）
+</td></tr></table>
+<blockquote>
+<p>審議会等の附属機関に関しては、委員を兼ねることはできないため、青少年問題協議会委員は辞めることとなる。ただし、青少年問題協議会はあと年度末に1回だけであり、補充はしない。（伊藤 子ども家庭部長）</p>
+</blockquote>
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
+残り1回で、2時間しかないとは言え、一つ一つの会を軽視することは良くない。最後の1回をムダにしないようなことになるのか。（安竹 洋平）
+</td></tr></table>
+<blockquote>
+<p>公募委員になられたときに作文して頂いており、熱心な方でこちらとしても選ばせて頂いた。青少年問題協議会の残り1回は計画策定などなく、最後の議題も決まっているため、事前にご本人に想いを伺って、最後の会議で披露する予定。（伊藤）</p>
+</blockquote>
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+教育委員会の課題は。
+</td></tr></table>
+<blockquote>
+<p>大きな課題はないと考えている。GIGAスクール、体育館へのエアコンの設置。小平市特有の課題はないと考えている。教育委員会は教育長と共にそれぞれ納得して合意をして一致団結して取り組んでいる。（市長）</p>
+</blockquote>
+<p><span style="font-size: 3rem">😲</span> 市長が「大きな課題はない」と言い切るところが驚きです。ディスレクシアの300人の子どもが見つかっていないことや、コロナ禍後の対応も大きな課題です。</p>
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+総合教育会議の評価は。
+</td></tr></table>
+<blockquote>
+<p>総合教育会議は年2回開催しており、市長、教育長、4人の教育委員で集まり、意見を伺っている。さまざまな立場からの意見を頂いているので行政に活かす。（津嶋 企画政策部長）</p>
+</blockquote>
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+課題はないと言っているが、エアコンについて市長はどう指示を出すつもりか。
+</td></tr></table>
+<blockquote>
+<p>このようなことを、という具体的なことは申し上げていない。教育委員として聞く側の立場として教育委員会で活躍されると期待。（市長）</p>
+</blockquote>
+<p><span style="font-size: 3rem">🤔</span> 市長が何を言いたいのか分からないことが、とても多いです。</p>
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+3期でということだったが、市長は、多選の弊害ということで、2期3期で変わってもらう方が組織の新陳代謝を促すと考えているか。
+</td></tr></table>
+<blockquote>
+<p>レイマン・コントロール、教育長含めて5人のチーム、特定の人が長くやるのは、色々な人たちが多様な意見を述べあうことで発見があったり、目安なので1期で辞められた例もあるし、もっと長くされた方もいる。ケースバイケース、長くやることが悪いイイではなく、できるだけ、チームなので色々な人に関わって頂きたい。（市長）</p>
+</blockquote>
+<p><span style="font-size: 3rem">🤔</span> 市長の答弁はまとめづらいため、ご興味をお持ちの方はぜひ会議録をご参照ください。</p>
+<h1><a class="header" href="#議案第46号-小平市固定資産評価審査委員会委員の選任につき同意を求めることについて" id="議案第46号-小平市固定資産評価審査委員会委員の選任につき同意を求めることについて">議案第46号 小平市固定資産評価審査委員会委員の選任につき同意を求めることについて</a></h1>
 <p><i class="fa fa-gavel" aria-hidden="true"></i> 即決</p>
 <fieldset class="point">
   <legend>
     <h2 class="point"> ポイント </h2>
   </legend>
-  <p class="point">✔ </p>
+  <p class="point">✔ 固定資産評価審査委員として、引き続き立川栄氏にお願いする</p>
 </fieldset>
 <fieldset class="sanpi">
   <legend>
-    <h2 class="sanpi">⭕️ 私（安竹洋平）の判断：賛成 </h2>
+    <h2 class="sanpi">⭕️ 私（安竹洋平）の判断：同意 </h2>
   </legend>
-  <p class="sanpi NG">❌ </p>
-  <p class="sanpi OK">⭕️ </p>
-</fieldset><h1><a class="header" href="#議案第47号-令和2年度小平市一般会計補正予算第5号" id="議案第47号-令和2年度小平市一般会計補正予算第5号">議案第47号 令和2年度小平市一般会計補正予算（第5号）</a></h1>
+  <p class="sanpi OK">⭕️ これまで市のために務めてこられた方で、感謝の気持ちをもって同意</p>
+</fieldset>
+<h2><a class="header" href="#概要-1" id="概要-1">概要</a></h2>
+<details>
+<summary>市長報告（クリックで開きます）</summary>
+<blockquote>
+<p>現固定資産評価審査委員会委員であります立川 栄氏が、来る9月30日をもちまして任期満了となりますが、引き続き委員として、お願いいたしたいと考えております。</p>
+</blockquote>
+</details>
+<h2><a class="header" href="#解説-1" id="解説-1">解説</a></h2>
+<p>固定資産評価審査委員会は、主に、住民から固定資産税に関して不服審査請求が出された際、それを審査するための会です。</p>
+<h2><a class="header" href="#主な質疑発言順-1" id="主な質疑発言順-1">主な質疑（発言順）</a></h2>
+<p><strong>【注】</strong> 以下は要約ですので、正確な質疑内容は<a href="20200908_teireikai/./#%E4%BC%9A%E8%AD%B0%E9%8C%B2%E9%85%8D%E5%B8%83%E8%B3%87%E6%96%99">会議録</a>をご参照ください。分かりやすくするため、括弧書きの部分は、実際の質問内容にかなり修正を加えたところもあります。また、簡略化のため、理事者側（市役所側）の答弁から敬語表現を省いている場合があります。実際は理事者側のすべての答弁において、市民に対する敬語表現で回答がなされています。</p>
+<div class="q-mark-notes">
+<p>私（安竹）の質問＝<i class="fa fa-question-circle hitori yasutake" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori yasutake" aria-hidden="true"></i><br>
+一人会派の会 その他議員の質問＝<i class="fa fa-question-circle hitori" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori" aria-hidden="true"></i><br>
+その他 議員の質問＝：<i class="fa fa-question-circle-o" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+</div>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
+この3年間で固定資産税の不服審査はどれくらいあり、それぞれどういう判決が出ているか。（安竹 洋平）
+</td></tr></table>
+<blockquote>
+<p>3年間における審査の申し出はゼロ件。（白倉 総務部長）</p>
+</blockquote>
+<h1><a class="header" href="#議案第47号-令和2年度小平市一般会計補正予算第5号" id="議案第47号-令和2年度小平市一般会計補正予算第5号">議案第47号 令和2年度小平市一般会計補正予算（第5号）</a></h1>
 <p>（作成中）</p>
-<p><i class="fa fa-gavel" aria-hidden="true"></i> 総務委員会付託</p>
+<!--
+<i class="fa fa-gavel" aria-hidden="true"></i> 総務委員会付託
+
 <fieldset class="point">
   <legend>
     <h2 class="point"> ポイント </h2>
@@ -797,6 +926,7 @@
   <p class="point">✔ </p>
   <p class="point">✔ </p>
 </fieldset>
+
 <fieldset class="sanpi">
   <legend>
     <h2 class="sanpi">❌⭕️ 私（安竹洋平）の判断： </h2>
@@ -804,50 +934,38 @@
   <p class="sanpi NG">❌ </p>
   <p class="sanpi OK">⭕️ </p>
 </fieldset>
-<h2><a class="header" href="#目次" id="目次">目次</a></h2>
-<ul>
-<li><a href="20200908_teireikai/gian-47.html#%E6%A6%82%E8%A6%81">概要</a></li>
-<li><a href="20200908_teireikai/gian-47.html#%E8%A7%A3%E8%AA%AC">解説</a>
-<ul>
-<li><a href="20200908_teireikai/gian-47.html#%E8%A3%9C%E6%AD%A3%E4%BA%88%E7%AE%97%E3%82%92%E5%88%86%E6%9E%90%E3%81%99%E3%82%8B">補正予算を分析する</a>
-<ul>
-<li><a href="20200908_teireikai/gian-47.html#%E3%81%B5%E3%82%89%E3%81%A3%E3%81%A8%E3%83%93%E3%83%A5%E3%83%BC%E3%82%A2%E4%BA%88%E7%AE%97%E6%AD%B3%E5%87%BA-ver-10">👁️‍🗨️ふらっとビューア予算歳出 ver 1.0</a></li>
-<li><a href="20200908_teireikai/gian-47.html#%E3%81%B5%E3%82%89%E3%81%A3%E3%81%A8%E3%83%93%E3%83%A5%E3%83%BC%E3%82%A2%E3%81%A7%E4%BA%88%E7%AE%97%E8%A9%B3%E7%B4%B0%E3%82%92%E8%A6%8B%E3%82%8B">ふらっとビューアで予算詳細を見る</a></li>
-<li><a href="20200908_teireikai/gian-47.html#%E3%81%9D%E3%82%8C%E3%81%9E%E3%82%8C%E3%81%AE%E8%B2%BB%E7%94%A8%E5%86%85%E8%A8%B3">それぞれの費用内訳</a>
-<ul>
-<li><a href="20200908_teireikai/gian-47.html#%E6%95%99%E8%82%B2%E8%B2%BB">教育費</a>、<a href="20200908_teireikai/gian-47.html#%E7%B7%8F%E5%8B%99%E8%B2%BB">総務費</a>、<a href="20200908_teireikai/gian-47.html#%E6%B0%91%E7%94%9F%E8%B2%BB">民生費</a>、<a href="20200908_teireikai/gian-47.html#%E8%A1%9B%E7%94%9F%E8%B2%BB">衛生費</a>、<a href="20200908_teireikai/gian-47.html#%E5%95%86%E5%B7%A5%E8%B2%BB">商工費</a>、<a href="20200908_teireikai/gian-47.html#%E5%9C%9F%E6%9C%A8%E8%B2%BB">土木費</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="20200908_teireikai/gian-47.html#%E4%B8%BB%E3%81%AA%E8%B3%AA%E7%96%91%E7%99%BA%E8%A8%80%E9%A0%86">主な質疑（発言順）</a>
-<ul>
-<li><a href="20200908_teireikai/gian-47.html#-%E6%9C%AC%E4%BC%9A%E8%AD%B0">＠ 本会議</a></li>
-<li><a href="20200908_teireikai/gian-47.html#-%E7%B7%8F%E5%8B%99%E5%A7%94%E5%93%A1%E4%BC%9A">＠ 総務委員会</a>
-<ul>
-<li><a href="20200908_teireikai/gian-47.html#%E7%B7%8F%E5%8B%99%E5%A7%94%E5%93%A1%E4%BC%9A%E3%81%A7%E3%81%AE%E8%B3%9B%E5%90%A6">総務委員会での賛否</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="20200908_teireikai/gian-47.html#%E6%9C%AC%E4%BC%9A%E8%AD%B0%E3%81%A7%E3%81%AE%E3%82%84%E3%82%8A%E5%8F%96%E3%82%8A">本会議でのやり取り</a>
-<ul>
-<li><a href="20200908_teireikai/gian-47.html#%E5%8E%9F%E6%A1%88%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E8%A8%8E%E8%AB%96">原案に対する討論</a></li>
-<li><a href="20200908_teireikai/gian-47.html#%E5%8E%9F%E6%A1%88%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E8%B3%9B%E5%90%A6">原案に対する賛否</a></li>
-</ul>
-</li>
-</ul>
-<h2><a class="header" href="#概要" id="概要">概要</a></h2>
+
+## 目次
+- [概要](#概要)
+- [解説](#解説)
+  - [補正予算を分析する](#補正予算を分析する)
+    - [👁️‍🗨️ふらっとビューア予算歳出 ver 1.0](#ふらっとビューア予算歳出-ver-10)
+    - [ふらっとビューアで予算詳細を見る](#ふらっとビューアで予算詳細を見る)
+    - [それぞれの費用内訳](#それぞれの費用内訳)
+      - [教育費](#教育費)、[総務費](#総務費)、[民生費](#民生費)、[衛生費](#衛生費)、[商工費](#商工費)、[土木費](#土木費)
+- [主な質疑（発言順）](#主な質疑発言順)
+  - [＠ 本会議](#-本会議)
+  - [＠ 総務委員会](#-総務委員会)
+    - [総務委員会での賛否](#総務委員会での賛否)
+- [本会議でのやり取り](#本会議でのやり取り)
+  - [原案に対する討論](#原案に対する討論)
+  - [原案に対する賛否](#原案に対する賛否)
+
+## 概要
+
+
 <details>
 <summary>市長報告（クリックで開きます）</summary>
-<blockquote>
-</blockquote>
+
+>
 </details>
-<h2><a class="header" href="#解説" id="解説">解説</a></h2>
-<h3><a class="header" href="#補正予算を分析する" id="補正予算を分析する">🕵補正予算を分析する</a></h3>
-<p>次に補正予算の内容を見ていきたいと思います。まずは歳入です。</p>
+
+## 解説
+
+### 🕵補正予算を分析する
+
+次に補正予算の内容を見ていきたいと思います。まずは歳入です。
+
 <div id="sainyu-hosei-summary" style="width:100%;height: 350px; margin-top:50px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -908,7 +1026,9 @@
     chart.draw(data, options);
   }
 </script>
-<p>歳入を金額順に並べました。</p>
+
+歳入を金額順に並べました。
+
 <div id="saisyutu-zaigen-summary" style="width:100%;height: 600px;margin-top:50px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -980,7 +1100,10 @@
     chart.draw(data, options);
   }
 </script>
-<p>次に歳出について、財源を含めて金額順に並べました。今回最も歳出が大きいのは教育費の約6.5億円で、そのうち約5億円がGIGAスクール構想実現のための経費です。教育費の大半が国庫支出金で賄われていますが、市債1.33億円と、一般財源からも2,470万円が投じられています。それぞれの内訳は以下で説明します。</p>
+
+次に歳出について、財源を含めて金額順に並べました。今回最も歳出が大きいのは教育費の約6.5億円で、そのうち約5億円がGIGAスクール構想実現のための経費です。教育費の大半が国庫支出金で賄われていますが、市債1.33億円と、一般財源からも2,470万円が投じられています。それぞれの内訳は以下で説明します。
+
+
 <div id="kurikosi-meikyo-summary" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -1038,14 +1161,14 @@
     chart.draw(data, options);
   }
 </script>
-<p>なお、年度内の完了が見込めない分として約2.2億円が繰越明許費に計上されます。これについて「緊急性のあるコロナ対策に使うべき資金を繰越しして使うとはなにごとか」と問題視する議員も多かったです。私は、内容さえ良ければ、繰越しがあること自体は特に問題ないと思います。しかし以下に記載するように、内容に問題があります。</p>
-<h4><a class="header" href="#ふらっとビューア予算歳出-ver-10" id="ふらっとビューア予算歳出-ver-10">👁️‍🗨️ふらっとビューア（予算歳出） ver 1.0</a></h4>
-<p>小平市の予算書は読みにくく、検索、抽出、並べ替え等のデータ操作ができません。そこでふらっとビューア（予算歳出）というソフトをつくりました。
-歳出予算をいろいろな側面から分析することができます。（＊金額の単位は「千円」です）。</p>
-<p>続いて、このビューアの使い方とともに、補正予算（歳出）の詳細を見ていきたいと思います。</p>
-<!--
-- 『款・項・目でまとめない』ボタンを押すと、費目一覧を表示できます。
-並べ替え・フィルターもあります。
+
+なお、年度内の完了が見込めない分として約2.2億円が繰越明許費に計上されます。これについて「緊急性のあるコロナ対策に使うべき資金を繰越しして使うとはなにごとか」と問題視する議員も多かったです。私は、内容さえ良ければ、繰越しがあること自体は特に問題ないと思います。しかし以下に記載するように、内容に問題があります。
+
+#### 👁️‍🗨️ふらっとビューア（予算歳出） ver 1.0
+小平市の予算書は読みにくく、検索、抽出、並べ替え等のデータ操作ができません。そこでふらっとビューア（予算歳出）というソフトをつくりました。
+歳出予算をいろいろな側面から分析することができます。（＊金額の単位は「千円」です）。
+
+続いて、このビューアの使い方とともに、補正予算（歳出）の詳細を見ていきたいと思います。
 -->
 <div id="grid-container">
   <div class="grid-header" id="grid-header-div" style="width:100%">
@@ -1055,7 +1178,6 @@
   </div>
   <div id="saisyutu-detail"></div>
 </div>
-<!-- slickgridはレガシーなのでwebpackなど使えず。 -->
 <link rel="stylesheet" href="../css-each/slick.grid.css" type="text/css"/>
 <link rel="stylesheet" href="../css-each/jquery-ui.css" type="text/css"/>
 <link rel="stylesheet" href="../css-each/slick.pager.css" type="text/css"/>
@@ -1076,19 +1198,32 @@
 <script src="../js-each/lib/slick.cellselectionmodel.js"></script>
 <script src="../js-each/lib/slick.cellexternalcopymanager.js"></script>
 <script src="../js-each/lib/jquery.ui.touch-punch.min.js"></script>
+<script src="../js-each/20200908.js"></script>
 <script src="../js-each/slickgrid-src.js"></script>
-<p><a href="20200908_teireikai/4%E5%8F%B7%E8%A3%9C%E6%AD%A3%E4%BA%88%E7%AE%97%E8%A3%9C%E8%B6%B3.xlsx">4号補正予算補足.xls</a></p>
-<h4><a class="header" href="#ふらっとビューアで予算詳細を見る" id="ふらっとビューアで予算詳細を見る">ふらっとビューアで予算詳細を見る</a></h4>
-<p>さて突然ですが、ここからは、ふらっとビューアの使い方を😃タローと🐶ポチの会話形式にてお送りします。</p>
-<p>🤔 市債1.33億円は全額GIGAスクールに使われているということだけれど、ふらっとビューアでもそれが調べられるの？</p>
-<p>🐶 簡単だワン。次の図を見るワン。（クリック/タップで拡大表示します）<br />
-<img src="20200908_teireikai/./chihosai-filtered.png" alt="ふらっとビューア・地方債フィルタ" data-zoomable=""><br />
-まず、左上の方にある『款・項・目でまとめない』ボタンを押すと、図のように費用項目一覧が表示されるワン。そうしたら「地方債（市債）」のフィルタに「&gt;0」を入れるワン。これで、市債の金額が0より大きい事業、つまり「市債が使われている事業」を全て抽出できるワン。</p>
-<p>🤔 「小（中）学校施設維持管理事業」が表示されてるね、これがGIGAスクール？</p>
-<p>🐶 事業名からどんな内容なのかが分からないときには、この事業名でまたフィルタをかければいいワン。今回はGIGAスクール構想を進めるための事業だということが分かるワン。他には出てこないので、市債全額がこの事業に使われていることが分かるワン。
-<img src="20200908_teireikai/./sisetu-iji-jigyo-filtered.png" alt="ふらっとビューア・施設維持管理事業フィルタ" data-zoomable=""></p>
-<p>😲 なるほど。ところで最初にフィルタに入れた「&gt;0」はどういう意味？</p>
-<p>🐶 「0より大きい数値だけ抽出せよ」という意味だワン。数値列には以下の記号が使えるワン。</p>
+<!--
+
+[4号補正予算補足.xls](4号補正予算補足.xlsx)
+
+
+#### ふらっとビューアで予算詳細を見る
+
+さて突然ですが、ここからは、ふらっとビューアの使い方を😃タローと🐶ポチの会話形式にてお送りします。
+
+🤔 市債1.33億円は全額GIGAスクールに使われているということだけれど、ふらっとビューアでもそれが調べられるの？
+
+🐶 簡単だワン。次の図を見るワン。（クリック/タップで拡大表示します）  
+<img src="20200908_teireikai/./chihosai-filtered.png" alt="ふらっとビューア・地方債フィルタ" data-zoomable="">  
+まず、左上の方にある『款・項・目でまとめない』ボタンを押すと、図のように費用項目一覧が表示されるワン。そうしたら「地方債（市債）」のフィルタに「>0」を入れるワン。これで、市債の金額が0より大きい事業、つまり「市債が使われている事業」を全て抽出できるワン。
+
+🤔 「小（中）学校施設維持管理事業」が表示されてるね、これがGIGAスクール？
+
+🐶 事業名からどんな内容なのかが分からないときには、この事業名でまたフィルタをかければいいワン。今回はGIGAスクール構想を進めるための事業だということが分かるワン。他には出てこないので、市債全額がこの事業に使われていることが分かるワン。
+<img src="20200908_teireikai/./sisetu-iji-jigyo-filtered.png" alt="ふらっとビューア・施設維持管理事業フィルタ" data-zoomable="">
+
+😲 なるほど。ところで最初にフィルタに入れた「>0」はどういう意味？
+
+🐶 「0より大きい数値だけ抽出せよ」という意味だワン。数値列には以下の記号が使えるワン。
+
 <table class="simple">
 <caption style="text-align:left;">数値列のフィルタに使用できる記号</caption>
 <tr><th>記号</th><th>意味</th><th>例</th><th>例の意味</th></tr>
@@ -1099,37 +1234,56 @@
 <tr><td><</td><td>より小さい</td><td><123</td><td>123より小さいものだけ抽出</td></tr>
 <tr><td><=</td><td>以下</td><td><=123</td><td>123以下のものだけ抽出</td></tr>
 </table>
-<p>😮 ふ～ん。ところで「小（中）学校施設維持管理事業」の詳細を見ると、「電算関係業務委託」と「教材教具等購入費」で、タブレットPC端末、電源キャビネットと書いてあるけれども、電算関係業務委託ってなに？タブレットの台数や用途は？</p>
-<p>🐶 予算書のデータから分かるのはここまで。さらに詳しい内容は、別の資料を見たり理事者に確認したりする必要があるワン。今回は後述する質疑を参考にして欲しいワン。</p>
-<p>😟 予算書にもう少し情報を追記してほしいところだね。GIGAスクール関係の他の費用は見られる？</p>
-<p>🐶 タグのところにデータが入っていれば検索できるワン。今回は「GIGAスクール構想実施による増」というワードが設定されているので、すぐに検索できるワン<br />
-<img src="20200908_teireikai/./giga-filtered.png" alt="ふらっとビューア・GIGAフィルタ" data-zoomable=""></p>
-<p>😲 「通信運搬費」というのが新しくヒットしたね。これはたしか、お知らせを郵送する際の送料などのことだったね。</p>
-<p>🐶 そうだワン。ちなみに文字の列には今のところ以下2つの記号が使えるワン。</p>
+
+😮 ふ～ん。ところで「小（中）学校施設維持管理事業」の詳細を見ると、「電算関係業務委託」と「教材教具等購入費」で、タブレットPC端末、電源キャビネットと書いてあるけれども、電算関係業務委託ってなに？タブレットの台数や用途は？
+
+🐶 予算書のデータから分かるのはここまで。さらに詳しい内容は、別の資料を見たり理事者に確認したりする必要があるワン。今回は後述する質疑を参考にして欲しいワン。
+
+😟 予算書にもう少し情報を追記してほしいところだね。GIGAスクール関係の他の費用は見られる？
+
+🐶 タグのところにデータが入っていれば検索できるワン。今回は「GIGAスクール構想実施による増」というワードが設定されているので、すぐに検索できるワン  
+<img src="20200908_teireikai/./giga-filtered.png" alt="ふらっとビューア・GIGAフィルタ" data-zoomable="">
+
+😲 「通信運搬費」というのが新しくヒットしたね。これはたしか、お知らせを郵送する際の送料などのことだったね。
+
+🐶 そうだワン。ちなみに文字の列には今のところ以下2つの記号が使えるワン。
+
 <table class="simple">
 <caption style="text-align:left;">文字列のフィルタに使用できる記号</caption>
 <tr><th>記号</th><th>意味</th><th>例</th><th>例の意味</th></tr>
 <tr><td>=</td><td>完全一致</td><td>=修繕料</td><td>「修繕料」と完全に一致するものだけ抽出</td></tr>
 <tr><td>!</td><td>不一致</td><td>!修繕料</td><td>「修繕料」を含まないものだけ抽出</td></tr>
 </table>
-<p>🐶 さて、市債の使い道は分かったので一旦置いておいて、今度はためしに費用の金額順に並べて「なにに大きなお金を使っているのか」を確認してみるワン。列のタイトルをクリックすると並べ替えができるので、「金額」を2回クリックして降順に並べ替えるワン。GIGAスクールについては先ほど調べたので、タグのフィルターに「!GIGA」と入力して、抽出しないようにしておくワン。<br />
-<img src="20200908_teireikai/./amount-rank.png" alt="ふらっとビューア・金額で並べ替え" data-zoomable=""></p>
-<p>🐶 ちなみに詳細のところに▼が記載されているものは、詳細が複数行に渡ることを示していて、マウスカーソルを乗せるかクリックすることで、その内容が表示されるワン。<br />
-<img src="20200908_teireikai/./detail-show.png" alt="ふらっとビューア・詳細表示" data-zoomable=""></p>
-<p>😐 ふむふむ。一番金額の多い2.6億円の地域活性化事業って？</p>
-<p>🐶 これは<a href="20200908_teireikai/4%E5%8F%B7%E8%A3%9C%E6%AD%A3%E4%BA%88%E7%AE%97%E8%A3%9C%E8%B6%B3.xslx">補足資料</a>に書いてあるのだけれど、キャッシュレス購入へのポイント付与事業だワン。市内店舗等でキャッシュレス購入を行った際に30%ポイント還元するという事業用の資金で、全額臨時交付金を充当するものだワン。</p>
-<p>😐 あと、昭和病院の負担金が約1.8億円もあるの？</p>
-<p>🐶 新型コロナウイルス感染症の影響で昭和病院の収益が下がっていて、それを補填するための支出だワン。詳しくは以下の答弁概要を見るワン。これも全額臨時交付金の充当だワン。ここで思うのは、病院に来院する人が減っているのであれば、全体の医療費が下がることで市民には良いことのはず、ということ。それから今後この補填金をずっと支払わなくてはならないような契約になっているのか等についても、精査の必要があるワン。</p>
-<blockquote>
-<p>昭和病院はコロナの影響で外来・入院ともにかなりの減で、今年度中の影響額は約7.5億円。東京都補正予算（総額200億円、130の医療機関に）での財政支援で1～2億円が昭和病院に来る。それを除いたうち、主幹部長会、開設者協議会等で協議し、限度5億円を決定。小平市の負担分1.8億円は令和2年度の分布金を参考に決定。（篠宮 健康保険担当部長の答弁を、安竹が要約）</p>
-</blockquote>
-<p>😐 庁舎エレベーターの改修に1.2億円と書いてあるけれども、故障でもしたの？</p>
-<p>🐶 本庁舎のエレベーター2機分、コロナ禍に対応して、空調設備を新しくするための改修工事だそうだワン。故障しているわけでも、すぐに特別なメンテナンスが必要なわけでもないワン。</p>
-<p>😱 そんな不急のことに1.2億円も支出しているの？！</p>
-<p>🐶 それ以外にも、以下に説明があるけれど、ツケ払い、不急のものへの支出が多いワン。もっとICT環境整備など将来のことに投資して欲しいワン。このままだと、市税も減るわけだし、すごいスピードで先細りになると思うワン。</p>
-<h4><a class="header" href="#それぞれの費用内訳" id="それぞれの費用内訳">それぞれの費用内訳</a></h4>
-<p>ここからはそれぞれの費用について詳細を見ていきます。</p>
-<h5><a class="header" href="#教育費" id="教育費">教育費</a></h5>
+
+🐶 さて、市債の使い道は分かったので一旦置いておいて、今度はためしに費用の金額順に並べて「なにに大きなお金を使っているのか」を確認してみるワン。列のタイトルをクリックすると並べ替えができるので、「金額」を2回クリックして降順に並べ替えるワン。GIGAスクールについては先ほど調べたので、タグのフィルターに「!GIGA」と入力して、抽出しないようにしておくワン。  
+<img src="20200908_teireikai/./amount-rank.png" alt="ふらっとビューア・金額で並べ替え" data-zoomable="">
+
+🐶 ちなみに詳細のところに▼が記載されているものは、詳細が複数行に渡ることを示していて、マウスカーソルを乗せるかクリックすることで、その内容が表示されるワン。  
+<img src="20200908_teireikai/./detail-show.png" alt="ふらっとビューア・詳細表示" data-zoomable="">
+
+😐 ふむふむ。一番金額の多い2.6億円の地域活性化事業って？
+
+🐶 これは[補足資料](4号補正予算補足.xslx)に書いてあるのだけれど、キャッシュレス購入へのポイント付与事業だワン。市内店舗等でキャッシュレス購入を行った際に30%ポイント還元するという事業用の資金で、全額臨時交付金を充当するものだワン。
+
+😐 あと、昭和病院の負担金が約1.8億円もあるの？
+
+🐶 新型コロナウイルス感染症の影響で昭和病院の収益が下がっていて、それを補填するための支出だワン。詳しくは以下の答弁概要を見るワン。これも全額臨時交付金の充当だワン。ここで思うのは、病院に来院する人が減っているのであれば、全体の医療費が下がることで市民には良いことのはず、ということ。それから今後この補填金をずっと支払わなくてはならないような契約になっているのか等についても、精査の必要があるワン。
+
+> 昭和病院はコロナの影響で外来・入院ともにかなりの減で、今年度中の影響額は約7.5億円。東京都補正予算（総額200億円、130の医療機関に）での財政支援で1～2億円が昭和病院に来る。それを除いたうち、主幹部長会、開設者協議会等で協議し、限度5億円を決定。小平市の負担分1.8億円は令和2年度の分布金を参考に決定。（篠宮 健康保険担当部長の答弁を、安竹が要約）
+
+😐 庁舎エレベーターの改修に1.2億円と書いてあるけれども、故障でもしたの？
+
+🐶 本庁舎のエレベーター2機分、コロナ禍に対応して、空調設備を新しくするための改修工事だそうだワン。故障しているわけでも、すぐに特別なメンテナンスが必要なわけでもないワン。
+
+😱 そんな不急のことに1.2億円も支出しているの？！
+
+🐶 それ以外にも、以下に説明があるけれど、ツケ払い、不急のものへの支出が多いワン。もっとICT環境整備など将来のことに投資して欲しいワン。このままだと、市税も減るわけだし、すごいスピードで先細りになると思うワン。
+
+#### それぞれの費用内訳
+ここからはそれぞれの費用について詳細を見ていきます。
+
+##### 教育費
+
 <div id="kyouiku-hi-uchiwake" style="width:100%;height: 350px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -1181,13 +1335,18 @@
     chart.draw(data, options);
   }
 </script>
-<p>小学校費は、上記したGIGAスクールのタブレット以外に、小学校再開に伴う感染症対策・学習補償等支援事業、小学校移動教室運営事業（約780万円）があります。移動教室については本当に実施するのか、今後検討だそうです。以下の図で、分類が分かりやすくなるように赤枠を付けてみましたが、逆に見にくくなっているかもです💦。<br />
-<img src="20200908_teireikai/./syogakko-hi.png" alt="ふらっとビューア・小学校費詳細" data-zoomable=""></p>
-<p>中学校費も小学校費と同様です。移動教室のバス・自動車借上料が小学校の10分の1未満という点は気になります。<br />
-<img src="20200908_teireikai/./chugakko-hi.png" alt="ふらっとビューア・中学校費詳細" data-zoomable=""></p>
-<p>保健体育費は、市民総合体育館の事業継続支援に約1,600万円と、給食の器具費です。事業継続支援の内容が気になるところです。
-<img src="20200908_teireikai/./hoken-taiiku.png" alt="ふらっとビューア・保健体育費詳細" data-zoomable=""></p>
-<h5><a class="header" href="#総務費" id="総務費">総務費</a></h5>
+
+小学校費は、上記したGIGAスクールのタブレット以外に、小学校再開に伴う感染症対策・学習補償等支援事業、小学校移動教室運営事業（約780万円）があります。移動教室については本当に実施するのか、今後検討だそうです。以下の図で、分類が分かりやすくなるように赤枠を付けてみましたが、逆に見にくくなっているかもです💦。  
+<img src="20200908_teireikai/./syogakko-hi.png" alt="ふらっとビューア・小学校費詳細" data-zoomable="">
+
+中学校費も小学校費と同様です。移動教室のバス・自動車借上料が小学校の10分の1未満という点は気になります。  
+<img src="20200908_teireikai/./chugakko-hi.png" alt="ふらっとビューア・中学校費詳細" data-zoomable="">
+
+保健体育費は、市民総合体育館の事業継続支援に約1,600万円と、給食の器具費です。事業継続支援の内容が気になるところです。
+<img src="20200908_teireikai/./hoken-taiiku.png" alt="ふらっとビューア・保健体育費詳細" data-zoomable="">
+
+##### 総務費
+
 <div id="soumu-hi-uchiwake" style="width:100%;height: 350px;margin-top:30px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -1240,39 +1399,52 @@
     chart.draw(data, options);
   }
 </script>
+
 <img src="20200908_teireikai/./soumuhi-detail.png" alt="ふらっとビューア・総務費詳細" data-zoomable="" style="z-index:999">
-<p><strong>一般管理費</strong>は、庁舎エレベーター2基の空調設備改修工事に約1.2億円。本庁正面にある3基のうち左側の1基と、庁舎裏手にあるエレベーター1基です。いずれも故障しているわけでなく、換気のための工事です。3基あるうち中央の2号機は、必要な部品の生産が終了しているため停止したままです。もし今回の改修が「本来直さなければいけないところをコッソリ直す」ということであれば、ツケ払いの事業ということになります。換気機能だけであれば、不要もしくは不急の事業になります。そもそも換気扇を取り替えればいいだけではないでしょうか。なお、エレベーターの耐用年数は長くて25年程度らしいのですが、庁舎は建設から38年経っています。やはり、老朽化が進んでいるところを直すツケ払いの工事なのではないでしょうか。</p>
+
+<strong>一般管理費</strong>は、庁舎エレベーター2基の空調設備改修工事に約1.2億円。本庁正面にある3基のうち左側の1基と、庁舎裏手にあるエレベーター1基です。いずれも故障しているわけでなく、換気のための工事です。3基あるうち中央の2号機は、必要な部品の生産が終了しているため停止したままです。もし今回の改修が「本来直さなければいけないところをコッソリ直す」ということであれば、ツケ払いの事業ということになります。換気機能だけであれば、不要もしくは不急の事業になります。そもそも換気扇を取り替えればいいだけではないでしょうか。なお、エレベーターの耐用年数は長くて25年程度らしいのですが、庁舎は建設から38年経っています。やはり、老朽化が進んでいるところを直すツケ払いの工事なのではないでしょうか。
+
 <div class="redbox">
-<ul>
-<li>新庁舎等エレベーターの耐用年数は、とうに過ぎているのではないか</li>
-<li>当初、耐用年数が過ぎた場合はどうするつもりだったか</li>
-<li>今後エレベーターをどうする予定か</li>
-</ul>
+
+- 新庁舎等エレベーターの耐用年数は、とうに過ぎているのではないか
+- 当初、耐用年数が過ぎた場合はどうするつもりだったか
+- 今後エレベーターをどうする予定か
+
 </div>
-<p><strong>情報システム運営費</strong>は電算関係業務委託関係に約9,700万円計上しており、内訳は次の通りです（その他項目に及ぶところもあり、合計は9,700万円になっていません）。</p>
+
+<strong>情報システム運営費</strong>は電算関係業務委託関係に約9,700万円計上しており、内訳は次の通りです（その他項目に及ぶところもあり、合計は9,700万円になっていません）。
+
 <table class="simple">
 <tr><th>事業</th><th>金額（円）</th></tr>
 <tr><td>公共施設予約システム利用対象施設拡大 <br>(地域センター、ルネこだいらを追加し再構築）</td><td>約4,900万円</td></tr>
 <tr><td>証明書コンビニ交付に向けたシステム構築</td><td>約3,400万円</td></tr>
 <tr><td>都市計画、建築行政、道路管理にかかる地図情報等の<br>インターネット公開に向けたシステム構築</td><td>約1,400万円</td></tr>
 </table>
-<p>今の時代、予約システム開発に約4,900万円も投じるとは、にわかには信じられません😨。キャッシュレス決済機能も持たせるということですが、詳しい人なら高校生でも開発できる内容と思います。私に発注してくれるなら、アプリも対応して6か月納期の400万円程度で請け負いたい😋それでも高いくらいです。予約画面などはシンプルでいいのですから、4,900万円という金額は本当に法外だと思います。また、キャッシュレス決済ということは、公民館の使用料100%減免措置撤廃の動きと絡んでいるはずです（減免措置撤廃反対といつも主張している共産党からは特に質問がありませんでした）。特に精査が必要な事業であり、今後の一般質問等で追求していきます。これは不要とまでは言いませんが、「異常にお金がかかりすぎている事業」ということになります。</p>
+
+今の時代、予約システム開発に約4,900万円も投じるとは、にわかには信じられません😨。キャッシュレス決済機能も持たせるということですが、詳しい人なら高校生でも開発できる内容と思います。私に発注してくれるなら、アプリも対応して6か月納期の400万円程度で請け負いたい😋それでも高いくらいです。予約画面などはシンプルでいいのですから、4,900万円という金額は本当に法外だと思います。また、キャッシュレス決済ということは、公民館の使用料100%減免措置撤廃の動きと絡んでいるはずです（減免措置撤廃反対といつも主張している共産党からは特に質問がありませんでした）。特に精査が必要な事業であり、今後の一般質問等で追求していきます。これは不要とまでは言いませんが、「異常にお金がかかりすぎている事業」ということになります。
+
 <div class="redbox">
-<ul>
-<li>予約システムの詳細（器具貸出など拡張性は）、予算の根拠は</li>
-<li>このシステムの利用で年間どれくらいの収入アップを目指しているのか</li>
-<li>予約の手続きが減ることで職員数を減らすことなどがあるのか</li>
-</ul>
+
+- 予約システムの詳細（器具貸出など拡張性は）、予算の根拠は
+- このシステムの利用で年間どれくらいの収入アップを目指しているのか
+- 予約の手続きが減ることで職員数を減らすことなどがあるのか
+
 </div>
-<p><strong>市民文化会館（ルネこだいら）費</strong>は、ルネこだいらの空調設備改修に約4,900万円、入口の一か所を自動ドアにするために約900万円の支出です。空調設備の改修は、コロナ禍に対応するためのものかと思ったら、主に故障していた部品を交換するためということです。つまり、ツケ払いの事業です。ルネこだいらは文化的なイベントを行う際には良い施設と思いますが、毎年非常に多くのコストがかかる金食い虫であり、ルネこだいら自体を精査する必要があると考えています。</p>
+
+<strong>市民文化会館（ルネこだいら）費</strong>は、ルネこだいらの空調設備改修に約4,900万円、入口の一か所を自動ドアにするために約900万円の支出です。空調設備の改修は、コロナ禍に対応するためのものかと思ったら、主に故障していた部品を交換するためということです。つまり、ツケ払いの事業です。ルネこだいらは文化的なイベントを行う際には良い施設と思いますが、毎年非常に多くのコストがかかる金食い虫であり、ルネこだいら自体を精査する必要があると考えています。
+
 <div class="redbox">
-<ul>
-<li>ルネこだいらを解剖して調査する</li>
-</ul>
+
+- ルネこだいらを解剖して調査する
+
 </div>
-<p><strong>安全安心まちづくり費</strong>は、防災施設及び備蓄品の整備事業ということで、消耗品や、災害時テント⛺、応急給水等資機材倉朧、災害時ベッド、避難所用発電機等に合計約4,700万円かけています。コロナ禍というよりは災害用のような気がしますが、それでも臨時交付金が使えるのですね。そう考えるとかなり自由度が高い交付金なのではないかと思います。これはまぁ良いでしょう。</p>
-<p><strong>地域振興費</strong>は、地域センターと元気村おがわ東の空調設備及び修繕費に合計約2,300万円かかっています。また平櫛田中彫刻美術館の除菌消臭器に約52万円予算計上していますが、これについては、なぜ臨時交付金ではなく一般財源から19万円を支出しているのか気になります。こちらもツケ払い、もしくは不要不急の事業だと思います。</p>
-<h5><a class="header" href="#民生費" id="民生費">民生費</a></h5>
+
+<strong>安全安心まちづくり費</strong>は、防災施設及び備蓄品の整備事業ということで、消耗品や、災害時テント⛺、応急給水等資機材倉朧、災害時ベッド、避難所用発電機等に合計約4,700万円かけています。コロナ禍というよりは災害用のような気がしますが、それでも臨時交付金が使えるのですね。そう考えるとかなり自由度が高い交付金なのではないかと思います。これはまぁ良いでしょう。
+
+<strong>地域振興費</strong>は、地域センターと元気村おがわ東の空調設備及び修繕費に合計約2,300万円かかっています。また平櫛田中彫刻美術館の除菌消臭器に約52万円予算計上していますが、これについては、なぜ臨時交付金ではなく一般財源から19万円を支出しているのか気になります。こちらもツケ払い、もしくは不要不急の事業だと思います。
+
+##### 民生費
+
 <div id="minsei-hi-uchiwake" style="width:100%;height: 350px;margin-top:50px;margin-bottom:30px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -1328,11 +1500,18 @@
     chart.draw(data, options);
   }
 </script>
+
 <img src="20200908_teireikai/./kosodate-sienka-hi.png" alt="ふらっとビューア・民生費（子育て支援課）詳細" data-zoomable="" style="z-index:999">
-<p><strong>民生費の子育て支援課分について</strong>は、至極まっとうな内容だと思います。学童クラブ指導員の負担増に応じた給与の支給や、児童養護施設等退所者支援給付金で、足りているのかは分かりませんが、無駄はないと思います。唯一ひっかかるとしたら電動自転車くらいのものですが、スタッフの労力と耐用年数を考えると、これは良い投資でしょう。</p>
+
+<strong>民生費の子育て支援課分について</strong>は、至極まっとうな内容だと思います。学童クラブ指導員の負担増に応じた給与の支給や、児童養護施設等退所者支援給付金で、足りているのかは分かりませんが、無駄はないと思います。唯一ひっかかるとしたら電動自転車くらいのものですが、スタッフの労力と耐用年数を考えると、これは良い投資でしょう。
+
 <img src="20200908_teireikai/./minseihi-other.png" alt="ふらっとビューア・民生費（子育て支援課以外）詳細" data-zoomable="" style="z-index:999">
-<p><strong>民生費の子育て支援課以外の分について</strong>は、住居確保給付金に約6,800万円、市立及び民間の保育施設等臨時休園等に対する支援事業、包括支援事業に合計で約7,100万円、たいよう福祉センターとあおぞら福祉センターの庁用器具費に880万円というのは内容が気になるところですが、特に問題はなさそうです。</p>
-<h5><a class="header" href="#衛生費" id="衛生費">衛生費</a></h5>
+
+<strong>民生費の子育て支援課以外の分について</strong>は、住居確保給付金に約6,800万円、市立及び民間の保育施設等臨時休園等に対する支援事業、包括支援事業に合計で約7,100万円、たいよう福祉センターとあおぞら福祉センターの庁用器具費に880万円というのは内容が気になるところですが、特に問題はなさそうです。
+
+
+##### 衛生費
+
 <div id="eisei-hi-uchiwake" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -1384,16 +1563,21 @@
     chart.draw(data, options);
   }
 </script>
+
 <img src="20200908_teireikai/./eiseihi-detail.png" alt="ふらっとビューア・衛生費詳細" data-zoomable="" style="z-index:999">
-<p><strong>保険衛生費</strong>は、昭和病院の負担金が約1.8億円、健康センターのエレベーター改修が約5,700万円。先ほど述べたように、昭和病院の負担金については精査が必要です。エレベーターの改修は主に老朽化が激しくなっていることに対応ということですから、ツケ払いの事業ということです。それ以外は特に問題のない予算だと思います。</p>
+
+<strong>保険衛生費</strong>は、昭和病院の負担金が約1.8億円、健康センターのエレベーター改修が約5,700万円。先ほど述べたように、昭和病院の負担金については精査が必要です。エレベーターの改修は主に老朽化が激しくなっていることに対応ということですから、ツケ払いの事業ということです。それ以外は特に問題のない予算だと思います。
+
 <div class="redbox">
-<ul>
-<li>昭和病院の負担金に関する契約等詳細</li>
-<li>今後この状況が継続する際の負担に関する取り決めと決定の経緯</li>
-<li>全体的に病院の外来・入院者数減による国保費用の減と比較してどうか</li>
-</ul>
+
+- 昭和病院の負担金に関する契約等詳細
+- 今後この状況が継続する際の負担に関する取り決めと決定の経緯
+- 全体的に病院の外来・入院者数減による国保費用の減と比較してどうか
+
 </div>
-<h5><a class="header" href="#商工費" id="商工費">商工費</a></h5>
+
+##### 商工費
+
 <div id="syoukou-hi-uchiwake" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -1441,25 +1625,33 @@
     chart.draw(data, options);
   }
 </script>
+
 <img src="20200908_teireikai/./syoukouhi-detail.png" alt="ふらっとビューア・商工費詳細" data-zoomable="" style="z-index:999">
-<p><strong>商工費</strong>は約2千万円となっていますが、家賃支援で確保していた約2.5億円を地域消費活性化事業として「キャッシュレス購入へのポイント付与 (市内店舖等で30%ポイント還元）」2.6億円に組み替えています。実際は2.6億円の事業を始めるということです。</p>
-<p>委員会質疑での答弁で、キャッシュレスポイント事業の経済波及効果について、30%還元なので［予算2.6億円 x 100/30 = 約8.7億円］の効果があると言っていますが、これは間違っています。経済波及効果は「新たな需要」に対するものですので、「30%ポイントが付くから、使う予定がなかったものに使う」購買だけを対象にするべきです。それがいくらなのかはまた別の指標を用いて計算しなければなりません。また、キャッシュレス購入にすぐ対応できない高齢者にはメリットがないという点、利用者のみがメリットを受けるという点も問題です。私はそういった理由からこの事業にはあまり賛成ではありません。2.6億円はICT環境整備に使ってもらいたいところですが、家賃支援に設定していた分の流用で同じ商工費の同じ目内でしか使えないということだそうで、困ったことです。</p>
+
+<strong>商工費</strong>は約2千万円となっていますが、家賃支援で確保していた約2.5億円を地域消費活性化事業として「キャッシュレス購入へのポイント付与 (市内店舖等で30%ポイント還元）」2.6億円に組み替えています。実際は2.6億円の事業を始めるということです。
+
+委員会質疑での答弁で、キャッシュレスポイント事業の経済波及効果について、30%還元なので［予算2.6億円 x 100/30 = 約8.7億円］の効果があると言っていますが、これは間違っています。経済波及効果は「新たな需要」に対するものですので、「30%ポイントが付くから、使う予定がなかったものに使う」購買だけを対象にするべきです。それがいくらなのかはまた別の指標を用いて計算しなければなりません。また、キャッシュレス購入にすぐ対応できない高齢者にはメリットがないという点、利用者のみがメリットを受けるという点も問題です。私はそういった理由からこの事業にはあまり賛成ではありません。2.6億円はICT環境整備に使ってもらいたいところですが、家賃支援に設定していた分の流用で同じ商工費の同じ目内でしか使えないということだそうで、困ったことです。
+
 <div class="redbox">
-<ul>
-<li>2.6億円の予算すべてがポイント還元分に使われるのか</li>
-<li>経済波及効果の計算方法は間違えているので変える必要がある</li>
-<li>キャッシュレス事業者への手数料は</li>
-<li>限られた1, 2社が利益を得る状況で良いのか</li>
-</ul>
+
+- 2.6億円の予算すべてがポイント還元分に使われるのか
+- 経済波及効果の計算方法は間違えているので変える必要がある
+- キャッシュレス事業者への手数料は
+- 限られた1, 2社が利益を得る状況で良いのか
+
 </div>
-<p>また、こだいら観光まちづくり協会への580万円（第2弾「モリモリ食べてモリあげよう」）も、どれだけ効果が上がるものなのか事後検証が必要なところです。そもそも第1弾の効果はあったのでしょうか。</p>
+
+また、こだいら観光まちづくり協会への580万円（第2弾「モリモリ食べてモリあげよう」）も、どれだけ効果が上がるものなのか事後検証が必要なところです。そもそも第1弾の効果はあったのでしょうか。
+
 <div class="redbox">
-<ul>
-<li>第1弾の効果は上がっているのか、反省点や課題、改善策は</li>
-<li>効果検証</li>
-</ul>
+
+- 第1弾の効果は上がっているのか、反省点や課題、改善策は
+- 効果検証
+
 </div>
-<h5><a class="header" href="#土木費" id="土木費">土木費</a></h5>
+
+##### 土木費
+
 <div id="doboku-hi-uchiwake" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -1508,29 +1700,41 @@
     chart.draw(data, options);
   }
 </script>
+
 <img src="20200908_teireikai/./dobokuhi-detail.png" alt="ふらっとビューア・土木費詳細" data-zoomable="" style="z-index:999">
-<p><strong>土木費</strong>は、コミュニティバス・タクシーの事業継続支援に合計約5,700万円、公園の修繕料として3,200万円が計上されています。事業継続支援と銘打っていますが、実際は耐用年数が過ぎている車両の更新費用が含まれており、明らかなツケ払いの事業です。特にコミュニティタクシーは運行中にエンジンが止まってしまうようなことも年に2回ほどある状況だそうです。なぜ今まで見直しをしてこなかったのでしょうか。安全性に問題はなかったのでしょうか。また、運休中に従業員は休暇扱いになっていたのかも気になるところです。</p>
+
+<strong>土木費</strong>は、コミュニティバス・タクシーの事業継続支援に合計約5,700万円、公園の修繕料として3,200万円が計上されています。事業継続支援と銘打っていますが、実際は耐用年数が過ぎている車両の更新費用が含まれており、明らかなツケ払いの事業です。特にコミュニティタクシーは運行中にエンジンが止まってしまうようなことも年に2回ほどある状況だそうです。なぜ今まで見直しをしてこなかったのでしょうか。安全性に問題はなかったのでしょうか。また、運休中に従業員は休暇扱いになっていたのかも気になるところです。
+
 <div class="redbox">
-<ul>
-<li>老朽化でエンジンが止まるような状態で安全な運行ができるのか、早急な見直しが必要では</li>
-<li>運休中、従業員は休暇扱いだったのか</li>
-</ul>
+
+- 老朽化でエンジンが止まるような状態で安全な運行ができるのか、早急な見直しが必要では
+- 運休中、従業員は休暇扱いだったのか
+
 </div>
-<p>また、公園修繕料は公園遊具の感染症対策ということで、砂場に抗菌砂を入れて攪拌することと、遊具に抗菌塗料を塗るとのことです。いずれも新型コロナに効果が認められているものではありません。昨年度の遊具安全点検で、特に危険なもの、砂が減っていたものを優先的に行うということで、やはり普段からやるべきだった事をコロナにかこつけて実施しているという、ツケ払いの事業になります。</p>
+
+また、公園修繕料は公園遊具の感染症対策ということで、砂場に抗菌砂を入れて攪拌することと、遊具に抗菌塗料を塗るとのことです。いずれも新型コロナに効果が認められているものではありません。昨年度の遊具安全点検で、特に危険なもの、砂が減っていたものを優先的に行うということで、やはり普段からやるべきだった事をコロナにかこつけて実施しているという、ツケ払いの事業になります。
+
 <div class="redbox">
-<ul>
-<li>昨年度安全点検で遊具に特に危険なものがあったのに放置していたのか</li>
-</ul>
+
+- 昨年度安全点検で遊具に特に危険なものがあったのに放置していたのか
+
 </div>
-<p>以上が今回補正予算の概要です。さらに細かい部分については、次の質疑概要をご参照ください。この補正予算は総務委員会に付託されており、総務委員でない私は詳しい質問ができません。私は本会議においてある程度質問し、あとの細かい質問は総務委員である橋本久雄議員に託しました。答弁で詳細が得られなかったり、質問が足りていなかった部分については、今後確認していきたいと思います。</p>
-<h2><a class="header" href="#主な質疑発言順" id="主な質疑発言順">主な質疑（発言順）</a></h2>
-<p><strong>【注】</strong> 以下は要約ですので、正確な質疑内容は<a href="20200908_teireikai/./#%E4%BC%9A%E8%AD%B0%E9%8C%B2%E9%85%8D%E5%B8%83%E8%B3%87%E6%96%99">会議録</a>をご参照ください。分かりやすくするため、括弧書きの部分は、実際の質問内容にかなり修正を加えたところもあります。また、簡略化のため、理事者側（市役所側）の答弁から敬語表現を省いている場合があります。実際は理事者側のすべての答弁において、市民に対する敬語表現で回答がなされています。</p>
+
+
+以上が今回補正予算の概要です。さらに細かい部分については、次の質疑概要をご参照ください。この補正予算は総務委員会に付託されており、総務委員でない私は詳しい質問ができません。私は本会議においてある程度質問し、あとの細かい質問は総務委員である橋本久雄議員に託しました。答弁で詳細が得られなかったり、質問が足りていなかった部分については、今後確認していきたいと思います。
+
+## 主な質疑（発言順）
+**【注】** 以下は要約ですので、正確な質疑内容は[会議録](./index.md#会議録配布資料)をご参照ください。分かりやすくするため、括弧書きの部分は、実際の質問内容にかなり修正を加えたところもあります。また、簡略化のため、理事者側（市役所側）の答弁から敬語表現を省いている場合があります。実際は理事者側のすべての答弁において、市民に対する敬語表現で回答がなされています。
+
+
 <div class="q-mark-notes">
 <p>私（安竹）の質問＝<i class="fa fa-question-circle hitori yasutake" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori yasutake" aria-hidden="true"></i><br>
 一人会派の会 その他議員の質問＝<i class="fa fa-question-circle hitori" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori" aria-hidden="true"></i><br>
 その他 議員の質問＝：<i class="fa fa-question-circle-o" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
 </div>
-<h3><a class="header" href="#-本会議" id="-本会議">＠ 本会議</a></h3>
+
+
+### ＠ 本会議
 <!--
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 （）
@@ -1540,437 +1744,448 @@
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 （安竹 洋平）
 </td></tr></table>
--->
-<ul>
-<li><a href="20200908_teireikai/gian-47.html#nakae-miwa">中江 美和 議員の質疑</a></li>
-<li><a href="20200908_teireikai/gian-47.html#itou-hisasi">伊藤 央 議員の質疑</a></li>
-<li><a href="20200908_teireikai/gian-47.html#yasutake-yohei">安竹 洋平 議員の質疑</a></li>
-</ul>
+
+- [中江 美和 議員の質疑](#nakae-miwa)
+- [伊藤 央 議員の質疑](#itou-hisasi)
+- [安竹 洋平 議員の質疑](#yasutake-yohei)
+
+
 <div id="nakae-miwa"></div>
+
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 商工費は2千万円弱で全体の5%しかない。他市のように地域振興券等の施策を行わなかったかのはなぜか。（中江 美和）
 </td></tr></table>
-<blockquote>
-<p>家賃支援の組み替えのため全体では計上が少ないがキャッシュレス決済によるポイント付与2.6億円を計上している。（余語 地域振興部長）</p>
-</blockquote>
+
+> 家賃支援の組み替えのため全体では計上が少ないがキャッシュレス決済によるポイント付与2.6億円を計上している。（余語 地域振興部長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 組み替えであり商工費での新規事業ではない。他市では補正予算に占める商工費の割合が、武蔵野市50%, 町田市60%、三鷹市50%と半分以上ある。他市の動向をどう捉えており、なぜ経済支援ができないのか。（中江 美和）
 </td></tr></table>
-<blockquote>
-<p>これまでは国や都の施策から漏れた部分に、家賃支援、感染拡大防止にかかる消毒液、マスク等小平市独自の支援をしてきており、今回はポイント還元を行っている。全体的な額では他市と比較していないが、市として適切に支援している。（余語）</p>
-</blockquote>
+
+> これまでは国や都の施策から漏れた部分に、家賃支援、感染拡大防止にかかる消毒液、マスク等小平市独自の支援をしてきており、今回はポイント還元を行っている。全体的な額では他市と比較していないが、市として適切に支援している。（余語）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 繰越し明許費が2.2億円ある。緊急を要する予算であるにもかかわらず、次年度に繰り越すものを4つ挙げた理由と、完了の時期は。今年度中に事業完了が見込めないものはどうするか。（中江 美和）
 </td></tr></table>
-<blockquote>
-<p>大型またはシステム改修に係る事業は年度内完了が難しい。完了時期は未定で契約後事業者との調整で決まる。いずれもwithコロナ時代に対応した事業。早い着手が必要。事業が完了しないものは繰り越す。交付金は繰り越せる。最大活用する。（津嶋 企画政策部長）</p>
-</blockquote>
+
+> 大型またはシステム改修に係る事業は年度内完了が難しい。完了時期は未定で契約後事業者との調整で決まる。いずれもwithコロナ時代に対応した事業。早い着手が必要。事業が完了しないものは繰り越す。交付金は繰り越せる。最大活用する。（津嶋 企画政策部長）
+
 <div id="itou-hisasi"></div>
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 補正予算第2、第3号の執行率は。執行率が低い事業は。（伊藤 央）
 </td></tr></table>
-<blockquote>
-<p>個々の執行率は把握できていない。家賃支援は利用が伸びなかったため（組み替えて）財源活用している。福祉関係の施設においても執行率は伸びていないが、減収がどれくらいかはレセプトが入ってから確認するのでタイミングが遅れる。（津嶋）</p>
-</blockquote>
+
+> 個々の執行率は把握できていない。家賃支援は利用が伸びなかったため（組み替えて）財源活用している。福祉関係の施設においても執行率は伸びていないが、減収がどれくらいかはレセプトが入ってから確認するのでタイミングが遅れる。（津嶋）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 PCR検査センターはどうなっているか、場所は決まったか。（伊藤 央）
 </td></tr></table>
-<blockquote>
-<p>PCRセンターの場所は医師会と市内病院と連携し、そこで実施する。現在担当医師の割り振りを行っている。（篠宮 健康保険担当部長）</p>
-</blockquote>
+
+> PCRセンターの場所は医師会と市内病院と連携し、そこで実施する。現在担当医師の割り振りを行っている。（篠宮 健康保険担当部長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 場所は決まったのか。市民には非公開か。近隣に周知は行うか。（伊藤 央）
 </td></tr></table>
-<blockquote>
-<p>場所はほぼ決まっている。公表は予定していない。（感染の可能性のある人が）かかりつけ医もしくは保健所等に電話して、検査が必要な場合に予約してもらい、センターに行く。近隣への周知は病院の敷地を利用するため、特に考えていない。（篠宮）</p>
-</blockquote>
+
+> 場所はほぼ決まっている。公表は予定していない。（感染の可能性のある人が）かかりつけ医もしくは保健所等に電話して、検査が必要な場合に予約してもらい、センターに行く。近隣への周知は病院の敷地を利用するため、特に考えていない。（篠宮）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 感染拡大の要因が分からないと感染防止対策が打てない。通勤、職場、大学生が市内の飲み会で感染か、分からない。小平市の傾向としてどういう傾向があるか。（伊藤 央）
 </td></tr></table>
-<blockquote>
-<p>小平保健所から詳細の連絡はない。聞き取りでは、傾向として20代～30代が多い。発生源は都内の飲食店や劇場。市内でクラスター発生はまだ聞いていない。（篠宮）</p>
-</blockquote>
+
+> 小平保健所から詳細の連絡はない。聞き取りでは、傾向として20代～30代が多い。発生源は都内の飲食店や劇場。市内でクラスター発生はまだ聞いていない。（篠宮）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 人が集まる施設、非接触への対応が入っているが、そういったところに人が集まることを市は容認するのか。（伊藤 央）
 </td></tr></table>
-<blockquote>
-<p>公民館、地域センター、福祉会館の集会施設について、部会で各担当が情報交換、国の業種別ガイドライン、都のロードマップ等に沿い、それが守られると分かった段階で徐々に開放。人数の増加については国、東京都の方針に従って適切に対応。（河原 危機担当部長）</p>
-</blockquote>
+
+> 公民館、地域センター、福祉会館の集会施設について、部会で各担当が情報交換、国の業種別ガイドライン、都のロードマップ等に沿い、それが守られると分かった段階で徐々に開放。人数の増加については国、東京都の方針に従って適切に対応。（河原 危機担当部長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 国や都のガイドラインに沿って一律で対応するには無理があると言われている。小平市には小平市の対策が必要。その方針はないか。（伊藤 央）
 </td></tr></table>
-<blockquote>
-<p>各市と同じような形だが施設全体の共通的ルールは定めている。利用の実情に合わせる。カラオケは制限する。市が専門家の意見を取り入れ、制限について考えるのは無理。（河原）</p>
-</blockquote>
+
+> 各市と同じような形だが施設全体の共通的ルールは定めている。利用の実情に合わせる。カラオケは制限する。市が専門家の意見を取り入れ、制限について考えるのは無理。（河原）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 中小企業支援の家賃補助、予想と異なった理由は。
 </td></tr></table>
-<blockquote>
-<p>4月中旬に制度設計し、その後緊急事態宣言。持続化給付金制度の創設があり、都はで4月中旬～5月下旬に休業要請が出た。都で感染症拡大防止協力金制度が創設。そういう背景で4月～5月にかけ売り上げが50%以上減の事業者が増加し、市の制度である20%以上～50%未満という要件に当てはまる方が大幅に減少したため。（余語）</p>
-</blockquote>
+
+> 4月中旬に制度設計し、その後緊急事態宣言。持続化給付金制度の創設があり、都はで4月中旬～5月下旬に休業要請が出た。都で感染症拡大防止協力金制度が創設。そういう背景で4月～5月にかけ売り上げが50%以上減の事業者が増加し、市の制度である20%以上～50%未満という要件に当てはまる方が大幅に減少したため。（余語）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 キャッシュレス購入の機器については事業者が購入か、その支援は。
 </td></tr></table>
-<blockquote>
-<p>QRコードを店舗におき、それを読み取ってもらう形式で、機器購入の必要はない。（余語）</p>
-</blockquote>
+
+> QRコードを店舗におき、それを読み取ってもらう形式で、機器購入の必要はない。（余語）
+
 <div id="yasutake-yohei"></div>
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 全体的にまちをどうしたいというビジョンが感じられない。ビジョンがあればその実現のため有効に資金・時間・人員の投資が行える。ビジョンは市長が与える。端的には、もっとオンライン化できるものをオンライン化する投資を。たとえば：
-<p>・外回りの多い職員には全員にタブレットを持たせる<br />
-・全庁舎や市の施設に高速のWifi環境を整える<br />
-・低所得世帯から申請に応じて、タブレット提供、回線環境提供、もしくは補助金拠出<br />
-・公共施設縮小を早める場合、市民活動をオンライン開催にシフトする計画をし、その実験を行う経費を計上する</p>
-<p>そういったことは検討しないのか。現状の対応だけで先を見据えた新しいことが感じられない。国からこれだけ自由度の高い補助金は得られない。機会損失として無駄にしている。市長の責任としてどう考えているか。（安竹 洋平）</p>
+
+・外回りの多い職員には全員にタブレットを持たせる  
+・全庁舎や市の施設に高速のWifi環境を整える  
+・低所得世帯から申請に応じて、タブレット提供、回線環境提供、もしくは補助金拠出  
+・公共施設縮小を早める場合、市民活動をオンライン開催にシフトする計画をし、その実験を行う経費を計上する
+
+そういったことは検討しないのか。現状の対応だけで先を見据えた新しいことが感じられない。国からこれだけ自由度の高い補助金は得られない。機会損失として無駄にしている。市長の責任としてどう考えているか。（安竹 洋平）
 </td></tr></table>
-<blockquote>
-<p>指摘の通り、ICTを活用して極力非接触型の生活になるようにというのは4号補正でも展開している。職員テレワークのタブレットも検討したが、予算付けできなかった。今後予算付けできるようになれば様々な施策に取り組みたい。（津嶋）</p>
-</blockquote>
+
+> 指摘の通り、ICTを活用して極力非接触型の生活になるようにというのは4号補正でも展開している。職員テレワークのタブレットも検討したが、予算付けできなかった。今後予算付けできるようになれば様々な施策に取り組みたい。（津嶋）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 もっと主体的に進めないと。今後国や都からプランが提示されるにしても、事前に実験や活動していれば状況が変わる。今後の補正予算では考えて頂きたい。（安竹 洋平）
 </td></tr></table>
-<blockquote>
-<p>実験的にという意味ではどこまでできるかわからないが、当初予算ではRPAを進めている。出来るものは進めていきたい。（津嶋）</p>
-</blockquote>
+
+> 実験的にという意味ではどこまでできるかわからないが、当初予算ではRPAを進めている。出来るものは進めていきたい。（津嶋）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 GIGAスクール構想でICT支援員の予算がないが、やはり入れないのか。（安竹 洋平）
 </td></tr></table>
-<blockquote>
-<p>今回はタブレット端末、校内の通信ネットワーク整備、ハード整備を中心に計上している。支援員については端末が整備された後に、どういう風に活用できるかのソフトの課題となる。今後活用性の是非についても考えていく必要があると認識。（川上 教育部長）</p>
-</blockquote>
+
+> 今回はタブレット端末、校内の通信ネットワーク整備、ハード整備を中心に計上している。支援員については端末が整備された後に、どういう風に活用できるかのソフトの課題となる。今後活用性の是非についても考えていく必要があると認識。（川上 教育部長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 公共施設予約システム改修、地域センターとルネこだいらを予約システムに追加して4,870万円という、にわかには信じがたい金額。今やる必要があるのか。（安竹 洋平）
 </td></tr></table>
-<blockquote>
-<p>新しく施設を加えるとともに既存のシステムも老朽化しており全体を入れ替える必要がある。キャッシュレス決済ができるような機能も付加していきたい。（津嶋）</p>
-</blockquote>
+
+> 新しく施設を加えるとともに既存のシステムも老朽化しており全体を入れ替える必要がある。キャッシュレス決済ができるような機能も付加していきたい。（津嶋）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 地方創生臨時交付金、小平市への割り当て分を最大限使う予算なのか。（安竹 洋平）
 </td></tr></table>
-<blockquote>
-<p>小平市に配分額が示されている限度額いっぱいに活用している。（津嶋）</p>
-</blockquote>
+
+> 小平市に配分額が示されている限度額いっぱいに活用している。（津嶋）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 家賃支援の2.5億円が、同じ（款・項・目の）目のキャッシュレス購入ポイント付与事業2.6億円に組み替え。組み替えは同じ目内でしかできないルールなのか。（安竹 洋平）
 </td></tr></table>
-<blockquote>
-<p>目内の流用が基本。（余語）</p>
-</blockquote>
+
+> 目内の流用が基本。（余語）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 昭和病院への感染症特別財政支援金約1.8億円の理由は。PCR検査が原因で財政が厳しいなら、今回PCR検査センターを病院施設に設置する際、同様の状況が想定される。その際、小平市が負担するのか。（安竹 洋平）
 </td></tr></table>
-<blockquote>
-<p>昭和病院はコロナの影響で外来・入院ともにかなりの減で、今年度中の影響額は約7.5億円。東京都補正予算（総額200億円、130の医療機関に）での財政支援で1～2億円が昭和病院に来る。それを除いたうち、主幹部長会、開設者協議会等で協議し、限度5億円を決定。小平市の負担分1.8億円は令和2年度の分布金を参考に決定。外来・入院の減は、PCR検査の影響がないわけではないが、主に受診控えが発生したことによる。PCRセンター設置に際する補助は医師会へ直接補助であり、病院への補助ではない。（篠宮）</p>
-</blockquote>
+
+> 昭和病院はコロナの影響で外来・入院ともにかなりの減で、今年度中の影響額は約7.5億円。東京都補正予算（総額200億円、130の医療機関に）での財政支援で1～2億円が昭和病院に来る。それを除いたうち、主幹部長会、開設者協議会等で協議し、限度5億円を決定。小平市の負担分1.8億円は令和2年度の分布金を参考に決定。外来・入院の減は、PCR検査の影響がないわけではないが、主に受診控えが発生したことによる。PCRセンター設置に際する補助は医師会へ直接補助であり、病院への補助ではない。（篠宮）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 今後、補填する必要は出てこないのか。（安竹 洋平）
 </td></tr></table>
-<blockquote>
-<p>病院側は経営努力を行い、今後検討していく。各市ともコロナウイルスの影響で財政的に厳しい状況なので、今回のようにすぐ支援できるかというと難しい。（篠宮）</p>
-</blockquote>
+
+> 病院側は経営努力を行い、今後検討していく。各市ともコロナウイルスの影響で財政的に厳しい状況なので、今回のようにすぐ支援できるかというと難しい。（篠宮）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 公園の感染症対策とはなにか。新型コロナに有効性があるか。（安竹 洋平）
 </td></tr></table>
-<blockquote>
-<p>砂場に抗菌砂を入れ攪拌する。またブランコや滑り台に抗菌塗料や抗菌コート剤を塗る。昨年度の遊具安全点検で、特に危険なもの、砂が減っていたものを優先的に。周辺の公園自粛により普段使われない公園が使われているため、安全安心のために行う。新型コロナ対抗性の商品はまだない。広く細菌類やインフルエンザに効果がある。（田中 環境部長）</p>
-</blockquote>
-<h3><a class="header" href="#-総務委員会" id="-総務委員会">＠ 総務委員会</a></h3>
-<p><img src="20200908_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 総務委員会には、一人会派の会から橋本久雄議員が委員として参加しています。</p>
-<ul>
-<li><a href="20200908_teireikai/gian-47.html#hasimoto-hisao">橋本 久雄 議員の質疑</a></li>
-</ul>
+
+> 砂場に抗菌砂を入れ攪拌する。またブランコや滑り台に抗菌塗料や抗菌コート剤を塗る。昨年度の遊具安全点検で、特に危険なもの、砂が減っていたものを優先的に。周辺の公園自粛により普段使われない公園が使われているため、安全安心のために行う。新型コロナ対抗性の商品はまだない。広く細菌類やインフルエンザに効果がある。（田中 環境部長）
+
+
+### ＠ 総務委員会
+<img src="20200908_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 総務委員会には、一人会派の会から橋本久雄議員が委員として参加しています。
+
+- [橋本 久雄 議員の質疑](#hasimoto-hisao)
+
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 地方創生臨時交付金の使途はどこまで限定されているか。
 </td></tr></table>
-<blockquote>
-<p>地方の実情について様々な取組みについて認められている。（尾崎 財政課長）</p>
-</blockquote>
+
+> 地方の実情について様々な取組みについて認められている。（尾崎 財政課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 新住民情報システムでコンビニ交付の手数料はいくらか。
 </td></tr></table>
-<blockquote>
-<p>市民部の方でこれから検討する。（尾崎）</p>
-</blockquote>
+
+> 市民部の方でこれから検討する。（尾崎）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 キャッシュレス決済事業化の背景は。
 </td></tr></table>
-<blockquote>
-<p>商品券も検討したが、キャッシュレス決済を導入した自治体が7あり、特に混乱や問題なく進んでいることから職員で協議し現時点のベストと考えた。新型コロナは感染すると高齢者ほど重症化するという面で経産省の方でもキャッシュレス化を進めている。（尾崎）</p>
-</blockquote>
+
+> 商品券も検討したが、キャッシュレス決済を導入した自治体が7あり、特に混乱や問題なく進んでいることから職員で協議し現時点のベストと考えた。新型コロナは感染すると高齢者ほど重症化するという面で経産省の方でもキャッシュレス化を進めている。（尾崎）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 キャッシュレス決済の経済波及効果は。
 </td></tr></table>
-<blockquote>
-<p>携帯電話会社の調査によれば現在70代以上の56%がスマホを持っている。経済波及効果は、今回2.6億円分還元するため、30%で割り戻すと約8.7億円ほど。（齋藤 産業振興課長）</p>
-</blockquote>
+
+> 携帯電話会社の調査によれば現在70代以上の56%がスマホを持っている。経済波及効果は、今回2.6億円分還元するため、30%で割り戻すと約8.7億円ほど。（齋藤 産業振興課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 本会議でも質問があったかもしれないが、GIGAスクールのタブレット配備で現場の教員負担が増えることへのサポート、予算に見られないが。
 </td></tr></table>
-<blockquote>
-<p>導入時に一時的に業務増になることは避けられないが中長期的にはタブレット端末等の活用は業務減になる。9月初旬に開催される都の対応研修などを活用しながら、導入がスムーズにいくよう検討する。（国冨 教育指導担当部長）</p>
-</blockquote>
+
+> 導入時に一時的に業務増になることは避けられないが中長期的にはタブレット端末等の活用は業務減になる。9月初旬に開催される都の対応研修などを活用しながら、導入がスムーズにいくよう検討する。（国冨 教育指導担当部長）
+
 <div id="hasimoto-hisao"></div>
+
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 市民協働・男女参画推進課、地域センター維持管理事業は不要と考えているが、具体的に何をするか。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>地域センターは、換気用網戸が13館に未設置、トイレの手洗い自動水洗が16館に未設置で、これをつけるもの。空調設備は昨年夏から故障していた3館11基分を修繕。（松尾 市民協働・男女参画推進課長）</p>
-</blockquote>
+
+> 地域センターは、換気用網戸が13館に未設置、トイレの手洗い自動水洗が16館に未設置で、これをつけるもの。空調設備は昨年夏から故障していた3館11基分を修繕。（松尾 市民協働・男女参画推進課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 市民文化会館管理運営事業で5,635万円が空調設備と大階段入口自動ドア設置で計上、わざわざこの時期にやる必要があるか。中に置いてある消毒液を使えばいい。コロナが終わったころの完成か。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>不特定多数の来客がドアノブに触れる機会を減らすことでwithコロナ時代に対応させるもの。令和2年に設計、令和3年に繰越明許の予算で設置。完成時期は未定。（島田 文化スポーツ課長）</p>
-</blockquote>
+
+> 不特定多数の来客がドアノブに触れる機会を減らすことでwithコロナ時代に対応させるもの。令和2年に設計、令和3年に繰越明許の予算で設置。完成時期は未定。（島田 文化スポーツ課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 子ども家庭支援センターの60万円、電気自転車2台計上の必要性は。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>子ども家庭支援センターは基本的に外に出かけていく。学校の休校で家庭訪問の件数が増えている。平成25年に電動自転車が市から2台貸与あるがワーカーも増えて移動手段が不足するため。（伊藤 子ども家庭部長）</p>
-</blockquote>
+
+> 子ども家庭支援センターは基本的に外に出かけていく。学校の休校で家庭訪問の件数が増えている。平成25年に電動自転車が市から2台貸与あるがワーカーも増えて移動手段が不足するため。（伊藤 子ども家庭部長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 学童クラブの79人の職員は期間限定か、延べ人数が79人ということは実際は何人か。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>人数は当初予算に記載の79人であり、新しく人を雇うわけではない。新型コロナ対策として学童クラブの部屋、備品やトイレなどの清掃・消毒を会計年度任用職員が行っており、その勤務時間延長によるもの。実際は200人が交替で勤務している。（石野 子育て支援課長）</p>
-</blockquote>
+
+> 人数は当初予算に記載の79人であり、新しく人を雇うわけではない。新型コロナ対策として学童クラブの部屋、備品やトイレなどの清掃・消毒を会計年度任用職員が行っており、その勤務時間延長によるもの。実際は200人が交替で勤務している。（石野 子育て支援課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 健康センターエレベーター改修の内容は。今のままでは使えないのか。いつまでに完了か。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>約30年間使用して老朽化が激しくなっている。3密になる場所で、乗っているときに故障が起きると良くないための改修。また、換気のリニューアルで経年劣化の換気機能低下も防ぐ。空気清浄機能、抗菌ボタンを設置。完了時期は未定だが9か月を想定。（櫻井 健康推進課長）</p>
-</blockquote>
+
+> 約30年間使用して老朽化が激しくなっている。3密になる場所で、乗っているときに故障が起きると良くないための改修。また、換気のリニューアルで経年劣化の換気機能低下も防ぐ。空気清浄機能、抗菌ボタンを設置。完了時期は未定だが9か月を想定。（櫻井 健康推進課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 子育て世代包括支援センター事業はなぜ4月28日から5月28日の1か月に限定したか。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>緊急事態宣言が5月25日までで、里帰りもできない、親御さんが田舎から出てきて出産手伝いもできない時期として設定。（櫻井）</p>
-</blockquote>
+
+> 緊急事態宣言が5月25日までで、里帰りもできない、親御さんが田舎から出てきて出産手伝いもできない時期として設定。（櫻井）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 資源循環課運営事業の148万円具体的な内容は。音響装置とは。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>使用済みマスクやティッシュの捨て方の問い合わせが市民から、また収集作業員からも周知徹底の要望があり、収集作業者からの広報も考えたもの。（足立 資源循環課長）</p>
-</blockquote>
+
+> 使用済みマスクやティッシュの捨て方の問い合わせが市民から、また収集作業員からも周知徹底の要望があり、収集作業者からの広報も考えたもの。（足立 資源循環課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 観光まちづくり事業581万円は何人分を想定か。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>5万円食事券10本、3万円食事券30本、1万円食事券100本、5千円食事券200本で、合計340人分の商品を用意。人数参加の想定は特に決めていない。（齊藤）</p>
-</blockquote>
+
+> 5万円食事券10本、3万円食事券30本、1万円食事券100本、5千円食事券200本で、合計340人分の商品を用意。人数参加の想定は特に決めていない。（齊藤）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 キャッシュレス事業の対象者想定数は。例えば15歳以上の市民、何割が使うことを想定した設計か。地域振興券なら全市民をカバーできるのでそういうことも考えてもらいたかった。これだけに特化するのは不平等と考えている。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>昨年1月にNTTドコモの研究所が実施した調査では、男女とも15～49歳までが9割以上、70歳以上では男性56%、女性53%がスマホ所有。経済波及効果は先ほど8.7億円と答弁したが、ポイント利用も考え、総務省計算式に当てはめると13.8億円相当。利用できる方に使ってもらう。（齋藤）</p>
-</blockquote>
+
+> 昨年1月にNTTドコモの研究所が実施した調査では、男女とも15～49歳までが9割以上、70歳以上では男性56%、女性53%がスマホ所有。経済波及効果は先ほど8.7億円と答弁したが、ポイント利用も考え、総務省計算式に当てはめると13.8億円相当。利用できる方に使ってもらう。（齋藤）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 コミュニティバス運行事業支援の積算根拠は。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>新型コロナの運賃収入不足分を補助。4～6月までは実績値、7月以降は想定値で、2～4月までの前年度比の減少率を傾斜配分しながら本年度内の年間利用者数を算出して計算。（照井 公共交通課長）</p>
-</blockquote>
+
+> 新型コロナの運賃収入不足分を補助。4～6月までは実績値、7月以降は想定値で、2～4月までの前年度比の減少率を傾斜配分しながら本年度内の年間利用者数を算出して計算。（照井 公共交通課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 小中学校の移動教室は今の時期やらなくてはいけないのか。保護者はやってほしいと言っているのか。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>現時点では予防対策を行いながら実施する予定。感染者増を踏まえて小・中学校とも今後判断。中学校はスキー教室で1月以降。（飯島 学務課長）</p>
-</blockquote>
+
+> 現時点では予防対策を行いながら実施する予定。感染者増を踏まえて小・中学校とも今後判断。中学校はスキー教室で1月以降。（飯島 学務課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 総合体育館の継続資金はどういう内容か。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>休業に伴い、本来得られた団体及び個人利用の収入、自主事業で行った収入に加え、コロナ対策消耗費の関係を上乗せして補助。（島田 文化スポーツ課長）</p>
-</blockquote>
+
+> 休業に伴い、本来得られた団体及び個人利用の収入、自主事業で行った収入に加え、コロナ対策消耗費の関係を上乗せして補助。（島田 文化スポーツ課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 本庁舎エレベーター、3つあるうちの真ん中は故障して使えない。右側の1号と、裏にある4号の2つを改修するということだが、なぜ今改修する必要があるのか。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>3台あるエレベーターは縦穴の空間が共有されており左右どちらかのエレベーターからでないと工事できないため今回は第1号機の工事を予定。エレベーター内換気の安定的な稼働を維持し、適切な換気を行うことが必要と判断した。部品の生産終了で真ん中の2号機は修繕できず動いていないが、1号機の部品を2号機に転用することで4代とも動かせるようにしたい。（原 総務課長）</p>
-</blockquote>
+
+> 3台あるエレベーターは縦穴の空間が共有されており左右どちらかのエレベーターからでないと工事できないため今回は第1号機の工事を予定。エレベーター内換気の安定的な稼働を維持し、適切な換気を行うことが必要と判断した。部品の生産終了で真ん中の2号機は修繕できず動いていないが、1号機の部品を2号機に転用することで4代とも動かせるようにしたい。（原 総務課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 公共予約システム利用対象施設拡大は、今まで利用対象ではなかった施設も特に問題が生じていたことはなかった。なぜ今やる必要があるのか。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>地域センター19館は予約システムが入っておらず、申し込み時の窓口混雑を避けるため。電子決済を入れて支払いをキャッシュレスにする。再構築とキャッシュレス対応でかなりの期間と金額になっている。（増原 情報政策課長）</p>
-</blockquote>
+
+> 地域センター19館は予約システムが入っておらず、申し込み時の窓口混雑を避けるため。電子決済を入れて支払いをキャッシュレスにする。再構築とキャッシュレス対応でかなりの期間と金額になっている。（増原 情報政策課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 予約システム、いまやっていなくて済んでいるものを、なぜ今やらなくてはならないのか。来年度の当初予算でやったらどうか。いつまでに完了するのか。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>既存の現行システムも含めた再構築となる。新システムの稼働は令和4年4月から。</p>
-</blockquote>
+
+> 既存の現行システムも含めた再構築となる。新システムの稼働は令和4年4月から。
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 証明書のコンビニ交付もなぜ今やる必要があるのか。システム構築に3,387万円のコストがかかり、コンビニ交付自体しなくていいという立場だが、いつ完成するのか。（橋本 久雄）
 </td></tr></table>
-<blockquote>
-<p>今回の新情報システムの再構築は、ここで事業者のプロポーザルが終わり、優先交渉事業者が決まっている。そこと併せる形でコンビニ交付の構築を進めたい。新住民情報システム再構築の新しいシステム稼働は令和4年1月を予定でそれに動機させた形での稼働開始を予定。（増原 情報政策課長）</p>
-</blockquote>
-<blockquote>
-<p>来年度以降では襲いうという質問だが、コロナ終息後あるいは終息が本当にあるか見えない中で、将来にわたって安全を高めることは大事。現在の新型コロナも形を変え、変質しながら何度か現れることもあるため、今から手を打つことは大事。（津嶋）</p>
-</blockquote>
+
+> 今回の新情報システムの再構築は、ここで事業者のプロポーザルが終わり、優先交渉事業者が決まっている。そこと併せる形でコンビニ交付の構築を進めたい。新住民情報システム再構築の新しいシステム稼働は令和4年1月を予定でそれに動機させた形での稼働開始を予定。（増原 情報政策課長）
+
+> 来年度以降では襲いうという質問だが、コロナ終息後あるいは終息が本当にあるか見えない中で、将来にわたって安全を高めることは大事。現在の新型コロナも形を変え、変質しながら何度か現れることもあるため、今から手を打つことは大事。（津嶋）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-exclamation-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 今から手を打つ内容がこれでいいのかということを言っている。今やらなければならない事業なのか。当初予算できちんとやるべき。証明書のコンビニ交付は令和4年からスタートなので、こんな中途半端な時期に予算をつけず当初予算につければよい。コロナとどう関係があるのか。ルネこだいらの自動ドアも同じ。一か所だけなので、押して入るドアも残る。コロナ関係ではない。トイレ水洗化、空調設備も1年後や半年後では実際には対応できない。公共施設予約システムもコロナが丁度お金が出るからやったと思っている。こういう事業をコロナにかこつけてやるのはやめて欲しい。第三次もそういうのが結構あった。武蔵野市はそんな事業は一個もない。すべて生活支援、事業支援。今はまだそういう段階で、こういうやり方は非常に問題がある。（橋本 久雄）
 </td></tr></table>
+
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 市長の指示はどんなものがあったか。
 </td></tr></table>
-<blockquote>
-<p>市長の査定も受けている。市内事業者への経済支援は当然のことながら、将来に向けての公共施設あるいは公共サービスを安全に安心して活用していくこともだいじであるということで、そっちの方にも事業展開する必要があるだろうということで指示を受けている。（津嶋）</p>
-</blockquote>
+
+> 市長の査定も受けている。市内事業者への経済支援は当然のことながら、将来に向けての公共施設あるいは公共サービスを安全に安心して活用していくこともだいじであるということで、そっちの方にも事業展開する必要があるだろうということで指示を受けている。（津嶋）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 キャッシュレス決済の詳細は。
 </td></tr></table>
-<blockquote>
-<p>キャンペーン実施期間は10月から1月まで。1か月間ごとにそれぞれキャッシュレス決済業者に実施してもらう。現時点ではキャッシュレス決済事業者で自治体と協力しているのは1社のみ。市としてもう1社想定しており、調整できれば進める。内容は、支払い額の30%が30日後にポイント付与。1回当たりの付与上限は1千ポイント。期間中の付与ポイント上限は1万ポイント。商品券に限定するよりこちらの方が幅広く使える。市内何か所か、あるいは市役所で説明会を開き、高齢者でも利用できるよう周知徹底する。（齋藤）</p>
-</blockquote>
+
+> キャンペーン実施期間は10月から1月まで。1か月間ごとにそれぞれキャッシュレス決済業者に実施してもらう。現時点ではキャッシュレス決済事業者で自治体と協力しているのは1社のみ。市としてもう1社想定しており、調整できれば進める。内容は、支払い額の30%が30日後にポイント付与。1回当たりの付与上限は1千ポイント。期間中の付与ポイント上限は1万ポイント。商品券に限定するよりこちらの方が幅広く使える。市内何か所か、あるいは市役所で説明会を開き、高齢者でも利用できるよう周知徹底する。（齋藤）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 なぜ1か月ごとに区切っているか。
 </td></tr></table>
-<blockquote>
-<p>1つの理由は1か月に複数のキャッシュレス事業者が入ると、どう扱っていいか分からないという方がいる。もう1つは、市外でポイントを消費する恐れがあるということに対応。ポイントは1か月後につくので、たとえば10月についたポイントは12月に付与される。Aという会社が10月と12月に行えば、10月についた分が12月から使えるため市内で消費してもらう。もう一つは7自治体ですでにキャッシュレス決済が完了しているが、傾向としてキャンペーンの終盤に駆け込み利用が多い。2か月連続で行うより1か月単位で交互に行った方がキャンペーン効果が高い。（齋藤）</p>
-</blockquote>
+
+> 1つの理由は1か月に複数のキャッシュレス事業者が入ると、どう扱っていいか分からないという方がいる。もう1つは、市外でポイントを消費する恐れがあるということに対応。ポイントは1か月後につくので、たとえば10月についたポイントは12月に付与される。Aという会社が10月と12月に行えば、10月についた分が12月から使えるため市内で消費してもらう。もう一つは7自治体ですでにキャッシュレス決済が完了しているが、傾向としてキャンペーンの終盤に駆け込み利用が多い。2か月連続で行うより1か月単位で交互に行った方がキャンペーン効果が高い。（齋藤）
+
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 事業継続と新しい生活様式に分けた場合の予算額は。
 </td></tr></table>
-<blockquote>
-<p>事業継続や生活支援に約5.7億円、新しい生活様式に約6.9億円。（尾崎） ＊これは委員会配布資料に記載されています。</p>
-</blockquote>
+
+> 事業継続や生活支援に約5.7億円、新しい生活様式に約6.9億円。（尾崎） ＊これは委員会配布資料に記載されています。
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 コミュニティタクシー・コミュニティバスの事業継続支援の内容は。
 </td></tr></table>
-<blockquote>
-<p>利用者が減少したことによる収入減への事業継続支援補助。感染予防対策補助として、バス・タクシーそれぞれに1台10万円。耐用年数を大幅に超えている車両（バス1台、タクシーは各ルート1台ずつ）を低燃費の車両に更新。終息後の運行事業者の経営支援にもつながる。（照井）</p>
-</blockquote>
+
+> 利用者が減少したことによる収入減への事業継続支援補助。感染予防対策補助として、バス・タクシーそれぞれに1台10万円。耐用年数を大幅に超えている車両（バス1台、タクシーは各ルート1台ずつ）を低燃費の車両に更新。終息後の運行事業者の経営支援にもつながる。（照井）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 コミュニティバス・タクシー耐用年数の詳細は。
 </td></tr></table>
-<blockquote>
-<p>コミュニティバスは5年、コミュニティタクシーは4年。車両の走行状況や、故障不具合の状況を見て判断。バス3台のうち1台は昨年度更新、残り2台は購入から12年が経過。タクシーは大沼ルートが7年経過で栄町と鈴木町ルートが5年経過。タクシーについては、いろんな部品やエンジン自体が消耗しており、ここ数年故障などが発生し、途中で止まってしまうことも年に1回、2回くらいある。担当課として計画的に車両の更新は毎年提案している。（照井）</p>
-</blockquote>
+
+> コミュニティバスは5年、コミュニティタクシーは4年。車両の走行状況や、故障不具合の状況を見て判断。バス3台のうち1台は昨年度更新、残り2台は購入から12年が経過。タクシーは大沼ルートが7年経過で栄町と鈴木町ルートが5年経過。タクシーについては、いろんな部品やエンジン自体が消耗しており、ここ数年故障などが発生し、途中で止まってしまうことも年に1回、2回くらいある。担当課として計画的に車両の更新は毎年提案している。（照井）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 ルネこだいら空調設備改修の内容は。
 </td></tr></table>
-<blockquote>
-<p>冷温水器が3台屋上にあるが、そのうち1台がかなり老朽化が進んで不具合もあるため、ヒートポンプチアを取り替える。（島田）</p>
-</blockquote>
+
+> 冷温水器が3台屋上にあるが、そのうち1台がかなり老朽化が進んで不具合もあるため、ヒートポンプチアを取り替える。（島田）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 施設整備全体の予算額は。また市内業者への発注は。
 </td></tr></table>
-<blockquote>
-<p>正確に抜き出していない。大きく捉えているところだと3.5億円ほど。市内発注はトイレ手洗い自動水洗化、網戸設置、空調設備の改修、公園遊具の塗装・補修は大体市内で出来ると想定。（津嶋）</p>
-</blockquote>
+
+> 正確に抜き出していない。大きく捉えているところだと3.5億円ほど。市内発注はトイレ手洗い自動水洗化、網戸設置、空調設備の改修、公園遊具の塗装・補修は大体市内で出来ると想定。（津嶋）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 防災備品の内容は。
 </td></tr></table>
-<blockquote>
-<p>主なものとして、使い捨てマスク7万枚、フェースシールド750個、感染防護衣3,000枚、非接触型体温計150台、使い捨て手袋9,000枚、手指消毒液、次亜塩素酸ナトリウムを含む消毒液、毛布2,800枚、タオル2,700枚。（秋田 防災危機管理課長）</p>
-</blockquote>
+
+> 主なものとして、使い捨てマスク7万枚、フェースシールド750個、感染防護衣3,000枚、非接触型体温計150台、使い捨て手袋9,000枚、手指消毒液、次亜塩素酸ナトリウムを含む消毒液、毛布2,800枚、タオル2,700枚。（秋田 防災危機管理課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 住居確保給付金、利用者増加の実体と、生活保護の件数は。
 </td></tr></table>
-<blockquote>
-<p>住居確保給付金の新鮮者数は7月27日時点で既に184人。緊急事態宣言下と比較すると減っているが途切れることなく相談が来ている。生活保護の決定件数は5月以降、昨年時期に比べて増えていない。おそらく第二のセーフティネットである住居確保給付金や緊急小口資金の申請があるためまだ生活保護まで至っていない。引き続き事業の広報に務める。（井出 生活支援課長）</p>
-</blockquote>
+
+> 住居確保給付金の新鮮者数は7月27日時点で既に184人。緊急事態宣言下と比較すると減っているが途切れることなく相談が来ている。生活保護の決定件数は5月以降、昨年時期に比べて増えていない。おそらく第二のセーフティネットである住居確保給付金や緊急小口資金の申請があるためまだ生活保護まで至っていない。引き続き事業の広報に務める。（井出 生活支援課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 児童養護施設退所者支援給付金について、対象者の要件は。
 </td></tr></table>
-<blockquote>
-<p>①児童養護施設の退所者であること、他にも、自立支援ホーム、児童自立支援施設、ファミリーホーム（里親）の対象者を含む。②市内在住であること。③基本的に単身者であること。④生活保護等公費により生活費の援助を受けていないこと。⑤「子ども・若者計画」の対象が29歳までであることから基準日5月25日の時点で30才未満であること。あくまで自立して一人で生活している方が困窮に陥ることを支援するため。</p>
-</blockquote>
+
+> ①児童養護施設の退所者であること、他にも、自立支援ホーム、児童自立支援施設、ファミリーホーム（里親）の対象者を含む。②市内在住であること。③基本的に単身者であること。④生活保護等公費により生活費の援助を受けていないこと。⑤「子ども・若者計画」の対象が29歳までであることから基準日5月25日の時点で30才未満であること。あくまで自立して一人で生活している方が困窮に陥ることを支援するため。
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 修学旅行が中学校は中止と聞いた。理由は。
 </td></tr></table>
-<blockquote>
-<p>9月に実施を予定していた中学校5校は都内と関西の感染状況から中止を決定。代替の企画は未定。（国冨）</p>
-</blockquote>
+
+> 9月に実施を予定していた中学校5校は都内と関西の感染状況から中止を決定。代替の企画は未定。（国冨）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 GIGAスクール構想でオンライン授業に向けての取組はどう考えているか。
 </td></tr></table>
-<blockquote>
-<p>GIGAスクール構想が成り立った後は、朝の会、帰りの会の学習の始まりと終わりについて、同時に双方向でのやり取りをし、実際の学習はオンラインの学習ツール等を使っての学習を想定。端末は主に学校の教育活動で使うことを想定しているが、万一休校等の措置がされた場合は貸出も踏まえて検討していく。</p>
-</blockquote>
+
+> GIGAスクール構想が成り立った後は、朝の会、帰りの会の学習の始まりと終わりについて、同時に双方向でのやり取りをし、実際の学習はオンラインの学習ツール等を使っての学習を想定。端末は主に学校の教育活動で使うことを想定しているが、万一休校等の措置がされた場合は貸出も踏まえて検討していく。
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 現在市として把握している来年度予算の厳しさは。
 </td></tr></table>
-<blockquote>
-<p>詳しいところは正直見えない。一つの例としてリーマンショック時市税が10億円近く減った。今回も同様かは今後の経過を見る。いずれにしろ例年どおりの予算編成は難しいと想定。（尾崎）</p>
-</blockquote>
+
+> 詳しいところは正直見えない。一つの例としてリーマンショック時市税が10億円近く減った。今回も同様かは今後の経過を見る。いずれにしろ例年どおりの予算編成は難しいと想定。（尾崎）
+
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 GIGAスクール構想の段取りは。
 </td></tr></table>
-<blockquote>
-<p>タブレットは仮契約し、9月定例会で議決。その後タブレット、ネットワーク、電源キャビネットを含めて全て令和3年3月までに環境整備が整う予定。（飯島 学務課長）</p>
-</blockquote>
+
+> タブレットは仮契約し、9月定例会で議決。その後タブレット、ネットワーク、電源キャビネットを含めて全て令和3年3月までに環境整備が整う予定。（飯島 学務課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 ルネこだいらのホームページを今リニューアルする必要性は。
 </td></tr></table>
-<blockquote>
-<p>①今のホームページでは動画が見られない。動画を公開できる環境を実装する。②ふるさと村のホームページをレスポンシブ対応にする。③アクセス数を把握する機能をつける。（島田 文化スポーツ課長）</p>
-</blockquote>
+
+> ①今のホームページでは動画が見られない。動画を公開できる環境を実装する。②ふるさと村のホームページをレスポンシブ対応にする。③アクセス数を把握する機能をつける。（島田 文化スポーツ課長）
+
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 観光まちづくり事業の第一弾「モリモリ食べてモリあげよう！」の状況は。
 </td></tr></table>
-<blockquote>
-<p>7月1日から始まって約800店舗参加で応募が現在80件。これから1万円分たまり8月中はかなりの数に上ると予想。（齋藤）</p>
-</blockquote>
-<h4><a class="header" href="#総務委員会での賛否" id="総務委員会での賛否">総務委員会での賛否</a></h4>
+
+> 7月1日から始まって約800店舗参加で応募が現在80件。これから1万円分たまり8月中はかなりの数に上ると予想。（齋藤）
+
+#### 総務委員会での賛否
+
 <table class="simple">
 <tr><th>会派</th><th>賛否</th></tr>
 <tr><td>一人会派の会</td><td>❌反対</td></tr>
@@ -1979,160 +2194,262 @@ GIGAスクール構想の段取りは。
 <tr><td>フォーラム小平</td><td>⭕賛成</td></tr>
 <tr><td>共産党</td><td>⭕賛成</td></tr>
 </table>
-<h2><a class="header" href="#本会議でのやり取り" id="本会議でのやり取り">本会議でのやり取り</a></h2>
-<h3><a class="header" href="#組み替え動議" id="組み替え動議">組み替え動議</a></h3>
+
+
+## 本会議でのやり取り
+
+### 組み替え動議
 <details>
 <summary>組替え動議（クリックで内容表示）</summary>
+
+> 議案第44号令和2年度小平市一般会計補正予算（第4号）に対する組替え動議  
+> 小平市議会議員松岡あつし　鈴木洋一
+>
+> 1.件名  
+議案第44号令和2年度小平市一般会計補正予算（第4号）に対する組替え動議  
+>
+>2.提案理由  
+令和2年度小平市一般会計補正予算（第4号）の主な財源である地方創生臨時交付金に関して、内閣府は新型コロナウイルス感染症に対応する取組である限り、その使途について基礎自治体に大きな裁臺を与えている。よって、新型コロナウイルス感染症の影響を受けている市民の誰もが、10億円に及ぶ交付金の使途に対して高い関心と期待を寄せているため、市が編成をした一般会計補正予算（第4号）の内容は、真に市民にとって最大限有効に活用されるものであるかが問われている。  
+一般会計補正予算（第4号）には数多くの支援施策が打ち出されているものの、先般の6月定例会の中で小林市長が述べられていた「経済を守る、雇用を守る、社会的弱者を守る」という目的を達成するためには、施策をより一層充実させる余地があると考える。  
+その財源確保のため、公共施設の改良・改修工事等不急の事業については今後の財政運営の中で改めて計画的な事業実施で対応することとし、減額を行う。そして、新型コロナウイルス感染症の感染拡大の状況が続き、平時と呼ぶには程遠い市民生活の現状に鑑み、確保した財源を活用し売上げが大きく減ったままの市内事業者への支援及び地域経済の活性化を行うこと。すなわち、キャッシュレス購入へのポイント付与だけではなくより多くの方が活用をできるよう地域振興券の発行等、経済支援を拡充すべきである。  
+一般会計補正予算（第4号）を臨時会で審査するのは、まさに今市民が必要としている施策を速やかな審査及び予算の執行により、施策の効果が最大化されることを期待するからである。さらにはこの国難ともいえる事態を市と市民が一体となって乗り越えていく意識を醸成、共有することにつながると確信している。  
+以上の理由により、議案第44号令和2年度小平市一般会計補正予算（第4号）について以下のとおり速やかに組替えの上、再提出することを要求する。  
+>
+>3.提案内容  
+(1)財源の捻出  
+以下の予算を減額することにより、(2)の財源を確保する。  
+>1. 本庁舎のエレベーターの改修工事にかかる経費（121,522千円）の減額
+>1. 健康センターエレベーターの改修工事にかかる経費（56,937千円）の減額  
+>1. 地域センターの空調設備購入にかかる経費（10,107千円）の減額  
+>1. 地域センターのトイレの手洗い自動水栓化にかかる経費（7,008千円）の減額
+>1. ルネこだいらの自動ドア設置にかかる経費（9,052千円）の減額
+>1. 公共施設予約システム利用対象施設拡大（48,672千円）の減額
+>1. ルネこだいらのホームベージリニユーアル（4,798千円）の減額  
+>減額金額の合計：258,096千円  
+>
+>(2)増額の内容  
+より多くの市民が利用できる地域振興券の発行事業や、アンケート調査を検証した上で、売上げが減少している市内事業者への給付事業等の追加を行うために、小平市中小企業等支援給付金事業費を増額する。
+
+</details>
+
+政和会から組み替え動議が出されました。1の財源の捻出部分については、一人会派の会からの要望で内容を調整しています。2の増額の内容には賛同できない部分もあります。しかし、いずれにしろ否決されることが分かっていたこともあり、私もこの動議に賛成しました。意見表明の機会が増えること、ほんの少しでも否決の可能性が高まれば、という思いも（わずかに）あってのことです。その時点で想定していたのは
+
+［組み替え動議］ → 組み替え動議は結局否決 → ［議案に反対］→ 原案は結局可決
+
+という段取りです。結局この流れになりました。
+
+#### 組み替え動議に対する質疑
+
+Q: 地域振興券にかかるコストは。  
+A: 詳細の数字はない。
+
+Q: 困窮する一般市民への考えは。  
+A: 支援は必要だが商工費が低い。
+
+Q: 地域振興券はコストがかかる、ポイント付与は市民に還元できるという話だった。地域振興券についてこだわる理由は。コストは。全額市民に還元できるか。  
+A: こだわっているわけではないが高齢者も使える。ポイントと両方やっても良い。市内事業者に還元することで経済を回せる。そもそも商工費が少ないというところがある。
+
+Q: 中小企業への支援のみと見えるが、どう考えるか。  
+A: 市内で企業が困っていればそこに使ってもらえれば。
+
+
+#### 組み替え動議に対する討論
+＊概要ですので、実際の討論は[会議録等](index.md/#会議録配布資料)をご参照ください。
+
+<h5 style="margin-bottom:0"><span class="highlight">⭐賛成（一人会派の会：橋本久雄）</span></h5>
+
+- 先送りしてきたものをコロナに乗じて実施している
+- オンライン化の施策がない
+- 事業者や市民は支援を必要としている。市民意識との乖離が否めない
+- 1～7は一人会派の会と調整したが、さらに多くの減額が必要と考えている
+- コロナ対策では、民生費が一番多くなければならないと考えるが、少ない
+- 小平市はこういうことを良くやるが、このまま続けていいのか  
+
+<h5 style="margin-bottom:0">反対（公明党）</h5>
+
+- 不急と判断していない
+- 地域振興券が市民にいきわたるかは疑問
+- 次の補正に期待する
+
+<h5 style="margin-bottom:0">反対（フォーラム小平）</h5>
+
+- 地域振興券は印刷・発行でコストがかかる、キャッシュレスなら店舗側設備投資不要
+- 予算減額の1～7については、インフラは今日明日でできるものでない、安全安心が必要
+
+<h5 style="margin-bottom:0">反対（生活者ネットワーク）</h5>
+
+- 地域振興券が市民にとって公平なのかが分からない
+- 市内事業者への支援が1.2%というのが少ないから嫌だという風に受け取った
+- 時間的に確かめられない
+- withコロナを考えると市のインフラを整えることは必要
+- ICTの活用は必要になる
+
+<h5 style="margin-bottom:0">反対（共産党）</h5>
+
+反対討論なし
+
+<h5 style="margin-bottom:0">反対（まちづくり市民こだいら：水口議員）</h5>
+
+- 組み替え動議の趣旨には賛同
+- 動議が可決された場合、補正予算の執行が遅くなることを懸念
+- この中で速やかに確実に実行してほしいことは、特に児童養護施設等退所者への支援金
+
+<img src="20200908_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 反対した会派が理由に挙げている一つが、地域振興券のコストがかかるという点です。読めば分かる通り、それが趣旨ではないんですけれどね。それ以外の点については何を言っているのか分からないことも多かったのですが、もともと原案に賛成だからということでしょう。であれば「<strong>原案に賛成のため反対する</strong>」とだけ言えばいいのにな、と思います。また、水口議員が反対したのは意外でした。主な理由として「動議が可決された場合補正予算の執行が遅くなる」とあります。上記しましたが、その論理だと今後一切の反対ができないことになってしまいます💦
+
+### 原案に対する討論
+＊概要ですので、実際の討論は[会議録等](index.md/#会議録配布資料)をご参照ください。
+
+<h5 style="margin-bottom:0"><span class="highlight">⭐反対（一人会派の会：伊藤央）</span></h5>
+
+- 評価できることはある。ごみ事業者への支給、小中学校の給食調理室へのスポットクーラーの設置、GIGAスクールの教職員用および予備用のタブレット購入
+- これらの事業が不急とは思っていない、むしろ遅すぎる
+- やっておかなければならなかったことを先送りし、お金が入ったからやってしまえと
+- 来年市長選がある中での繰越し明許費は、民主主義の、選挙に対する認識としておかしい
+- 自動ドア、自動水洗、いまやることか、これを知ったら多くの市民が怒る
+- 人が集まることが難しくなっている時期に、人が集まる施設にお金を集めている
+- オンラインに対する施策がなく将来をまったく見ていない
+- いままでやってこなかったツケを払っているだけの予算
+- 経営者の方、生活が本当に苦しい市民を思い浮かべると、当会派は手を上げられない
+- 市民に対する裏切りであり、反対する
+
+<h5 style="margin-bottom:0">反対（政和会）</h5>
+
+- 市内事業者への支援が不十分
+- 不急の公共施設の整備事業が散見される
+
+<h5 style="margin-bottom:0">賛成（公明党）</h5>
+
+- ハード事業に予算が多い点は不急か議論がある。すべて不急と判断していない
+- 新しい生活様式に即した改修は重要
+- 商工費に対する補助は議論が必要、実体を調査の必要がある
+- できることを少しづつやっていくしかない
+- ある一定の評価はしている
+
+<h5 style="margin-bottom:0">賛成（フォーラム小平）</h5>
+
+- 新しい生活に対応するための経費
+- 当会派から要望していた定額給付金の支給からもれた新生児への支援、自動養護者施設退所者に対する支援などが反映されたことを高く評価
+- キャッシュレスポイント事業は予算全額を市民に還元できる
+
+<h5 style="margin-bottom:0">賛成（共産党）</h5>
+
+- 委員会審査を経て明らかになった推進すべき事業が複数ある
+- コミュバス・タクシーの運行支援、市民協働でスタートさせた事業を継続させる
+- 公立昭和病院への特別財政支援、財政支援が必要とされているということで予算化された
+- 住居確保給付金事業、 障害者施設事業所従事者特別支援金、育児パッケージの追加配布、児童養護施設等対象者支援金、網戸設置は評価できる
+- キャッシュレス決済は国の誘導そのまま小平市の事業に乗っており不平等さが残されている
+- 市民からの要望、議会からの要望がどの程度反映したか、不十分さがある
+- 市民の願いが一つ一つ結実する予算に全体としてなった
+
+<h5 style="margin-bottom:0">賛成（生活者ネットワーク）</h5>
+
+- 市民や事業者の生活や運営が置き去りになっていないか懸念が残る
+- 住居確保給付金の増は評価できる
+- PCR検査センターの一日も早い設置、コロナ感染者の宿泊療養先確保を市として行う必要
+- 二号補正の家賃支援事業、見込みを誤ったのは市として事業者の声を把握していなかった
+- 地域活性化事業は店舗によってはポイント付与のための整備までカバーできているか
+- オンラインで市民や事業者の生の声を聞けるような方法を構築せよ
+
+<h5 style="margin-bottom:0">賛成（まちづくり市民こだいら：水口議員）</h5>
+
+- 多くの疑問を感じる事業が含まれている
+- 最も大きな疑問は、キャッシュレス決済で、70歳以上スマホを持たない人が4割以上。さらにアプリが使えるという一部の人に2.6億円使うのは公平性の観点から大きな問題
+- 本庁舎エレベータ改修が今必要なのか、コロナ対策のお金として適切か、コロナで困っている人に回せないか
+- 公園の抗菌塗料がコロナ対策として効果があるか疑問
+- 評価できる事業もある、昭和病院の支援、住居確保給付金増額、地域センター予約オンライン、自動通話録音機の買い足し、夏季期間事業延長のアシスタント職への補助、児童養護施設等退所者への補助
+
+<img src="20200908_teireikai/../icons/yasutake-anger.png" class="noshadow yasutake-face"> 本当に毎回思いますが、なぜ彼らは反対かのような意見を述べておきながら賛成に回るのでしょうか🤥。まったく分かりません。反対したら全てが破綻するとでも思っているのでしょうか？「<strong>議員しかできない</strong>」という立場を理解していない、もしくは舐めているように思います。ということを上の方にも記載しました。
+
+張ります💪
+
+
+### 原案に対する賛否
+[賛否についてはこちらをご覧ください。](./index.md#賛否)
+--><h1><a class="header" href="#議案第48号-令和2年度小平市国民健康保険事業特別会計補正予算第2号" id="議案第48号-令和2年度小平市国民健康保険事業特別会計補正予算第2号">議案第48号 令和2年度小平市国民健康保険事業特別会計補正予算（第2号）</a></h1>
+<p><i class="fa fa-gavel" aria-hidden="true"></i> 厚生委員会付託</p>
+<fieldset class="point">
+  <legend>
+    <h2 class="point"> ポイント </h2>
+  </legend>
+  <p class="point">✔ 前年度事業費の確定に伴う繰越金の補正</p>
+  <p class="point">✔ 前年度の都補助金等精算に伴う歳出の補正</p>
+</fieldset>
+<fieldset class="sanpi">
+  <legend>
+    <h2 class="sanpi">⭕️ 私（安竹洋平）の判断：賛成 </h2>
+  </legend>
+  <p class="sanpi OK">⭕️ 特に問題ないため賛成</p>
+</fieldset>
+<h2><a class="header" href="#概要-2" id="概要-2">概要</a></h2>
+<details>
+<summary>市長報告（クリックで開きます）</summary>
 <blockquote>
-<p>議案第44号令和2年度小平市一般会計補正予算（第4号）に対する組替え動議<br />
-小平市議会議員松岡あつし　鈴木洋一</p>
-<p>1.件名<br />
-議案第44号令和2年度小平市一般会計補正予算（第4号）に対する組替え動議</p>
-<p>2.提案理由<br />
-令和2年度小平市一般会計補正予算（第4号）の主な財源である地方創生臨時交付金に関して、内閣府は新型コロナウイルス感染症に対応する取組である限り、その使途について基礎自治体に大きな裁臺を与えている。よって、新型コロナウイルス感染症の影響を受けている市民の誰もが、10億円に及ぶ交付金の使途に対して高い関心と期待を寄せているため、市が編成をした一般会計補正予算（第4号）の内容は、真に市民にとって最大限有効に活用されるものであるかが問われている。<br />
-一般会計補正予算（第4号）には数多くの支援施策が打ち出されているものの、先般の6月定例会の中で小林市長が述べられていた「経済を守る、雇用を守る、社会的弱者を守る」という目的を達成するためには、施策をより一層充実させる余地があると考える。<br />
-その財源確保のため、公共施設の改良・改修工事等不急の事業については今後の財政運営の中で改めて計画的な事業実施で対応することとし、減額を行う。そして、新型コロナウイルス感染症の感染拡大の状況が続き、平時と呼ぶには程遠い市民生活の現状に鑑み、確保した財源を活用し売上げが大きく減ったままの市内事業者への支援及び地域経済の活性化を行うこと。すなわち、キャッシュレス購入へのポイント付与だけではなくより多くの方が活用をできるよう地域振興券の発行等、経済支援を拡充すべきである。<br />
-一般会計補正予算（第4号）を臨時会で審査するのは、まさに今市民が必要としている施策を速やかな審査及び予算の執行により、施策の効果が最大化されることを期待するからである。さらにはこの国難ともいえる事態を市と市民が一体となって乗り越えていく意識を醸成、共有することにつながると確信している。<br />
-以上の理由により、議案第44号令和2年度小平市一般会計補正予算（第4号）について以下のとおり速やかに組替えの上、再提出することを要求する。</p>
-<p>3.提案内容<br />
-(1)財源の捻出<br />
-以下の予算を減額することにより、(2)の財源を確保する。</p>
-<ol>
-<li>本庁舎のエレベーターの改修工事にかかる経費（121,522千円）の減額</li>
-<li>健康センターエレベーターの改修工事にかかる経費（56,937千円）の減額</li>
-<li>地域センターの空調設備購入にかかる経費（10,107千円）の減額</li>
-<li>地域センターのトイレの手洗い自動水栓化にかかる経費（7,008千円）の減額</li>
-<li>ルネこだいらの自動ドア設置にかかる経費（9,052千円）の減額</li>
-<li>公共施設予約システム利用対象施設拡大（48,672千円）の減額</li>
-<li>ルネこだいらのホームベージリニユーアル（4,798千円）の減額<br />
-減額金額の合計：258,096千円</li>
-</ol>
-<p>(2)増額の内容<br />
-より多くの市民が利用できる地域振興券の発行事業や、アンケート調査を検証した上で、売上げが減少している市内事業者への給付事業等の追加を行うために、小平市中小企業等支援給付金事業費を増額する。</p>
+<p>今回の補正予算は、前年度の事業費の確定に伴う繰越金の補正、及び前年度の都補助金等の精算に伴う歳出の補正を行うものです。歳入では、前年度からの繰越金を増額し、歳出では、前年度に超過交付となった保険給付費等交付金の返還金を増額するものです。</p>
 </blockquote>
 </details>
-<p>政和会から組み替え動議が出されました。1の財源の捻出部分については、一人会派の会からの要望で内容を調整しています。2の増額の内容には賛同できない部分もあります。しかし、いずれにしろ否決されることが分かっていたこともあり、私もこの動議に賛成しました。意見表明の機会が増えること、ほんの少しでも否決の可能性が高まれば、という思いも（わずかに）あってのことです。その時点で想定していたのは</p>
-<p>［組み替え動議］ → 組み替え動議は結局否決 → ［議案に反対］→ 原案は結局可決</p>
-<p>という段取りです。結局この流れになりました。</p>
-<h4><a class="header" href="#組み替え動議に対する質疑" id="組み替え動議に対する質疑">組み替え動議に対する質疑</a></h4>
-<p>Q: 地域振興券にかかるコストは。<br />
-A: 詳細の数字はない。</p>
-<p>Q: 困窮する一般市民への考えは。<br />
-A: 支援は必要だが商工費が低い。</p>
-<p>Q: 地域振興券はコストがかかる、ポイント付与は市民に還元できるという話だった。地域振興券についてこだわる理由は。コストは。全額市民に還元できるか。<br />
-A: こだわっているわけではないが高齢者も使える。ポイントと両方やっても良い。市内事業者に還元することで経済を回せる。そもそも商工費が少ないというところがある。</p>
-<p>Q: 中小企業への支援のみと見えるが、どう考えるか。<br />
-A: 市内で企業が困っていればそこに使ってもらえれば。</p>
-<h4><a class="header" href="#組み替え動議に対する討論" id="組み替え動議に対する討論">組み替え動議に対する討論</a></h4>
-<p>＊概要ですので、実際の討論は<a href="20200908_teireikai/">会議録等</a>をご参照ください。</p>
-<h5 style="margin-bottom:0"><span class="highlight">⭐賛成（一人会派の会：橋本久雄）</span></h5>
-<ul>
-<li>先送りしてきたものをコロナに乗じて実施している</li>
-<li>オンライン化の施策がない</li>
-<li>事業者や市民は支援を必要としている。市民意識との乖離が否めない</li>
-<li>1～7は一人会派の会と調整したが、さらに多くの減額が必要と考えている</li>
-<li>コロナ対策では、民生費が一番多くなければならないと考えるが、少ない</li>
-<li>小平市はこういうことを良くやるが、このまま続けていいのか</li>
-</ul>
-<h5 style="margin-bottom:0">反対（公明党）</h5>
-<ul>
-<li>不急と判断していない</li>
-<li>地域振興券が市民にいきわたるかは疑問</li>
-<li>次の補正に期待する</li>
-</ul>
-<h5 style="margin-bottom:0">反対（フォーラム小平）</h5>
-<ul>
-<li>地域振興券は印刷・発行でコストがかかる、キャッシュレスなら店舗側設備投資不要</li>
-<li>予算減額の1～7については、インフラは今日明日でできるものでない、安全安心が必要</li>
-</ul>
-<h5 style="margin-bottom:0">反対（生活者ネットワーク）</h5>
-<ul>
-<li>地域振興券が市民にとって公平なのかが分からない</li>
-<li>市内事業者への支援が1.2%というのが少ないから嫌だという風に受け取った</li>
-<li>時間的に確かめられない</li>
-<li>withコロナを考えると市のインフラを整えることは必要</li>
-<li>ICTの活用は必要になる</li>
-</ul>
-<h5 style="margin-bottom:0">反対（共産党）</h5>
-<p>反対討論なし</p>
-<h5 style="margin-bottom:0">反対（まちづくり市民こだいら：水口議員）</h5>
-<ul>
-<li>組み替え動議の趣旨には賛同</li>
-<li>動議が可決された場合、補正予算の執行が遅くなることを懸念</li>
-<li>この中で速やかに確実に実行してほしいことは、特に児童養護施設等退所者への支援金</li>
-</ul>
-<p><img src="20200908_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 反対した会派が理由に挙げている一つが、地域振興券のコストがかかるという点です。読めば分かる通り、それが趣旨ではないんですけれどね。それ以外の点については何を言っているのか分からないことも多かったのですが、もともと原案に賛成だからということでしょう。であれば「<strong>原案に賛成のため反対する</strong>」とだけ言えばいいのにな、と思います。また、水口議員が反対したのは意外でした。主な理由として「動議が可決された場合補正予算の執行が遅くなる」とあります。上記しましたが、その論理だと今後一切の反対ができないことになってしまいます💦</p>
-<h3><a class="header" href="#原案に対する討論" id="原案に対する討論">原案に対する討論</a></h3>
-<p>＊概要ですので、実際の討論は<a href="20200908_teireikai/">会議録等</a>をご参照ください。</p>
-<h5 style="margin-bottom:0"><span class="highlight">⭐反対（一人会派の会：伊藤央）</span></h5>
-<ul>
-<li>評価できることはある。ごみ事業者への支給、小中学校の給食調理室へのスポットクーラーの設置、GIGAスクールの教職員用および予備用のタブレット購入</li>
-<li>これらの事業が不急とは思っていない、むしろ遅すぎる</li>
-<li>やっておかなければならなかったことを先送りし、お金が入ったからやってしまえと</li>
-<li>来年市長選がある中での繰越し明許費は、民主主義の、選挙に対する認識としておかしい</li>
-<li>自動ドア、自動水洗、いまやることか、これを知ったら多くの市民が怒る</li>
-<li>人が集まることが難しくなっている時期に、人が集まる施設にお金を集めている</li>
-<li>オンラインに対する施策がなく将来をまったく見ていない</li>
-<li>いままでやってこなかったツケを払っているだけの予算</li>
-<li>経営者の方、生活が本当に苦しい市民を思い浮かべると、当会派は手を上げられない</li>
-<li>市民に対する裏切りであり、反対する</li>
-</ul>
-<h5 style="margin-bottom:0">反対（政和会）</h5>
-<ul>
-<li>市内事業者への支援が不十分</li>
-<li>不急の公共施設の整備事業が散見される</li>
-</ul>
-<h5 style="margin-bottom:0">賛成（公明党）</h5>
-<ul>
-<li>ハード事業に予算が多い点は不急か議論がある。すべて不急と判断していない</li>
-<li>新しい生活様式に即した改修は重要</li>
-<li>商工費に対する補助は議論が必要、実体を調査の必要がある</li>
-<li>できることを少しづつやっていくしかない</li>
-<li>ある一定の評価はしている</li>
-</ul>
-<h5 style="margin-bottom:0">賛成（フォーラム小平）</h5>
-<ul>
-<li>新しい生活に対応するための経費</li>
-<li>当会派から要望していた定額給付金の支給からもれた新生児への支援、自動養護者施設退所者に対する支援などが反映されたことを高く評価</li>
-<li>キャッシュレスポイント事業は予算全額を市民に還元できる</li>
-</ul>
-<h5 style="margin-bottom:0">賛成（共産党）</h5>
-<ul>
-<li>委員会審査を経て明らかになった推進すべき事業が複数ある</li>
-<li>コミュバス・タクシーの運行支援、市民協働でスタートさせた事業を継続させる</li>
-<li>公立昭和病院への特別財政支援、財政支援が必要とされているということで予算化された</li>
-<li>住居確保給付金事業、 障害者施設事業所従事者特別支援金、育児パッケージの追加配布、児童養護施設等対象者支援金、網戸設置は評価できる</li>
-<li>キャッシュレス決済は国の誘導そのまま小平市の事業に乗っており不平等さが残されている</li>
-<li>市民からの要望、議会からの要望がどの程度反映したか、不十分さがある</li>
-<li>市民の願いが一つ一つ結実する予算に全体としてなった</li>
-</ul>
-<h5 style="margin-bottom:0">賛成（生活者ネットワーク）</h5>
-<ul>
-<li>市民や事業者の生活や運営が置き去りになっていないか懸念が残る</li>
-<li>住居確保給付金の増は評価できる</li>
-<li>PCR検査センターの一日も早い設置、コロナ感染者の宿泊療養先確保を市として行う必要</li>
-<li>二号補正の家賃支援事業、見込みを誤ったのは市として事業者の声を把握していなかった</li>
-<li>地域活性化事業は店舗によってはポイント付与のための整備までカバーできているか</li>
-<li>オンラインで市民や事業者の生の声を聞けるような方法を構築せよ</li>
-</ul>
-<h5 style="margin-bottom:0">賛成（まちづくり市民こだいら：水口議員）</h5>
-<ul>
-<li>多くの疑問を感じる事業が含まれている</li>
-<li>最も大きな疑問は、キャッシュレス決済で、70歳以上スマホを持たない人が4割以上。さらにアプリが使えるという一部の人に2.6億円使うのは公平性の観点から大きな問題</li>
-<li>本庁舎エレベータ改修が今必要なのか、コロナ対策のお金として適切か、コロナで困っている人に回せないか</li>
-<li>公園の抗菌塗料がコロナ対策として効果があるか疑問</li>
-<li>評価できる事業もある、昭和病院の支援、住居確保給付金増額、地域センター予約オンライン、自動通話録音機の買い足し、夏季期間事業延長のアシスタント職への補助、児童養護施設等退所者への補助</li>
-</ul>
-<p><img src="20200908_teireikai/../icons/yasutake-anger.png" class="noshadow yasutake-face"> 本当に毎回思いますが、なぜ彼らは反対かのような意見を述べておきながら賛成に回るのでしょうか🤥。まったく分かりません。反対したら全てが破綻するとでも思っているのでしょうか？「<strong>議員しかできない</strong>」という立場を理解していない、もしくは舐めているように思います。ということを上の方にも記載しました。</p>
-<p>張ります💪</p>
-<h3><a class="header" href="#原案に対する賛否" id="原案に対する賛否">原案に対する賛否</a></h3>
-<p><a href="20200908_teireikai/./#%E8%B3%9B%E5%90%A6">賛否についてはこちらをご覧ください。</a></p>
-<h1><a class="header" href="#第48号-国保補正" id="第48号-国保補正">第48号 国保補正</a></h1>
+<h2><a class="header" href="#解説-2" id="解説-2">解説</a></h2>
+<p>前年度の</p>
+<h2><a class="header" href="#主な質疑発言順-2" id="主な質疑発言順-2">主な質疑（発言順）</a></h2>
+<p><strong>【注】</strong> 以下は要約ですので、正確な質疑内容は<a href="20200908_teireikai/./#%E4%BC%9A%E8%AD%B0%E9%8C%B2%E9%85%8D%E5%B8%83%E8%B3%87%E6%96%99">会議録</a>をご参照ください。分かりやすくするため、括弧書きの部分は、実際の質問内容にかなり修正を加えたところもあります。また、簡略化のため、理事者側（市役所側）の答弁から敬語表現を省いている場合があります。実際は理事者側のすべての答弁において、市民に対する敬語表現で回答がなされています。</p>
+<div class="q-mark-notes">
+<p>私（安竹）の質問＝<i class="fa fa-question-circle hitori yasutake" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori yasutake" aria-hidden="true"></i><br>
+一人会派の会 その他議員の質問＝<i class="fa fa-question-circle hitori" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori" aria-hidden="true"></i><br>
+その他 議員の質問＝：<i class="fa fa-question-circle-o" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+</div>
+<p>質疑なし。</p>
 <h1><a class="header" href="#第49号-後期高齢補正" id="第49号-後期高齢補正">第49号 後期高齢補正</a></h1>
 <h1><a class="header" href="#第50号-介保補正" id="第50号-介保補正">第50号 介保補正</a></h1>
 <h1><a class="header" href="#第51号-市組織条例-一部改正" id="第51号-市組織条例-一部改正">第51号 市組織条例 一部改正</a></h1>
 <h1><a class="header" href="#第52号-市手数料条例-一部改正" id="第52号-市手数料条例-一部改正">第52号 市手数料条例 一部改正</a></h1>
 <h1><a class="header" href="#第53号-市デイサービス条例-廃止" id="第53号-市デイサービス条例-廃止">第53号 市デイサービス条例 廃止</a></h1>
+<p><i class="fa fa-gavel" aria-hidden="true"></i> xx委員会付託 即決</p>
+<fieldset class="point">
+  <legend>
+    <h2 class="point"> ポイント </h2>
+  </legend>
+  <p class="point">✔ </p>
+</fieldset>
+<fieldset class="sanpi">
+  <legend>
+    <h2 class="sanpi">⭕️ 私（安竹洋平）の判断：賛成 </h2>
+  </legend>
+  <p class="sanpi NG">❌ </p>
+  <p class="sanpi OK">⭕️ </p>
+</fieldset>
+<h2><a class="header" href="#概要-3" id="概要-3">概要</a></h2>
+<details>
+<summary>市長報告（クリックで開きます）</summary>
+<blockquote>
+</blockquote>
+</details>
+<h2><a class="header" href="#解説-3" id="解説-3">解説</a></h2>
+<h2><a class="header" href="#主な質疑発言順-3" id="主な質疑発言順-3">主な質疑（発言順）</a></h2>
+<p><strong>【注】</strong> 以下は要約ですので、正確な質疑内容は<a href="20200908_teireikai/./#%E4%BC%9A%E8%AD%B0%E9%8C%B2%E9%85%8D%E5%B8%83%E8%B3%87%E6%96%99">会議録</a>をご参照ください。分かりやすくするため、括弧書きの部分は、実際の質問内容にかなり修正を加えたところもあります。また、簡略化のため、理事者側（市役所側）の答弁から敬語表現を省いている場合があります。実際は理事者側のすべての答弁において、市民に対する敬語表現で回答がなされています。</p>
+<div class="q-mark-notes">
+<p>私（安竹）の質問＝<i class="fa fa-question-circle hitori yasutake" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori yasutake" aria-hidden="true"></i><br>
+一人会派の会 その他議員の質問＝<i class="fa fa-question-circle hitori" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori" aria-hidden="true"></i><br>
+その他 議員の質問＝：<i class="fa fa-question-circle-o" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle" aria-hidden="true"></i></p>
+</div>
+<h3><a class="header" href="#-本会議" id="-本会議">＠ 本会議</a></h3>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
+（安竹 洋平）
+</td></tr></table>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
+（）
+</td></tr></table>
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+条例廃止の必要性は。
+</td></tr></table>
+<blockquote>
+<p>平成14年4月の開所当時は介護保険制度ができて2年目で、通所介護事業所も少ない状況だった。それから20年経過し、市内民間事業者のデイサービスセンター開設が進んでいることから、当初の役割は果たしたと考えている。（滝澤 健康福祉部長）</p>
+</blockquote>
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
+なぜこのタイミングか。
+</td></tr></table>
+<blockquote>
+<p>3月までは事業を行うが、現在の利用者にこれからの行先を考えてもらうため、この時期に条例を廃止。（滝澤）</p>
+</blockquote>
+<h3><a class="header" href="#-厚生委員会" id="-厚生委員会">＠ 厚生委員会</a></h3>
 <h1><a class="header" href="#第54号-市建築審査会条例" id="第54号-市建築審査会条例">第54号 市建築審査会条例</a></h1>
 <h1><a class="header" href="#第55号-市中高層紛争予防条例" id="第55号-市中高層紛争予防条例">第55号 市中高層～紛争予防～条例</a></h1>
 <h1><a class="header" href="#第56号-gigaスクールpc買入れ" id="第56号-gigaスクールpc買入れ">第56号 GIGAスクールPC買入れ</a></h1>
@@ -2651,7 +2968,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
   <p class="sanpi NG">❌ オンライン化の推進など、将来に向けた一貫性のある投資が行われていない</p>
   <p class="sanpi NG">❌ 次回臨時交付金に向けても、市のビジョンを示す必要があるが、片鱗すら見えない</p>
 </fieldset>
-<h2><a class="header" href="#目次-1" id="目次-1">目次</a></h2>
+<h2><a class="header" href="#目次" id="目次">目次</a></h2>
 <ul>
 <li><a href="20200803_rinjikai/gian-44.html#%E6%A6%82%E8%A6%81">概要</a></li>
 <li><a href="20200803_rinjikai/gian-44.html#%E8%A7%A3%E8%AA%AC">解説</a>
@@ -2710,7 +3027,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 </ul>
 </li>
 </ul>
-<h2><a class="header" href="#概要-1" id="概要-1">概要</a></h2>
+<h2><a class="header" href="#概要-4" id="概要-4">概要</a></h2>
 <p>コロナ禍に対応するため国から支給される「新型コロナ感染症対応地方創生臨時交付金」を受けた補正予算です。小平市への交付金は約12億円あり、その全額を活用します。それ以外に都から2億円。小平市自身の支出は、GIGAスクール構想の実現に向けて教員用タブレットやネット環境を設備を整備する目的で、市債を約1.5億円計上しています。さらに一般財源からは5千万円を支出し、これはセーフティネットとしての住居確保給付金の増額と、小中学校の新型コロナウイルス感染症対策等に使用されます。総額16億円という、自由度の高い予算として、巨額の内容になっています。</p>
 <details>
 <summary>市長報告（クリックで開きます）</summary>
@@ -2728,7 +3045,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 <p>財源構成といたしましては、事業の実施に伴い、国、都支出金を増額するとともに、寄附金、地方債、及び財政調整基金からの繰入金で対応いたします｡</p>
 </blockquote>
 </details>
-<h2><a class="header" href="#解説-1" id="解説-1">解説</a></h2>
+<h2><a class="header" href="#解説-4" id="解説-4">解説</a></h2>
 <h3><a class="header" href="#今まででもっともひどい予算" id="今まででもっともひどい予算">今まででもっともひどい予算！💢</a></h3>
 <p>私が小平市議会議員になって1年4か月。今まで最もひどい予算です。今回は臨時交付金が約12億円と、自由に巨額の予算が使えるめったにない機会でした。「コロナ禍に対応する」という名目で市をアップグレードするまたとないチャンスでした。しかし市はこの千載一遇のチャンスを無駄にしました。故障が頻発する空調設備の改修、運行中にエンジンが止まってしまうコミュニティタクシー（およびバス）の更新、公園遊具の修繕など、これまで予算がつかなかったために、問題があっても放置されていた、いわゆる「ツケ」の分を払うため（過去の不作為の埋め合わせ）に使われます。また、自動ドア設置、公共施設予約システム、トイレの手洗い自動水洗化、ホームページリニューアルなど、「不急」の事業にも巨費が投じられることになります。</p>
 <h4><a class="header" href="#そもそもツケがたまるのは計画の見直しが足りていないから" id="そもそもツケがたまるのは計画の見直しが足りていないから">そもそもツケがたまるのは、計画の見直しが足りていないから</a></h4>
@@ -2888,7 +3205,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 <h3><a class="header" href="#小平市の理想像をイラストにしてみました" id="小平市の理想像をイラストにしてみました">小平市の理想像をイラストにしてみました</a></h3>
 <p>理想はこちらのような状況です↓
 <img src="20200803_rinjikai/./nice-kodaira.jpg" alt="小平市の理想像" data-zoomable=""></p>
-<h3><a class="header" href="#補正予算を分析する-1" id="補正予算を分析する-1">🕵補正予算を分析する</a></h3>
+<h3><a class="header" href="#補正予算を分析する" id="補正予算を分析する">🕵補正予算を分析する</a></h3>
 <p>次に補正予算の内容を見ていきたいと思います。まずは歳入です。</p>
 <div id="sainyu-hosei-summary" style="width:100%;height: 350px; margin-top:50px;"></div>
 <script type="text/javascript">
@@ -3070,7 +3387,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
   }
 </script>
 <p>なお、年度内の完了が見込めない分として約2.2億円が繰越明許費に計上されます。これについて「緊急性のあるコロナ対策に使うべき資金を繰越しして使うとはなにごとか」と問題視する議員も多かったです。私は、内容さえ良ければ、繰越しがあること自体は特に問題ないと思います。しかし以下に記載するように、内容に問題があります。</p>
-<h4><a class="header" href="#ふらっとビューア予算歳出-ver-10-1" id="ふらっとビューア予算歳出-ver-10-1">👁️‍🗨️ふらっとビューア（予算歳出） ver 1.0</a></h4>
+<h4><a class="header" href="#ふらっとビューア予算歳出-ver-10" id="ふらっとビューア予算歳出-ver-10">👁️‍🗨️ふらっとビューア（予算歳出） ver 1.0</a></h4>
 <p>小平市の予算書は読みにくく、検索、抽出、並べ替え等のデータ操作ができません。そこでふらっとビューア（予算歳出）というソフトをつくりました。
 歳出予算をいろいろな側面から分析することができます。（＊金額の単位は「千円」です）。</p>
 <p>続いて、このビューアの使い方とともに、補正予算（歳出）の詳細を見ていきたいと思います。</p>
@@ -3107,9 +3424,10 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 <script src="../js-each/lib/slick.cellselectionmodel.js"></script>
 <script src="../js-each/lib/slick.cellexternalcopymanager.js"></script>
 <script src="../js-each/lib/jquery.ui.touch-punch.min.js"></script>
+<script src="../js-each/20200803.js"></script>
 <script src="../js-each/slickgrid-src.js"></script>
 <p><a href="20200803_rinjikai/4%E5%8F%B7%E8%A3%9C%E6%AD%A3%E4%BA%88%E7%AE%97%E8%A3%9C%E8%B6%B3.xlsx">4号補正予算補足.xls</a></p>
-<h4><a class="header" href="#ふらっとビューアで予算詳細を見る-1" id="ふらっとビューアで予算詳細を見る-1">ふらっとビューアで予算詳細を見る</a></h4>
+<h4><a class="header" href="#ふらっとビューアで予算詳細を見る" id="ふらっとビューアで予算詳細を見る">ふらっとビューアで予算詳細を見る</a></h4>
 <p>さて突然ですが、ここからは、ふらっとビューアの使い方を😃タローと🐶ポチの会話形式にてお送りします。</p>
 <p>🤔 市債1.33億円は全額GIGAスクールに使われているということだけれど、ふらっとビューアでもそれが調べられるの？</p>
 <p>🐶 簡単だワン。次の図を見るワン。（クリック/タップで拡大表示します）<br />
@@ -3158,9 +3476,9 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 <p>🐶 本庁舎のエレベーター2機分、コロナ禍に対応して、空調設備を新しくするための改修工事だそうだワン。故障しているわけでも、すぐに特別なメンテナンスが必要なわけでもないワン。</p>
 <p>😱 そんな不急のことに1.2億円も支出しているの？！</p>
 <p>🐶 それ以外にも、以下に説明があるけれど、ツケ払い、不急のものへの支出が多いワン。もっとICT環境整備など将来のことに投資して欲しいワン。このままだと、市税も減るわけだし、すごいスピードで先細りになると思うワン。</p>
-<h4><a class="header" href="#それぞれの費用内訳-1" id="それぞれの費用内訳-1">それぞれの費用内訳</a></h4>
+<h4><a class="header" href="#それぞれの費用内訳" id="それぞれの費用内訳">それぞれの費用内訳</a></h4>
 <p>ここからはそれぞれの費用について詳細を見ていきます。</p>
-<h5><a class="header" href="#教育費-1" id="教育費-1">教育費</a></h5>
+<h5><a class="header" href="#教育費" id="教育費">教育費</a></h5>
 <div id="kyouiku-hi-uchiwake" style="width:100%;height: 350px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -3218,7 +3536,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 <img src="20200803_rinjikai/./chugakko-hi.png" alt="ふらっとビューア・中学校費詳細" data-zoomable=""></p>
 <p>保健体育費は、市民総合体育館の事業継続支援に約1,600万円と、給食の器具費です。事業継続支援の内容が気になるところです。
 <img src="20200803_rinjikai/./hoken-taiiku.png" alt="ふらっとビューア・保健体育費詳細" data-zoomable=""></p>
-<h5><a class="header" href="#総務費-1" id="総務費-1">総務費</a></h5>
+<h5><a class="header" href="#総務費" id="総務費">総務費</a></h5>
 <div id="soumu-hi-uchiwake" style="width:100%;height: 350px;margin-top:30px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -3303,7 +3621,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 </div>
 <p><strong>安全安心まちづくり費</strong>は、防災施設及び備蓄品の整備事業ということで、消耗品や、災害時テント⛺、応急給水等資機材倉朧、災害時ベッド、避難所用発電機等に合計約4,700万円かけています。コロナ禍というよりは災害用のような気がしますが、それでも臨時交付金が使えるのですね。そう考えるとかなり自由度が高い交付金なのではないかと思います。これはまぁ良いでしょう。</p>
 <p><strong>地域振興費</strong>は、地域センターと元気村おがわ東の空調設備及び修繕費に合計約2,300万円かかっています。また平櫛田中彫刻美術館の除菌消臭器に約52万円予算計上していますが、これについては、なぜ臨時交付金ではなく一般財源から19万円を支出しているのか気になります。こちらもツケ払い、もしくは不要不急の事業だと思います。</p>
-<h5><a class="header" href="#民生費-1" id="民生費-1">民生費</a></h5>
+<h5><a class="header" href="#民生費" id="民生費">民生費</a></h5>
 <div id="minsei-hi-uchiwake" style="width:100%;height: 350px;margin-top:50px;margin-bottom:30px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -3363,7 +3681,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 <p><strong>民生費の子育て支援課分について</strong>は、至極まっとうな内容だと思います。学童クラブ指導員の負担増に応じた給与の支給や、児童養護施設等退所者支援給付金で、足りているのかは分かりませんが、無駄はないと思います。唯一ひっかかるとしたら電動自転車くらいのものですが、スタッフの労力と耐用年数を考えると、これは良い投資でしょう。</p>
 <img src="20200803_rinjikai/./minseihi-other.png" alt="ふらっとビューア・民生費（子育て支援課以外）詳細" data-zoomable="" style="z-index:999">
 <p><strong>民生費の子育て支援課以外の分について</strong>は、住居確保給付金に約6,800万円、市立及び民間の保育施設等臨時休園等に対する支援事業、包括支援事業に合計で約7,100万円、たいよう福祉センターとあおぞら福祉センターの庁用器具費に880万円というのは内容が気になるところですが、特に問題はなさそうです。</p>
-<h5><a class="header" href="#衛生費-1" id="衛生費-1">衛生費</a></h5>
+<h5><a class="header" href="#衛生費" id="衛生費">衛生費</a></h5>
 <div id="eisei-hi-uchiwake" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -3424,7 +3742,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 <li>全体的に病院の外来・入院者数減による国保費用の減と比較してどうか</li>
 </ul>
 </div>
-<h5><a class="header" href="#商工費-1" id="商工費-1">商工費</a></h5>
+<h5><a class="header" href="#商工費" id="商工費">商工費</a></h5>
 <div id="syoukou-hi-uchiwake" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -3490,7 +3808,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 <li>効果検証</li>
 </ul>
 </div>
-<h5><a class="header" href="#土木費-1" id="土木費-1">土木費</a></h5>
+<h5><a class="header" href="#土木費" id="土木費">土木費</a></h5>
 <div id="doboku-hi-uchiwake" style="width:100%;height: 350px;margin-top:100px;"></div>
 <script type="text/javascript">
   google.charts.load('current', {'packages':['corechart']});
@@ -3554,7 +3872,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 </ul>
 </div>
 <p>以上が今回補正予算の概要です。さらに細かい部分については、次の質疑概要をご参照ください。この補正予算は総務委員会に付託されており、総務委員でない私は詳しい質問ができません。私は本会議においてある程度質問し、あとの細かい質問は総務委員である橋本久雄議員に託しました。答弁で詳細が得られなかったり、質問が足りていなかった部分については、今後確認していきたいと思います。</p>
-<h2><a class="header" href="#主な質疑発言順-1" id="主な質疑発言順-1">主な質疑（発言順）</a></h2>
+<h2><a class="header" href="#主な質疑発言順-4" id="主な質疑発言順-4">主な質疑（発言順）</a></h2>
 <p><strong>【注】</strong> 以下は要約ですので、正確な質疑内容は<a href="20200803_rinjikai/./#%E4%BC%9A%E8%AD%B0%E9%8C%B2%E9%85%8D%E5%B8%83%E8%B3%87%E6%96%99">会議録</a>をご参照ください。分かりやすくするため、括弧書きの部分は、実際の質問内容にかなり修正を加えたところもあります。また、簡略化のため、理事者側（市役所側）の答弁から敬語表現を省いている場合があります。実際は理事者側のすべての答弁において、市民に対する敬語表現で回答がなされています。</p>
 <div class="q-mark-notes">
 <p>私（安竹）の質問＝<i class="fa fa-question-circle hitori yasutake" aria-hidden="true"></i>、意見＝<i class="fa fa-exclamation-circle hitori yasutake" aria-hidden="true"></i><br>
@@ -3724,7 +4042,7 @@ GIGAスクール構想でICT支援員の予算がないが、やはり入れな�
 <blockquote>
 <p>砂場に抗菌砂を入れ攪拌する。またブランコや滑り台に抗菌塗料や抗菌コート剤を塗る。昨年度の遊具安全点検で、特に危険なもの、砂が減っていたものを優先的に。周辺の公園自粛により普段使われない公園が使われているため、安全安心のために行う。新型コロナ対抗性の商品はまだない。広く細菌類やインフルエンザに効果がある。（田中 環境部長）</p>
 </blockquote>
-<h3><a class="header" href="#-総務委員会-1" id="-総務委員会-1">＠ 総務委員会</a></h3>
+<h3><a class="header" href="#-総務委員会" id="-総務委員会">＠ 総務委員会</a></h3>
 <p><img src="20200803_rinjikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 総務委員会には、一人会派の会から橋本久雄議員が委員として参加しています。</p>
 <ul>
 <li><a href="20200803_rinjikai/gian-44.html#hasimoto-hisao">橋本 久雄 議員の質疑</a></li>
@@ -4001,7 +4319,7 @@ GIGAスクール構想の段取りは。
 <blockquote>
 <p>7月1日から始まって約800店舗参加で応募が現在80件。これから1万円分たまり8月中はかなりの数に上ると予想。（齋藤）</p>
 </blockquote>
-<h4><a class="header" href="#総務委員会での賛否-1" id="総務委員会での賛否-1">総務委員会での賛否</a></h4>
+<h4><a class="header" href="#総務委員会での賛否" id="総務委員会での賛否">総務委員会での賛否</a></h4>
 <table class="simple">
 <tr><th>会派</th><th>賛否</th></tr>
 <tr><td>一人会派の会</td><td>❌反対</td></tr>
@@ -4010,8 +4328,8 @@ GIGAスクール構想の段取りは。
 <tr><td>フォーラム小平</td><td>⭕賛成</td></tr>
 <tr><td>共産党</td><td>⭕賛成</td></tr>
 </table>
-<h2><a class="header" href="#本会議でのやり取り-1" id="本会議でのやり取り-1">本会議でのやり取り</a></h2>
-<h3><a class="header" href="#組み替え動議-1" id="組み替え動議-1">組み替え動議</a></h3>
+<h2><a class="header" href="#本会議でのやり取り" id="本会議でのやり取り">本会議でのやり取り</a></h2>
+<h3><a class="header" href="#組み替え動議" id="組み替え動議">組み替え動議</a></h3>
 <details>
 <summary>組替え動議（クリックで内容表示）</summary>
 <blockquote>
@@ -4045,7 +4363,7 @@ GIGAスクール構想の段取りは。
 <p>政和会から組み替え動議が出されました。1の財源の捻出部分については、一人会派の会からの要望で内容を調整しています。2の増額の内容には賛同できない部分もあります。しかし、いずれにしろ否決されることが分かっていたこともあり、私もこの動議に賛成しました。意見表明の機会が増えること、ほんの少しでも否決の可能性が高まれば、という思いも（わずかに）あってのことです。その時点で想定していたのは</p>
 <p>［組み替え動議］ → 組み替え動議は結局否決 → ［議案に反対］→ 原案は結局可決</p>
 <p>という段取りです。結局この流れになりました。</p>
-<h4><a class="header" href="#組み替え動議に対する質疑-1" id="組み替え動議に対する質疑-1">組み替え動議に対する質疑</a></h4>
+<h4><a class="header" href="#組み替え動議に対する質疑" id="組み替え動議に対する質疑">組み替え動議に対する質疑</a></h4>
 <p>Q: 地域振興券にかかるコストは。<br />
 A: 詳細の数字はない。</p>
 <p>Q: 困窮する一般市民への考えは。<br />
@@ -4054,7 +4372,7 @@ A: 支援は必要だが商工費が低い。</p>
 A: こだわっているわけではないが高齢者も使える。ポイントと両方やっても良い。市内事業者に還元することで経済を回せる。そもそも商工費が少ないというところがある。</p>
 <p>Q: 中小企業への支援のみと見えるが、どう考えるか。<br />
 A: 市内で企業が困っていればそこに使ってもらえれば。</p>
-<h4><a class="header" href="#組み替え動議に対する討論-1" id="組み替え動議に対する討論-1">組み替え動議に対する討論</a></h4>
+<h4><a class="header" href="#組み替え動議に対する討論" id="組み替え動議に対する討論">組み替え動議に対する討論</a></h4>
 <p>＊概要ですので、実際の討論は<a href="20200803_rinjikai/">会議録等</a>をご参照ください。</p>
 <h5 style="margin-bottom:0"><span class="highlight">⭐賛成（一人会派の会：橋本久雄）</span></h5>
 <ul>
@@ -4093,7 +4411,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 <li>この中で速やかに確実に実行してほしいことは、特に児童養護施設等退所者への支援金</li>
 </ul>
 <p><img src="20200803_rinjikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 反対した会派が理由に挙げている一つが、地域振興券のコストがかかるという点です。読めば分かる通り、それが趣旨ではないんですけれどね。それ以外の点については何を言っているのか分からないことも多かったのですが、もともと原案に賛成だからということでしょう。であれば「<strong>原案に賛成のため反対する</strong>」とだけ言えばいいのにな、と思います。また、水口議員が反対したのは意外でした。主な理由として「動議が可決された場合補正予算の執行が遅くなる」とあります。上記しましたが、その論理だと今後一切の反対ができないことになってしまいます💦</p>
-<h3><a class="header" href="#原案に対する討論-1" id="原案に対する討論-1">原案に対する討論</a></h3>
+<h3><a class="header" href="#原案に対する討論" id="原案に対する討論">原案に対する討論</a></h3>
 <p>＊概要ですので、実際の討論は<a href="20200803_rinjikai/">会議録等</a>をご参照ください。</p>
 <h5 style="margin-bottom:0"><span class="highlight">⭐反対（一人会派の会：伊藤央）</span></h5>
 <ul>
@@ -4156,7 +4474,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 </ul>
 <p><img src="20200803_rinjikai/../icons/yasutake-anger.png" class="noshadow yasutake-face"> 本当に毎回思いますが、なぜ彼らは反対かのような意見を述べておきながら賛成に回るのでしょうか🤥。まったく分かりません。反対したら全てが破綻するとでも思っているのでしょうか？「<strong>議員しかできない</strong>」という立場を理解していない、もしくは舐めているように思います。ということを上の方にも記載しました。</p>
 <p>張ります💪</p>
-<h3><a class="header" href="#原案に対する賛否-1" id="原案に対する賛否-1">原案に対する賛否</a></h3>
+<h3><a class="header" href="#原案に対する賛否" id="原案に対する賛否">原案に対する賛否</a></h3>
 <p><a href="20200803_rinjikai/./#%E8%B3%9B%E5%90%A6">賛否についてはこちらをご覧ください。</a></p>
 <h1><a class="header" href="#7月27日幹事長会議臨時" id="7月27日幹事長会議臨時">7月27日：幹事長会議（臨時）</a></h1>
 <p>令和2(2020)年7月27日（月）9:00～ @ 全員会議室</p>
@@ -4863,9 +5181,9 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 岡村氏は、回田町の公園設置をめぐる住民監査請求で、市民の側に立った意見を行った</p>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 岡村氏の任期中に監査基準が策定された</p>
 </fieldset>
-<h2><a class="header" href="#概要-2" id="概要-2">概要</a></h2>
+<h2><a class="header" href="#概要-5" id="概要-5">概要</a></h2>
 <p>6月30日に任期満了を迎える監査委員に、引き続き 岡村健司 氏を選任。</p>
-<h2><a class="header" href="#解説-2" id="解説-2">解説</a></h2>
+<h2><a class="header" href="#解説-5" id="解説-5">解説</a></h2>
 <p><img src="20200602_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 監査委員は目立たない仕事です。監査委員の選任をしてくれと言われても、判断材料が乏しいため難しいところです。ただ、私も深く関わってきた回田町の公園設置をめぐる住民監査請求において、市民の側に立った意見をつけてくださったことは高評価です。今後も小平市のためにご尽力をお願いしたいです。</p>
 <p>なお、任期4年間の根拠は、<a href="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=322AC0000000067#876">地方自治法 第百九十七条</a>に記載されています。議員から選ばれる監査委員の任期も4年ですが、改選の時期が違いますね。</p>
 <blockquote>
@@ -4944,7 +5262,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
   </legend>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 特に問題となるようなことがない</p>
 </fieldset>
-<h2><a class="header" href="#概要-3" id="概要-3">概要</a></h2>
+<h2><a class="header" href="#概要-6" id="概要-6">概要</a></h2>
 <p>7月19日に任期満了を迎える農業委員に、継続6名、新規10名の16名を任命。</p>
 <p>個人推薦（3名以上の推薦で）10名、団体推薦（JAなど）5名、一般応募自薦4名、合計19名のうち、選考の結果16名。一般応募の3名が落選。</p>
 <h3><a class="header" href="#任命される方" id="任命される方">任命される方</a></h3>
@@ -5093,7 +5411,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
     </tbody>
 </table>
 </details>
-<h2><a class="header" href="#解説-3" id="解説-3">解説</a></h2>
+<h2><a class="header" href="#解説-6" id="解説-6">解説</a></h2>
 <p><img src="20200602_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 農業委員会は、国の<a href="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=326AC0000000088">農業委員会等に関する法律</a>で定められているもので、その中では以下のような目的が定められています。</p>
 <blockquote>
 <p><strong><a href="https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/detail?lawId=326AC0000000088#2">農業委員会等に関する法律 第一条</a></strong><br />
@@ -5314,7 +5632,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
   <p><u>その他に関して</u></p>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 特に問題となるようなことがない</p>
 </fieldset>
-<h2><a class="header" href="#概要-4" id="概要-4">概要</a></h2>
+<h2><a class="header" href="#概要-7" id="概要-7">概要</a></h2>
 <p>本年度の国の地方税制改正、及び、国の新型コロナウイルス感染症緊急経済対策における税制上の措置による地方税法等の改正に伴い、小平市税条例等の改正を行うものです。</p>
 <hr />
 <p><a href="20200602_teireikai/gian-37.html#1-%E5%9C%B0%E6%96%B9%E7%A8%8E%E5%88%B6%E3%81%AE%E6%94%B9%E6%AD%A3%E3%81%AB%E9%96%A2%E4%BF%82%E3%81%97%E3%81%9F%E3%82%82%E3%81%AE">1. 地方税制の改正に関係したもの</a></p>
@@ -5352,7 +5670,7 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
 <li><a href="20200602_teireikai/gian-37.html#%E6%96%B0%E5%9E%8B%E3%82%B3%E3%83%AD%E3%83%8A%E3%82%A6%E3%82%A4%E3%83%AB%E3%82%B9%E6%84%9F%E6%9F%93%E7%97%87%E7%AD%89%E3%81%AB%E4%BF%82%E3%82%8B%E5%BE%B4%E5%8F%8E%E7%8C%B6%E4%BA%88%E3%81%AE%E7%89%B9%E4%BE%8B%E3%81%AB%E4%BF%82%E3%82%8B%E6%89%8B%E7%B6%9A">新型コロナウイルス感染症等に係る徴収猶予の特例に係る手続</a></li>
 </ul>
 <hr />
-<h2><a class="header" href="#解説-4" id="解説-4">解説</a></h2>
+<h2><a class="header" href="#解説-7" id="解説-7">解説</a></h2>
 <p><img src="20200602_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 今回最も分かりにくいのが、ひとり親に対する税制上の措置に関してです。簡単に羅列すると以下のようになります。</p>
 <ul>
 <li>ひとり親は生活が大変なので、市税（住民税）を控除する仕組みがある。国の方では所得税を控除する仕組みがある</li>
@@ -5935,9 +6253,9 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
   </legend>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 通知カード廃止には懸念があるが、今回はそのこととは直接関係がなく、特に問題がない</p>
 </fieldset>
-<h2><a class="header" href="#概要-5" id="概要-5">概要</a></h2>
+<h2><a class="header" href="#概要-8" id="概要-8">概要</a></h2>
 <p>行政手続における特定の個人を識別するための番号の利用等に関する法律の一部が改正され、住民基本台帳に記録された方の個人番号を指定した通知カードが、本年5月25日に廃止されたことに伴い、通知カードの再交付が終了したため、これにかかる規定を削除するものです。</p>
-<h2><a class="header" href="#解説-5" id="解説-5">解説</a></h2>
+<h2><a class="header" href="#解説-8" id="解説-8">解説</a></h2>
 <p><img src="20200602_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> マイナンバー法の一部が改正され、通知カードが令和2年5月25日に廃止されました。これに伴い、通知カードの再交付ができなくなるため、条例にある「再交付時に500円を徴収する」という記述を削除するものです。それ以上の内容ではありません。</p>
 <p>通知カードが廃止されたことにより、「通知カードの新規発行・再交付」と「通知カードの住所や氏名などの記載変更」ができなくなります。通知カードがすぐに使えなくなるわけではなく、当面の間は、氏名・生年月日・住所などに変更がない限り、引き続き『マイナンバーを証明する書類』として使用できるとのことです。住所などに変更があった場合には、通知カードは『マイナンバーを証明する書類』として利用できなくなります。そのような場合で『マイナンバーを証明する書類』が必要な場合、かつマイナンバーカードがない場合は、マイナンバーが記載された住民票・住民票記載事項証明書を発行し、提示すれば良いとのことです。</p>
 <p><a href="https://www.city.kodaira.tokyo.jp/kurashi/080/080632.html">小平市 通知カードの発行、再発行、氏名・住所等の書き換えの手続きの受付は、令和2年5月22日（金曜日）をもって終了しました</a></p>
@@ -6001,9 +6319,9 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 以下の懸念はあるものの、国の指針に応じたセーフティネット拡充のため賛成</p>
   <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 他の低所得の段階（第4～第6段階程度まで）についても軽減措置が必要ではないか</p>
 </fieldset>
-<h2><a class="header" href="#概要-6" id="概要-6">概要</a></h2>
+<h2><a class="header" href="#概要-9" id="概要-9">概要</a></h2>
 <p>介護保険法施行令が改正されたことに伴い、小平市介護保険条例の一部を改正するものです。昨年10月の消費税率の引上げに伴い、介護保険法施行令について、低所得者に対し、さらなる介護保険料の軽減を強化する改正が行われたことを受け、小平市介護保険条例についても、保険料額を減額するものです。</p>
-<h2><a class="header" href="#解説-6" id="解説-6">解説</a></h2>
+<h2><a class="header" href="#解説-9" id="解説-9">解説</a></h2>
 <p><img src="20200602_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 消費税率の引上げの影響を軽減するため、低所得者に対して、介護保険料の軽減措置を強化する改正が行われました。それに対応して、小平市でも介護保険料額を減額するものです。昨年度も軽減が行われ、その際は昨年10月1日から今年3月末までの6か月分だったものが、今年度は1年分の軽減になります。</p>
 <p>介護保険料は所得に応じて決まります。<a href="https://www.city.kodaira.tokyo.jp/kurashi/000/000197.html">所得は15段階に区分されており</a>、今回はそのうち低所得から数えて第3段階までの方が対象となります。だからといって第四段階以降が高所得かというとそうではなく、</p>
 <p>根拠：<a href="https://www.wam.go.jp/gyoseiShiryou-files/documents/2020/0401092137925/ksvol800.pdf">「介護保険法施行令及び介護保険の国庫負担金の算定等に関する政令の一部を改正する政令（令和2年政令第 98 号）」</a></p>
@@ -6256,9 +6574,9 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 以下の懸念はあるものの、小平市の負担にはならず、間口を広げることは良いこと</p>
   <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 目的が不明瞭なところがある</p>
 </fieldset>
-<h2><a class="header" href="#概要-7" id="概要-7">概要</a></h2>
+<h2><a class="header" href="#概要-10" id="概要-10">概要</a></h2>
 <p>厚生労働省令の放課後児童健全育成事業の設備及び運営に関する基準が改正されたことに伴い、改正するものです。改正の内容ですが、放課後児童支援員となるための資格要件に、中核市の長が行う研修を修了したものを追加するものです。</p>
-<h2><a class="header" href="#解説-7" id="解説-7">解説</a></h2>
+<h2><a class="header" href="#解説-10" id="解説-10">解説</a></h2>
 <p><img src="20200602_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 現在、学童クラブの支援員として働くための資格要件として、都道府県知事もしくは政令指定都市の長が行う研修を受けることが必要です。今回その資格要件に、中核市の長が行う研修も追加するための条例改正です。研修を受ける窓口が増えることで、支援員として働くための門戸が広がり、人材の確保がしやすくなるということでしょう。</p>
 <table class="additional">
     <thead>
@@ -6333,9 +6651,9 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
   </legend>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 名称の追加・変更であり、特に問題なし</p>
 </fieldset>
-<h2><a class="header" href="#概要-8" id="概要-8">概要</a></h2>
+<h2><a class="header" href="#概要-11" id="概要-11">概要</a></h2>
 <p>小平市立八小学童クラブ〈及び小平市立十二小学童クラブの入会児童数の増加に対応するため、新たな学童クラブを開設することに伴い、改正するものです。改正の内容ですが、条例の別表で規定しております、既存の小平市立八小学童クラブの名称を小平市立八小学菫クラブ第一に改正するとともに、同表に小平市立八小学菫クラブ第二、及び小平市立八小学童クラブ第三を追加いたします｡また、既存の小平市立十二小学童クラブの名称を小平市立十二小学菫クラブ第一に改正するとともに、同表に小平市立十二小学菫クラブ第二、及び小平市立十二小学童クラブ第三を追加いたします。</p>
-<h2><a class="header" href="#解説-8" id="解説-8">解説</a></h2>
+<h2><a class="header" href="#解説-11" id="解説-11">解説</a></h2>
 <p><img src="20200602_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 小平市立八小学童クラブ及び小平市立十二小学童クラブの入会児童数の増加に対応するため、新たな学童クラブを開設します。それに伴い、小平市立学童クラブ条例にそれら建物に関する情報を追加し、もともとあった学童クラブの名称を『～小学童クラブ第一』に変更するという改正です。</p>
 <p><strong>新設する学童クラブ</strong></p>
 <table style="margin:0">
@@ -6624,9 +6942,9 @@ A: 市内で企業が困っていればそこに使ってもらえれば。</p>
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 以下の懸念はあるが、見積り不参加の会社による最安値落札であり、一定の妥当性がある</p>
   <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 予定価格が入札数社の見積りに基づいて決められるため、価格妥当性に疑問が残る</p>
 </fieldset>
-<h2><a class="header" href="#概要-9" id="概要-9">概要</a></h2>
+<h2><a class="header" href="#概要-12" id="概要-12">概要</a></h2>
 <p>小平市立八小学童クラブ第二。第三の新築工事実施に伴う工事請負契約を締結する必要から、提案するものです｡本工事の入札につきましては､入札方式を条件付一般競争入札方式により行い、その結果東海リース株式会社東京支店が、消費税込みで1億3千662万円で落札し、3月17日に仮契約を締結したものです。工事内容といたしましては、軽量鉄骨造、2階建て、建築面積226.57平方メートル、延べ床面積435.16平方メートルの建物を建築する工事です。なお、本建築工事に伴う付帯設備工事についても、本工事での施工となります。</p>
-<h2><a class="header" href="#解説-9" id="解説-9">解説</a></h2>
+<h2><a class="header" href="#解説-12" id="解説-12">解説</a></h2>
 <p><img src="20200602_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 議案41号に引き続き、八小クラブの第二、第三新築工事に伴う工事請負契約を締結するための議案です。入札の結果、東海リース（株）が1億3千662万円で落札し、仮契約を行っています。金額が大きいためこれもしっかり見ていく必要があります。</p>
 <ol>
 <li>契約の目的：小平市立八小学童クラブ第二・第三新築工事</li>
@@ -6804,8 +7122,8 @@ GIGAスクール構想が進捗するが、インターネット関連の設備�
   <p class="sanpi"><i class="fa fa-circle-o" aria-hidden="true"></i> 以下の懸念はあるが、見積り不参加の会社による最安値落札であり、一定の妥当性がある</p>
   <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 予定価格が入札数社の見積りに基づいて決められるため、価格妥当性に疑問が残る</p>
 </fieldset>
-<h2><a class="header" href="#概要-10" id="概要-10">概要</a></h2>
-<h2><a class="header" href="#解説-10" id="解説-10">解説</a></h2>
+<h2><a class="header" href="#概要-13" id="概要-13">概要</a></h2>
+<h2><a class="header" href="#解説-13" id="解説-13">解説</a></h2>
 <img src="20200602_teireikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> <h1><a class="header" href="#員21号-小平市議会会議規則の一部を改正する規則制定について" id="員21号-小平市議会会議規則の一部を改正する規則制定について">員21号 小平市議会会議規則の一部を改正する規則制定について</a></h1>
 <p>＊作成中</p>
 <h1><a class="header" href="#議員提出議案第20号-特別定額給付金は今回だけにとどまらず今後も必要に応じて実施することを求める意見書提出について" id="議員提出議案第20号-特別定額給付金は今回だけにとどまらず今後も必要に応じて実施することを求める意見書提出について">議員提出議案第20号 特別定額給付金は今回だけにとどまらず、今後も必要に応じて実施することを求める意見書提出について</a></h1>
@@ -8920,7 +9238,7 @@ GIGAスクール構想が進捗するが、インターネット関連の設備�
   <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 格差を広げる「均等割」には反対（所得割だけで良い）だが、今回は関係なし</p>
   <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 高所得世帯に多くの負担を求める改正が後回しにされている理由が不明瞭</p>
 </fieldset>
-<h2><a class="header" href="#概要-11" id="概要-11">概要</a></h2>
+<h2><a class="header" href="#概要-14" id="概要-14">概要</a></h2>
 <p>例年行われている「地方税制施行令の一部を改正する政令」が 令和2年3月31日 に公布され 同4月1日 から施行されることに伴って改正するもの。国民健康保険税の低所得世帯に対する被保険者均等割の軽減措置のうち、5割軽減、及び2割軽減の対象世帯にかかる所得判定基準を改正するもの。</p>
 <p>以下の表のとおり、被保険者数に乗ずる金額を5千円と1万円増やす。</p>
 <table>
@@ -8939,7 +9257,7 @@ GIGAスクール構想が進捗するが、インターネット関連の設備�
     <td>51 万円 → 52 万円</td>
   </tr>
 </table>
-<h2><a class="header" href="#解説-11" id="解説-11">解説</a></h2>
+<h2><a class="header" href="#解説-14" id="解説-14">解説</a></h2>
 <p><img src="20200519_rinjikai/../icons/yasutake-speak.png" class="noshadow yasutake-face"> 国民健康保険は加入者数当たりで税（料金）が決まるため、特に家族の多い低所得世帯には負担が大きくなります。そこで、低所得世帯には、下表のとおり均等割額に対して軽減措置が設定されています。今回の改正は、この表の「加入者数等」にかける金額を 5 千円アップするものです。</p>
 <p>つまり、今回の改正で、5 割軽減、2 割軽減の対象となる世帯が増えると想定され、低所得世帯にとっては良い改正となります。</p>
 <p>なお国保税は、所得に関わらずだれもが均一にかかる『均等割』の分と、所得に応じてかかる『所得割』の分があり、今回は所得割の方です。</p>
@@ -9015,7 +9333,7 @@ GIGAスクール構想が進捗するが、インターネット関連の設備�
   <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 緊急事態宣言が再実施されるケースも想定した内容になっているか不明</p>
   <p class="sanpi"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> 専決処分にしたことで給付が早まったのかが不明瞭</p>
 </fieldset>
-<h2><a class="header" href="#概要-12" id="概要-12">概要</a></h2>
+<h2><a class="header" href="#概要-15" id="概要-15">概要</a></h2>
 <p>4月30日に成立した国の令和2年度補正予算第 1 号により、特別定額給付金給付事業が行われることとなったことに対応したもの。専決処分になったのは「議会を招集する時間的余裕がなかった」ことが理由とのことだが、専決処分にすることで給付が早まったのかは不明。市民一人当たり 10 万円給付のほか、給付にかかる事務費を計上。全額国庫補助金で賄われ、総額約 200 億円。</p>
 <p>■ 歳入補正額：19,825,300 千円（全額国庫負担）</p>
 <p>■ 歳出補正額：19,825,300 千円</p>
@@ -9266,7 +9584,7 @@ DV被害者への対策は？
   <p>この委員会において、当一人会派の会から（中江美和議員と伊藤央議員がとりまとめ、橋本久雄議員が調整し）、委員の橋本久雄議員により附帯決議案を提出しましたが、残念なことに賛成少数で否決されてしまいました。附帯内容は、市民生活や事業活動、教育等に必要な支援策を講じ、必要に応じて臨時議会を招集し議会に諮る、というものです。<span class="highlight">つまり、臨時会議を必要であればいつでも開けるようにして、迅速な意思決定がなされることを目的とするものです。</span>
 <p>6月定例会には新たな補正予算案を上程しないという執行部からの説明があったため、それではあまりにも動きが遅すぎるという理由から提出したもので、時期に即した非常に良い提案です。反対した議員は意見表明もなかったため、何を考えているのか全く分かりません。小平市議会では良くこういうことが起きます。市民のためといつも言っているのですから、反対であれば少なくともその趣旨を説明すべきです。残念でなりません。</p></p>
 </fieldset>
-<h2><a class="header" href="#概要-13" id="概要-13">概要</a></h2>
+<h2><a class="header" href="#概要-16" id="概要-16">概要</a></h2>
 <p>新型コロナウイルス感染症が拡大する中、市内の事業活動や市民生活を守るために、国や東京都の補正予算等を最大限活用し、市としての緊急対策に取り組むとともに、小・中学校におけるGIGAスクール構想の実施や、当初予算編成後に新たに実施することとなった事業に関する経費等を計上するもの。</p>
 <p>歳出歳入それぞれ17億870万9千円を増額。財源は国と都、財政調整基金からの繰入金で対応。</p>
 <ul>
