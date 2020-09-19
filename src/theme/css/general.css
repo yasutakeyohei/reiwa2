@@ -476,3 +476,11 @@ div.redbox:before {
 div.redbox ul {
     margin: 0.2em 0;
 }
+
+p.situgi-comment {
+    color: red;
+}
+
+p.situgi-comment span {
+    font-size: 3rem;
+}
