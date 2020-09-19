@@ -15,6 +15,9 @@
 令和2年6月16日 広聴広報委員会（作成中）
 -->
 
+- [令和2年09月08日～30日 9月定例会](./20200908_teireikai/index.md)
+- [令和2年08月03日 8月臨時会](./20200803_rinjikai/index.md)
+- [令和2年07月27日 幹事長会議](./20200727_kanjicho_kaigi/index.md)
 - [令和2年06月02日～26日 6月定例会](./20200602_teireikai/index.md)
 - [令和2年06月22日 幹事長会議](./20200622_kanjicho_kaigi/index.md)
 - [令和2年05月28日 議会運営委員会](./20200528_gikai_unei_iinkai/index.md)
