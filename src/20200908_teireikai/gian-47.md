@@ -1,8 +1,9 @@
 # 議案第47号 令和2年度小平市一般会計補正予算（第5号）
 （作成中）
 
-<!--
 <i class="fa fa-gavel" aria-hidden="true"></i> 総務委員会付託
+
+<!--
 
 <fieldset class="point">
   <legend>
@@ -43,18 +44,34 @@
 
 ## 概要
 
+-->
 
 <details>
 <summary>市長報告（クリックで開きます）</summary>
 
+> 今回の補正予算は、昨年度の決済をもとに、繰越金、及び返還金の整理等を行うとともに、歳入においては、普通交付税、及び臨時財政対策債が当初の見込みを上回りましたので増額いたします。
 >
+>また、これに伴い確保される財源を活用し、市の喫緊の課題である保育園待機児童の解消などに取り組むほか、基金積立金を増額し､財政基盤の安定化を図るものです。
+>
+>歳出の主な内容ですが、待機児童の解消に向けまして、来年度に新規開設する私立保育園1園の建築補助を行うほか、3歳未満の多胎児がいる家庭への移動支援として、子ども商品券を配付いたします。
+>
+>また、定期巡回・随時対応型訪問介護看護、認知症高齢者グループホーム、小規模多機能型居宅介護の施設整備等にかかる補助金を増額するほか、用水路、道路、及び公園などの維持管理費を増額するとともに、新小平駅前公衆喫煙所の移設工事などを行います。
+>
+>そのほか、昨年度の都市計画税の余剰分を都市計画事業基金に積み立てるとともに、繰越金の増に伴い財政調整基金の積立額を増額し、歳入においては、財政調整基金繰入金を減額いたします。
+>
+>補正予算の規模といたしましては、歳入歳出それぞれ17億7千796万6千円を増額し、歳入歳出予算の総額をそれぞれ942億5千434万5千円とするものです。
+>
+>財源構成といたしましては、事業の実施に伴い、国、都支出金、及び地方債を補正するとともに、繰越金、普通交付税、及び臨時財政対策債、特別会計繰入金を増額いたします。
+
 </details>
+
 
 ## 解説
 
 ### 🕵補正予算を分析する
 
-次に補正予算の内容を見ていきたいと思います。まずは歳入です。
+
+まずは歳入です。
 
 <div id="sainyu-hosei-summary" style="width:100%;height: 350px; margin-top:50px;"></div>
 <script type="text/javascript">
@@ -64,60 +81,40 @@
     var data = google.visualization.arrayToDataTable([
       ['項目', '億円', { role: 'annotation' }],
       ['繰越金', 11.3,   11.3],
-      ['地方交付税',    3.91,   3.91],
+      ['地方\n交付税',    3.91,   3.91],
       ['市債',   2.30,   2.30],
-      ['国庫支出金\n国庫補助金',    2.05,   2.05],
-      ['都支出金\n都補助金', 0.221,   0.221],
-      ['繰入金\n特別会計繰入金', 0.228,   0.228],
-      ['諸収入\n雑入', 0.0014, 0.0014],
-      ['財産収入\n財産売払収入', -0.0040,   -0.0040],
+      ['国庫\n支出金',    2.05,   2.05],
+      ['都\n支出金', 0.221,   0.221],
+      ['諸収入', 0.0014, 0.0014],
+      ['財産\n収入', -0.0040,   -0.0040],
       ['使用料',    -0.028,   -0.028],
-      ['繰入金\n基金繰入金', -2.23,   -2.23],
+      ['繰入金', -2.00,   -2.00],
     ]);
     var options = {
       fontName: "UD デジタル 教科書体 N-R",
+      fontSize: 16,
       legend: {
         position: 'in',
         alignment: 'end',
         maxLines: 3,
-        textStyle: {
-          fontSize: 16
-        },
       },
       title: '歳入補正額',
-      titleTextStyle: {
-          fontSize: 18
-      },
-      series: {
-        0: {
-            annotations: {
-              textStyle: {
-                color: 'black',
-                fontName: 'UD デジタル 教科書体 N-R',
-                fontSize: 18,
-              },
-            },
-        }
-      },
       vAxis: {
         format: '#.##億円',
-        textStyle: {
-          fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 18,
-        },
         viewWindow: {
           min: -3,
           max: 14
         },
       },
-      chartArea:{top:30,height:'75%'}
+      chartArea:{top:30, left:80, height:'75%', width: '85%'},
     };
     var chart = new google.visualization.ColumnChart(document.getElementById('sainyu-hosei-summary'));
     chart.draw(data, options);
   }
 </script>
 
-歳入を金額順に並べました。
+歳入を金額順に並べました。最も大きいのは前年度の繰越金で、前年度の繰入金確定によるものです。
+
 
 <div id="saisyutu-zaigen-summary" style="width:100%;height: 600px;margin-top:50px;"></div>
 <script type="text/javascript">
@@ -125,7 +122,7 @@
   google.charts.setOnLoadCallback(drawChart);
   function drawChart() {
     var data = google.visualization.arrayToDataTable([
-      ['項目', '使用料及び手数料', '国庫支出金', '都支出金', '諸収入', '地方債', 'その他', '一般財源', 'total', { role: 'annotation' }],
+      ['項目', '使用料及び手数料', '国庫支出金', '都支出金', '諸収入', '地方債', 'その他', '一般財源', '総計', { role: 'annotation' }],
       ['総務費', -0.0280,         0.394,       0,         0.0199,   0.105,    -0.00400, 11.4,      0,       11.9],
       ['民生費', 0,               1.930,       0.484,     0,        0.361,    0,        4.12,      0,       6.90],
       ['衛生費', 0,               0,           0.0751,    0,        0,        0,        0.0674,    0,       0.142],
@@ -138,132 +135,53 @@
       ['教育費', 0,               0,           -0.127,    -0.0185,  0.0590,   -0.528,   -0.174,    0,       -0.789],
     ]);
     var options = {
-      fontName: "UD デジタル 教科書体 N-R",
-      legend: {
-        position: 'out',
-        alignment: 'end',
-      },
       title: '歳出補正額＆財源内訳（億円）',
-      titleTextStyle: {
-          fontSize: 18
-      },
-      pieSliceText: "value",
-      chartArea:{top:30,height:'75%'},
+      colors: ['#ffd1d1', '#9a0079', '#35a16b', '#edc58f', '#faf500', '#87e7b0', '#0041ff', '#000' ],
+      fontName: "UD デジタル 教科書体 N-R",
+      fontSize: 16,
       isStacked: true,
+      legend: {
+        position: 'right',
+        alignment: 'start',
+        textStyle: {
+          fontSize: 14,
+        },
+      },
       hAxis: {
         slantedTextAngle: 60,
         maxTextLines: 3,
       },
       series: {
-        5: {
-            annotations: {
-              format: '#.##億円',
-              textStyle: {
-                color: 'black',
-                fontName: 'UD デジタル 教科書体 N-R',
-                fontSize: 14,
-              },
-            },
-            color: "white",
-            visibleInLegend: false
+        7: {
+          annotations: {
+            format: '#.##億円',
+          },
+          color: "black",
+          visibleInLegend: false
         }
       },
       vAxis: {
         format: '#.##億円',
-        textStyle: {
-          fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 18,
-        },
         viewWindow: {
           min: -1,
           max: 13
         },
       },
-      hAxis: {
-        textStyle: {
-          color: 'black',
-          fontName: 'UD デジタル 教科書体 N-R',
-        },
-      },
+      chartArea:{top:30, left:80, height:'75%', width: '65%'},
     };
     var chart = new google.visualization.ColumnChart(document.getElementById('saisyutu-zaigen-summary'));
     chart.draw(data, options);
   }
 </script>
 
-次に歳出について、財源を含めて金額順に並べました。今回最も歳出が大きいのは教育費の約6.5億円で、そのうち約5億円がGIGAスクール構想実現のための経費です。教育費の大半が国庫支出金で賄われていますが、市債1.33億円と、一般財源からも2,470万円が投じられています。それぞれの内訳は以下で説明します。
+次に歳出について、財源を含めて金額順に並べました。それぞれの内訳は以下で説明します。
 
 
-<div id="kurikosi-meikyo-summary" style="width:100%;height: 350px;margin-top:100px;"></div>
-<script type="text/javascript">
-  google.charts.load('current', {'packages':['corechart']});
-  google.charts.setOnLoadCallback(drawChart);
-  function drawChart() {
-    var data = google.visualization.arrayToDataTable([
-      ['項目', '億円', { role: 'annotation' }],
-      ['総務費', 1.88,   1.88],
-      ['衛生費', 0.342,  0.342],
-      ['民生費', 0,      0],
-      ['商工費', 0,      0],
-      ['土木費', 0,      0],
-      ['教育費', 0,      0],
-      ['予備費', 0,      0],
-    ]);
-    var options = {
-      fontName: "UD デジタル 教科書体 N-R",
-      legend: {
-        position: 'in',
-        alignment: 'end',
-        maxLines: 3,
-        textStyle: {
-          fontSize: 16
-        },
-      },
-      title: '歳出のうち繰越明許費（年度内の完了が見込めない分）',
-      titleTextStyle: {
-          fontSize: 18
-      },
-      series: {
-        0: {
-            annotations: {
-              textStyle: {
-                color: 'black',
-                fontName: 'UD デジタル 教科書体 N-R',
-                fontSize: 18,
-              },
-            },
-        }
-      },
-      vAxis: {
-        format: '#.##億円',
-        textStyle: {
-          fontName: 'UD デジタル 教科書体 N-R',
-          fontSize: 18,
-        },
-        viewWindow: {
-          min: 0,
-          max: 8
-        },
-      },
-      chartArea:{top:30,height:'75%'}
-    };
-    var chart = new google.visualization.ColumnChart(document.getElementById('kurikosi-meikyo-summary'));
-    chart.draw(data, options);
-  }
-</script>
 
-なお、年度内の完了が見込めない分として約2.2億円が繰越明許費に計上されます。これについて「緊急性のあるコロナ対策に使うべき資金を繰越しして使うとはなにごとか」と問題視する議員も多かったです。私は、内容さえ良ければ、繰越しがあること自体は特に問題ないと思います。しかし以下に記載するように、内容に問題があります。
-
-#### 👁️‍🗨️ふらっとビューア（予算歳出） ver 1.0
-小平市の予算書は読みにくく、検索、抽出、並べ替え等のデータ操作ができません。そこでふらっとビューア（予算歳出）というソフトをつくりました。
-歳出予算をいろいろな側面から分析することができます。（＊金額の単位は「千円」です）。
-
-続いて、このビューアの使い方とともに、補正予算（歳出）の詳細を見ていきたいと思います。
--->
-
+#### 👁️‍🗨️ふらっとビューア（予算歳出） ver 1.0.1
 <div id="grid-container">
   <div class="grid-header" id="grid-header-div" style="width:100%">
-    <label>令和2年8月補正予算詳細</label>
+    <label>令和2年9月補正予算（第5号）詳細</label>
     <button id="grouping">款・項・目でまとめない</button>
     <button id="fullscreen">フルスクリーンで表示する</button>
   </div>
@@ -293,6 +211,8 @@
 <script src="../js-each/lib/jquery.ui.touch-punch.min.js"></script>
 <script src="../js-each/20200908.js"></script>
 <script src="../js-each/slickgrid-src.js"></script>
+
+
 
 <!--
 
@@ -817,6 +737,8 @@
 
 以上が今回補正予算の概要です。さらに細かい部分については、次の質疑概要をご参照ください。この補正予算は総務委員会に付託されており、総務委員でない私は詳しい質問ができません。私は本会議においてある程度質問し、あとの細かい質問は総務委員である橋本久雄議員に託しました。答弁で詳細が得られなかったり、質問が足りていなかった部分については、今後確認していきたいと思います。
 
+-->
+
 ## 主な質疑（発言順）
 {{#include ../partials/situgi_hanrei.md}}
 
@@ -831,19 +753,84 @@
 （安竹 洋平）
 </td></tr></table>
 
+-->
+
 - [中江 美和 議員の質疑](#nakae-miwa)
 - [伊藤 央 議員の質疑](#itou-hisasi)
 - [安竹 洋平 議員の質疑](#yasutake-yohei)
 
-
 <div id="nakae-miwa"></div>
 
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
-商工費は2千万円弱で全体の5%しかない。他市のように地域振興券等の施策を行わなかったかのはなぜか。（中江 美和）
+どういう検討によって、コロナ対策としてこれ以上の地域振興施策を実施しないという判断になったか。（中江 美和）
 </td></tr></table>
 
-> 家賃支援の組み替えのため全体では計上が少ないがキャッシュレス決済によるポイント付与2.6億円を計上している。（余語 地域振興部長）
+> コロナ対策をやらないということではない。8月臨時議会でほとんどの施策を予算化した。その事業の状況を見ながら、世の中の経済状況を見ながら、必要があれば対策を打っていく。（津嶋 企画政策部長）
 
+<p class="situgi-comment"><span>😨</span> この危機的状況を前にしながら、市の答弁からは危機感が一切感じられません。そもそも本来は市長が答えるべき内容の質問です。こうして「市長が職員に丸投げして責任を持たない」ことが、多くの問題の原因だと私は考えています。私の一般質問で問いただしました。</p>
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
+5号補正でコロナに積極的な姿勢は見られない。様々なイベント中止による予算減額があるが、その分を代替え事業などに使用しない判断をした理由は。（中江 美和）
+</td></tr></table>
+
+> 今回一般財源として確保しているところがあり、今後必要があればコロナ対策の事業に活用する。（津嶋）
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
+保育園新設について、そもそも当初予算に計上されておらず、こども子育て支援事業計画にも1園建設すると書いていない。5月に待機児童が出たら保育園を作るということで、手法が場当たり的、計画性に欠ける。新設の保育園について計画を作成するつもりはないのか。（中江 美和）
+</td></tr></table>
+
+> 小平市では待機児童が出てからということで例年取り組んでいる。市内の東南地域に待機児童が集中している。こういう傾向を捉えてピンポイントに対策を打っていく。そういうことにかなったスケジュール。こども子育て支援事業計画では、確保数として計画を立てている。新規の認可保育園で確保か、認定こども園に幼稚園が移行することで確保か、幼稚園の預かりなどで確保するのか、様々な手法で対応していくため、必ずしも新規の開設をするだけではない。極力お金がかからない方法で確保していく。（伊藤 子ども家庭部長）
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
+保育園運営事業者の選考過程や選考理由は、なぜ公表しないのか。（中江 美和）
+</td></tr></table>
+
+> 内部で選考の評価項目を作って点数化している。評価のところを整備しながらやってきており、ほぼ固まってきたので、今後評価項目の公表を考える。（伊藤）
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
+保育園について、地方自治法に規定する総計予算主義の原則から、当初予算で計上されていない事業の公募手続きを、予算の裏付けなく実施することは許されるのか。（中江 美和）
+</td></tr></table>
+
+> 予算はこれから可決してもらうため契約はできないが、準備的に当たっていくところは問題ないと考えている。（津嶋）
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
+保育園の公募手続きに関わる経費は、人件費を含めてどれくらいかかっているか。
+</td></tr></table>
+
+> 施設整備担当として保育課に職員（係長）がおり、その人件費ということになるが、公募に関わっているだけではない。（伊藤 こども家庭部長）
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
+予算の裏付けがない公募手続きは、予算の裏付けがなく委託事業や物品購入を行うことと同様で、地方自治法に抵触していると考える。なぜ民間保育園は公募事務を公務の中で行えるのか理解できないが、この保育園の運営事業者は補正予算の計上前に公募して決定している。総計予算主義と照らし合わせて違法性はないのか。ないのであればその理由は。
+</td></tr></table>
+
+
+> まだ正式な契約を結ぶところまでは行っていない。市の歳出の負担が決定するときには予算の裏打ちが必要なので、今回の補正予算を審議して頂き予算化を図っていく。（津嶋）
+
+
+
+
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
+ICT化やタブレット端末の導入、テレワークなど、行政側における新しい日常への取り組みは今回の予算に反映されているか。されていないのであればいつからするか。（中江 美和）
+</td></tr></table>
+
+> 補正予算第4号でも健康相談はネットで相談受けられるようにしている。教育もGIGAスクールで進めている。行政内部の効率化や非接触化については足りない部分は多少あると思うが、市民サービスでいえば公共施設予約システムの拡充など準備は進めている。テレワークは今後の課題として認識しており、他市も進めているため、検討していく。（津嶋）
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
+対応していく予算はどれくらい考えているか。行政側としてはタブレットの導入など早くやった方が良い。乗り遅れることになるが。（中江 美和）
+</td></tr></table>
+
+> 今までも検討してきている。やり方、どれくらいのレベルでやるかで額の差がある。他市の例も見ながら、できるだけ費用を抑えながら効果が上がるものを今後検討していく。（津嶋）
+
+<!--
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 組み替えであり商工費での新規事業ではない。他市では補正予算に占める商工費の割合が、武蔵野市50%, 町田市60%、三鷹市50%と半分以上ある。他市の動向をどう捉えており、なぜ経済支援ができないのか。（中江 美和）
@@ -988,6 +975,7 @@ GIGAスクール構想でICT支援員の予算がないが、やはり入れな�
 
 > 砂場に抗菌砂を入れ攪拌する。またブランコや滑り台に抗菌塗料や抗菌コート剤を塗る。昨年度の遊具安全点検で、特に危険なもの、砂が減っていたものを優先的に。周辺の公園自粛により普段使われない公園が使われているため、安全安心のために行う。新型コロナ対抗性の商品はまだない。広く細菌類やインフルエンザに効果がある。（田中 環境部長）
 
+-->
 
 ### ＠ 総務委員会
 {{#include ../partials/yasutake-speak.md:1}} 総務委員会には、一人会派の会から橋本久雄議員が委員として参加しています。
@@ -995,10 +983,18 @@ GIGAスクール構想でICT支援員の予算がないが、やはり入れな�
 - [橋本 久雄 議員の質疑](#hasimoto-hisao)
 
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
-地方創生臨時交付金の使途はどこまで限定されているか。
+財政調整基金の積み増しが7億円に上るが、
 </td></tr></table>
 
-> 地方の実情について様々な取組みについて認められている。（尾崎 財政課長）
+> 財政調整基金は半分（尾崎 財政課長）
+
+
+<br>
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
+市民税は
+</td></tr></table>
+
+<!--
 
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>

@@ -78,7 +78,7 @@
 
 > このようなことを、という具体的なことは申し上げていない。教育委員として聞く側の立場として教育委員会で活躍されると期待。（市長）
 
-<span style="font-size: 3rem">🤔</span> 市長が何を言いたいのか分からないことが、とても多いです。
+<span style="font-size: 3rem">🤔</span> 市長は何を言いたいのでしょう・・・？
 
 <br>
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>

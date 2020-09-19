@@ -1,4 +1,5 @@
 # 第53号 市デイサービス条例 廃止
+（作成中）
 
 <i class="fa fa-gavel" aria-hidden="true"></i> xx委員会付託 即決
 
