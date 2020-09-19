@@ -88,14 +88,6 @@ const options = {
   footerRowHeight: 30
 };
 
-const maxLengthTexts = {
-  moku: "安全安心ま　",
-  tantouka: "市民協働・　",
-  jigyou: "小平小川元気村おがわ東　",
-  himoku: "施設等維持管理委託　",
-  detail: "新住民情報システムクラウド化　　　",
-  tag: "新型感染　 "
-};
 
 const setAutosizeColOptions = (column, colIndex) => {
   const varray = (maxLengthTexts[column.field]) ? [maxLengthTexts[column.field]] : undefined;
@@ -138,7 +130,7 @@ const filter = item => {
 
       // 検索語にマッチしない行はfalseで返す（表示しない）
       if (column.cssClass === "cell-id" || column.cssClass === "cell-amount") {
-        if (item[column.field] === undefined) return false; //undefの行はスキップ
+        if (item[column.field] === undefined || item[column.field] === "") return false; //undefの行はスキップ
         let f = (/([=><]{1,2})?\s?(\d*)/gm).exec(value);
         if(f[2] === undefined || f[2] === "") f[2] = 0;
         if (f[1]) {
