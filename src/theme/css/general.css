@@ -461,21 +461,43 @@ table.simple td {
     line-height: 2rem;
 }
 
-div.redbox {
-    border: 1px dashed red;
+div.redbox,
+div.tips {
     border-radius: 1rem;
     margin: 0;
+    padding: 1rem 2rem;
 }
 
+div.redbox p:last-of-type,
+div.tips p:last-of-type {
+    margin-bottom:0;
+}
+
+div.redbox:before,
+div.tips:before {
+    font-weight: bold;
+    display: block;
+}
+
+div.redbox ul,
+div.tips ul {
+    margin-bottom: 0;
+}
+
+div.redbox {
+    border: 1px dashed red;
+}
 div.redbox:before {
     content: "🤔気になるコト（要確認事項）";
-    display: block;
-    text-align: right;
 }
 
-div.redbox ul {
-    margin: 0.2em 0;
+div.tips {
+    border: 2px dashed #174894;
 }
+div.tips:before {
+    content: "🔎 用語解説";
+}
+
 
 p.situgi-comment {
     color: red;
