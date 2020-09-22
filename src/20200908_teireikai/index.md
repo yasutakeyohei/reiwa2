@@ -125,10 +125,14 @@
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>中江　美和</td>
       <td>一人会派の会</td>
+      <td></td>
+      <td></td>
       <td></td>
       <td></td>
       <td></td>
@@ -155,21 +159,23 @@
       <td></td>
       <td></td>
       <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>磯山　亮</td>
       <td>政和会</td>
-      <td colspan="11">議長のため採決には不参加</td>
+      <td colspan="13">議長のため採決には不参加</td>
     </tr>
     <tr>
       <td>小野　高一</td>
       <td>政和会</td>
-      <td colspan="11">欠席</td>
+      <td colspan="13">欠席</td>
     </tr>
     <tr>
       <td>鈴木　洋一</td>
       <td>政和会</td>
-      <td colspan="11" rowspan="22" style="text-align:left;vertical-align:top;"><!--以下全員、全議案に--></td>
+      <td colspan="13" rowspan="22" style="text-align:left;vertical-align:top;"><!--以下全員、全議案に--></td>
     </tr>
     <tr>
       <td>比留間　洋一</td>
