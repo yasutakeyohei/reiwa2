@@ -36,14 +36,6 @@
 
 ### ＠ 本会議
 
-<table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
-（安竹 洋平）
-</td></tr></table>
-
-<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
-（）
-</td></tr></table>
-
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
 条例廃止の必要性は。
 </td></tr></table>
