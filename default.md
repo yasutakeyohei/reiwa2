@@ -46,4 +46,14 @@
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他議員による質問"></i></td><td>
 </td></tr></table>
 
-### ＠ 厚生委員会
+### ＠ XX委員会
+{{#include ../partials/yasutake-speak.md:1}} XX委員会には、一人会派の会からXXXX議員が委員として参加しています。
+
+- [議員の質疑](#)
+
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
+（）
+</td></tr></table>
+
+<table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
+</td></tr></table>
