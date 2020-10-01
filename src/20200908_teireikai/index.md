@@ -73,7 +73,7 @@
 私（安竹洋平）の賛否理由は各議案のページをご参照ください。
 
 <table>
-  <caption style="text-align:right;">⭕️：賛成、❌：反対</caption>
+  <caption style="text-align:right;">〇：賛成、×：反対</caption>
   <thead>
     <tr>
       <td>氏名</td>
@@ -97,80 +97,75 @@
     <tr style="background-color:#ffffc5;">
       <td><strong>安竹　洋平</strong></td>
       <td>一人会派の会</td>
-      <td><strong><a href="./gian-45.md"></a></strong></td>
-      <td><strong><a href="./gian-46.md"></a></strong></td>
-      <td><strong><a href="./gian-47.md"></a></strong></td>
-      <td><strong><a href="./gian-48.md"></a></strong></td>
-      <td><strong><a href="./gian-49.md"></a></strong></td>
-      <td><strong><a href="./gian-50.md"></a></strong></td>
-      <td><strong><a href="./gian-51.md"></a></strong></td>
-      <td><strong><a href="./gian-52.md"></a></strong></td>
-      <td><strong><a href="./gian-53.md"></a></strong></td>
-      <td><strong><a href="./giin-54.md"></a></strong></td>
-      <td><strong><a href="./giin-55.md"></a></strong></td>
-      <td><strong><a href="./giin-56.md"></a></strong></td>
-      <td><strong><a href="./giin-57_64.md"></a></strong></td>
+      <td><strong><a href="./gian-45.md">〇</a></strong></td>
+      <td><strong><a href="./gian-46.md">〇</a></strong></td>
+      <td><strong><a href="./gian-47.md">×</a></strong></td>
+      <td><strong><a href="./gian-48.md">〇</a></strong></td>
+      <td><strong><a href="./gian-49.md">〇</a></strong></td>
+      <td><strong><a href="./gian-50.md">〇</a></strong></td>
+      <td><strong><a href="./gian-51.md">〇</a></strong></td>
+      <td><strong><a href="./gian-52.md">〇</a></strong></td>
+      <td><strong><a href="./gian-53.md">〇</a></strong></td>
+      <td><strong><a href="./giin-54.md">〇</a></strong></td>
+      <td><strong><a href="./giin-55.md">〇</a></strong></td>
+      <td><strong><a href="./giin-56.md">×</a></strong></td>
+      <td><strong><a href="./giin-57_64.md">〇</a></strong></td>
     </tr>
     <tr>
       <td>伊藤　央</td>
       <td>一人会派の会</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td><strong><a href="./gian-45.md">〇</a></strong></td>
+      <td><strong><a href="./gian-46.md">〇</a></strong></td>
+      <td><strong><a href="./gian-47.md">×</a></strong></td>
+      <td><strong><a href="./gian-48.md">〇</a></strong></td>
+      <td><strong><a href="./gian-49.md">〇</a></strong></td>
+      <td><strong><a href="./gian-50.md">〇</a></strong></td>
+      <td><strong><a href="./gian-51.md">〇</a></strong></td>
+      <td><strong><a href="./gian-52.md">〇</a></strong></td>
+      <td><strong><a href="./gian-53.md">〇</a></strong></td>
+      <td><strong><a href="./giin-54.md">〇</a></strong></td>
+      <td><strong><a href="./giin-55.md">〇</a></strong></td>
+      <td><strong><a href="./giin-56.md">×</a></strong></td>
+      <td><strong><a href="./giin-57_64.md">〇</a></strong></td>
     </tr>
     <tr>
       <td>中江　美和</td>
       <td>一人会派の会</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td><strong><a href="./gian-45.md">〇</a></strong></td>
+      <td><strong><a href="./gian-46.md">〇</a></strong></td>
+      <td><strong><a href="./gian-47.md">×</a></strong></td>
+      <td><strong><a href="./gian-48.md">〇</a></strong></td>
+      <td><strong><a href="./gian-49.md">〇</a></strong></td>
+      <td><strong><a href="./gian-50.md">〇</a></strong></td>
+      <td><strong><a href="./gian-51.md">〇</a></strong></td>
+      <td><strong><a href="./gian-52.md">〇</a></strong></td>
+      <td><strong><a href="./gian-53.md">〇</a></strong></td>
+      <td><strong><a href="./giin-54.md">〇</a></strong></td>
+      <td><strong><a href="./giin-55.md">〇</a></strong></td>
+      <td><strong><a href="./giin-56.md">〇</a></strong></td>
+      <td><strong><a href="./giin-57_64.md">〇</a></strong></td>
     </tr>
     <tr>
       <td>橋本　久雄</td>
       <td>一人会派の会</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td><strong><a href="./gian-45.md">〇</a></strong></td>
+      <td><strong><a href="./gian-46.md">〇</a></strong></td>
+      <td><strong><a href="./gian-47.md">×</a></strong></td>
+      <td><strong><a href="./gian-48.md">〇</a></strong></td>
+      <td><strong><a href="./gian-49.md">〇</a></strong></td>
+      <td><strong><a href="./gian-50.md">〇</a></strong></td>
+      <td><strong><a href="./gian-51.md">〇</a></strong></td>
+      <td><strong><a href="./gian-52.md">〇</a></strong></td>
+      <td><strong><a href="./gian-53.md">〇</a></strong></td>
+      <td><strong><a href="./giin-54.md">〇</a></strong></td>
+      <td><strong><a href="./giin-55.md">〇</a></strong></td>
+      <td><strong><a href="./giin-56.md">×</a></strong></td>
+      <td><strong><a href="./giin-57_64.md">〇</a></strong></td>
     </tr>
     <tr>
       <td>磯山　亮</td>
       <td>政和会</td>
       <td colspan="13">議長のため採決には不参加</td>
-    </tr>
-    <tr>
-      <td>小野　高一</td>
-      <td>政和会</td>
-      <td colspan="13">欠席</td>
     </tr>
     <tr>
       <td>鈴木　洋一</td>
