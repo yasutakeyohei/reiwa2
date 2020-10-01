@@ -494,10 +494,10 @@ div.redbox:before {
 div.tips {
     border: 2px dashed #174894;
 }
-div.tips:before {
-    content: "🔎 用語解説";
+div.tips p:first-of-type {
+    margin-top:0;
+    margin-bottom:0;
 }
-
 
 p.situgi-comment {
     color: red;
