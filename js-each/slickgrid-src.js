@@ -131,7 +131,7 @@ const filter = item => {
       // 検索語にマッチしない行はfalseで返す（表示しない）
       if (column.cssClass === "cell-id" || column.cssClass === "cell-amount") {
         if (item[column.field] === undefined || item[column.field] === "") return false; //undefの行はスキップ
-        let f = (/([=><]{1,2})?\s?(\d*)/gm).exec(value);
+        let f = (/([=><]{1,2}|!=)?\s?(\d*)/gm).exec(value);
         if(f[2] === undefined || f[2] === "") f[2] = 0;
         if (f[1]) {
           if (eval(item[column.field].replace(/,/g, '') + f[1] + f[2]) === false) return false;
