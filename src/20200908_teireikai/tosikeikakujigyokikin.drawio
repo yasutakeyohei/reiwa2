@@ -1,98 +1,109 @@
-<mxfile host="b9149630-d154-42ba-a615-4c97128e6196" modified="2020-09-23T15:50:15.923Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.1 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="ssIaY4Nk5PnsWucdee1l" version="13.1.3">
+<mxfile host="fe08fc90-802d-4373-98d1-6d96259852d7" modified="2020-10-01T13:53:05.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.49.2 Chrome/83.0.4103.122 Electron/9.2.1 Safari/537.36" etag="p2iAMOuJr_BcMM0p-5xK" version="13.1.3">
     <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
-        <mxGraphModel dx="1103" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1103" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="国や都の補助金" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="150" width="120" height="30" as="geometry"/>
+                <mxCell id="2" value="国や都の補助金" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="130" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3" target="16" edge="1">
+                <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;comic=0;jumpStyle=none;shadow=0;" parent="1" source="3" target="16" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="60" width="120" height="40" as="geometry"/>
+                <mxCell id="48" value="余った分" style="edgeLabel;align=center;verticalAlign=middle;resizable=0;points=[];spacingLeft=0;fontSize=12;" vertex="1" connectable="0" parent="17">
+                    <mxGeometry x="0.1667" y="4" relative="1" as="geometry">
+                        <mxPoint x="-110" y="-6" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="4" value="地方債" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="190" width="120" height="30" as="geometry"/>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;comic=0;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="40" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="一般財源" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="230" width="120" height="30" as="geometry"/>
+                <mxCell id="4" value="地方債" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="170" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" value="その他" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="270" width="120" height="30" as="geometry"/>
+                <mxCell id="5" value="一般財源" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="210" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="都市計画事業費&lt;br&gt;・&lt;br&gt;土地区画整理事業費" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="100" width="120" height="136" as="geometry"/>
+                <mxCell id="6" value="その他" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="250" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="上記事業のための&lt;br&gt;地方債償還等" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="246" width="120" height="54" as="geometry"/>
+                <mxCell id="7" value="都市計画事業費&lt;br&gt;・&lt;br&gt;土地区画整理事業費&lt;br&gt;&lt;span style=&quot;color: rgb(204 , 204 , 204) ; font-family: &amp;#34;noto color emoji&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;times&amp;#34; , &amp;#34;symbola&amp;#34; , &amp;#34;aegyptus&amp;#34; , &amp;#34;code2000&amp;#34; , &amp;#34;code2001&amp;#34; , &amp;#34;code2002&amp;#34; , &amp;#34;musica&amp;#34; , serif , &amp;#34;lastresort&amp;#34; ; font-size: 36px&quot;&gt;🚧&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="80" width="120" height="136" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="都市計画税" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="100" width="120" height="43" as="geometry"/>
+                <mxCell id="8" value="上記事業のための&lt;br&gt;地方債償還等" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="226" width="120" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="都市計画事業基金に&lt;br&gt;積み立て" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="60" width="120" height="40" as="geometry"/>
+                <mxCell id="14" value="都市計画税" style="rounded=0;whiteSpace=wrap;html=1;comic=0;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="80" width="120" height="43" as="geometry"/>
                 </mxCell>
-                <mxCell id="18" value="余った分" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-                    <mxGeometry x="120" y="60" width="120" height="20" as="geometry"/>
+                <mxCell id="16" value="都市計画事業基金に&lt;br&gt;積み立て" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;comic=0;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="40" width="120" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="20" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=-180;size=0;" parent="1" vertex="1">
-                    <mxGeometry x="160" y="100" width="10" height="200" as="geometry"/>
+                    <mxGeometry x="140" y="80" width="10" height="200" as="geometry"/>
                 </mxCell>
                 <mxCell id="19" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=20;endSize=6.67;width=28;fillColor=none;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="170" y="204.76" as="sourcePoint"/>
-                        <mxPoint x="210" y="205" as="targetPoint"/>
+                        <mxPoint x="150" y="184.76" as="sourcePoint"/>
+                        <mxPoint x="190" y="185" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="26" value="国や都の補助金" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="190" y="490" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="200" y="450" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="地方債" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="190" y="530" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="200" y="490" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="一般財源" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="190" y="570" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="200" y="530" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="29" value="その他" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="190" y="610" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="200" y="570" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" value="都市計画事業費&lt;br&gt;・&lt;br&gt;土地区画整理事業費" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="400" width="120" height="170" as="geometry"/>
+                <mxCell id="30" value="都市計画事業費&lt;br&gt;・&lt;br&gt;土地区画整理事業費&lt;br&gt;&lt;span style=&quot;color: rgb(204 , 204 , 204) ; font-family: &amp;#34;noto color emoji&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;times&amp;#34; , &amp;#34;symbola&amp;#34; , &amp;#34;aegyptus&amp;#34; , &amp;#34;code2000&amp;#34; , &amp;#34;code2001&amp;#34; , &amp;#34;code2002&amp;#34; , &amp;#34;musica&amp;#34; , serif , &amp;#34;lastresort&amp;#34; ; font-size: 36px&quot;&gt;🚧&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="390" y="360" width="120" height="170" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" value="上記事業のための&lt;br&gt;地方債償還等" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="380" y="580" width="120" height="54" as="geometry"/>
+                    <mxGeometry x="390" y="540" width="120" height="54" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="都市計画税" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-                    <mxGeometry x="190" y="450" width="120" height="33" as="geometry"/>
+                    <mxGeometry x="200" y="410" width="120" height="33" as="geometry"/>
                 </mxCell>
                 <mxCell id="33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=-180;size=0;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="400" width="10" height="240" as="geometry"/>
+                    <mxGeometry x="330" y="360" width="10" height="240" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="" style="shape=flexArrow;endArrow=classic;html=1;endWidth=20;endSize=6.67;width=28;fillColor=none;" parent="1" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="330.0000000000001" y="519.6600000000001" as="sourcePoint"/>
-                        <mxPoint x="370.0000000000001" y="519.9000000000001" as="targetPoint"/>
+                        <mxPoint x="340.0000000000001" y="479.6600000000001" as="sourcePoint"/>
+                        <mxPoint x="380.0000000000001" y="479.9000000000001" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="35" target="37">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="44" value="&lt;font style=&quot;font-size: 12px&quot;&gt;取り崩し&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="35" target="37" edge="1">
+                    <mxGeometry x="0.7143" y="32" relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="190" y="380"/>
+                            <mxPoint x="190" y="380"/>
+                        </Array>
+                        <mxPoint x="-30" y="22" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
-                <mxCell id="35" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="400" width="120" height="40" as="geometry"/>
+                <mxCell id="35" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeWidth=2;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="360" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" value="都市計画事業基金" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-                    <mxGeometry x="30" y="440" width="120" height="170" as="geometry"/>
+                <mxCell id="36" value="都市計画事業基金&lt;br&gt;&lt;span style=&quot;color: rgb(204 , 204 , 204) ; font-family: &amp;#34;noto color emoji&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;times&amp;#34; , &amp;#34;symbola&amp;#34; , &amp;#34;aegyptus&amp;#34; , &amp;#34;code2000&amp;#34; , &amp;#34;code2001&amp;#34; , &amp;#34;code2002&amp;#34; , &amp;#34;musica&amp;#34; , serif , &amp;#34;lastresort&amp;#34; ; font-size: 36px&quot;&gt;💰&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="10" y="400" width="120" height="170" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="都市計画事業基金の&lt;br&gt;取り崩し" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
-                    <mxGeometry x="190" y="400" width="120" height="40" as="geometry"/>
+                <mxCell id="37" value="都市計画事業基金" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="360" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="都市計画税が余る → 基金に積み立て" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;dashed=1;" parent="1" vertex="1">
-                    <mxGeometry width="410" height="40" as="geometry"/>
+                <mxCell id="42" value="&lt;h6&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;都市計画税が足りない → 基金の取り崩し&lt;/font&gt;&lt;/h6&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;dashed=1;" parent="1" vertex="1">
+                    <mxGeometry y="310" width="470" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="42" value="都市計画税が足りない → 基金の取り崩し" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=left;dashed=1;" parent="1" vertex="1">
-                    <mxGeometry y="340" width="470" height="40" as="geometry"/>
+                <mxCell id="46" value="&lt;span style=&quot;font-size: 16px ; font-weight: 700 ; text-align: left&quot;&gt;都市計画税が余る → 基金に積み立て&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="都市計画事業基金&lt;br&gt;&lt;span style=&quot;color: rgb(204 , 204 , 204) ; font-family: &amp;#34;noto color emoji&amp;#34; , &amp;#34;apple color emoji&amp;#34; , &amp;#34;segoe ui emoji&amp;#34; , &amp;#34;times&amp;#34; , &amp;#34;symbola&amp;#34; , &amp;#34;aegyptus&amp;#34; , &amp;#34;code2000&amp;#34; , &amp;#34;code2001&amp;#34; , &amp;#34;code2002&amp;#34; , &amp;#34;musica&amp;#34; , serif , &amp;#34;lastresort&amp;#34; ; font-size: 36px&quot;&gt;💰&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;comic=0;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="80" width="120" height="170" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
