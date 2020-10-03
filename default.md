@@ -47,7 +47,7 @@
 </td></tr></table>
 
 ### ＠ XX委員会
-{{#include ../partials/yasutake-speak.md:1}} XX委員会には、一人会派の会からXXXX議員が委員として参加しています。
+XX委員会には、一人会派の会からXXXX議員が委員として参加しています。
 
 - [議員の質疑](#)
 
@@ -57,3 +57,36 @@
 
 <table class="qanda"><tr><td><i class="fa fa-question-circle-o" aria-label="その他 議員による質問"></i></td><td>
 </td></tr></table>
+
+
+#### XX委員会での賛否
+
+<table class="simple">
+<tr><th>会派</th><th>賛否</th></tr>
+<tr><td>一人会派の会</td><td>❌反対</td></tr>
+<tr><td>政和会</td><td>⭕賛成</td></tr>
+<tr><td>公明党</td><td>⭕賛成</td></tr>
+<tr><td>フォーラム小平</td><td>⭕賛成</td></tr>
+<tr><td>共産党</td><td>⭕賛成</td></tr>
+</table>
+
+## 本会議でのやり取り
+
+### 討論
+＊概要ですので、実際の討論は[会議録等](index.md/#会議録配布資料)をご参照ください。
+
+<h5 style="margin-bottom:0"><span class="highlight">⭐反対（一人会派の会：伊藤央）</span></h5>
+
+- 
+- 
+
+
+<h5 style="margin-bottom:0">反対（政和会）</h5>
+
+<h5 style="margin-bottom:0">賛成（公明党）</h5>
+<h5 style="margin-bottom:0">賛成（フォーラム小平）</h5>
+<h5 style="margin-bottom:0">賛成（共産党）</h5>
+<h5 style="margin-bottom:0">賛成（まちづくり市民こだいら：水口議員）</h5>
+
+## 原案に対する賛否
+[賛否についてはこちらをご覧ください。](./index.md#賛否)
