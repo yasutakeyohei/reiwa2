@@ -1,10 +1,4 @@
 # 議案第52号 小平市手数料条例の一部を改正する条例
-（作成中）
-
-
-本会議：
-
-
 
 <i class="fa fa-gavel" aria-hidden="true"></i> 環境建設委員会付託
 
@@ -12,17 +6,19 @@
   <legend>
     <h2 class="point"> ポイント </h2>
   </legend>
-  <p class="point">✔ </p>
+  <p class="point">✔ 建築基準行政事務が東京都から小平市に移管されることに伴う手数料の改正</p>
+  <p class="point">✔ 小平市への新規手数料収入は年間700万円程度を想定</p>
+  <p class="point">✔ 建築基準行政事務に係る経費は年間約1.45億円を想定</p>
+  <p class="point">✔ 東京都からは事務の移行に伴い5年間で1.7億円の交付金が得られる</p>
+  <p class="point">✔ 人材の確保や訴訟リスクが課題</p>
 </fieldset>
 
 <fieldset class="sanpi">
   <legend>
     <h2 class="sanpi">⭕️ 私（安竹洋平）の判断：賛成 </h2>
   </legend>
-  <p class="sanpi NG">❌ </p>
-  <p class="sanpi OK">⭕️ </p>
+  <p class="sanpi OK">⭕️ 特に問題がないため賛成</p>
 </fieldset>
-
 
 ## 概要
 
@@ -36,13 +32,14 @@
 
 ## 解説
 
-建築基準行政事務が東京都から小平市に移管されることに伴い、建築基準行政に関わる手数料を小平市が徴収することになります。そのための手数料条例を改正するものです。
+建築基準行政事務が東京都から小平市に移管されることに伴い、建築基準行政に関わる手数料を小平市が徴収することになります。そのための[手数料条例](https://www.city.kodaira.tokyo.jp/reiki/reiki_honbun/g135RG00000177.html)を改正するものです。
 - 手数料は別表の通り
 - 減免措置は証明書等交付に関してのみ
 - 手数料は当該事務に必要となる人件費と物件費を単価として、事務処理時間及び申請件数を考慮して算定
 - 東京都の手数料額との乖離率は10%以内
 - 施行期日は令和3年4月1日
 
+＊手数料の内訳について詳しいことは会議録資料をご参照ください。
 
 ## 主な質疑（発言順）
 {{#include ../partials/situgi_hanrei.md}}
@@ -98,8 +95,18 @@
 システムは大丈夫か。
 </td></tr></table>
 
+> 管理システム構築の予算は令和2年度予算に計上している。ここで業者を決めるプロポーザルを行う。来年の4月1日からシステム運用開始で調整。
 
-<table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
-（）
-</td></tr></table>
+#### 環境建設委員会での賛否
 
+<table class="simple">
+<tr><th>会派</th><th>賛否</th></tr>
+<tr><td>一人会派の会</td><td>⭕賛成</td></tr>
+<tr><td>政和会</td><td>⭕賛成</td></tr>
+<tr><td>公明党</td><td>⭕賛成</td></tr>
+<tr><td>フォーラム小平</td><td>⭕賛成</td></tr>
+<tr><td>共産党</td><td>⭕賛成</td></tr>
+</table>
+
+## 原案に対する賛否
+[賛否についてはこちらをご覧ください。](./index.md#賛否)
