@@ -6,7 +6,7 @@
     - [諸報告](./20200908_teireikai/syohokoku.md)
         - [例月現金出納検査（令和2年5月）](./20200908_teireikai/reigetu-05.md)
     - [第45号 教育委員 任命](./20200908_teireikai/gian-45.md)
-    - [第46号 固定資産評価審査委員 選任](./20200908_teireikai/gian-46.md)
+    - [第46号 固定資産評価～委員 選任](./20200908_teireikai/gian-46.md)
     - [第47号 一般補正](./20200908_teireikai/gian-47.md)
     - [第48号 国保補正](./20200908_teireikai/gian-48.md)
     - [第49号 後期高齢補正](./20200908_teireikai/gian-49.md)
