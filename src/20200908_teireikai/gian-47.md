@@ -15,9 +15,6 @@
   <p class="point">✔ 返還金に約4.2億円</p>
   <p class="point">✔ 住基システムに合計約3.4千万円</p>
   <p class="point">✔ コロナ禍対策は、平櫛田中美術館のインバウンド回復事業約160万円のみ</p>
-  <p class="point">✔ </p>
-  <p class="point">✔ </p>
-  <p class="point">✔ </p>
 </fieldset>
 
 <fieldset class="sanpi">
