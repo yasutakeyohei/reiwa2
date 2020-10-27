@@ -1,7 +1,7 @@
 {{first:2020-05-08}}
 # 小平町親善訪問は内容の見直しを
 
-{{#include ./partials/yasutake-speak.md:1}} [市報こだいら 平成 20 年 1.1 号：姉妹都市 30 周年](https://web.archive.org/web/20200525023132/https://www.city.kodaira.tokyo.jp/shihou/files/5756/005756/att_0000004.pdf) には以下のように記載されています。
+[市報こだいら 平成 20 年 1.1 号：姉妹都市 30 周年](https://web.archive.org/web/20200525023132/https://www.city.kodaira.tokyo.jp/shihou/files/5756/005756/att_0000004.pdf) には以下のように記載されています。
 
 > 昭和 53（1978）年 7 月 1 日、小平市と北海道小平町（おびらちょう）は、同名の自治体のよしみから、教育・文化・産業などでの交流と友好を深めることやお互いの発展を祈願して、姉妹都市として提携を結びました。
 
