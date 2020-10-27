@@ -1,3 +1,4 @@
+{{first:2020-9-9}}
 # 議案第54号 小平市建築審査会条例
 
 <i class="fa fa-gavel" aria-hidden="true"></i> 環境建設委員会付託

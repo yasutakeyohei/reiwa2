@@ -1,3 +1,4 @@
+{{first:2020-9-9}}
 # 議案第52号 小平市手数料条例の一部を改正する条例
 
 <i class="fa fa-gavel" aria-hidden="true"></i> 環境建設委員会付託

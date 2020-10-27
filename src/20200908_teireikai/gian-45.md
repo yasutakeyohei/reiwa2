@@ -1,3 +1,4 @@
+{{first:2020-9-9}}
 # 議案第45号 小平市教育委員会委員の任命につき同意を求めることについて
 
 <i class="fa fa-gavel" aria-hidden="true"></i> 即決
