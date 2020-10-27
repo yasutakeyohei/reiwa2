@@ -9,7 +9,7 @@ from datetime import datetime as dt
 # index.htmlの削除
 for filepath in glob.iglob('../../book/**/*.html', recursive=True):
     filepath = os.path.normpath(filepath)
-    print(os.sep)
+
     if(os.sep == "/") :
         fp = re.sub(r"../../book/html/(.+)/.html", "\\1.md", filepath, 0)
     else :
