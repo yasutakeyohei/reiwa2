@@ -1,3 +1,4 @@
+{{first:2020-05-25}}
 # 小平町親善訪問は内容の見直しを
 
 [市報こだいら 平成 20 年 1.1 号：姉妹都市 30 周年](https://web.archive.org/web/20200525023132/https://www.city.kodaira.tokyo.jp/shihou/files/5756/005756/att_0000004.pdf) には以下のように記載されています。

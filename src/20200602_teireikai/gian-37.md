@@ -1,3 +1,4 @@
+{{first:2020-06-02}}
 # 議案第37号 小平市税条例等の一部を改正する条例
 
 <i class="fa fa-gavel" aria-hidden="true"></i> 総務委員会付託

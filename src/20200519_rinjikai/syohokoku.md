@@ -1,3 +1,4 @@
+{{first:2020-05-25}}
 # 諸報告
 <fieldset class="nittei">
   <legend>

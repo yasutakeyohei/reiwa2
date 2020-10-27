@@ -1,3 +1,4 @@
+{{first:2020-05-30}}
 # 附帯決議（案）
 
  {{#include ../partials/yasutake-speak.md:1}} 当一人会派の会から、橋本久雄議員を通じて、以下内容の附帯決議案を提出しました（[附帯決議とは？](https://ja.wikipedia.org/wiki/%E9%99%84%E5%B8%AF%E6%B1%BA%E8%AD%B0)）。

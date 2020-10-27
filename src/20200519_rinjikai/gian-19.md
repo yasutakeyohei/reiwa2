@@ -1,3 +1,4 @@
+{{first:2020-05-25}}
 # 議案第19号 小平市国民健康保険条例の一部を改正する条例
 
 <i class="fa fa-gavel" aria-hidden="true"></i> 厚生委員会付託

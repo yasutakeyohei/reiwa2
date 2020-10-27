@@ -1,3 +1,4 @@
+{{first:2020-06-02}}
 # 6月定例会
 
 <fieldset class="summary">

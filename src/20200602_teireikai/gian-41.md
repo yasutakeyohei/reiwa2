@@ -1,3 +1,4 @@
+{{first:2020-06-02}}
 # 議案第41号 小平市立学童クラブ条例の一部を改正する条例
 
 <i class="fa fa-gavel" aria-hidden="true"></i> 厚生委員会付託

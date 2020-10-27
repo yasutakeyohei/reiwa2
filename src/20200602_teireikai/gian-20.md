@@ -1,3 +1,4 @@
+{{first:2020-06-02}}
 # 議案第20号 小平市監査委員の選任につき同意を求めることについて
 
 <i class="fa fa-gavel" aria-hidden="true"></i> 即決

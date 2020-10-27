@@ -1,3 +1,4 @@
+{{first:2020-08-03}}
 # 議案第44号 令和2年度小平市一般会計補正予算（第4号）
 
 <i class="fa fa-gavel" aria-hidden="true"></i> 総務委員会付託
