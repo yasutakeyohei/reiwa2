@@ -18,6 +18,9 @@
     - [第55号 市中高層～紛争予防～条例](./20200908_teireikai/gian-55.md)
     - [第56号 GIGAスクールPC買入れ](./20200908_teireikai/gian-56.md)
     - [第57～64号 市道路線の認定廃止](./20200908_teireikai/gian-57_64.md)
+    - [員22号 新型コロナ～の詳細な情～](./20200908_teireikai/giin-gian-22.md)
+    - [請3号 本の宅配貸出サービスを～](./20200908_teireikai/seigan-3.md)
+
 - [8月3日：8月臨時会](./20200803_rinjikai/index.md)
     - [諸報告](./20200803_rinjikai/syohokoku.md)
         - [例月現金出納検査（令和2年4月）](./20200803_rinjikai/reigetu-04.md)
