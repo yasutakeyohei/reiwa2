@@ -204,8 +204,8 @@
 <tr><td>一人会派の会</td><td>❌ 反対</td></tr>
 <tr><td>政和会</td><td>❌ 反対</td></tr>
 <tr><td>公明党</td><td>⭕ 賛成</td></tr>
-<tr><td>フォーラム小平</td><td>⭕ 賛成</td></tr>
-<tr><td>共産党</td><td>❌ 反対</td></tr>
+<tr><td>フォーラム小平</td><td>❌ 反対</td></tr>
+<tr><td>共産党</td><td>⭕ 賛成</td></tr>
 <tr><td>生活者ネット</td><td>⭕ 賛成</td></tr>
 </table>
 
