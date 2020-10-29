@@ -6,6 +6,9 @@ import datetime
 
 from datetime import datetime as dt
 
+removeIndexRe = r"(href\s*?\=\s*?\")(?:|(.*?)\/)index\.html(.*?\")"
+subst = "\\1\\2/\\3"
+
 # index.htmlの削除
 for filepath in glob.iglob('../../book/**/*.html', recursive=True):
     filepath = os.path.normpath(filepath)
@@ -29,7 +32,8 @@ for filepath in glob.iglob('../../book/**/*.html', recursive=True):
 
     with open(filepath, encoding="utf8") as file:
         s = file.read()
-    s = re.sub(r"(href\s*=\s*\".*?)index.html(.*?\")", "\\1\\2", s, 0) #index.htmlの削除
+
+    s = re.sub(removeIndexRe, subst, s, 0) #index.htmlの削除
     if key != "" :
         replace = '''
             <ul class="published-at-updated-at">
