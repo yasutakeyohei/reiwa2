@@ -155,7 +155,7 @@
                     <main>
                         
             <ul class="published-at-updated-at">
-                <li><a href="https://github.com/yasutakeyohei/Reiwa2/commits/master/src/20200803_rinjikai/index.md"><i class="fa fa-refresh" aria-hidden="true" title="更新日"></i> <time datetime="2020-10-28T00:17:07+09:00" timeprop="modified" title="更新日">2020-10-28</a></time></li>
+                <li><a href="https://github.com/yasutakeyohei/Reiwa2/commits/master/src/20200803_rinjikai/index.md"><i class="fa fa-refresh" aria-hidden="true" title="更新日"></i> <time datetime="2020-10-29T14:27:46+09:00" timeprop="modified" title="更新日">2020-10-29</a></time></li>
                 <li><i class="fa fa-file-text-o" aria-hidden="true" title="公開日"></i> <time datetime="2020-08-03" timeprop="datepublished" title="公開日">2020-08-03</time></li>
             </ul>
         
@@ -382,6 +382,21 @@
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         

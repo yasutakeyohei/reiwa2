@@ -542,7 +542,7 @@
 </table>
 <h2><a class="header" href="#本会議でのやり取り" id="本会議でのやり取り">本会議でのやり取り</a></h2>
 <h3><a class="header" href="#討論" id="討論">討論</a></h3>
-<p>＊概要ですので、実際の討論は<a href="/">会議録等</a>をご参照ください。</p>
+<p>＊概要ですので、実際の討論は<a href="./">会議録等</a>をご参照ください。</p>
 <h5 style="margin-bottom:0"><span class="highlight">⭐賛成（一人会派の会：安竹 洋平）</span></h5>
 <ul>
 <li></li>
@@ -593,6 +593,21 @@
 
         </div>
 
+        
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://localhost:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
         
 
         
