@@ -1,4 +1,7 @@
 {{first:2020-05-08}}
+
+{{description:小平市議会の幹事長会に関する問題点と、このサイトでの公開範囲について説明しています。}}
+
 # 幹事長会議の問題点とこのサイトでの公開範囲
 
 <div style="border: 1px solid red; padding:10px; line-height:2em;">
