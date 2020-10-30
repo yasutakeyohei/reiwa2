@@ -1,6 +1,8 @@
 {{first:2020-9-9}}
 # 議案第56号 小平市立小・中学校教育用PC(GIGAスクール構想）の買入れについて
 
+（作成中）
+
 <i class="fa fa-gavel" aria-hidden="true"></i> 生活文教委員会付託 即決
 
 <fieldset class="point">
@@ -15,7 +17,7 @@
     <h2 class="sanpi">❌ 私（安竹洋平）の判断：反対 </h2>
   </legend>
   <p class="sanpi NG">❌ なるべく早く導入する必要があるものの、以下の理由から反対</p>
-  <p class="sanpi NG">❌ Chrome OSは実績が</p>
+  <p class="sanpi NG">❌ </p>
   <p class="sanpi OK">⭕️ </p>
 </fieldset>
 
