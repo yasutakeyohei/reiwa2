@@ -314,6 +314,10 @@ fieldset.summary {
     padding: 0.5em;
 }
 
+li.chapter-item {
+    white-space: nowrap;
+}
+
 li.chapter-item strong {
     display: none;
 }
@@ -512,7 +516,7 @@ p.situgi-comment span {
 ul.published-at-updated-at {
     display: flex;
     justify-content: flex-end;
-    margin:0;
+    margin:0 0 2px 0;
     list-style-type: none;
     font-size: 1.5rem;
     color: gray;
