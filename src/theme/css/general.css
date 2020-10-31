@@ -18,6 +18,7 @@ body {
     margin: 0;
     font-size: 1.7rem;
     overflow-x: hidden;
+    -webkit-text-size-adjust: 100%; /* iPhoneでフォントサイズが勝手に変わるのを阻止 */
 }
 
 code {
