@@ -14,7 +14,7 @@
   <legend>
     <h2 class="sanpi">⭕️ 私（安竹洋平）の判断：同意 </h2>
   </legend>
-  <p class="sanpi OK">⭕️ これまで市のために務めてこられた方で、感謝の気持ちをもって同意</p>
+  <p class="sanpi OK">⭕️ これまで市のために務めてこられた方で、感謝の気持ちと共に同意</p>
 </fieldset>
 
 ## 概要
