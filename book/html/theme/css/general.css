@@ -296,17 +296,20 @@ fieldset.summary {
     padding: 0;
 }
 
-.nittei li ol {
+.nittei p {
+    margin-block-end: 0;
+}
+
+.nittei>ol>li>ol {
     counter-reset: list;
     padding-inline-start: 0;
-}
-.nittei li ol > li {
     list-style: none;
 }
-.nittei li ol > li:before {
+.nittei>ol>li>ol>li:before {
     content: "(" counter(list) ") ";
     counter-increment: list;
 }
+
 .warn {
     color:red;
     line-height: 1.8em;
