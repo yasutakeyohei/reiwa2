@@ -3,7 +3,6 @@
 {{description:小平市議会・令和2年9月定例会のまとめです。議案20件（人事2、補正予算4、条例5、契約1、道路8）の審議が中心です。}}
 
 # 令和2年9月定例会
-（作成中）
 
 <fieldset class="summary">
   <legend>
@@ -231,91 +230,376 @@
     <tr>
       <td>鈴木 洋一</td>
       <td>政和会</td>
-      <td colspan="13" rowspan="22" style="text-align:left;vertical-align:top;">（確認中）<!--以下全員、全議案に--></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>×</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>比留間 洋一</td>
       <td>政和会</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>×</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>福室 英俊</td>
       <td>政和会</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>×</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>松岡 あつし</td>
       <td>政和会</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>×</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>山田 大輔</td>
       <td>政和会</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>×</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>虻川 浩</td>
       <td>市議会公明党</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>佐藤 徹</td>
       <td>市議会公明党</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>津本 裕子</td>
       <td>市議会公明党</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>橋本 孝二</td>
       <td>市議会公明党</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>山岸 真知子</td>
       <td>市議会公明党</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>幸田 昌之</td>
       <td>市議会公明党</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>川里 富美</td>
       <td>フォーラム小平</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>小林 洋子</td>
       <td>フォーラム小平</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>竹井 ようこ</td>
       <td>フォーラム小平</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>吉本 ゆうすけ</td>
       <td>フォーラム小平</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>きせ 恵美子</td>
       <td>日本共産党小平市議団</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>×</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>鈴木 だいち</td>
       <td>日本共産党小平市議団</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>×</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>細谷 正</td>
       <td>日本共産党小平市議団</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>×</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>さとう 悦子</td>
       <td>生活者ネットワーク</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>山浦 まゆみ</td>
       <td>生活者ネットワーク</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>山﨑 とも子</td>
       <td>生活者ネットワーク</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
       <td>水口 かずえ</td>
       <td>まちづくり市民こだいら</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>×</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>×</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
   </tbody>
 </table>
