@@ -10,7 +10,7 @@
   <legend>
     <h2 class="point"> ポイント </h2>
   </legend>
-  <p class="point">✔ 総額約18億円 ＝ 国2.0億 ＋ 都0.22億 ＋ 小平市16億</p>
+  <p class="point">✔ <!--総額約億円 ＝ 国億 ＋ 都0.22億 ＋ 小平市16億--></p>
   <p class="point">✔ </p>
   <p class="point">✔ </p>
   <p class="point">✔ </p>

@@ -50,17 +50,17 @@
     <tr>
       <td>伊藤　央</td>
       <td>一人会派の会</td>
-      <td>〇</td>
+      <td></td>
     </tr>
     <tr>
       <td>中江　美和</td>
       <td>一人会派の会</td>
-      <td>〇</td>
+      <td></td>
     </tr>
     <tr>
       <td>橋本　久雄</td>
       <td>一人会派の会</td>
-      <td>〇</td>
+      <td></td>
     </tr>
     <tr>
       <td>磯山　亮</td>
