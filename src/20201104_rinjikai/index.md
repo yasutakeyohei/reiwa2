@@ -32,6 +32,8 @@
 
 私（安竹洋平）の賛否理由は各議案のページをご参照ください。
 
+＊作成中
+
 <table>
   <caption style="text-align:right;">〇：賛成、×：反対</caption>
   <thead>
