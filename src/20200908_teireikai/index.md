@@ -166,10 +166,10 @@
       <td><strong><a href="./gian-51.md">〇</a></strong></td>
       <td><strong><a href="./gian-52.md">〇</a></strong></td>
       <td><strong><a href="./gian-53.md">〇</a></strong></td>
-      <td><strong><a href="./giin-54.md">〇</a></strong></td>
-      <td><strong><a href="./giin-55.md">〇</a></strong></td>
-      <td><strong><a href="./giin-56.md">×</a></strong></td>
-      <td><strong><a href="./giin-57_64.md">〇</a></strong></td>
+      <td><strong><a href="./gian-54.md">〇</a></strong></td>
+      <td><strong><a href="./gian-55.md">〇</a></strong></td>
+      <td><strong><a href="./gian-56.md">×</a></strong></td>
+      <td><strong><a href="./gian-57_64.md">〇</a></strong></td>
     </tr>
     <tr>
       <td>伊藤 央</td>
