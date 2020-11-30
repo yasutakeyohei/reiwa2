@@ -9,6 +9,7 @@
   <p class="point">✔ </p>
 </fieldset>
 
+<!--
 <fieldset class="sanpi">
   <legend>
     <h2 class="sanpi">⭕️ 私（安竹洋平）の判断：賛成 </h2>
@@ -16,7 +17,7 @@
   <p class="sanpi NG">❌ </p>
   <p class="sanpi OK">⭕️ </p>
 </fieldset>
-
+-->
 
 ## 概要
 
@@ -33,6 +34,7 @@
 ## 主な質疑（発言順）
 {{#include ../partials/situgi_hanrei.md}}
 
+<!--
 ### ＠ 本会議
 
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
@@ -87,6 +89,8 @@ XX委員会には、一人会派の会からXXXX議員が委員として参加�
 <h5 style="margin-bottom:0">賛成（フォーラム小平）</h5>
 <h5 style="margin-bottom:0">賛成（共産党）</h5>
 <h5 style="margin-bottom:0">賛成（まちづくり市民こだいら：水口議員）</h5>
+
+-->
 
 ## 原案に対する賛否
 [賛否についてはこちらをご覧ください。](./index.md#賛否)
