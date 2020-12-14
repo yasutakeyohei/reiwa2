@@ -39,6 +39,8 @@
 ## 主な質疑（発言順）
 {{#include ../partials/situgi_hanrei.md}}
 
+本会議での質疑なし
+
 <!--
 ### ＠ 本会議
 

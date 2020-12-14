@@ -10,14 +10,12 @@
   <p class="point">✔ 高齢者交流室の指定管理料に関し、債務負担行為を設定するもの</p>
 </fieldset>
 
-<!--
 <fieldset class="sanpi">
   <legend>
     <h2 class="sanpi">⭕️ 私（安竹洋平）の判断：賛成 </h2>
   </legend>
   <p class="sanpi OK">⭕️ 特に問題がないため賛成</p>
 </fieldset>
--->
 
 ## 概要
 
@@ -59,6 +57,7 @@
 </tr>
 </table>
 
+<!--
 <br>
 <div class="tips">
 
@@ -66,12 +65,13 @@
 
 地方自治法第213条
 
-
-
 </div>
+-->
 
 ## 主な質疑（発言順）
 {{#include ../partials/situgi_hanrei.md}}
+
+本会議での質疑なし。
 
 <!--
 ### ＠ 本会議
