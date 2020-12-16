@@ -69,27 +69,31 @@
 
 1. [議案第83号 小平市立学校給食センター更新事業の事業契約の締結について](./gian-83.md)
 
-1. [議案第84-90号 市道路線の認定について]()
+1. [議案第84-90号 市道路線の認定について](./gian-84_92.md)
 
-1. [議案第91-92号 市道路線の廃止について]()
+1. [議案第91-92号 市道路線の廃止について](./gian-84_92.md)
 
 1. [議案第93号 小平市立高齢者館の指定管理者の指定について](./gian-93.md)
 
 1. [議案第94号 小平市高齢者交流室の指定管理者の指定について](./gian-94.md)
 
-1. [議案第95号 小平市立学童クラブの指定管理者の指定について]()
+1. [議案第95号 小平市立学童クラブの指定管理者の指定について](./gian-95_97.md)
 
-1. [議案第96号 小平市立学童クラブの指定管理者の指定について]()
+1. [議案第96号 小平市立学童クラブの指定管理者の指定について](./gian-95_97.md)
 
-1. [議案第97号 小平市立学童クラブの指定管理者の指定について]()
+1. [議案第97号 小平市立学童クラブの指定管理者の指定について](./gian-95_97.md)
 
 1. [議案第98号 小平市立障害者福祉施設の指定管理者の指定について](./gian-98.md)
 
-1. [議案第99号 小平市有料自転車駐車場の指定管理者の指定について](./gian-99.md)
+1. [議案第99号 小平市有料自転車駐車場の指定管理者の指定について](./gian-99_101.md)
 
-1. [議案第101号 小平市有料自転車駐車場の指定管理者の指定について](./gian-101.md)
+1. [議案第101号 小平市有料自転車駐車場の指定管理者の指定について](./gian-99_101.md)
 
 1. [議案第102号 小平市第四次長期総合計画基本構想について](./gian-102.md)
+
+1. [議案第103号 小平市長等の給料に関する条例の一部を改正する条例](./gian-103_104.md)
+
+1. [議案第104号 小平市職員の給与に関する条例の一部を改正する条例](./gian-103_104.md)
 
 1. [議員提出議案第26号 小・中学校、高等学校における少人数学級の早期実現を求める意見書提出について](./giin-gian-102.md)
 
@@ -137,6 +141,7 @@
       <th><a href="./gian-98.md">98号</th>
       <th><a href="./gian-99_101.md">99-101号</th>
       <th><a href="./gian-102.md">102号</th>
+      <th><a href="./gian-103_104.md">103-104号</th>
     </tr>
   </thead>
   <tbody>
@@ -161,9 +166,11 @@
       <td><strong><a href="./gian-98.md"></a></strong></td>
       <td><strong><a href="./gian-99_101.md"></a></strong></td>
       <td><strong><a href="./gian-102.md"></a></strong></td>
+      <td><strong><a href="./gian-103_104.md"></a></strong></td>
     </tr>
     <tr>
       <td data-sort="1">伊藤 央 <sup>[一人会派の会]</sup></td>
+      <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
@@ -205,9 +212,11 @@
       <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
+      <td><strong></strong></td>
     </tr>
     <tr>
       <td data-sort="3">橋本 久雄 <sup>[一人会派の会]</sup></td>
+      <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
@@ -249,9 +258,11 @@
       <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
+      <td><strong></strong></td>
     </tr>
     <tr>
       <td><details><summary>市議会公明党</summary>虻川 浩, 佐藤 徹, 津本 裕子, 橋本 孝二, 山岸 真知子, 幸田 昌之</details></td>
+      <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
@@ -293,9 +304,11 @@
       <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
+      <td><strong></strong></td>
     </tr>
     <tr>
       <td><details><summary>日本共産党小平市議団</summary>きせ 恵美子, 鈴木 だいち, 細谷 正</details></td>
+      <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
@@ -337,9 +350,11 @@
       <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
+      <td><strong></strong></td>
     </tr>
     <tr>
       <td>水口 かずえ</td>
+      <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
       <td><strong></strong></td>
