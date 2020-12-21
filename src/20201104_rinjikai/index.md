@@ -72,7 +72,7 @@
     <tr>
       <td>小野　高一</td>
       <td>政和会</td>
-      <td rowspan="23" style="text-align:left;vertical-align:top;">未決</td>
+      <td rowspan="23" style="text-align:left;vertical-align:top;"></td>
     </tr>
     <tr>
       <td>鈴木　洋一</td>
