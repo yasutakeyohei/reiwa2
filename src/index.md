@@ -26,7 +26,6 @@
 - [令和2年07月27日 幹事長会議](./20200727_kanjicho_kaigi/index.md)
 - [令和2年06月02日～26日 6月定例会](./20200602_teireikai/index.md)
 - [令和2年06月22日 幹事長会議](./20200622_kanjicho_kaigi/index.md)
-- [令和2年05月28日 議会運営委員会](./20200528_gikai_unei_iinkai/index.md)
 - [令和2年05月25日 幹事長会議](./20200525_kanjicho_kaigi/index.md)
 - [令和2年05月19日 5月臨時会](./20200519_rinjikai/index.md)
 - [令和2年05月14日 幹事長会議](./20200514_kanjicho_kaigi/index.md)

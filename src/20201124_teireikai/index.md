@@ -114,266 +114,353 @@
 最終日（12月18日）に採決されました。
 
 私（安竹洋平）の賛否理由は各議案のページをご参照ください。議案番号をクリックすると詳細に移動します。
+
+<style>
+  table.sortable th.sticky {
+    position: sticky;
+    left: 0;
+    z-index: 100;
+  }
+  table.sortable td:first-of-type {
+    background: inherit;
+  }
+  table.sortable thead th {
+    padding: 5px 0 0 10px;
+  }
+  th.no-sort {
+    pointer-events: none;
+  }
+  th.no-sort:after {
+    content: none;
+  }
+  table.sortable th {
+    border: 1px solid lightgray;
+  }
+  th.hitori {
+    line-height: 1.2em;
+    background: linear-gradient(30deg, #808080, #bbb);
+  }
+  th.hitori span {
+    font-size:0.8em;
+  }
+  th.machi {
+    line-height: 1.2em;
+  }
+  th.machi span {
+    font-size:0.6em;
+  }
+  table.sortable td {
+    text-align: center;
+  }
+</style>
+
+
 <script type="text/javascript" src="../js-each/sortable.advanced.js"></script>
-<link rel="stylesheet" href="../css/sortable.css">
 <div class="sortable-wrapper">
 <table class="sortable">
-  <caption style="text-align:left;">〇：賛成、×：反対</caption>
+  <caption style="text-align:left;" class="sticky">〇：賛成、×：反対</caption>
   <thead>
     <tr>
-      <th>議員名 / 会派名</th>
-      <th><a href="./gian-71.md">71号</a></th>
-      <th><a href="./gian-72.md">72号</th>
-      <th><a href="./gian-73.md">73号</th>
-      <th><a href="./gian-74.md">74号</th>
-      <th><a href="./gian-75.md">75号</th>
-      <th><a href="./gian-76.md">76号</th>
-      <th><a href="./gian-77.md">77号</th>
-      <th><a href="./gian-78.md">78号</th>
-      <th><a href="./gian-79.md">79号</th>
-      <th><a href="./gian-80.md">80号</th>
-      <th><a href="./gian-81_82.md">81-82号</th>
-      <th><a href="./gian-83.md">83号</th>
-      <th><a href="./gian-84_92.md">84-92号</th>
-      <th><a href="./gian-93.md">93号</th>
-      <th><a href="./gian-94.md">94号</th>
-      <th><a href="./gian-95_97.md">95-97号</th>
-      <th><a href="./gian-98.md">98号</th>
-      <th><a href="./gian-99_101.md">99-101号</th>
-      <th><a href="./gian-102.md">102号</th>
-      <th><a href="./gian-103_104.md">103-104号</th>
+      <th rowspan="2" class="no-sort sticky">議員/会派名</th>
+      <th colspan="24">議案番号</th>
+    </tr>
+    <tr>
+      <th><a href="./gian-71.md">71</a></th>
+      <th><a href="./gian-72.md">72</a></th>
+      <th><a href="./gian-73.md">73</a></th>
+      <th><a href="./gian-74.md">74</a></th>
+      <th><a href="./gian-75.md">75</a></th>
+      <th><a href="./gian-76.md">76</a></th>
+      <th><a href="./gian-77.md">77</a></th>
+      <th><a href="./gian-78.md">78</a></th>
+      <th><a href="./gian-79.md">79</a></th>
+      <th><a href="./gian-80.md">80</a></th>
+      <th><a href="./gian-81_82.md">81</a></th>
+      <th><a href="./gian-81_82.md">82</a></th>
+      <th><a href="./gian-83.md">83</a></th>
+      <th><a href="./gian-84_92.md">84-92</a></th>
+      <th><a href="./gian-93.md">93</a></th>
+      <th><a href="./gian-94.md">94</a></th>
+      <th><a href="./gian-95_97.md">95-97</a></th>
+      <th><a href="./gian-98.md">98</a></th>
+      <th><a href="./gian-99_101.md">99-101</a></th>
+      <th><a href="./gian-102.md">102</a></th>
+      <th><a href="./gian-103_104.md">103</a></th>
+      <th><a href="./gian-103_104.md">104</a></th>
+      <th><a href="./gian-105.md">105</a></th>
+      <th><a href="./giin-gian-25.md">員25</a></th>
     </tr>
   </thead>
   <tbody>
     <tr style="background-color:#ffffc5;">
-      <td data-sort="0"><strong>安竹 洋平 <sup>[一人会派の会]</sup></strong></td>
-      <td><strong><a href="./gian-71.md"></a></strong></td>
-      <td><strong><a href="./gian-72.md"></a></strong></td>
-      <td><strong><a href="./gian-73.md"></a></strong></td>
-      <td><strong><a href="./gian-74.md"></a></strong></td>
-      <td><strong><a href="./gian-75.md"></a></strong></td>
-      <td><strong><a href="./gian-76.md"></a></strong></td>
-      <td><strong><a href="./gian-77.md"></a></strong></td>
-      <td><strong><a href="./gian-78.md"></a></strong></td>
-      <td><strong><a href="./gian-79.md"></a></strong></td>
-      <td><strong><a href="./gian-80.md"></a></strong></td>
-      <td><strong><a href="./gian-81_82.md"></a></strong></td>
-      <td><strong><a href="./gian-83.md"></a></strong></td>
-      <td><strong><a href="./gian-84_92.md"></a></strong></td>
-      <td><strong><a href="./gian-93.md"></a></strong></td>
-      <td><strong><a href="./gian-94.md"></a></strong></td>
-      <td><strong><a href="./gian-95_97.md"></a></strong></td>
-      <td><strong><a href="./gian-98.md"></a></strong></td>
-      <td><strong><a href="./gian-99_101.md"></a></strong></td>
-      <td><strong><a href="./gian-102.md"></a></strong></td>
-      <td><strong><a href="./gian-103_104.md"></a></strong></td>
+      <th data-sort="0" class="no-sort sticky hitori" style="color:yellow;"><span>一人会派の会</span><br>安竹 洋平</th>
+      <td><strong><a href="./gian-71.md">〇</a></strong></td>
+      <td><strong><a href="./gian-72.md">〇</a></strong></td>
+      <td><strong><a href="./gian-73.md">〇</a></strong></td>
+      <td><strong><a href="./gian-74.md">〇</a></strong></td>
+      <td><strong><a href="./gian-75.md">〇</a></strong></td>
+      <td><strong><a href="./gian-76.md">〇</a></strong></td>
+      <td><strong><a href="./gian-77.md">〇</a></strong></td>
+      <td><strong><a href="./gian-78.md">〇</a></strong></td>
+      <td><strong><a href="./gian-79.md">〇</a></strong></td>
+      <td><strong><a href="./gian-80.md">〇</a></strong></td>
+      <td><strong><a href="./gian-81_82.md">❌</a></strong></td>
+      <td><strong><a href="./gian-81_82.md">〇</a></strong></td>
+      <td><strong><a href="./gian-83.md">❌</a></strong></td>
+      <td><strong><a href="./gian-84_92.md">〇</a></strong></td>
+      <td><strong><a href="./gian-93.md">〇</a></strong></td>
+      <td><strong><a href="./gian-94.md">〇</a></strong></td>
+      <td><strong><a href="./gian-95_97.md">〇</a></strong></td>
+      <td><strong><a href="./gian-98.md">〇</a></strong></td>
+      <td><strong><a href="./gian-99_101.md">〇</a></strong></td>
+      <td><strong><a href="./gian-102.md">❌</a></strong></td>
+      <td><strong><a href="./gian-103_104.md">❌</a></strong></td>
+      <td><strong><a href="./gian-103_104.md">〇</a></strong></td>
+      <td><strong><a href="./gian-105.md">〇</a></strong></td>
+      <td><strong><a href="./giin-gian-25.md">❌</a></strong></td>
     </tr>
     <tr>
-      <td data-sort="1">伊藤 央 <sup>[一人会派の会]</sup></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
+      <th data-sort="1" class="no-sort sticky hitori"><span>一人会派の会</span><br>伊藤 央</th>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
     </tr>
     <tr>
-      <td data-sort="2">中江 美和 <sup>[一人会派の会]</sup></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
+      <th data-sort="2" class="no-sort sticky hitori"><span>一人会派の会</span><br>中江 美和</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
-      <td data-sort="3">橋本 久雄 <sup>[一人会派の会]</sup></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
+      <th data-sort="3" class="no-sort sticky hitori"><span>一人会派の会</span><br>橋本 久雄</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
-      <td><details><summary>政和会</summary>鈴木 洋一, 比留間 洋一, 福室 英俊, 松岡 あつし, 山田 大輔</details></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
+      <th class="no-sort sticky"><details><summary>政和会</summary>鈴木 洋一, 比留間 洋一, 福室 英俊, 松岡 あつし, 山田 大輔</details></th>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
     </tr>
     <tr>
-      <td><details><summary>市議会公明党</summary>虻川 浩, 佐藤 徹, 津本 裕子, 橋本 孝二, 山岸 真知子, 幸田 昌之</details></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
+      <th class="no-sort sticky"><details><summary><span style="font-size:small">市議会公明党</span></summary>虻川 浩, 佐藤 徹, 津本 裕子, 橋本 孝二, 山岸 真知子, 幸田 昌之</details></th>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
     </tr>
     <tr>
-      <td data-sort="z"><details><summary>フォーラム小平</summary>川里 富美, 小林 洋子, 竹井 ようこ, 吉本 ゆうすけ</details></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
+      <th class="no-sort sticky"><details><summary><span style="font-size:small">フォーラム小平</span></summary>川里 富美, 小林 洋子, 竹井 ようこ, 吉本 ゆうすけ</details></th>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
-      <td><details><summary>日本共産党小平市議団</summary>きせ 恵美子, 鈴木 だいち, 細谷 正</details></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
+      <th class="no-sort sticky"><details><summary><span style="font-size:x-small">日本共産党小平市議団</span></summary>きせ 恵美子, 鈴木 だいち, 細谷 正</details></th>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
-      <td><details><summary>生活者ネットワーク</summary>さとう 悦子, 山浦 まゆみ, 山﨑 とも子</details></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
+      <th class="no-sort sticky"><details><summary><span style="font-size:x-small">生活者ネットワーク</span></summary>さとう 悦子, 山浦 まゆみ, 山﨑 とも子</details></th>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
     <tr>
-      <td>水口 かずえ</td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
-      <td><strong></strong></td>
+      <th class="no-sort sticky machi"><span>まちづくり市民こだいら</span><br>水口 かずえ</td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>❌</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
+      <td><strong>〇</strong></td>
     </tr>
   </tbody>
 </table>

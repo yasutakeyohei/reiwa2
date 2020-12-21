@@ -34,7 +34,6 @@
 ## 主な質疑（発言順）
 {{#include ../partials/situgi_hanrei.md}}
 
-<!--
 ### ＠ 本会議
 
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
@@ -50,6 +49,9 @@
 
 ### ＠ XX委員会
 XX委員会には、一人会派の会からXXXX議員が委員として参加しています。
+
+### ＠ 厚生委員会
+厚生委員会には、一人会派の会から私、安竹洋平議員が委員として参加しています。
 
 - [議員の質疑](#)
 
@@ -90,7 +92,6 @@ XX委員会には、一人会派の会からXXXX議員が委員として参加�
 <h5 style="margin-bottom:0">賛成（共産党）</h5>
 <h5 style="margin-bottom:0">賛成（まちづくり市民こだいら：水口議員）</h5>
 
--->
 
 ## 原案に対する賛否
 [賛否についてはこちらをご覧ください。](./index.md#賛否)
