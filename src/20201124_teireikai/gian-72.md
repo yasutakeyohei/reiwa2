@@ -1,6 +1,8 @@
 {{first:2020-11-30}}
 # ⛏️ 議案第72号 令和2年度小平市介護保険事業特別会計補正予算（第2号）
 
+＊作成中
+
 <i class="fa fa-gavel" aria-hidden="true"></i> 厚生委員会付託
 
 <fieldset class="point">

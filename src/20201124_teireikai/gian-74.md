@@ -1,6 +1,8 @@
 {{first:2020-11-30}}
 # ⛏️ 議案第74号 小平市税条例の一部を改正する条例
 
+＊作成中
+
 <i class="fa fa-gavel" aria-hidden="true"></i> 総務委員会付託
 
 <fieldset class="point">
@@ -39,7 +41,8 @@
 ## 主な質疑（発言順）
 {{#include ../partials/situgi_hanrei.md}}
 
-本会議での質疑なし
+### ＠ 本会議
+本会議での質疑はありませんでした。
 
 <!--
 ### ＠ 本会議
