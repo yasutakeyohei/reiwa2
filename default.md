@@ -1,5 +1,3 @@
-# 議案第xx号 ～
-
 <i class="fa fa-gavel" aria-hidden="true"></i> xx委員会付託 即決
 
 <fieldset class="point">
@@ -16,6 +14,7 @@
   </legend>
   <p class="sanpi NG">❌ </p>
   <p class="sanpi OK">⭕️ </p>
+  <p class="sanpi NG">⚠️ </p>
 </fieldset>
 -->
 
@@ -36,6 +35,8 @@
 
 ### ＠ 本会議
 
+本会議での質疑はありませんでした。
+
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
 （安竹 洋平）
 </td></tr></table>
@@ -48,12 +49,17 @@
 </td></tr></table>
 
 ### ＠ XX委員会
-XX委員会には、一人会派の会からXXXX議員が委員として参加しています。
+XX委員会には、一人会派の会からはXXXX議員が委員として参加しています。
+
+### ＠ 環境建設委員会
+環境建設委員会には、一人会派の会からは中江美和議員が委員長として参加しています。
 
 ### ＠ 厚生委員会
-厚生委員会には、一人会派の会から私、安竹洋平議員が委員として参加しています。
+厚生委員会には、一人会派の会からは私、安竹洋平議員が委員として参加しています。
 
-- [議員の質疑](#)
+<table class="qanda"><tr><td><i class="fa fa-question-circle hitori yasutake" aria-label="安竹による質問"></i></td><td>
+（安竹 洋平）
+</td></tr></table>
 
 <table class="qanda"><tr><td><i class="fa fa-question-circle hitori" aria-label="一人会派 その他議員による質問"></i></td><td>
 （）
@@ -65,6 +71,8 @@ XX委員会には、一人会派の会からXXXX議員が委員として参加�
 
 #### XX委員会での賛否
 
+全委員が賛成⭕️でした。
+
 <table class="simple">
 <tr><th>会派</th><th>賛否</th></tr>
 <tr><td>一人会派の会</td><td>❌反対</td></tr>
@@ -75,6 +83,7 @@ XX委員会には、一人会派の会からXXXX議員が委員として参加�
 </table>
 
 ## 本会議でのやり取り
+全議員が賛成⭕️でした。
 
 ### 討論
 ＊概要ですので、実際の討論は[会議録等](index.md/#会議録配布資料)をご参照ください。
@@ -94,4 +103,4 @@ XX委員会には、一人会派の会からXXXX議員が委員として参加�
 
 
 ## 原案に対する賛否
-[賛否についてはこちらをご覧ください。](./index.md#賛否)
+[賛否一覧はこちらをご覧ください。](./index.md#賛否)
