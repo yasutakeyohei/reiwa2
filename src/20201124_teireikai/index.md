@@ -8,7 +8,10 @@
   <legend>
     <h2 class="summary">主な内容</h2>
   </legend>
-  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 議案32件（補正予算2、条例7、契約4、道路9、指定9、四次長総1）の審議</p>
+  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 議案35件（補正予算2、条例9、契約4、道路9、指定9、四次長総1、損害賠償1）の審議</p>
+  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 補正予算は、一般会計と、国民健康保険事業特別会計</p>
+  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 学校給食センターの更新にかかる契約議案は、委員会で否決ののち、本会議で可決</p>
+  <p class="summary"><i class="fa fa-play" aria-hidden="true"></i> 四次長総基本構想は委員会で賛否同数で委員長採決の可決ののち、本会議で可決</p>
 </fieldset>
 
 <fieldset class="nittei">
@@ -94,6 +97,8 @@
 1. [議案第103号 小平市長等の給料に関する条例の一部を改正する条例](./gian-103_104.md)
 
 1. [議案第104号 小平市職員の給与に関する条例の一部を改正する条例](./gian-103_104.md)
+
+1. [議案第105号 損害賠償の額の決定等について](./gian-105.md)
 
 1. [議員提出議案第26号 小・中学校、高等学校における少人数学級の早期実現を求める意見書提出について](./giin-gian-102.md)
 
