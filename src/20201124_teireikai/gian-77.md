@@ -9,7 +9,7 @@
   <legend>
     <h2 class="point"> ポイント </h2>
   </legend>
-  <p class="point">✔ </p>
+  <p class="point">✔ （作成中）</p>
 </fieldset>
 
 <!--
