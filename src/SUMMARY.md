@@ -1,6 +1,6 @@
 # Summary
 
-[◎ 令和2年度 小平市議会 まとめ](./index.md)
+[◎ 令和2年 小平市議会 まとめ](./index.md)
 
 - [⛏️ 11月24-12月18日：12月定例会](./20201124_teireikai/index.md)
     - [諸報告](./20201124_teireikai/syohokoku.md)
