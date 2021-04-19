@@ -226,32 +226,6 @@ div.back-to-main-site a {
     width: 100%;
 }
 
-div.resp-table {
-    overflow-x: auto;
-}
-div.resp-table th,
-div.resp-table td {
-    border: 1px var(--table-border-color) solid;
-    white-space: nowrap;
-    padding: 10px;
-}
-div.resp-table td {
-    text-align: center;
-}
-div.resp-table thead th {
-    text-align: center;
-}
-div.resp-table tbody th {
-    text-align: left;
-}
-
-pre.tree {
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, .1);
-    font-family: inherit;
-    padding: 20px;
-}
-
 table th,
 table td {
     padding: 10px;
@@ -280,10 +254,7 @@ fieldset.summary {
     margin: 0;
     padding: 0;
 }
-.sanpi.NG {
-}
-.sanpi.OK {
-}
+
 .point p,
 .sanpi p,
 .summary p {
